@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Restricted evaluation material. Keep only canonical control state public.
+*.pdf
+evaluation/*
+!evaluation/evaluation-state.json
+!evaluation/reports/
+!evaluation/reports/**
+
+# Local workflow state and recovery exports.
+*.zip
