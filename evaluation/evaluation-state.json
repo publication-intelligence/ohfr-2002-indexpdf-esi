@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T06:03:58Z",
+  "updated_at": "2026-09-16T16:13:30Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -35,11 +35,11 @@
     },
     "output_format": "json",
     "storage_mode": "hybrid",
-    "policy_profile": "subject-index-standard-policy-v8",
-    "rubric_version": "subject-index-rubric-v8",
+    "policy_profile": "subject-index-standard-policy-v8.1",
+    "rubric_version": "subject-index-rubric-v8.1",
     "scoring_identity": {
-      "rubric_version": "subject-index-rubric-v8",
-      "dimension_calculation_profile": "subject-index-dimension-calculation-v5"
+      "rubric_version": "subject-index-rubric-v8.1",
+      "dimension_calculation_profile": "subject-index-dimension-calculation-v6"
     }
   },
   "stages": {
@@ -68,7 +68,8 @@
       "status": "completed",
       "updated_at": "2026-09-16T01:06:44Z",
       "notes": [
-        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "V8.1 retrospective consequence-policy freeze is recorded in policy_profile.targeted_migration with candidate_seen=true. Top-level freeze preserves original candidate-blind configuration provenance. Original release and approvals reused; no new discovery/review or approval claimed."
       ]
     },
     "source_chunk_preparation": {
@@ -171,21 +172,22 @@
       "status": "completed",
       "updated_at": "2026-09-16T03:19:13Z",
       "notes": [
-        "Validated and registered the native V8 structure audit atomically."
+        "Validated and registered the native V8 structure audit atomically.",
+        "Targeted consequence review: four omitted/supplemental-route node exceptions retain minor deductions; one missing XRF consequence clarified as slowing. Denominators, full-scope attestation and all other judgments reused."
       ]
     },
     "scoring": {
       "status": "completed",
-      "updated_at": "2026-09-16T03:21:40Z",
+      "updated_at": "2026-09-16T16:12:24Z",
       "notes": [
         "Assembled registered inputs, calculated V8 dimensions, and registered the validated V12 result atomically."
       ]
     },
     "web_report": {
       "status": "completed",
-      "updated_at": "2026-09-16T05:02:34Z",
+      "updated_at": "2026-09-16T16:13:30Z",
       "notes": [
-        "Rebuilt and replaced the complete canonical public web projection bundle atomically."
+        "Built and registered web-report.v10 and the complete canonical public web projection bundle atomically."
       ]
     }
   },
@@ -1033,17 +1035,17 @@
       "recorded_at": "2026-09-16T01:39:18Z"
     },
     {
-      "artifact_id": "ART-9D8A30129B8E",
+      "artifact_id": "ART-6298E967DDCB",
       "stage": "scoring",
       "artifact_type": "dimension_calculation_input",
       "path": "scoring/dimension-calculation-input.v2.json",
-      "sha256": "75906d68e834414cbb61be697b18a3b7d132563007a2e8cb2145b866b08ff3b7",
+      "sha256": "8742e026e90af1a1d26dcd6c76a33e05e72c3962de262e13d062204e1d1b275b",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculation-input-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:40Z",
+      "recorded_at": "2026-09-16T16:12:24Z",
       "input_sha256": [
         "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
         "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
@@ -1051,6 +1053,7 @@
         "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd",
         "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46",
         "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69",
+        "29da0007910710d963b86752b7f62589b7326a5ddcc62b3b15efed673a4bc871",
         "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144",
         "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef",
         "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d",
@@ -1064,7 +1067,6 @@
         "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
         "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
         "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
-        "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
         "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
         "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
         "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42",
@@ -1077,25 +1079,25 @@
         "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
         "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
         "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
+        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
         "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
-        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
         "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
         "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
         "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d"
       ]
     },
     {
-      "artifact_id": "ART-4507D8881E07",
+      "artifact_id": "ART-17F1EFCCB835",
       "stage": "scoring",
       "artifact_type": "dimension_calculations",
       "path": "scoring/dimension-calculations.v6.json",
-      "sha256": "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
+      "sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculations-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:40Z",
+      "recorded_at": "2026-09-16T16:12:24Z",
       "input_sha256": [
         "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
         "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
@@ -1103,6 +1105,7 @@
         "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd",
         "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46",
         "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69",
+        "29da0007910710d963b86752b7f62589b7326a5ddcc62b3b15efed673a4bc871",
         "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144",
         "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef",
         "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d",
@@ -1116,7 +1119,6 @@
         "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
         "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
         "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
-        "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
         "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
         "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
         "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42",
@@ -1129,65 +1131,65 @@
         "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
         "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
         "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
+        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
         "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
-        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
         "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
         "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
         "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d"
       ]
     },
     {
-      "artifact_id": "ART-D7937908639E",
+      "artifact_id": "ART-91D539D01BB0",
       "stage": "scoring",
       "artifact_type": "evaluation_result",
       "path": "scoring/evaluation-result.v12.json",
-      "sha256": "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+      "sha256": "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-result-v12",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:40Z",
+      "recorded_at": "2026-09-16T16:12:24Z",
       "input_sha256": [
-        "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
-        "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
-        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
-        "ff0b7ef164e808423baa8c0e470a86a97a1e597aaec1b308c17d89739030c132"
+        "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
+        "7b99fd37a85820968e548a06424fab5da89da679dd4f028c4a6033f81dc4ade5",
+        "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82",
+        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
       ]
     },
     {
-      "artifact_id": "ART-8BD3F00FA39A",
+      "artifact_id": "ART-A01C9682D455",
       "stage": "scoring",
       "artifact_type": "item_assessments",
       "path": "scoring/item-assessments.v7.json",
-      "sha256": "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
+      "sha256": "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82",
       "media_type": "application/json",
       "schema_version": "subject-index-item-assessments-v7",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:40Z",
+      "recorded_at": "2026-09-16T16:12:24Z",
       "input_sha256": [
-        "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
+        "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
         "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737",
-        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd"
+        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
       ]
     },
     {
-      "artifact_id": "ART-F6365DAE1A63",
+      "artifact_id": "ART-F91ABEDD9783",
       "stage": "scoring",
       "artifact_type": "projection_metadata",
       "path": "scoring/projection-metadata.v2.json",
-      "sha256": "ff0b7ef164e808423baa8c0e470a86a97a1e597aaec1b308c17d89739030c132",
+      "sha256": "7b99fd37a85820968e548a06424fab5da89da679dd4f028c4a6033f81dc4ade5",
       "media_type": "application/json",
       "schema_version": "subject-index-v8-projection-metadata-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:40Z",
+      "recorded_at": "2026-09-16T16:12:24Z",
       "input_sha256": [
-        "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
-        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd"
+        "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
+        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
       ]
     },
     {
@@ -1201,27 +1203,27 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T05:02:34Z",
+      "recorded_at": "2026-09-16T16:13:30Z",
       "input_sha256": [
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
+        "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa",
+        "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c"
       ]
     },
     {
-      "artifact_id": "ART-23FC1C25F0EF",
+      "artifact_id": "ART-FE150D31E019",
       "stage": "web_report",
       "artifact_type": "web_index_records",
       "path": "scoring/v8-canonical-projection/data/index-records.v1.json",
-      "sha256": "351bdd16bebe02f8f06576c82ccc8d7fb91add452e1af40065325a4cd6391ed4",
+      "sha256": "af5d15dd4b892a520f80899230849e39faf389ead77ca295357e970e2169deb3",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-web-collection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T05:02:34Z",
+      "recorded_at": "2026-09-16T16:13:30Z",
       "input_sha256": [
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
+        "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa",
+        "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c"
       ]
     },
     {
@@ -1235,47 +1237,47 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T05:02:34Z",
+      "recorded_at": "2026-09-16T16:13:30Z",
       "input_sha256": [
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
+        "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa",
+        "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c"
       ]
     },
     {
-      "artifact_id": "ART-8582B259541A",
+      "artifact_id": "ART-D48A65E94E35",
       "stage": "web_report",
       "artifact_type": "web_projection",
       "path": "scoring/v8-canonical-projection/projection.v1.json",
-      "sha256": "a44bea41deba0a3cb54a9a1f6ffa50cf87c491969544d9ffe1cb8226afd18edb",
+      "sha256": "de8a402829c5e02a7a21bb687b45a70d72a2d1492b1e5e770dc9882ccd993b56",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-canonical-web-projection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T05:02:34Z",
+      "recorded_at": "2026-09-16T16:13:30Z",
       "input_sha256": [
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
+        "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa",
+        "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c"
       ]
     },
     {
-      "artifact_id": "ART-5167D96436FE",
+      "artifact_id": "ART-0FB3E4AB1F31",
       "stage": "web_report",
       "artifact_type": "web_report",
       "path": "scoring/web-report.v10.json",
-      "sha256": "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f",
+      "sha256": "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c",
       "media_type": "application/json",
       "schema_version": "subject-index-web-report-v10",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T05:02:34Z",
+      "recorded_at": "2026-09-16T16:13:30Z",
       "input_sha256": [
-        "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
-        "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
-        "ff0b7ef164e808423baa8c0e470a86a97a1e597aaec1b308c17d89739030c132"
+        "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa",
+        "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
+        "7b99fd37a85820968e548a06424fab5da89da679dd4f028c4a6033f81dc4ade5",
+        "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82",
+        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
       ]
     },
     {
@@ -1721,7 +1723,7 @@
       "stage": "define_policy",
       "artifact_type": "evaluation-policy-v4",
       "path": "source/evaluation-policy.v4.json",
-      "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
+      "sha256": "29da0007910710d963b86752b7f62589b7326a5ddcc62b3b15efed673a4bc871",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
@@ -1976,7 +1978,7 @@
       "stage": "structure_audit",
       "artifact_type": "structure_audit",
       "path": "staging/structure/structure-audit.v6.json",
-      "sha256": "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
+      "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
       "media_type": "application/json",
       "schema_version": "structure-audit-v6",
       "visibility": "private",

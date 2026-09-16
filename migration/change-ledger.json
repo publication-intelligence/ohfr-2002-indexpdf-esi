@@ -1,0 +1,2739 @@
+{
+  "migration_id": "ohfr-2002-indexpdf-v8-to-v8.1-2026-09-16",
+  "authorization": "Explicit task instruction to perform a targeted methodology migration; no new review approval claimed.",
+  "baseline_git_commit": "dbb35e5",
+  "methodology_commit": "25fa3983f4980ad6a168610e08b128def11258b2",
+  "original_archive": "evaluation/archive/v8-original",
+  "original_artifact_count": 158,
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "candidate_sha256": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
+  "identities": {
+    "before": {
+      "audit_mode": "full",
+      "index_type": "subject_index",
+      "intended_readership": "scholarly",
+      "readership_provenance": {
+        "basis": "user_supplied",
+        "confidence": "high",
+        "rationale": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+      },
+      "output_format": "json",
+      "storage_mode": "hybrid",
+      "policy_profile": "subject-index-standard-policy-v8",
+      "rubric_version": "subject-index-rubric-v8",
+      "scoring_identity": {
+        "rubric_version": "subject-index-rubric-v8",
+        "dimension_calculation_profile": "subject-index-dimension-calculation-v5"
+      }
+    },
+    "after": {
+      "audit_mode": "full",
+      "index_type": "subject_index",
+      "intended_readership": "scholarly",
+      "readership_provenance": {
+        "basis": "user_supplied",
+        "confidence": "high",
+        "rationale": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+      },
+      "output_format": "json",
+      "storage_mode": "hybrid",
+      "policy_profile": "subject-index-standard-policy-v8.1",
+      "rubric_version": "subject-index-rubric-v8.1",
+      "scoring_identity": {
+        "rubric_version": "subject-index-rubric-v8.1",
+        "dimension_calculation_profile": "subject-index-dimension-calculation-v6"
+      }
+    }
+  },
+  "policy_changes": [
+    {
+      "field": "/content_policies/compound_heading_scope/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/conceptual_stance_fidelity/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/cross_references/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/editorial_selectivity/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/heading_access_architecture/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/locator_quality/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/mechanical_validity/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/scope_compliance/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/substantive_coverage/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/content_policies/whole_index_coherence/profile",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/critical_gates",
+      "before": [
+        {
+          "gate_id": "GATE-SCOPE-LOCATOR",
+          "description": "fabricated, nonexistent, or out-of-scope locator",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+          "description": "systematic incidental or unsupported locator pattern",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-CENTRAL-OMISSION",
+          "description": "central subject or conclusion materially omitted",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-STANCE",
+          "description": "heading reverses or seriously misrepresents source stance",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-COMPOUND",
+          "description": "compound heading locators support only separate components",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-SEE-SUBSTITUTION",
+          "description": "see source replaces a warranted substantive entry",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-CROSS-REFERENCE",
+          "description": "unresolved, self-referential, circular, or chained cross-reference",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-DEPTH",
+          "description": "third-level heading",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-CLUTTER",
+          "description": "systematic named-entity, example, or citation clutter",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-GROUNDING",
+          "description": "critical or major unresolved grounding",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-UNINSPECTABLE",
+          "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-SOURCE-SPAN",
+          "description": "wrong source span",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-STRUCTURE",
+          "description": "structurally invalid or incomplete output",
+          "standard": true
+        }
+      ],
+      "after": [
+        {
+          "gate_id": "GATE-SCOPE-LOCATOR",
+          "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+          "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-CENTRAL-OMISSION",
+          "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-STANCE",
+          "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-COMPOUND",
+          "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-SEE-SUBSTITUTION",
+          "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-CROSS-REFERENCE",
+          "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-CLUTTER",
+          "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-GROUNDING",
+          "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+          "standard": true
+        },
+        {
+          "gate_id": "GATE-STRUCTURE",
+          "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+          "standard": true
+        }
+      ]
+    },
+    {
+      "field": "/density_profile/metrics/0/provenance",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/density_profile/metrics/1/provenance",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/policy_id",
+      "before": "ohfr-2002-original-published-index-v8-policy",
+      "after": "ohfr-2002-indexpdf-v8.1-migration-policy"
+    },
+    {
+      "field": "/policy_profile/consequence_policy_reference",
+      "before": null,
+      "after": "consequence-policy-v8.1.md"
+    },
+    {
+      "field": "/policy_profile/id",
+      "before": "subject-index-standard-policy-v8",
+      "after": "subject-index-standard-policy-v8.1"
+    },
+    {
+      "field": "/policy_profile/standard_policy_sha256",
+      "before": "3d83850f61773072fc65879292679dfd9bf9d1ff8b02aded077e6138393b6f26",
+      "after": null
+    },
+    {
+      "field": "/policy_profile/targeted_migration",
+      "before": null,
+      "after": {
+        "operation": "authorized_retrospective_consequence_migration",
+        "frozen_at": "2026-09-16T16:11:20Z",
+        "candidate_seen": true,
+        "original_policy_sha256": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
+        "freeze_field_semantics": "The top-level freeze is the preserved original candidate-blind configuration freeze; this targeted_migration records the later V8.1 consequence-policy freeze. No discovery, benchmark review or compatibility approval was rerun."
+      }
+    },
+    {
+      "field": "/policy_sha256",
+      "before": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
+      "after": "c2e7a937b9c86307891624d4b578ebd603815bed7e8ffe4c35890879146afc8f"
+    }
+  ],
+  "node_judgment_changes": [
+    {
+      "node_id": "NODE-C83F59EEEC2A",
+      "reason": "All five expected treatments remain available through specific event routes. Missing name-first consolidation is supplemental navigation friction.",
+      "evidence_ids": [
+        "EVID-0106-001",
+        "EVID-0106-002",
+        "EVID-0106-003",
+        "EVID-0106-004",
+        "EVID-0106-005",
+        "EVID-CHUNK003-4AEE51FBFD0C",
+        "EVID-CHUNK003-E28C8C2DB2EB",
+        "EVID-CHUNK003-29B77769832B",
+        "EVID-CHUNK003-18AE93473464",
+        "EVID-CHUNK003-FF5ADDAD1814",
+        "EVID-CHUNK003-9B50BD3A4F15"
+      ],
+      "source_ids": [
+        "SUBJ-0106",
+        "TASK-0106"
+      ],
+      "changes": [
+        {
+          "field": "/component_judgments/heading_access_architecture/causal_findings/0/severity",
+          "before": "major",
+          "after": "minor"
+        },
+        {
+          "field": "/component_judgments/heading_access_architecture/status",
+          "before": "major_issues",
+          "after": "minor_issues"
+        }
+      ]
+    },
+    {
+      "node_id": "NODE-A2435811FD75",
+      "reason": "Principal access is supported; one missed synthesis treatment remains a scored omission. No misleading delivered route or destroyed indispensable access is demonstrated.",
+      "evidence_ids": [
+        "EVID-0016-001",
+        "EVID-0016-002"
+      ],
+      "source_ids": [
+        "SUBJ-0016",
+        "TASK-0016",
+        "TREAT-2661E8202A04"
+      ],
+      "changes": [
+        {
+          "field": "/component_judgments/heading_access_architecture/causal_findings/0/severity",
+          "before": "major",
+          "after": "minor"
+        },
+        {
+          "field": "/component_judgments/heading_access_architecture/status",
+          "before": "major_issues",
+          "after": "minor_issues"
+        }
+      ]
+    },
+    {
+      "node_id": "NODE-EB34FCD7A1A0",
+      "reason": "Principal access is supported; the missed concluding treatment remains scored. The node evidence does not establish major delivered misrepresentation or access destruction.",
+      "evidence_ids": [
+        "EVID-0042-001",
+        "EVID-0042-002"
+      ],
+      "source_ids": [
+        "SUBJ-0042",
+        "TASK-0042",
+        "TREAT-02A6787C72D2"
+      ],
+      "changes": [
+        {
+          "field": "/component_judgments/heading_access_architecture/causal_findings/0/severity",
+          "before": "major",
+          "after": "minor"
+        },
+        {
+          "field": "/component_judgments/heading_access_architecture/status",
+          "before": "major_issues",
+          "after": "minor_issues"
+        }
+      ]
+    },
+    {
+      "node_id": "NODE-F23742E705FF",
+      "reason": "All six expected treatments remain retrievable through distributed supported routes. An absent linking cross-reference does not destroy those routes.",
+      "evidence_ids": [
+        "EVID-0191-001",
+        "EVID-0191-002",
+        "EVID-0191-003",
+        "EVID-0191-004",
+        "EVID-0191-005",
+        "EVID-0191-006"
+      ],
+      "source_ids": [
+        "SUBJ-0191",
+        "TASK-0191"
+      ],
+      "changes": [
+        {
+          "field": "/component_judgments/heading_access_architecture/causal_findings/0/severity",
+          "before": "major",
+          "after": "minor"
+        },
+        {
+          "field": "/component_judgments/heading_access_architecture/causal_findings/1/severity",
+          "before": "major",
+          "after": "minor"
+        },
+        {
+          "field": "/component_judgments/heading_access_architecture/status",
+          "before": "major_issues",
+          "after": "minor_issues"
+        }
+      ]
+    }
+  ],
+  "defect_changes": [
+    {
+      "field": "/7/retrieval_consequence",
+      "before": "blocks",
+      "after": "slows"
+    },
+    {
+      "field": "/7/severity",
+      "before": "major",
+      "after": "minor"
+    },
+    {
+      "field": "/7/severity_basis",
+      "before": "blocked_retrieval",
+      "after": "localized_repairable_friction"
+    }
+  ],
+  "benchmark_release": {
+    "artifact_unchanged": true,
+    "compatibility_import_provenance_sha256": "37a4c74e7d4d206f9270dfc72a643f9648f416ae5c9fbf386cf034129d5976c6",
+    "original_release_and_policy_provenance_preserved": true,
+    "discovery_review_normalization_audits_rerun": false,
+    "new_approval_claimed": false
+  },
+  "binding_decision": "Keep original benchmark, locator/missing audit and packet policy bindings as historical evidence provenance. Current policy is selected through exact calculation-input bytes and canonical state. Current validators treat repeated worker provenance hashes as informational; no unnecessary benchmark/hash cascade was performed.",
+  "calculation_inputs": {
+    "before": {
+      "schema_version": "subject-index-dimension-calculation-input-v2",
+      "evaluation_id": "ohfr-2002-indexpdf-v8",
+      "audit_mode": "full",
+      "inputs": {
+        "policy": {
+          "path": "../source/evaluation-policy.v4.json",
+          "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b"
+        },
+        "chunk_manifest": {
+          "path": "../source/chunk-manifest.json",
+          "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+        },
+        "locator_audits": [
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-001.v2.json",
+            "sha256": "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-002.v2.json",
+            "sha256": "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-003.v2.json",
+            "sha256": "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-004.v2.json",
+            "sha256": "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-005.v2.json",
+            "sha256": "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-006.v2.json",
+            "sha256": "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-007.v2.json",
+            "sha256": "bccfcc78b4b63a88ba42c56a2a91a2777925b23e7cb1f057e18d9874ff0e4bd5"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-008.v2.json",
+            "sha256": "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-009.v2.json",
+            "sha256": "412fe516a788f79893971854a7ac6a8200b2eb5861503cccae915a092ea12dd5"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-010.v2.json",
+            "sha256": "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-011.v2.json",
+            "sha256": "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-012.v2.json",
+            "sha256": "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-013.v2.json",
+            "sha256": "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-014.v2.json",
+            "sha256": "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-015.v2.json",
+            "sha256": "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-016.v2.json",
+            "sha256": "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-017.v2.json",
+            "sha256": "a8983580c6d55ae30f36bff83fb7ebf6c36ae1f6958c6241040ba8ab8bc4d2a3"
+          }
+        ],
+        "missing_access_audits": [
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+            "sha256": "b5976f35cd7aeb8c23979eb0bdba88464a45ae8e8e34ffea8e8fef5f3f8f19ff"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+            "sha256": "52b1c20a994d6cca1f2fdd997fde1d1e4a665599e9363600a806c41ae5b2e3de"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+            "sha256": "0c2764cab8e569b274ab9b80490c243362a7403b6751f28a5861eaf84c1e68c0"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+            "sha256": "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+            "sha256": "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+            "sha256": "5447344c9a90bec4dca861272fa353fa0d859518e914e76907ca13c991a69e25"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+            "sha256": "bdf86a6314234a471e1635fcca8190b8f79bc8f9df535a6361b98dcb7ab1af6a"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+            "sha256": "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+            "sha256": "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+            "sha256": "c519d138390695ec9efaa303f5b6f554018d65e7cfcc6dea5d72475f8aa539b0"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+            "sha256": "5641396b806c5d1c8ab3582d8d29603c37424182f75b6cd476f21d2462ea3e8b"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+            "sha256": "bc80ffc54462b28376e792a648abdd1b076b3b3d1f64af80e917352d628fa51a"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+            "sha256": "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+            "sha256": "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+            "sha256": "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+            "sha256": "464895cd1e6719a900d19252cc4e5632b85252e33233b0d184437ee13f84d358"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+            "sha256": "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44"
+          }
+        ],
+        "structure_audit": {
+          "path": "../staging/structure/structure-audit.v6.json",
+          "sha256": "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd"
+        }
+      }
+    },
+    "after": {
+      "schema_version": "subject-index-dimension-calculation-input-v2",
+      "evaluation_id": "ohfr-2002-indexpdf-v8",
+      "audit_mode": "full",
+      "inputs": {
+        "policy": {
+          "path": "../source/evaluation-policy.v4.json",
+          "sha256": "29da0007910710d963b86752b7f62589b7326a5ddcc62b3b15efed673a4bc871"
+        },
+        "chunk_manifest": {
+          "path": "../source/chunk-manifest.json",
+          "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+        },
+        "locator_audits": [
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-001.v2.json",
+            "sha256": "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-002.v2.json",
+            "sha256": "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-003.v2.json",
+            "sha256": "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-004.v2.json",
+            "sha256": "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-005.v2.json",
+            "sha256": "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-006.v2.json",
+            "sha256": "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-007.v2.json",
+            "sha256": "bccfcc78b4b63a88ba42c56a2a91a2777925b23e7cb1f057e18d9874ff0e4bd5"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-008.v2.json",
+            "sha256": "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-009.v2.json",
+            "sha256": "412fe516a788f79893971854a7ac6a8200b2eb5861503cccae915a092ea12dd5"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-010.v2.json",
+            "sha256": "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-011.v2.json",
+            "sha256": "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-012.v2.json",
+            "sha256": "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-013.v2.json",
+            "sha256": "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-014.v2.json",
+            "sha256": "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-015.v2.json",
+            "sha256": "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-016.v2.json",
+            "sha256": "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-017.v2.json",
+            "sha256": "a8983580c6d55ae30f36bff83fb7ebf6c36ae1f6958c6241040ba8ab8bc4d2a3"
+          }
+        ],
+        "missing_access_audits": [
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+            "sha256": "b5976f35cd7aeb8c23979eb0bdba88464a45ae8e8e34ffea8e8fef5f3f8f19ff"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+            "sha256": "52b1c20a994d6cca1f2fdd997fde1d1e4a665599e9363600a806c41ae5b2e3de"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+            "sha256": "0c2764cab8e569b274ab9b80490c243362a7403b6751f28a5861eaf84c1e68c0"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+            "sha256": "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+            "sha256": "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+            "sha256": "5447344c9a90bec4dca861272fa353fa0d859518e914e76907ca13c991a69e25"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+            "sha256": "bdf86a6314234a471e1635fcca8190b8f79bc8f9df535a6361b98dcb7ab1af6a"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+            "sha256": "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+            "sha256": "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+            "sha256": "c519d138390695ec9efaa303f5b6f554018d65e7cfcc6dea5d72475f8aa539b0"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+            "sha256": "5641396b806c5d1c8ab3582d8d29603c37424182f75b6cd476f21d2462ea3e8b"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+            "sha256": "bc80ffc54462b28376e792a648abdd1b076b3b3d1f64af80e917352d628fa51a"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+            "sha256": "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+            "sha256": "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+            "sha256": "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+            "sha256": "464895cd1e6719a900d19252cc4e5632b85252e33233b0d184437ee13f84d358"
+          },
+          {
+            "path": "../candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+            "sha256": "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44"
+          }
+        ],
+        "structure_audit": {
+          "path": "../staging/structure/structure-audit.v6.json",
+          "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+        }
+      }
+    }
+  },
+  "artifact_changes": [
+    {
+      "artifact_id": "ART-469D22EEB8C1",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
+      "before_sha256": "18fecb7858643520e58a4e639f074cc701707e49b52cc3061461750b68054177",
+      "after_sha256": "18fecb7858643520e58a4e639f074cc701707e49b52cc3061461750b68054177",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2984CF619B22",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-layout-extraction.v1.json",
+      "before_sha256": "374057c272e7905e6cdc4aa3a017346efb7ae3f27aaf69c012df32ed76f6298f",
+      "after_sha256": "374057c272e7905e6cdc4aa3a017346efb7ae3f27aaf69c012df32ed76f6298f",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-D1C41CFA6394",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
+      "before_sha256": "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737",
+      "after_sha256": "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-B2993776DB19",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "before_sha256": "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
+      "after_sha256": "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2C11B6461373",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "before_sha256": "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d",
+      "after_sha256": "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-9C1CC45B4284",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "before_sha256": "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef",
+      "after_sha256": "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C5CF77E5042A",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "before_sha256": "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
+      "after_sha256": "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-3CC8AFB8A200",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "before_sha256": "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd",
+      "after_sha256": "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-6AB255EEACFA",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "before_sha256": "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69",
+      "after_sha256": "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-0C6AF428378F",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "before_sha256": "bccfcc78b4b63a88ba42c56a2a91a2777925b23e7cb1f057e18d9874ff0e4bd5",
+      "after_sha256": "bccfcc78b4b63a88ba42c56a2a91a2777925b23e7cb1f057e18d9874ff0e4bd5",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-6C10B8494505",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "before_sha256": "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
+      "after_sha256": "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-EC9F6F3B224E",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "before_sha256": "412fe516a788f79893971854a7ac6a8200b2eb5861503cccae915a092ea12dd5",
+      "after_sha256": "412fe516a788f79893971854a7ac6a8200b2eb5861503cccae915a092ea12dd5",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-B16C86EF88AF",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "before_sha256": "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f",
+      "after_sha256": "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-CA070EE26292",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "before_sha256": "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
+      "after_sha256": "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C7257EBDACA7",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "before_sha256": "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
+      "after_sha256": "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-318A0C5DA96C",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "before_sha256": "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42",
+      "after_sha256": "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-271E5DFE035E",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "before_sha256": "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
+      "after_sha256": "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-E459268923A2",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "before_sha256": "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
+      "after_sha256": "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7E979B52877C",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "before_sha256": "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46",
+      "after_sha256": "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-34D6C68C589C",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "before_sha256": "a8983580c6d55ae30f36bff83fb7ebf6c36ae1f6958c6241040ba8ab8bc4d2a3",
+      "after_sha256": "a8983580c6d55ae30f36bff83fb7ebf6c36ae1f6958c6241040ba8ab8bc4d2a3",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-6401AB7BFA42",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-001.json",
+      "before_sha256": "028206b59ab3a7144c596db403a3bcf6efd2c85f7027a6391cc98ab705f02e98",
+      "after_sha256": "028206b59ab3a7144c596db403a3bcf6efd2c85f7027a6391cc98ab705f02e98",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-8717F5341EB6",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-002.json",
+      "before_sha256": "ed0e9176e14a446aae30d3bbac0291aabcd630d0cf079a1544984d02d465267d",
+      "after_sha256": "ed0e9176e14a446aae30d3bbac0291aabcd630d0cf079a1544984d02d465267d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-FAEC6723628B",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-003.json",
+      "before_sha256": "80a4544e492db4233b7fae26bb9fe5b34ce41c1ba60f6339d281076a121fa8a2",
+      "after_sha256": "80a4544e492db4233b7fae26bb9fe5b34ce41c1ba60f6339d281076a121fa8a2",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-CF1D77DB7287",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-004.json",
+      "before_sha256": "022a354143f92f69988f925bcf1509afaf5b61e277602d20ff09f78fd436cfcf",
+      "after_sha256": "022a354143f92f69988f925bcf1509afaf5b61e277602d20ff09f78fd436cfcf",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-3945DB955027",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-005.json",
+      "before_sha256": "f8b92f9abf39bcbb4437e4ed94bbe62b21aca01649541808b9490193c95ecea8",
+      "after_sha256": "f8b92f9abf39bcbb4437e4ed94bbe62b21aca01649541808b9490193c95ecea8",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-120BA0676B91",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-006.json",
+      "before_sha256": "69c18d1ec33fdb3b980a7fb8d1dac10daf806b182005cb1dadb23a299968dd69",
+      "after_sha256": "69c18d1ec33fdb3b980a7fb8d1dac10daf806b182005cb1dadb23a299968dd69",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1A3F7A310064",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-007.json",
+      "before_sha256": "eea1b857a94e51e3011b49a85bc473618e77f3f37a6f4ab1c190a9f5b0d5d4c9",
+      "after_sha256": "eea1b857a94e51e3011b49a85bc473618e77f3f37a6f4ab1c190a9f5b0d5d4c9",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2BE1DC0C3F9F",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-008.json",
+      "before_sha256": "27249eeba23f0f2ca90ccfceaa09f1791a1fbef2cfe62b640b0ec9c878b1c3ed",
+      "after_sha256": "27249eeba23f0f2ca90ccfceaa09f1791a1fbef2cfe62b640b0ec9c878b1c3ed",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-503009580184",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-009.json",
+      "before_sha256": "11e94994e449a8c9e8e2ecff684bb3ff4f936ffacf69395f17594f52870b0776",
+      "after_sha256": "11e94994e449a8c9e8e2ecff684bb3ff4f936ffacf69395f17594f52870b0776",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1EBEF24BBA6E",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-010.json",
+      "before_sha256": "646d187215e01178bb7fd7cf7decedbbd1df89212f26a5d31465393a0e48b76d",
+      "after_sha256": "646d187215e01178bb7fd7cf7decedbbd1df89212f26a5d31465393a0e48b76d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-4AF7F730C6D3",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-011.json",
+      "before_sha256": "d09576d09b6496afbd9f6fd1e2e14496701cc7d825e87b830083e8843c9feb9e",
+      "after_sha256": "d09576d09b6496afbd9f6fd1e2e14496701cc7d825e87b830083e8843c9feb9e",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7F041C998BF8",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-012.json",
+      "before_sha256": "9c0f58fa610a749d7935d847ba898b102bc5a04239be21254d1cf0ed923570d7",
+      "after_sha256": "9c0f58fa610a749d7935d847ba898b102bc5a04239be21254d1cf0ed923570d7",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-080A4F8D1E6C",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-013.json",
+      "before_sha256": "9fe4af208046d79690efd9f07cd8445fe536b07bae6a55b1e033cfd8617202cd",
+      "after_sha256": "9fe4af208046d79690efd9f07cd8445fe536b07bae6a55b1e033cfd8617202cd",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-0DB9DF56632A",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-014.json",
+      "before_sha256": "d34d8ff2615fc992f2c2262954471684e4f25d31a78262835a4fd65417e4b51b",
+      "after_sha256": "d34d8ff2615fc992f2c2262954471684e4f25d31a78262835a4fd65417e4b51b",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7B67DA9D523B",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-015.json",
+      "before_sha256": "2af902c092965b4f2bed637eb90721fb1f65392200dc5c15286d2238ec6d738d",
+      "after_sha256": "2af902c092965b4f2bed637eb90721fb1f65392200dc5c15286d2238ec6d738d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1C9748BDFC84",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-016.json",
+      "before_sha256": "840e3ed8373d21bd66f7de94149411b86d16ce94db7ea44bf7501b95ea86a1d0",
+      "after_sha256": "840e3ed8373d21bd66f7de94149411b86d16ce94db7ea44bf7501b95ea86a1d0",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1AE33A634336",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-017.json",
+      "before_sha256": "353cf1a86b0f37b0e8f24ca24899fcbb81a2416370e152f6dd52834987d635e7",
+      "after_sha256": "353cf1a86b0f37b0e8f24ca24899fcbb81a2416370e152f6dd52834987d635e7",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-48505CBBC57E",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "before_sha256": "b5976f35cd7aeb8c23979eb0bdba88464a45ae8e8e34ffea8e8fef5f3f8f19ff",
+      "after_sha256": "b5976f35cd7aeb8c23979eb0bdba88464a45ae8e8e34ffea8e8fef5f3f8f19ff",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2F494C2554AF",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "before_sha256": "52b1c20a994d6cca1f2fdd997fde1d1e4a665599e9363600a806c41ae5b2e3de",
+      "after_sha256": "52b1c20a994d6cca1f2fdd997fde1d1e4a665599e9363600a806c41ae5b2e3de",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-4BF833E18348",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "before_sha256": "0c2764cab8e569b274ab9b80490c243362a7403b6751f28a5861eaf84c1e68c0",
+      "after_sha256": "0c2764cab8e569b274ab9b80490c243362a7403b6751f28a5861eaf84c1e68c0",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-4BA38094CA80",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "before_sha256": "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
+      "after_sha256": "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1F451C480BB6",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "before_sha256": "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
+      "after_sha256": "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-3EEA60F0F3FE",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "before_sha256": "5447344c9a90bec4dca861272fa353fa0d859518e914e76907ca13c991a69e25",
+      "after_sha256": "5447344c9a90bec4dca861272fa353fa0d859518e914e76907ca13c991a69e25",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2AB157BFC744",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "before_sha256": "bdf86a6314234a471e1635fcca8190b8f79bc8f9df535a6361b98dcb7ab1af6a",
+      "after_sha256": "bdf86a6314234a471e1635fcca8190b8f79bc8f9df535a6361b98dcb7ab1af6a",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-CFAB4EB1AB7C",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "before_sha256": "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
+      "after_sha256": "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-5630EA716083",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "before_sha256": "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
+      "after_sha256": "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-D35E0D56E93C",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "before_sha256": "c519d138390695ec9efaa303f5b6f554018d65e7cfcc6dea5d72475f8aa539b0",
+      "after_sha256": "c519d138390695ec9efaa303f5b6f554018d65e7cfcc6dea5d72475f8aa539b0",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7B95A0D9DD02",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "before_sha256": "5641396b806c5d1c8ab3582d8d29603c37424182f75b6cd476f21d2462ea3e8b",
+      "after_sha256": "5641396b806c5d1c8ab3582d8d29603c37424182f75b6cd476f21d2462ea3e8b",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-987A30257FA7",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "before_sha256": "bc80ffc54462b28376e792a648abdd1b076b3b3d1f64af80e917352d628fa51a",
+      "after_sha256": "bc80ffc54462b28376e792a648abdd1b076b3b3d1f64af80e917352d628fa51a",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C90781539464",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "before_sha256": "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d",
+      "after_sha256": "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-6853E0805FED",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "before_sha256": "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
+      "after_sha256": "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7D534FECBE14",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "before_sha256": "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144",
+      "after_sha256": "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-07027432EB42",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "before_sha256": "464895cd1e6719a900d19252cc4e5632b85252e33233b0d184437ee13f84d358",
+      "after_sha256": "464895cd1e6719a900d19252cc4e5632b85252e33233b0d184437ee13f84d358",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-EEFC3CE3076B",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "before_sha256": "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
+      "after_sha256": "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-32D4134ED829",
+      "path": "coordination/notes.md",
+      "before_sha256": "7f98b3607aaaf115d910ebda2d8ccd4f4126f6aeb6e34f03cc4853ac58cd3e45",
+      "after_sha256": "7f98b3607aaaf115d910ebda2d8ccd4f4126f6aeb6e34f03cc4853ac58cd3e45",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-28DFB921FD21",
+      "path": "coordination/presentation-producer-report.md",
+      "before_sha256": "32e840f87b9fb80b83735c0b6786819566f8fdee994ade0a17c6af4a339e50b8",
+      "after_sha256": "32e840f87b9fb80b83735c0b6786819566f8fdee994ade0a17c6af4a339e50b8",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-FD1DE542C2D0",
+      "path": "coordination/structure-path-denominator-fix-report.md",
+      "before_sha256": "cbfddcf3040ad5e0ee32e4eea574ff8cb0929a5e485933ed8398c2908c7e823a",
+      "after_sha256": "cbfddcf3040ad5e0ee32e4eea574ff8cb0929a5e485933ed8398c2908c7e823a",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-586852937877",
+      "path": "import/native-v8-release/legacy-state.json",
+      "before_sha256": "6a18926c020f1b5a7e9d08fcab9d09e1886a1a89ae016181f63446d18c1b4d5a",
+      "after_sha256": "6a18926c020f1b5a7e9d08fcab9d09e1886a1a89ae016181f63446d18c1b4d5a",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-8D2CF082A26A",
+      "path": "import/native-v8-release/source/chunk-manifest.json",
+      "before_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "after_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-D8806A45AAC4",
+      "path": "import/native-v8-release/source/evaluation-policy.v4.json",
+      "before_sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
+      "after_sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7E4439C86371",
+      "path": "import/native-v8-release/source/page-map.json",
+      "before_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "after_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-E98B801C895E",
+      "path": "import/native-v8-release/source/source-benchmark.draft.v1.json",
+      "before_sha256": "a84d96aa8ed6bb4233d035f11f0f09cf232aa351fa494dad897db3cc85a41294",
+      "after_sha256": "a84d96aa8ed6bb4233d035f11f0f09cf232aa351fa494dad897db3cc85a41294",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-054984BA6EF4",
+      "path": "import/native-v8-release/source/source-benchmark.v2.json",
+      "before_sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "after_sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-0646DB50BE41",
+      "path": "import/native-v8-release/validation/source-benchmark-review-inventory.json",
+      "before_sha256": "5278f3dc570feaec86eb58eddcdd16d7fbdc0c7ba38ec15e5a813fcc0b5fd8d3",
+      "after_sha256": "5278f3dc570feaec86eb58eddcdd16d7fbdc0c7ba38ec15e5a813fcc0b5fd8d3",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C7127591572F",
+      "path": "import/native-v8-release/validation/source-benchmark-review.v1.json",
+      "before_sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0",
+      "after_sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-9D8A30129B8E",
+      "path": "scoring/dimension-calculation-input.v2.json",
+      "before_sha256": "75906d68e834414cbb61be697b18a3b7d132563007a2e8cb2145b866b08ff3b7",
+      "after_sha256": "8742e026e90af1a1d26dcd6c76a33e05e72c3962de262e13d062204e1d1b275b",
+      "disposition": "derived_recalculation"
+    },
+    {
+      "artifact_id": "ART-4507D8881E07",
+      "path": "scoring/dimension-calculations.v6.json",
+      "before_sha256": "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
+      "after_sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
+      "disposition": "derived_recalculation"
+    },
+    {
+      "artifact_id": "ART-D7937908639E",
+      "path": "scoring/evaluation-result.v12.json",
+      "before_sha256": "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+      "after_sha256": "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa",
+      "disposition": "derived_recalculation"
+    },
+    {
+      "artifact_id": "ART-8BD3F00FA39A",
+      "path": "scoring/item-assessments.v7.json",
+      "before_sha256": "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
+      "after_sha256": "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82",
+      "disposition": "derived_recalculation"
+    },
+    {
+      "artifact_id": "ART-F6365DAE1A63",
+      "path": "scoring/projection-metadata.v2.json",
+      "before_sha256": "ff0b7ef164e808423baa8c0e470a86a97a1e597aaec1b308c17d89739030c132",
+      "after_sha256": "7b99fd37a85820968e548a06424fab5da89da679dd4f028c4a6033f81dc4ade5",
+      "disposition": "derived_recalculation"
+    },
+    {
+      "artifact_id": "ART-F676B5F598A6",
+      "path": "scoring/v8-canonical-projection/data/density.v1.json",
+      "before_sha256": "cccf4c9ee0c16d9b74b1710d60cb92ff7b48f087440cad574b5a4d8c91cb3555",
+      "after_sha256": "cccf4c9ee0c16d9b74b1710d60cb92ff7b48f087440cad574b5a4d8c91cb3555",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-23FC1C25F0EF",
+      "path": "scoring/v8-canonical-projection/data/index-records.v1.json",
+      "before_sha256": "351bdd16bebe02f8f06576c82ccc8d7fb91add452e1af40065325a4cd6391ed4",
+      "after_sha256": "af5d15dd4b892a520f80899230849e39faf389ead77ca295357e970e2169deb3",
+      "disposition": "derived_recalculation"
+    },
+    {
+      "artifact_id": "ART-6493FE78EE29",
+      "path": "scoring/v8-canonical-projection/data/source-subjects.v1.json",
+      "before_sha256": "6a6ebcf668ac6e6de74a2518f5bf103e35cb5f302cb6b423accdaa3e5bb7284b",
+      "after_sha256": "6a6ebcf668ac6e6de74a2518f5bf103e35cb5f302cb6b423accdaa3e5bb7284b",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-8582B259541A",
+      "path": "scoring/v8-canonical-projection/projection.v1.json",
+      "before_sha256": "a44bea41deba0a3cb54a9a1f6ffa50cf87c491969544d9ffe1cb8226afd18edb",
+      "after_sha256": "de8a402829c5e02a7a21bb687b45a70d72a2d1492b1e5e770dc9882ccd993b56",
+      "disposition": "derived_recalculation"
+    },
+    {
+      "artifact_id": "ART-5167D96436FE",
+      "path": "scoring/web-report.v10.json",
+      "before_sha256": "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f",
+      "after_sha256": "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c",
+      "disposition": "derived_recalculation"
+    },
+    {
+      "artifact_id": "ART-493F1BBD1F10",
+      "path": "source/chunk-manifest.json",
+      "before_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "after_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C15781637529",
+      "path": "source/chunks/CHUNK-001.pages.json",
+      "before_sha256": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1",
+      "after_sha256": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-3CE256DCFD46",
+      "path": "source/chunks/CHUNK-001.pdf",
+      "before_sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+      "after_sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-EEC368F41EE5",
+      "path": "source/chunks/CHUNK-002.pages.json",
+      "before_sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5",
+      "after_sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-57268EE6264F",
+      "path": "source/chunks/CHUNK-002.pdf",
+      "before_sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "after_sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-B8EA954683EB",
+      "path": "source/chunks/CHUNK-003.pages.json",
+      "before_sha256": "137041fcbc7ece6a63fbef85072c760f342fc92b28734410a8aeccd1d5c8a272",
+      "after_sha256": "137041fcbc7ece6a63fbef85072c760f342fc92b28734410a8aeccd1d5c8a272",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-D7D9A2FB86FB",
+      "path": "source/chunks/CHUNK-003.pdf",
+      "before_sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+      "after_sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1A9C99102222",
+      "path": "source/chunks/CHUNK-004.pages.json",
+      "before_sha256": "1353e5061e5cc9988be43e54fe912a2c5b4b2e6bd2e069edb529786a0fde01a8",
+      "after_sha256": "1353e5061e5cc9988be43e54fe912a2c5b4b2e6bd2e069edb529786a0fde01a8",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C5E3148232E1",
+      "path": "source/chunks/CHUNK-004.pdf",
+      "before_sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe",
+      "after_sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C351741B2E31",
+      "path": "source/chunks/CHUNK-005.pages.json",
+      "before_sha256": "f9117474d9c2f749acbf2564b8e9e1fa08b8ba2b8a9808cb9175376cf3a574bf",
+      "after_sha256": "f9117474d9c2f749acbf2564b8e9e1fa08b8ba2b8a9808cb9175376cf3a574bf",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1A5C1D4C43A1",
+      "path": "source/chunks/CHUNK-005.pdf",
+      "before_sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+      "after_sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-D7ED5575D4B9",
+      "path": "source/chunks/CHUNK-006.pages.json",
+      "before_sha256": "b87631df54474bc7167f0eb7b4dd1e187cb75da7fe5a09d7697c2e798a66f154",
+      "after_sha256": "b87631df54474bc7167f0eb7b4dd1e187cb75da7fe5a09d7697c2e798a66f154",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C3C871C027B5",
+      "path": "source/chunks/CHUNK-006.pdf",
+      "before_sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306",
+      "after_sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-A33DE6BA5B54",
+      "path": "source/chunks/CHUNK-007.pages.json",
+      "before_sha256": "693a25f982ac97534f3380439f2b56b35b1e1e023a4686d4e40e7b9950e9c423",
+      "after_sha256": "693a25f982ac97534f3380439f2b56b35b1e1e023a4686d4e40e7b9950e9c423",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-E47960FAE5D4",
+      "path": "source/chunks/CHUNK-007.pdf",
+      "before_sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c",
+      "after_sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-9D60ED702C73",
+      "path": "source/chunks/CHUNK-008.pages.json",
+      "before_sha256": "be52821ccc83f0449e9230ea1d0eebab1ca21509bf5757a8281f9ecd35b256ef",
+      "after_sha256": "be52821ccc83f0449e9230ea1d0eebab1ca21509bf5757a8281f9ecd35b256ef",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-E252900D2CC3",
+      "path": "source/chunks/CHUNK-008.pdf",
+      "before_sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81",
+      "after_sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-E85428D67679",
+      "path": "source/chunks/CHUNK-009.pages.json",
+      "before_sha256": "4c25483f5fbd081ae044d416e6c0218f55c32544f8d85f14d6a102bd35de1bf5",
+      "after_sha256": "4c25483f5fbd081ae044d416e6c0218f55c32544f8d85f14d6a102bd35de1bf5",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-E281E4F9F653",
+      "path": "source/chunks/CHUNK-009.pdf",
+      "before_sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8",
+      "after_sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1868C644028D",
+      "path": "source/chunks/CHUNK-010.pages.json",
+      "before_sha256": "a47ea2d7d5d3f22b92e602ec257eeb6270ec473e925c062ab0c5ae21c850f2d2",
+      "after_sha256": "a47ea2d7d5d3f22b92e602ec257eeb6270ec473e925c062ab0c5ae21c850f2d2",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1D3CFF737345",
+      "path": "source/chunks/CHUNK-010.pdf",
+      "before_sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d",
+      "after_sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2593328D9AD4",
+      "path": "source/chunks/CHUNK-011.pages.json",
+      "before_sha256": "76bd6dbe287db97c2e7c9bb07da5d5646e5b7a4f4b8b7b2af07ab496248250bb",
+      "after_sha256": "76bd6dbe287db97c2e7c9bb07da5d5646e5b7a4f4b8b7b2af07ab496248250bb",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-65F1FA1F8694",
+      "path": "source/chunks/CHUNK-011.pdf",
+      "before_sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701",
+      "after_sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2A6A386EEE8D",
+      "path": "source/chunks/CHUNK-012.pages.json",
+      "before_sha256": "1aae86ff378f6183aa249f64159ad6989faf4b2a670f99e943212e84c64c9fef",
+      "after_sha256": "1aae86ff378f6183aa249f64159ad6989faf4b2a670f99e943212e84c64c9fef",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-4E0801B668BD",
+      "path": "source/chunks/CHUNK-012.pdf",
+      "before_sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d",
+      "after_sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-FF617AAC1CB9",
+      "path": "source/chunks/CHUNK-013.pages.json",
+      "before_sha256": "9851fef1e66228487ec0e40b0e3815cd7545f32a5cb17fa160d077fe700db264",
+      "after_sha256": "9851fef1e66228487ec0e40b0e3815cd7545f32a5cb17fa160d077fe700db264",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1317EA0B6CB2",
+      "path": "source/chunks/CHUNK-013.pdf",
+      "before_sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e",
+      "after_sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-4E1E659BD798",
+      "path": "source/chunks/CHUNK-014.pages.json",
+      "before_sha256": "69931f8ac03b3e62741bd23de5a17b2bc99f0d53857c7bb150517631a2c10e17",
+      "after_sha256": "69931f8ac03b3e62741bd23de5a17b2bc99f0d53857c7bb150517631a2c10e17",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-82F4478817EC",
+      "path": "source/chunks/CHUNK-014.pdf",
+      "before_sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40",
+      "after_sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-A7EDC7DD955C",
+      "path": "source/chunks/CHUNK-015.pages.json",
+      "before_sha256": "f289a89749e60a58a78c7c7f0dfee21c8ca38910dfab17f1adfdc08675f409d8",
+      "after_sha256": "f289a89749e60a58a78c7c7f0dfee21c8ca38910dfab17f1adfdc08675f409d8",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2DC4A826EDA6",
+      "path": "source/chunks/CHUNK-015.pdf",
+      "before_sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5",
+      "after_sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-5C1D99D2D30B",
+      "path": "source/chunks/CHUNK-016.pages.json",
+      "before_sha256": "645c8040bdca4f7717bd90497f417eb37e8469ae770dcdac4edc1cf5efd428fb",
+      "after_sha256": "645c8040bdca4f7717bd90497f417eb37e8469ae770dcdac4edc1cf5efd428fb",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-25744B24AF7F",
+      "path": "source/chunks/CHUNK-016.pdf",
+      "before_sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9",
+      "after_sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2B9413943145",
+      "path": "source/chunks/CHUNK-017.pages.json",
+      "before_sha256": "0d58ce5bc2a9e81e9c8adb53f2c44c9461abfbbfa70198300109dbed98079cbc",
+      "after_sha256": "0d58ce5bc2a9e81e9c8adb53f2c44c9461abfbbfa70198300109dbed98079cbc",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7ADC198BD4B1",
+      "path": "source/chunks/CHUNK-017.pdf",
+      "before_sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2",
+      "after_sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-D5FC578573A8",
+      "path": "source/evaluation-policy.v4.json",
+      "before_sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
+      "after_sha256": "29da0007910710d963b86752b7f62589b7326a5ddcc62b3b15efed673a4bc871",
+      "disposition": "targeted_update"
+    },
+    {
+      "artifact_id": "ART-9607411ECD7A",
+      "path": "source/page-map.json",
+      "before_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "after_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-2891CE58803E",
+      "path": "source/restricted/Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
+      "before_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "after_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-9C2EA9D2A3B2",
+      "path": "source/restricted/page-text/CHUNK-001.txt",
+      "before_sha256": "c04d135598db4cfa770869f8a6e4b945a23d4d9a527b91f96da9680b214495c3",
+      "after_sha256": "c04d135598db4cfa770869f8a6e4b945a23d4d9a527b91f96da9680b214495c3",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-DA16FE63CB98",
+      "path": "source/restricted/page-text/CHUNK-002.txt",
+      "before_sha256": "5fb45d993d538cb016adfa6af52cb952be6b50bcddc0d9967554a9d9e988e28f",
+      "after_sha256": "5fb45d993d538cb016adfa6af52cb952be6b50bcddc0d9967554a9d9e988e28f",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-ACB3127AD0DD",
+      "path": "source/restricted/page-text/CHUNK-003.txt",
+      "before_sha256": "0ad2f637bbc0f5281a3e5c52bda85823669f9c8d4dd916fd2da7498e757dbc78",
+      "after_sha256": "0ad2f637bbc0f5281a3e5c52bda85823669f9c8d4dd916fd2da7498e757dbc78",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-DEE02E0DDFD7",
+      "path": "source/restricted/page-text/CHUNK-004.txt",
+      "before_sha256": "bdf4bb79062fdc27c51efb45d185a4495057c3323e27034796f7424279b675e8",
+      "after_sha256": "bdf4bb79062fdc27c51efb45d185a4495057c3323e27034796f7424279b675e8",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-154576DE8653",
+      "path": "source/restricted/page-text/CHUNK-005.txt",
+      "before_sha256": "421c5e797d224db0805954c4412c857722c44d6a066c6f72d5b76114fd230a0f",
+      "after_sha256": "421c5e797d224db0805954c4412c857722c44d6a066c6f72d5b76114fd230a0f",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-3E6F10979EEC",
+      "path": "source/restricted/page-text/CHUNK-006.txt",
+      "before_sha256": "11e41246d8b0ae7c8b98468ceda3f162ac144c56aa90b86c0d291e24f19d16eb",
+      "after_sha256": "11e41246d8b0ae7c8b98468ceda3f162ac144c56aa90b86c0d291e24f19d16eb",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-647C52BE5818",
+      "path": "source/restricted/page-text/CHUNK-007.txt",
+      "before_sha256": "19e046e71903f3e30a611c9d5cda44058a6550a41222d186bfcda3a957822b28",
+      "after_sha256": "19e046e71903f3e30a611c9d5cda44058a6550a41222d186bfcda3a957822b28",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-8858A3AB30F6",
+      "path": "source/restricted/page-text/CHUNK-008.txt",
+      "before_sha256": "1500eecbf8e624e7f75f891c836ad70448750882384b7d1051eb7ee378ea437b",
+      "after_sha256": "1500eecbf8e624e7f75f891c836ad70448750882384b7d1051eb7ee378ea437b",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-00BDC47966AA",
+      "path": "source/restricted/page-text/CHUNK-009.txt",
+      "before_sha256": "9ca1e79a1372ec8450eae7b29f62171911d208239074de674ac3a6160c9848af",
+      "after_sha256": "9ca1e79a1372ec8450eae7b29f62171911d208239074de674ac3a6160c9848af",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-97505EF961AD",
+      "path": "source/restricted/page-text/CHUNK-010.txt",
+      "before_sha256": "eacff741ea195efa2a8572ca40bf36cbe49371167bf7fc6c22844dd9d624a09d",
+      "after_sha256": "eacff741ea195efa2a8572ca40bf36cbe49371167bf7fc6c22844dd9d624a09d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C7DB2BD777BA",
+      "path": "source/restricted/page-text/CHUNK-011.txt",
+      "before_sha256": "a53add70c059f13790030edd32c101ccc4d26e384ce8d056263af0138a6954e3",
+      "after_sha256": "a53add70c059f13790030edd32c101ccc4d26e384ce8d056263af0138a6954e3",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-9866E54EF966",
+      "path": "source/restricted/page-text/CHUNK-012.txt",
+      "before_sha256": "9bd7d7ccd249d16f7309dad3203563759fceff3410aaba12019b26c1c2740f0c",
+      "after_sha256": "9bd7d7ccd249d16f7309dad3203563759fceff3410aaba12019b26c1c2740f0c",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-5D88939D19FA",
+      "path": "source/restricted/page-text/CHUNK-013.txt",
+      "before_sha256": "f81884150d60beb09845d04a99493e6c2159fa655d6ff063e37c305c0e5141d6",
+      "after_sha256": "f81884150d60beb09845d04a99493e6c2159fa655d6ff063e37c305c0e5141d6",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-ED717674056E",
+      "path": "source/restricted/page-text/CHUNK-014.txt",
+      "before_sha256": "51a7c7f0851cb06193362bc84f2225fc7587aa1721ce915eff96d31669324db0",
+      "after_sha256": "51a7c7f0851cb06193362bc84f2225fc7587aa1721ce915eff96d31669324db0",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-1BDBE2CAA70D",
+      "path": "source/restricted/page-text/CHUNK-015.txt",
+      "before_sha256": "24041f29cda0f29f6b5ae19e32670a08c15731e5ec9603968f387121c16a1d12",
+      "after_sha256": "24041f29cda0f29f6b5ae19e32670a08c15731e5ec9603968f387121c16a1d12",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-E5C69B8C0FBD",
+      "path": "source/restricted/page-text/CHUNK-016.txt",
+      "before_sha256": "17085c53738f2a9be3bc3f481ccef0b79abd8ed932956dc1ed017abf8a338cfb",
+      "after_sha256": "17085c53738f2a9be3bc3f481ccef0b79abd8ed932956dc1ed017abf8a338cfb",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-120DA9A68457",
+      "path": "source/restricted/page-text/CHUNK-017.txt",
+      "before_sha256": "c541d7dd33bbab72925ae06b73ffd7704931ff369bfcc27782c9ff039f1496c9",
+      "after_sha256": "c541d7dd33bbab72925ae06b73ffd7704931ff369bfcc27782c9ff039f1496c9",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-FE3C2F593961",
+      "path": "source/source-benchmark.v3.json",
+      "before_sha256": "06cc88f02103c8730845c55d1f93b4224c1828df45981bb7df4b4bbf45064f67",
+      "after_sha256": "06cc88f02103c8730845c55d1f93b4224c1828df45981bb7df4b4bbf45064f67",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-932B4C02D1EF",
+      "path": "staging/structure/structure-audit.v6.json",
+      "before_sha256": "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
+      "after_sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
+      "disposition": "targeted_update"
+    },
+    {
+      "artifact_id": "ART-136A479F5A33",
+      "path": "staging/structure/structure-review-report.md",
+      "before_sha256": "bb0087024bcebe9b13db1f65731517aadb1a27e1fc0ebfefa1f6a98eb84b4639",
+      "after_sha256": "bb0087024bcebe9b13db1f65731517aadb1a27e1fc0ebfefa1f6a98eb84b4639",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C68302E76A56",
+      "path": "validation/density-review/coordinator-reproduction.json",
+      "before_sha256": "843909c8a33dc226bfb3b3878c58b6eb040b7a18c8ce143531af370c2e6dc50a",
+      "after_sha256": "843909c8a33dc226bfb3b3878c58b6eb040b7a18c8ce143531af370c2e6dc50a",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C8927AF08F56",
+      "path": "validation/density-review/density-review.json",
+      "before_sha256": "c22624328a20238f6f429d322e7f71b4871ef8f5784b7345f99a839155f2a51e",
+      "after_sha256": "c22624328a20238f6f429d322e7f71b4871ef8f5784b7345f99a839155f2a51e",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7C9FDAE1E4B4",
+      "path": "validation/density-review/reporting-closure.json",
+      "before_sha256": "e4b01062cca7fc4356af5944037201b4b87844d13f1fc716318e1898e72c9de7",
+      "after_sha256": "e4b01062cca7fc4356af5944037201b4b87844d13f1fc716318e1898e72c9de7",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-E54314C09B53",
+      "path": "validation/final-installed-runtime.json",
+      "before_sha256": "81b509f6c6976dd9071a165a821d516815ba012ac43b1f4ed8d4f04c2bbd745d",
+      "after_sha256": "81b509f6c6976dd9071a165a821d516815ba012ac43b1f4ed8d4f04c2bbd745d",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-97BEA6E36195",
+      "path": "validation/map-scope-adjudication.json",
+      "before_sha256": "ccd22298bd7b52c64adb3c454f648be0ededddced6f4f59e124f0d8117bec1a9",
+      "after_sha256": "ccd22298bd7b52c64adb3c454f648be0ededddced6f4f59e124f0d8117bec1a9",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-BA4D6C503889",
+      "path": "validation/missing-access-calibration-review.json",
+      "before_sha256": "96d55f21661f7e3d4156143928f428ef49aa5ff9336654340750d587a8b86189",
+      "after_sha256": "96d55f21661f7e3d4156143928f428ef49aa5ff9336654340750d587a8b86189",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-CFA9A6D308A0",
+      "path": "validation/presentation-public-diff.json",
+      "before_sha256": "487974f132ac824340f0250e9a6b5003bb65682429360175b6f23e98b2b40291",
+      "after_sha256": "487974f132ac824340f0250e9a6b5003bb65682429360175b6f23e98b2b40291",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-6FFC9059F681",
+      "path": "validation/report-review/presentation-summary-independent-review.v1.json",
+      "before_sha256": "58a7e8a6fd0ab6cf5b8dcbc9b3a7f2a2886bd102cf476d41a081a6bbe0fb0d65",
+      "after_sha256": "58a7e8a6fd0ab6cf5b8dcbc9b3a7f2a2886bd102cf476d41a081a6bbe0fb0d65",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C67D5D82DAB4",
+      "path": "validation/report-review/public-bundle-targeted-closure.v1.json",
+      "before_sha256": "53f3692d901991b63f2001af2b804855d01516b684ece394972a8f0d50916eda",
+      "after_sha256": "53f3692d901991b63f2001af2b804855d01516b684ece394972a8f0d50916eda",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-EFE4993E4206",
+      "path": "validation/report-review/report-review.v1.json",
+      "before_sha256": "b6c4b19f8b585406524dfcbb9a97dd67f0650ca180708d977587c35d752b8c1f",
+      "after_sha256": "b6c4b19f8b585406524dfcbb9a97dd67f0650ca180708d977587c35d752b8c1f",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-C3E61912C040",
+      "path": "validation/report-review/rr003-eight-word-nonlocator-review.v1.json",
+      "before_sha256": "ff60892fbf969426714e52b39ccf64d6d11aa0c1f5b3305dfce1e270282a7e14",
+      "after_sha256": "ff60892fbf969426714e52b39ccf64d6d11aa0c1f5b3305dfce1e270282a7e14",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-0C76D1B9B91B",
+      "path": "validation/report-review/rr003-privacy-closure.v1.json",
+      "before_sha256": "6b0b9f556ebc6280a0b3b2a81c6375c719d7d57656da2d9b1c276f765e23df41",
+      "after_sha256": "6b0b9f556ebc6280a0b3b2a81c6375c719d7d57656da2d9b1c276f765e23df41",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-59DF9D0975B7",
+      "path": "validation/source-benchmark-compatibility-approval.v1.json",
+      "before_sha256": "60a4890ee1915cd81e368ec7876d3fc42c4e0d96785c8419955eaaefb6f92083",
+      "after_sha256": "60a4890ee1915cd81e368ec7876d3fc42c4e0d96785c8419955eaaefb6f92083",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-8A5AA58747CA",
+      "path": "validation/source-benchmark-compatibility-import-provenance.v1.json",
+      "before_sha256": "37a4c74e7d4d206f9270dfc72a643f9648f416ae5c9fbf386cf034129d5976c6",
+      "after_sha256": "37a4c74e7d4d206f9270dfc72a643f9648f416ae5c9fbf386cf034129d5976c6",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-7D535B51E17A",
+      "path": "validation/website-final-coordinator-tests.log",
+      "before_sha256": "4e71bd28b4027e5fa3d70e9e896909fb37f38e617ee06fcde7b699cf3b688e06",
+      "after_sha256": "4e71bd28b4027e5fa3d70e9e896909fb37f38e617ee06fcde7b699cf3b688e06",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-9404AA55D2E0",
+      "path": "validation/website-identity-closure-coordinator-tests.log",
+      "before_sha256": "63e38fa0f138f18fb17f46e50ddb7296ea4d5b1c6a4cc4a7d78e76d532875343",
+      "after_sha256": "63e38fa0f138f18fb17f46e50ddb7296ea4d5b1c6a4cc4a7d78e76d532875343",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-8D2EB36DD502",
+      "path": "validation/website-review/coordinator-browser-qa.md",
+      "before_sha256": "37aec846e58b81af085f94fa1428be440ed1af50e809223306d4c4f8af1c37ae",
+      "after_sha256": "37aec846e58b81af085f94fa1428be440ed1af50e809223306d4c4f8af1c37ae",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-CB1ECFB9CE18",
+      "path": "validation/website-review/final-production-build.log",
+      "before_sha256": "e0a75ed28529bc0bf28dbf34ab6bd0e94a1b242c7c69aedcb400e1280c034a80",
+      "after_sha256": "e0a75ed28529bc0bf28dbf34ab6bd0e94a1b242c7c69aedcb400e1280c034a80",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-DEAD7916A6F7",
+      "path": "validation/website-review/initial/rr002-website-compatibility-closure.v1.json",
+      "before_sha256": "20c4636e330a16892d875dfdd8264f3d82bbe8b27196abd26f8abb8615055da1",
+      "after_sha256": "20c4636e330a16892d875dfdd8264f3d82bbe8b27196abd26f8abb8615055da1",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-B8E0F62E586D",
+      "path": "validation/website-review/rr002-website-compatibility-final-closure.md",
+      "before_sha256": "2a4e7265c375e46d7fb7e6068a437763d1945619f56adc6f98dfe24a876e906c",
+      "after_sha256": "2a4e7265c375e46d7fb7e6068a437763d1945619f56adc6f98dfe24a876e906c",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-09105A1F84B3",
+      "path": "validation/website-review/rr002-website-compatibility-final-closure.v1.json",
+      "before_sha256": "b53627fb64a59ba1abb2eb912117a9bbb25985a0e74b7e30e09974a7a980c619",
+      "after_sha256": "b53627fb64a59ba1abb2eb912117a9bbb25985a0e74b7e30e09974a7a980c619",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-5376BEB8ADBC",
+      "path": "validation/website-review/rr002-website-compatibility-followup-review.v1.json",
+      "before_sha256": "1803d8487ffdad11f0cee50d910f6e2e55c833ddd1055040b82c279a73a82b45",
+      "after_sha256": "1803d8487ffdad11f0cee50d910f6e2e55c833ddd1055040b82c279a73a82b45",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-004845E0A932",
+      "path": "validation/website-review/verify-rr002-runtime.ts",
+      "before_sha256": "b424c3281a3c89520db36b786aff923937b1fd06b8dd94c788b96c8adb3d7bbf",
+      "after_sha256": "b424c3281a3c89520db36b786aff923937b1fd06b8dd94c788b96c8adb3d7bbf",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-29D0AD1E7513",
+      "path": "validation/website-review/worker-closure-qa.md",
+      "before_sha256": "b27f39e61bf25816c1bbc9ced72f1fb37569592fe9d41c43e096041011c9a6d2",
+      "after_sha256": "b27f39e61bf25816c1bbc9ced72f1fb37569592fe9d41c43e096041011c9a6d2",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "artifact_id": "ART-01E9BBF93288",
+      "path": "validation/website-review/worker-qa.md",
+      "before_sha256": "dae312142b7292f52d0e36f970c83b486e96a6f7ee4c11a92f531f3b1761aaf1",
+      "after_sha256": "dae312142b7292f52d0e36f970c83b486e96a6f7ee4c11a92f531f3b1761aaf1",
+      "disposition": "unchanged_reused"
+    },
+    {
+      "path": "evaluation-state.json",
+      "before_sha256": "84d67a4bfc22e5debb18bcbe9c04f5b02e7f4efe8eec0a2e49e39ebc49434585",
+      "after_sha256": "eea7161e1ebbbce6613fd6868b14e73f0e016c0194d937f4123d8fcfe90fa980",
+      "disposition": "canonical_registration_update"
+    }
+  ],
+  "comparison": {
+    "original_overall": 95.6,
+    "revised_overall": 97.19,
+    "dimensions": [
+      {
+        "dimension_id": "meaningful_coverage",
+        "before_ordinary_percentage": "95.85185185185185185185185185",
+        "before_final_percentage": "95.85185185185185185185185185",
+        "after_ordinary_percentage": "95.85185185185185185185185185",
+        "after_final_percentage": "95.85185185185185185185185185",
+        "original_triggered_ceilings": [],
+        "revised_triggered_ceilings": []
+      },
+      {
+        "dimension_id": "editorial_selectivity",
+        "before_ordinary_percentage": "92.85558370331663418495020807",
+        "before_final_percentage": "92.85558370331663418495020807",
+        "after_ordinary_percentage": "92.85558370331663418495020807",
+        "after_final_percentage": "92.85558370331663418495020807",
+        "original_triggered_ceilings": [],
+        "revised_triggered_ceilings": []
+      },
+      {
+        "dimension_id": "conceptual_stance_fidelity",
+        "before_ordinary_percentage": "100",
+        "before_final_percentage": "100",
+        "after_ordinary_percentage": "100",
+        "after_final_percentage": "100",
+        "original_triggered_ceilings": [],
+        "revised_triggered_ceilings": []
+      },
+      {
+        "dimension_id": "page_reference_reliability",
+        "before_ordinary_percentage": "97.9897322222424284250851774",
+        "before_final_percentage": "97.9897322222424284250851774",
+        "after_ordinary_percentage": "97.9897322222424284250851774",
+        "after_final_percentage": "97.9897322222424284250851774",
+        "original_triggered_ceilings": [],
+        "revised_triggered_ceilings": []
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "before_ordinary_percentage": "97.96256169613866521924765312",
+        "before_final_percentage": "90",
+        "after_ordinary_percentage": "97.97826850242138773233665836",
+        "after_final_percentage": "97.97826850242138773233665836",
+        "original_triggered_ceilings": [
+          {
+            "cap_id": "findability.localized_major_navigation",
+            "maximum_percentage": 90,
+            "triggered": true,
+            "threshold": {
+              "severity": "major"
+            },
+            "observed": {
+              "defect_count": 2
+            },
+            "affected_evidence_ids": [
+              "DEFECT-HED-MISSING-ACCESS-MAJOR-001",
+              "DEFECT-XRF-REVOLUTIONARY-CONSENSUS-001"
+            ]
+          }
+        ],
+        "revised_triggered_ceilings": []
+      },
+      {
+        "dimension_id": "mechanics_consistency",
+        "before_ordinary_percentage": "100",
+        "before_final_percentage": "100",
+        "after_ordinary_percentage": "100",
+        "after_final_percentage": "100",
+        "original_triggered_ceilings": [],
+        "revised_triggered_ceilings": []
+      }
+    ],
+    "original_gates": [
+      {
+        "gate_id": "GATE-CENTRAL-OMISSION",
+        "description": "central subject or conclusion materially omitted",
+        "standard": true,
+        "triggered": true,
+        "defect_ids": [
+          "DEFECT-COV-HIGH-PRIORITY-MAJOR-001"
+        ]
+      },
+      {
+        "gate_id": "GATE-COMPOUND",
+        "description": "compound heading locators support only separate components",
+        "standard": true,
+        "triggered": true,
+        "defect_ids": [
+          "DEFECT-LOC-COMPLETE-PATH-FIT-001"
+        ]
+      },
+      {
+        "gate_id": "GATE-GROUNDING",
+        "description": "critical or major unresolved grounding",
+        "standard": true,
+        "triggered": true,
+        "defect_ids": [
+          "DEFECT-LOC-NEGATIVE-MAJOR-001"
+        ]
+      }
+    ],
+    "revised_gates": [
+      {
+        "gate_id": "GATE-SCOPE-LOCATOR",
+        "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+        "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-CENTRAL-OMISSION",
+        "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Critical central omission or major omission demonstrably destroying high-priority access",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-STANCE",
+        "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-COMPOUND",
+        "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-SEE-SUBSTITUTION",
+        "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-CROSS-REFERENCE",
+        "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-CLUTTER",
+        "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-GROUNDING",
+        "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      },
+      {
+        "gate_id": "GATE-STRUCTURE",
+        "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+        "standard": true,
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
+      }
+    ],
+    "validity": {
+      "status": "valid",
+      "blockers": [],
+      "used_as_publication_gate": false
+    },
+    "review_signals": [
+      {
+        "signal_id": "REVIEW-PARTIAL-FIT",
+        "color": "yellow",
+        "affected_evidence_ids": [
+          "LOC-12D952420ABC",
+          "LOC-1E38D9E668B4",
+          "LOC-2B74EB795674",
+          "LOC-2C517828A83D",
+          "LOC-58123DEB8EB0",
+          "LOC-592F52A9DF1C",
+          "LOC-805F174738EB",
+          "LOC-C4A61C608A77",
+          "LOC-D04432EFADD0",
+          "LOC-D641B69458DB",
+          "LOC-D92A08C94A10",
+          "LOC-DCE11580DE03",
+          "LOC-E25B65970A6E"
+        ],
+        "count": 13,
+        "reason": "Partial fits retain ordinary diagnostic and rating consequences; no cap or gate.",
+        "individually_caps_or_gates": false
+      },
+      {
+        "signal_id": "REVIEW-MISSING-SUPPLEMENTAL-ROUTE",
+        "color": "yellow",
+        "affected_evidence_ids": [
+          "SUBJ-0016",
+          "SUBJ-0042",
+          "SUBJ-0055",
+          "SUBJ-0056",
+          "SUBJ-0057",
+          "SUBJ-0058",
+          "SUBJ-0106",
+          "SUBJ-0109",
+          "SUBJ-0111",
+          "SUBJ-0112",
+          "SUBJ-0113",
+          "SUBJ-0151",
+          "SUBJ-0157",
+          "SUBJ-0159",
+          "SUBJ-0191",
+          "SUBJ-0215",
+          "SUBJ-0238",
+          "SUBJ-0246",
+          "SUBJ-0273",
+          "SUBJ-0280",
+          "SUBJ-0284",
+          "SUBJ-0286",
+          "SUBJ-0290",
+          "SUBJ-0292",
+          "SUBJ-0309",
+          "SUBJ-0435",
+          "SUBJ-0481",
+          "SUBJ-0483",
+          "SUBJ-0485",
+          "SUBJ-0488",
+          "SUBJ-0494",
+          "SUBJ-0559"
+        ],
+        "count": 32,
+        "reason": "Supplemental route omissions remain scored; no individual cap or gate.",
+        "individually_caps_or_gates": false
+      }
+    ]
+  },
+  "preserved_evidence": "All 17 locator audits, 17 missing-access audits, 4273 locator assignments, 638 subjects, 638 tasks, 1569 expected treatments, candidate representation, benchmark release, source map, chunking, density measurements and full-scope attestation reused. Ordinary partial-fit keep failures, missed treatments, partial coverage, and reader-task deductions remain. Four architecture node deductions change from 55% to 85% credit; all remain adverse.",
+  "validation_report": "migration/validation.json",
+  "consequence_review": [
+    {
+      "original_defect": {
+        "defect_id": "DEFECT-LOC-COMPLETE-PATH-FIT-001",
+        "code": "CMP",
+        "dimension_owner": "page_reference_reliability",
+        "severity": "minor",
+        "severity_basis": "localized_repairable_friction",
+        "retrieval_consequence": "slows",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "LOC-592F52A9DF1C",
+          "LOC-2C517828A83D",
+          "LOC-D641B69458DB",
+          "LOC-805F174738EB",
+          "LOC-2B74EB795674",
+          "LOC-D04432EFADD0",
+          "LOC-C4A61C608A77",
+          "LOC-E25B65970A6E",
+          "LOC-D92A08C94A10",
+          "LOC-DCE11580DE03"
+        ],
+        "affected_source_sections": [
+          "CHUNK-004",
+          "CHUNK-005",
+          "CHUNK-007",
+          "CHUNK-013"
+        ],
+        "affected_structural_sections": [
+          "NODE-C434DE154333",
+          "NODE-E9A33168E3AC",
+          "NODE-8CFD4A2B3DA3",
+          "NODE-418454731314",
+          "NODE-EFB79B5ABFCF",
+          "NODE-BA88F18B200F",
+          "NODE-74A0612D4C09",
+          "NODE-E2B50A59BC70"
+        ],
+        "root_cause_family": "atomic_locator_materially_incomplete_for_compound_heading_path",
+        "affected_count": 10,
+        "applicable_count": 4273,
+        "affected_rate": "0.002340",
+        "source_section_denominator": 17,
+        "source_section_rate": "0.235294",
+        "structural_section_denominator": 885,
+        "structural_section_rate": "0.009040",
+        "high_priority_access_destroyed": false
+      },
+      "v8_1_disposition": "All ten affected locators are material_partial_fit, minor/slows. 10/4273=0.2340%; 4/17 source sections=23.5294%. Excluded individually and from systemic qualifying locator counts. Ordinary binary keep and diagnostic grades unchanged."
+    },
+    {
+      "original_defect": {
+        "defect_id": "DEFECT-XRF-REVOLUTIONARY-CONSENSUS-001",
+        "code": "XRF",
+        "dimension_owner": "findability_navigation",
+        "severity": "major",
+        "severity_basis": "blocked_retrieval",
+        "retrieval_consequence": "blocks",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "SUBJ-0191"
+        ],
+        "affected_source_sections": [
+          "CHUNK-006"
+        ],
+        "affected_structural_sections": [
+          "NODE-F23742E705FF"
+        ],
+        "root_cause_family": "no_cross_reference_to_distributed_breakdown_routes",
+        "affected_count": 1,
+        "applicable_count": 638,
+        "affected_rate": "0.001567",
+        "source_section_denominator": 17,
+        "source_section_rate": "0.058824",
+        "structural_section_denominator": 885,
+        "structural_section_rate": "0.001130",
+        "high_priority_access_destroyed": false
+      },
+      "v8_1_disposition": "One missing supplemental route, not a delivered broken reference; all six expected treatments are found. Minor/slows replaces major/blocks; obligation still contributes zero to cross-reference validity."
+    },
+    {
+      "original_defect": {
+        "defect_id": "DEFECT-HED-MISSING-ACCESS-MAJOR-001",
+        "code": "HED",
+        "dimension_owner": "findability_navigation",
+        "severity": "major",
+        "severity_basis": "blocked_retrieval",
+        "retrieval_consequence": "blocks",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "SUBJ-0016",
+          "SUBJ-0042",
+          "SUBJ-0106",
+          "SUBJ-0191",
+          "SUBJ-0215",
+          "SUBJ-0273",
+          "SUBJ-0284",
+          "SUBJ-0290",
+          "SUBJ-0292"
+        ],
+        "affected_source_sections": [
+          "CHUNK-001",
+          "CHUNK-003",
+          "CHUNK-006",
+          "CHUNK-008"
+        ],
+        "affected_structural_sections": [],
+        "root_cause_family": "major_heading_or_name_first_access_failure",
+        "affected_count": 9,
+        "applicable_count": 638,
+        "affected_rate": "0.014107",
+        "source_section_denominator": 17,
+        "source_section_rate": "0.235294",
+        "structural_section_denominator": 885,
+        "structural_section_rate": "0.000000",
+        "high_priority_access_destroyed": false
+      },
+      "v8_1_disposition": "Nine missing-route subject IDs / 638 (1.4107%), four / 17 source sections (23.5294%); high_priority_access_destroyed=false. No delivered misleading/destructive route. Fails individual consequence and systemic minimum count/rate/spread."
+    },
+    {
+      "original_defect": {
+        "defect_id": "DEFECT-COV-HIGH-PRIORITY-MAJOR-001",
+        "code": "COV",
+        "dimension_owner": "meaningful_coverage",
+        "severity": "major",
+        "severity_basis": "blocked_retrieval",
+        "retrieval_consequence": "blocks",
+        "defect_kind": "central_omission",
+        "affected_item_ids": [
+          "SUBJ-0016",
+          "SUBJ-0042",
+          "SUBJ-0273"
+        ],
+        "affected_source_sections": [
+          "CHUNK-001",
+          "CHUNK-008"
+        ],
+        "affected_structural_sections": [],
+        "root_cause_family": "high_priority_subject_access_materially_incomplete",
+        "affected_count": 3,
+        "applicable_count": 638,
+        "affected_rate": "0.004702",
+        "source_section_denominator": 17,
+        "source_section_rate": "0.117647",
+        "structural_section_denominator": 885,
+        "structural_section_rate": "0.000000",
+        "high_priority_access_destroyed": false
+      },
+      "v8_1_disposition": "Three major partial-access subjects; high_priority_access_destroyed=false. No critical essential omission established. Coverage deductions retained; central-omission gate withdrawn."
+    },
+    {
+      "original_defect": {
+        "defect_id": "DEFECT-LOC-NEGATIVE-MAJOR-001",
+        "code": "LOC_NEG",
+        "dimension_owner": "page_reference_reliability",
+        "severity": "major",
+        "severity_basis": "blocked_retrieval",
+        "retrieval_consequence": "blocks",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "SUBJ-0215",
+          "SUBJ-0273",
+          "SUBJ-0284",
+          "SUBJ-0290",
+          "SUBJ-0292"
+        ],
+        "affected_source_sections": [
+          "CHUNK-006",
+          "CHUNK-008"
+        ],
+        "affected_structural_sections": [],
+        "root_cause_family": "major_expected_treatment_omitted_from_locator_routes",
+        "affected_count": 5,
+        "applicable_count": 638,
+        "affected_rate": "0.007837",
+        "source_section_denominator": 17,
+        "source_section_rate": "0.117647",
+        "structural_section_denominator": 885,
+        "structural_section_rate": "0.000000",
+        "high_priority_access_destroyed": false
+      },
+      "v8_1_disposition": "Five subject IDs denote missed expected treatments, not severe/no-fit delivered locators. They reduce recall/F1; they cannot establish the grounding gate."
+    }
+  ],
+  "systemic_signal_note": "The 32 missing-route review signals span separate frozen root-cause families. They are not one systemic group. The separate 23-subject minor heading-route group is 23/638=3.6050%, below 5%; the nine-subject major group is below count, rate and spread. Root-cause families were not relabeled or combined to force an outcome.",
+  "derived_item_changes": {
+    "locator_assessments": {
+      "changed_count": 0,
+      "total": 4273,
+      "affected_ids": []
+    },
+    "path_assessments": {
+      "changed_count": 0,
+      "total": 2548,
+      "affected_ids": []
+    },
+    "heading_node_assessments": {
+      "changed_count": 4,
+      "total": 2292,
+      "affected_ids": [
+        {
+          "node_id": "NODE-C83F59EEEC2A"
+        },
+        {
+          "node_id": "NODE-A2435811FD75"
+        },
+        {
+          "node_id": "NODE-EB34FCD7A1A0"
+        },
+        {
+          "node_id": "NODE-F23742E705FF"
+        }
+      ]
+    },
+    "cross_reference_assessments": {
+      "changed_count": 0,
+      "total": 257,
+      "affected_ids": []
+    },
+    "source_subject_assessments": {
+      "changed_count": 0,
+      "total": 638,
+      "affected_ids": []
+    },
+    "heading_access_causal_provenance": {
+      "changed_count": 4,
+      "total": 2292,
+      "affected_ids": [
+        {
+          "node_id": "NODE-C83F59EEEC2A"
+        },
+        {
+          "node_id": "NODE-A2435811FD75"
+        },
+        {
+          "node_id": "NODE-EB34FCD7A1A0"
+        },
+        {
+          "node_id": "NODE-F23742E705FF"
+        }
+      ]
+    }
+  },
+  "derived_index_record_changes": [
+    {
+      "record_id": "REC-54F14E2BAB98",
+      "path_id": "PATH-442101FECEFE",
+      "node_ids": [
+        "NODE-A2435811FD75"
+      ]
+    },
+    {
+      "record_id": "REC-E7C4817A6CEC",
+      "path_id": "PATH-6FD565403C2F",
+      "node_ids": [
+        "NODE-A2435811FD75",
+        "NODE-1D1A42168E88"
+      ]
+    },
+    {
+      "record_id": "REC-EA741E4C77C1",
+      "path_id": "PATH-E4DF71B6EC28",
+      "node_ids": [
+        "NODE-A2435811FD75",
+        "NODE-A101A0D1748F"
+      ]
+    },
+    {
+      "record_id": "REC-01DF8FA95A41",
+      "path_id": "PATH-69AD9B087D4C",
+      "node_ids": [
+        "NODE-EB34FCD7A1A0"
+      ]
+    },
+    {
+      "record_id": "REC-A765A8759A84",
+      "path_id": "PATH-2B71AB97A0A6",
+      "node_ids": [
+        "NODE-EB34FCD7A1A0",
+        "NODE-ACD8E26DC19A"
+      ]
+    },
+    {
+      "record_id": "REC-99EAA814BFE5",
+      "path_id": "PATH-C11D594F5D5E",
+      "node_ids": [
+        "NODE-EB34FCD7A1A0",
+        "NODE-A62F980EFF35"
+      ]
+    },
+    {
+      "record_id": "REC-49549B7F6327",
+      "path_id": "PATH-110E88814163",
+      "node_ids": [
+        "NODE-C83F59EEEC2A"
+      ]
+    },
+    {
+      "record_id": "REC-2FC48C3620D4",
+      "path_id": "PATH-977C44038884",
+      "node_ids": [
+        "NODE-C83F59EEEC2A"
+      ]
+    },
+    {
+      "record_id": "REC-D9DE96C69334",
+      "path_id": "PATH-5DE5824BA078",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-2CFA56D082DC"
+      ]
+    },
+    {
+      "record_id": "REC-82D887BFF019",
+      "path_id": "PATH-17576AE6F094",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-B14F7FBEC81B"
+      ]
+    },
+    {
+      "record_id": "REC-8AB64449A002",
+      "path_id": "PATH-E5A09D0FB714",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-1179E1F0A6B7"
+      ]
+    },
+    {
+      "record_id": "REC-5B1FBE1250C8",
+      "path_id": "PATH-2B281412308D",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-6C9782507BFE"
+      ]
+    },
+    {
+      "record_id": "REC-FC5E623DF64E",
+      "path_id": "PATH-846E84B2BB88",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-AB477289986B"
+      ]
+    },
+    {
+      "record_id": "REC-E5CE8A111FF9",
+      "path_id": "PATH-595368FAD5DF",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-F9F9953D6A73"
+      ]
+    },
+    {
+      "record_id": "REC-5EDBD8B335C8",
+      "path_id": "PATH-4310D7D7C9BE",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-C0724EAFD0FC"
+      ]
+    },
+    {
+      "record_id": "REC-AB685B5E3C81",
+      "path_id": "PATH-DDA0E0402175",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-A47E7DD720D8"
+      ]
+    },
+    {
+      "record_id": "REC-3F34AC188F32",
+      "path_id": "PATH-E9F1BB9496D4",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-53EB700DF6D6"
+      ]
+    },
+    {
+      "record_id": "REC-E0506F378309",
+      "path_id": "PATH-051FFE9A7121",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-618B30FE354C"
+      ]
+    },
+    {
+      "record_id": "REC-CBB30BEB3CE8",
+      "path_id": "PATH-F50546C1DB86",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-D99F98317E20"
+      ]
+    },
+    {
+      "record_id": "REC-D3A4DE39DD55",
+      "path_id": "PATH-DF68E6DC79F3",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-E76446A3AF46"
+      ]
+    },
+    {
+      "record_id": "REC-A54EA191FCD4",
+      "path_id": "PATH-33C9DBEE421A",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-5D4F3F650241"
+      ]
+    },
+    {
+      "record_id": "REC-99EE79A9ADB0",
+      "path_id": "PATH-2738C3AC616A",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-CB44279B1DA3"
+      ]
+    },
+    {
+      "record_id": "REC-78DDDA42016F",
+      "path_id": "PATH-18CA9D650C6F",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-B443058046A1"
+      ]
+    },
+    {
+      "record_id": "REC-F67909240762",
+      "path_id": "PATH-25C5E1FFE546",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-9A191880B707"
+      ]
+    },
+    {
+      "record_id": "REC-36B6632E8908",
+      "path_id": "PATH-920AEBFCC4B0",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-D4B251BE6840"
+      ]
+    },
+    {
+      "record_id": "REC-C88F000CB432",
+      "path_id": "PATH-AE77ADD7E84C",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-5D8A498AB28C"
+      ]
+    },
+    {
+      "record_id": "REC-1371F78EB942",
+      "path_id": "PATH-B67FBA3B4995",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-7D6B33A0B01E"
+      ]
+    },
+    {
+      "record_id": "REC-9F689FFB4FF5",
+      "path_id": "PATH-8AA94353ACEC",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-B163490C3EAB"
+      ]
+    },
+    {
+      "record_id": "REC-90C32221B7CC",
+      "path_id": "PATH-BAFD8A2F5BCD",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-3F0219635494"
+      ]
+    },
+    {
+      "record_id": "REC-97B862D48A69",
+      "path_id": "PATH-A97537F833E0",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-EA3AAC2A778F"
+      ]
+    },
+    {
+      "record_id": "REC-6B7861822725",
+      "path_id": "PATH-BF9C762E208F",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-8F866588482C"
+      ]
+    },
+    {
+      "record_id": "REC-C0563DD21CE2",
+      "path_id": "PATH-AC37BA93588E",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-83EF4AC5B826"
+      ]
+    },
+    {
+      "record_id": "REC-E69548FD1970",
+      "path_id": "PATH-FBA080F1C064",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-3C5376FFB808"
+      ]
+    },
+    {
+      "record_id": "REC-917E7584FF10",
+      "path_id": "PATH-9C2A5F535D6F",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-C879394BA6D8"
+      ]
+    },
+    {
+      "record_id": "REC-B0C23FE5790C",
+      "path_id": "PATH-DB770EF1918F",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-D1642755B4A8"
+      ]
+    },
+    {
+      "record_id": "REC-92F01E5D0C78",
+      "path_id": "PATH-8FB06AD06BB6",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-549FB339E42A"
+      ]
+    },
+    {
+      "record_id": "REC-28475A0F480D",
+      "path_id": "PATH-0A46FCAD2FF7",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-863905AB8FA1"
+      ]
+    },
+    {
+      "record_id": "REC-F34535124DBD",
+      "path_id": "PATH-9C6911489FF5",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-C205AD4A407B"
+      ]
+    },
+    {
+      "record_id": "REC-7AC1F9B4715D",
+      "path_id": "PATH-81AD543D27C4",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-684ED16E76FE"
+      ]
+    },
+    {
+      "record_id": "REC-924C59BB4B8A",
+      "path_id": "PATH-F28747325B6E",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-EFD96D78EAEC"
+      ]
+    },
+    {
+      "record_id": "REC-E9D443D336C8",
+      "path_id": "PATH-07CEA6FA2392",
+      "node_ids": [
+        "NODE-C83F59EEEC2A",
+        "NODE-08815D0A903F"
+      ]
+    },
+    {
+      "record_id": "REC-E064761B3C53",
+      "path_id": "PATH-75268F1AC4FE",
+      "node_ids": [
+        "NODE-F23742E705FF"
+      ]
+    },
+    {
+      "record_id": "REC-19C29869823E",
+      "path_id": "PATH-20C0B2696F6B",
+      "node_ids": [
+        "NODE-F23742E705FF",
+        "NODE-10952D687D37"
+      ]
+    }
+  ],
+  "derived_change_reason": "Reprojection propagates four node component/causal changes into 43 public index records containing those nodes as ancestors or terminals. Only four heading-node assessments and four causal-provenance entries change. All 4273 locator, 2548 path, 257 cross-reference and 638 source-subject assessment rows remain byte-equivalent as JSON values; only outer policy/structure/calculation provenance changes."
+}
