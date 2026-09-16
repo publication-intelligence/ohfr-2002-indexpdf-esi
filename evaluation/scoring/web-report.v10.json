@@ -4,7 +4,7 @@
   "headline": "Subject-index evaluation",
   "summary": "Current-V8 source-grounded evaluation from validated registered artifacts.",
   "grade": {
-    "score": 95.6,
+    "score": 97.19,
     "maximum": 100,
     "label": "Excellent"
   },
@@ -14,59 +14,255 @@
       "weight": 20,
       "dimension_percentage": "95.85185185185185185185185185",
       "weighted_contribution": "19.17037037037037037037037037",
-      "formula_id": "subject-index-dimension-calculation-v5:meaningful_coverage"
+      "formula_id": "subject-index-dimension-calculation-v6:meaningful_coverage"
     },
     {
       "dimension_id": "editorial_selectivity",
       "weight": 15,
       "dimension_percentage": "92.85558370331663418495020807",
       "weighted_contribution": "13.92833755549749512774253121",
-      "formula_id": "subject-index-dimension-calculation-v5:editorial_selectivity"
+      "formula_id": "subject-index-dimension-calculation-v6:editorial_selectivity"
     },
     {
       "dimension_id": "conceptual_stance_fidelity",
       "weight": 15,
       "dimension_percentage": "100",
       "weighted_contribution": "15",
-      "formula_id": "subject-index-dimension-calculation-v5:conceptual_stance_fidelity"
+      "formula_id": "subject-index-dimension-calculation-v6:conceptual_stance_fidelity"
     },
     {
       "dimension_id": "page_reference_reliability",
       "weight": 25,
       "dimension_percentage": "97.9897322222424284250851774",
       "weighted_contribution": "24.49743305556060710627129435",
-      "formula_id": "subject-index-dimension-calculation-v5:page_reference_reliability"
+      "formula_id": "subject-index-dimension-calculation-v6:page_reference_reliability"
     },
     {
       "dimension_id": "findability_navigation",
       "weight": 20,
-      "dimension_percentage": "90",
-      "weighted_contribution": "18",
-      "formula_id": "subject-index-dimension-calculation-v5:findability_navigation"
+      "dimension_percentage": "97.97826850242138773233665836",
+      "weighted_contribution": "19.59565370048427754646733167",
+      "formula_id": "subject-index-dimension-calculation-v6:findability_navigation"
     },
     {
       "dimension_id": "mechanics_consistency",
       "weight": 5,
       "dimension_percentage": "100",
       "weighted_contribution": "5",
-      "formula_id": "subject-index-dimension-calculation-v5:mechanics_consistency"
+      "formula_id": "subject-index-dimension-calculation-v6:mechanics_consistency"
     }
   ],
   "calculation_explainer": {
     "schema_version": "subject-index-dimension-calculations-v6",
     "artifact_path": "scoring/dimension-calculations.v6.json",
-    "sha256": "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
-    "calculation_sha256": "206b35875adc95ba5585f1d9437691cba5c4bc18d0eaf99c696fe82f81d6fad7",
-    "rubric_version": "subject-index-rubric-v8",
-    "calculation_profile": "subject-index-dimension-calculation-v5",
+    "sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
+    "calculation_sha256": "1e2a333fb789abdcbe193da27de5ca76dc1b81ecc38b65115597d343733c613e",
+    "rubric_version": "subject-index-rubric-v8.1",
+    "calculation_profile": "subject-index-dimension-calculation-v6",
     "item_grades_used": false,
-    "gates_used": false
+    "gates_used": false,
+    "dimension_denominators": [
+      {
+        "dimension_id": "meaningful_coverage",
+        "components": [
+          {
+            "component_id": "priority_weighted_subject_access",
+            "original": 638,
+            "applicable": 638,
+            "measured": 638,
+            "excluded": 0,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {},
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          }
+        ]
+      },
+      {
+        "dimension_id": "editorial_selectivity",
+        "components": [
+          {
+            "component_id": "substantive_selectivity",
+            "original": 4273,
+            "applicable": 4268,
+            "measured": 4268,
+            "excluded": 5,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {
+              "absent_owned_by_reliability": 5
+            },
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          },
+          {
+            "component_id": "density_fit",
+            "original": 1,
+            "applicable": 1,
+            "measured": 1,
+            "excluded": 0,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {},
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          }
+        ]
+      },
+      {
+        "dimension_id": "conceptual_stance_fidelity",
+        "components": [
+          {
+            "component_id": "conceptual_stance_nodes",
+            "original": 2292,
+            "applicable": 2292,
+            "measured": 2292,
+            "excluded": 0,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {},
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          }
+        ]
+      },
+      {
+        "dimension_id": "page_reference_reliability",
+        "components": [
+          {
+            "component_id": "keep_precision",
+            "original": 4273,
+            "applicable": 4273,
+            "measured": 4273,
+            "excluded": 0,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {},
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          },
+          {
+            "component_id": "expected_treatment_recall",
+            "original": 1569,
+            "applicable": 1569,
+            "measured": 1569,
+            "excluded": 0,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {},
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          }
+        ]
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "components": [
+          {
+            "component_id": "coverage_conditioned_reader_tasks",
+            "original": 638,
+            "applicable": 629,
+            "measured": 629,
+            "excluded": 9,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {
+              "excluded_due_to_missing_access": 9
+            },
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          },
+          {
+            "component_id": "heading_access_architecture",
+            "original": 2292,
+            "applicable": 2292,
+            "measured": 2292,
+            "excluded": 0,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {},
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          },
+          {
+            "component_id": "cross_reference_validity",
+            "original": 258,
+            "applicable": 258,
+            "measured": 258,
+            "excluded": 0,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {},
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          }
+        ]
+      },
+      {
+        "dimension_id": "mechanics_consistency",
+        "components": [
+          {
+            "component_id": "mechanics_nodes",
+            "original": 2292,
+            "applicable": 2292,
+            "measured": 2292,
+            "excluded": 0,
+            "uninspectable": 0,
+            "not_measured": 0,
+            "exclusion_reasons": {},
+            "measurement_coverage": "1",
+            "small_denominator_exception": false,
+            "genuinely_inapplicable": false,
+            "zero_due_to_non_attempt": false,
+            "defined_zero_rule": null,
+            "provisionally_scoreable": true
+          }
+        ]
+      }
+    ]
   },
   "presentation_summary": {
     "schema_version": "subject-index-presentation-summary-v1",
     "provenance": {
       "evaluation_id": "ohfr-2002-indexpdf-v8",
-      "web_report_sha256": "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700"
+      "web_report_sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d"
     },
     "coverage_by_priority": {
       "essential": {
@@ -167,9 +363,9 @@
       {
         "metric_id": "heading_access_architecture",
         "label": "Heading-access architecture",
-        "display_value": "99.86%",
-        "value": "0.9985602094240837696335078534",
-        "numerator": "2288.7",
+        "display_value": "99.91%",
+        "value": "0.9990837696335078534031413613",
+        "numerator": "2289.9",
         "denominator": "2292"
       },
       {
@@ -421,14 +617,14 @@
             "score": 96.74085850556439
           },
           {
-            "equation": "Heading-access architecture = 2288.7 / 2292 = 99.85602094240837696335078534%",
+            "equation": "Heading-access architecture = 2289.9 / 2292 = 99.90837696335078534031413613%",
             "kind": "input",
             "number_scores": [
               null,
               null,
-              99.85602094240838
+              99.90837696335079
             ],
-            "score": 99.85602094240838
+            "score": 99.90837696335079
           },
           {
             "equation": "Cross-reference validity = 257 / 258 = 99.6124031007751937984496124%",
@@ -441,29 +637,26 @@
             "score": 99.6124031007752
           },
           {
-            "equation": "Canonical weighted combination = 96.7408585055643879173290938% * 0.6 + 99.85602094240837696335078534% * 0.3 + 99.6124031007751937984496124% * 0.1 = 97.96256169613866521924765312%",
+            "equation": "Canonical weighted combination = 96.7408585055643879173290938% * 0.6 + 99.90837696335078534031413613% * 0.3 + 99.6124031007751937984496124% * 0.1 = 97.97826850242138773233665836%",
             "kind": "step",
             "number_scores": [
               96.74085850556439,
               null,
-              99.85602094240838,
+              99.90837696335079,
               null,
               99.6124031007752,
               null,
-              97.96256169613866
+              97.97826850242139
             ],
-            "score": 97.96256169613866
+            "score": 97.97826850242139
           },
           {
-            "equation": "Applied cap = min(97.96256169613866521924765312%, 90%) = 90%",
+            "equation": "No canonical cap reduced the 97.97826850242138773233665836% result",
             "kind": "step",
             "number_scores": [
-              97.96256169613866,
-              null,
-              90.0
+              97.97826850242139
             ],
-            "score": 90.0,
-            "tooltip": "Canonical cap: findability.localized_major_navigation."
+            "score": 97.97826850242139
           }
         ]
       },
@@ -21600,7 +21793,7 @@
       }
     ],
     "artifact_path": "staging/structure/structure-audit.v6.json",
-    "sha256": "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd"
+    "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
   },
   "key_metrics": [
     {
@@ -21804,7 +21997,7 @@
     "rounding": "none",
     "source_word_total": 195346,
     "current_calculation_profile": {
-      "profile_id": "subject-index-dimension-calculation-v5",
+      "profile_id": "subject-index-dimension-calculation-v6",
       "density_fit_precision": "full_precision",
       "dimension_percentage_precision": "full_precision",
       "weighted_contribution_precision": "full_precision",
@@ -21911,103 +22104,136 @@
     "critical_gates": [
       {
         "gate_id": "GATE-SCOPE-LOCATOR",
-        "description": "fabricated, nonexistent, or out-of-scope locator",
+        "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
         "standard": true,
         "triggered": false,
-        "defect_ids": []
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
-        "description": "systematic incidental or unsupported locator pattern",
+        "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
         "standard": true,
         "triggered": false,
-        "defect_ids": []
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-CENTRAL-OMISSION",
-        "description": "central subject or conclusion materially omitted",
+        "description": "Critical central omission or major omission demonstrably destroying high-priority access",
         "standard": true,
-        "triggered": true,
-        "defect_ids": [
-          "DEFECT-COV-HIGH-PRIORITY-MAJOR-001"
-        ]
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Critical central omission or major omission demonstrably destroying high-priority access",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-STANCE",
-        "description": "heading reverses or seriously misrepresents source stance",
+        "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
         "standard": true,
         "triggered": false,
-        "defect_ids": []
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-COMPOUND",
-        "description": "compound heading locators support only separate components",
+        "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
         "standard": true,
-        "triggered": true,
-        "defect_ids": [
-          "DEFECT-LOC-COMPLETE-PATH-FIT-001"
-        ]
+        "triggered": false,
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-SEE-SUBSTITUTION",
-        "description": "see source replaces a warranted substantive entry",
+        "description": "Major/critical delivered substitutive see blocks warranted substantive access",
         "standard": true,
         "triggered": false,
-        "defect_ids": []
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-CROSS-REFERENCE",
-        "description": "unresolved, self-referential, circular, or chained cross-reference",
+        "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
         "standard": true,
         "triggered": false,
-        "defect_ids": []
-      },
-      {
-        "gate_id": "GATE-DEPTH",
-        "description": "third-level heading",
-        "standard": true,
-        "triggered": false,
-        "defect_ids": []
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-CLUTTER",
-        "description": "systematic named-entity, example, or citation clutter",
+        "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
         "standard": true,
         "triggered": false,
-        "defect_ids": []
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-GROUNDING",
-        "description": "critical or major unresolved grounding",
-        "standard": true,
-        "triggered": true,
-        "defect_ids": [
-          "DEFECT-LOC-NEGATIVE-MAJOR-001"
-        ]
-      },
-      {
-        "gate_id": "GATE-UNINSPECTABLE",
-        "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+        "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
         "standard": true,
         "triggered": false,
-        "defect_ids": []
-      },
-      {
-        "gate_id": "GATE-SOURCE-SPAN",
-        "description": "wrong source span",
-        "standard": true,
-        "triggered": false,
-        "defect_ids": []
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       },
       {
         "gate_id": "GATE-STRUCTURE",
-        "description": "structurally invalid or incomplete output",
+        "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
         "standard": true,
         "triggered": false,
-        "defect_ids": []
+        "defect_ids": [],
+        "affected_evidence_ids": [],
+        "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+        "systemic_groups": [],
+        "consequence_evidence": [],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "No qualifying evidence crosses this threshold."
       }
     ],
-    "outcomes_sha256": "296628d9dfd21e220a13b52af15367ac4d3787542cc8a1dde6d352393f9c6842",
+    "outcomes_sha256": "5d99667f808ef0681d7fce199f1bba6284ce4e2c7b4c67c81218a242fa832e9f",
     "used_in_score_arithmetic": false
   },
   "strengths": [
@@ -22552,9 +22778,9 @@
       "defect_id": "DEFECT-XRF-REVOLUTIONARY-CONSENSUS-001",
       "code": "XRF",
       "dimension_owner": "findability_navigation",
-      "severity": "major",
-      "severity_basis": "blocked_retrieval",
-      "retrieval_consequence": "blocks",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
       "defect_kind": "generic",
       "affected_item_ids": [
         "SUBJ-0191"
@@ -22891,7 +23117,7 @@
   "item_grade_index": {
     "schema_version": "subject-index-item-assessments-v7",
     "artifact_path": "scoring/item-assessments.v7.json",
-    "sha256": "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
+    "sha256": "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82",
     "grading_policy": "subject-index-item-grading-v4",
     "summary": {
       "locators": {
@@ -22925,8 +23151,8 @@
         "graded": 2292,
         "not_measured": 0,
         "bands": {
-          "excellent": 2288,
-          "strong": 4,
+          "excellent": 2292,
+          "strong": 0,
           "mixed": 0,
           "weak": 0,
           "poor": 0,
@@ -180620,7 +180846,7 @@
     },
     {
       "node_id": "NODE-C83F59EEEC2A",
-      "status": "major_issues",
+      "status": "minor_issues",
       "causal_findings": [
         {
           "finding_id": "HAF-MISSING-0006",
@@ -180634,7 +180860,7 @@
             "MATERIAL_FIRST_LOOKUP_FRAGMENTATION",
             "no_usable_cross_reference_route"
           ],
-          "severity": "major",
+          "severity": "minor",
           "evidence_ids": [
             "EVID-0106-001",
             "EVID-0106-002",
@@ -183467,7 +183693,7 @@
     },
     {
       "node_id": "NODE-A2435811FD75",
-      "status": "major_issues",
+      "status": "minor_issues",
       "causal_findings": [
         {
           "finding_id": "HAF-MISSING-0001",
@@ -183483,7 +183709,7 @@
             "COV",
             "no_supported_agricultural_crisis_or_harvest_route_to_downstream_industry_synthesis"
           ],
-          "severity": "major",
+          "severity": "minor",
           "evidence_ids": [
             "EVID-0016-001",
             "EVID-0016-002"
@@ -183704,7 +183930,7 @@
     },
     {
       "node_id": "NODE-EB34FCD7A1A0",
-      "status": "major_issues",
+      "status": "minor_issues",
       "causal_findings": [
         {
           "finding_id": "HAF-MISSING-0002",
@@ -183721,7 +183947,7 @@
             "no_usable_cross_reference_route",
             "no_supported_bishop_or_brienne_route_to_political_power_conclusion"
           ],
-          "severity": "major",
+          "severity": "minor",
           "evidence_ids": [
             "EVID-0042-001",
             "EVID-0042-002"
@@ -187532,7 +187758,7 @@
     },
     {
       "node_id": "NODE-F23742E705FF",
-      "status": "major_issues",
+      "status": "minor_issues",
       "causal_findings": [
         {
           "finding_id": "HAF-MISSING-0009",
@@ -187548,7 +187774,7 @@
             "XRF",
             "NO_CROSS_REFERENCE_TO_DISTRIBUTED_BREAKDOWN_ROUTES"
           ],
-          "severity": "major",
+          "severity": "minor",
           "evidence_ids": [
             "EVID-0191-001",
             "EVID-0191-002",
@@ -187570,7 +187796,7 @@
             "XRF",
             "NO_CROSS_REFERENCE_TO_DISTRIBUTED_BREAKDOWN_ROUTES"
           ],
-          "severity": "major",
+          "severity": "minor",
           "evidence_ids": [
             "EVID-0191-001",
             "EVID-0191-002",
@@ -188752,29 +188978,99 @@
         "view_id": "canonical_as_delivered",
         "label": "Canonical as delivered",
         "view_kind": "observed",
-        "score": 95.6,
+        "score": 97.19,
         "maximum": 100,
         "calculation": {
           "schema_version": "subject-index-dimension-calculations-v6",
           "artifact_path": "scoring/dimension-calculations.v6.json",
-          "sha256": "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
-          "calculation_sha256": "206b35875adc95ba5585f1d9437691cba5c4bc18d0eaf99c696fe82f81d6fad7",
-          "rubric_version": "subject-index-rubric-v8",
-          "calculation_profile": "subject-index-dimension-calculation-v5"
+          "sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
+          "calculation_sha256": "1e2a333fb789abdcbe193da27de5ca76dc1b81ecc38b65115597d343733c613e",
+          "rubric_version": "subject-index-rubric-v8.1",
+          "calculation_profile": "subject-index-dimension-calculation-v6"
         },
         "structure_audit": {
           "schema_version": "structure-audit-v6",
           "artifact_path": "staging/structure/structure-audit.v6.json",
-          "sha256": "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd"
+          "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
         },
         "causal_attribution": "primary_observed_result",
         "provenance_artifacts": []
       }
     ]
   },
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "review_signals": [
+    {
+      "signal_id": "REVIEW-PARTIAL-FIT",
+      "color": "yellow",
+      "affected_evidence_ids": [
+        "LOC-12D952420ABC",
+        "LOC-1E38D9E668B4",
+        "LOC-2B74EB795674",
+        "LOC-2C517828A83D",
+        "LOC-58123DEB8EB0",
+        "LOC-592F52A9DF1C",
+        "LOC-805F174738EB",
+        "LOC-C4A61C608A77",
+        "LOC-D04432EFADD0",
+        "LOC-D641B69458DB",
+        "LOC-D92A08C94A10",
+        "LOC-DCE11580DE03",
+        "LOC-E25B65970A6E"
+      ],
+      "count": 13,
+      "reason": "Partial fits retain ordinary diagnostic and rating consequences; no cap or gate.",
+      "individually_caps_or_gates": false
+    },
+    {
+      "signal_id": "REVIEW-MISSING-SUPPLEMENTAL-ROUTE",
+      "color": "yellow",
+      "affected_evidence_ids": [
+        "SUBJ-0016",
+        "SUBJ-0042",
+        "SUBJ-0055",
+        "SUBJ-0056",
+        "SUBJ-0057",
+        "SUBJ-0058",
+        "SUBJ-0106",
+        "SUBJ-0109",
+        "SUBJ-0111",
+        "SUBJ-0112",
+        "SUBJ-0113",
+        "SUBJ-0151",
+        "SUBJ-0157",
+        "SUBJ-0159",
+        "SUBJ-0191",
+        "SUBJ-0215",
+        "SUBJ-0238",
+        "SUBJ-0246",
+        "SUBJ-0273",
+        "SUBJ-0280",
+        "SUBJ-0284",
+        "SUBJ-0286",
+        "SUBJ-0290",
+        "SUBJ-0292",
+        "SUBJ-0309",
+        "SUBJ-0435",
+        "SUBJ-0481",
+        "SUBJ-0483",
+        "SUBJ-0485",
+        "SUBJ-0488",
+        "SUBJ-0494",
+        "SUBJ-0559"
+      ],
+      "count": 32,
+      "reason": "Supplemental route omissions remain scored; no individual cap or gate.",
+      "individually_caps_or_gates": false
+    }
+  ],
   "methodology": {
-    "rubric_version": "subject-index-rubric-v8",
-    "calculation_profile": "subject-index-dimension-calculation-v5",
+    "rubric_version": "subject-index-rubric-v8.1",
+    "calculation_profile": "subject-index-dimension-calculation-v6",
     "locator_utility": "Independent page treatment and complete-path fit remain separate diagnostics.",
     "diagnostic_minimum_rule": "The displayed locator grade is 100 times min(treatment, complete-path fit).",
     "binary_keep_rule": "Only supported locators receive Page-reference Reliability keep credit.",
@@ -188787,18 +189083,19 @@
   "comparability": {
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
     "benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
-    "judgment_policy_sha256": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
+    "judgment_policy_sha256": "c2e7a937b9c86307891624d4b578ebd603815bed7e8ffe4c35890879146afc8f",
     "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
     "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
     "inclusion_policy": "Frozen current-V8 source scope and candidate-blind benchmark.",
     "audit_mode": "full",
     "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
-    "rubric_version": "subject-index-rubric-v8",
-    "dimension_calculation_profile": "subject-index-dimension-calculation-v5"
+    "rubric_version": "subject-index-rubric-v8.1",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v6"
   },
   "disclosures": [
     "Item grades are diagnostic and do not reconstruct the six-dimension score.",
-    "Critical gates are reported separately from score arithmetic."
+    "Critical gates are reported separately from score arithmetic.",
+    "Exact percentage and weighted-contribution strings are authoritative; numeric rating and points aliases exist only for the established generic website adapter."
   ],
   "limitations": [
     "The evaluation covers the supplied 425-page main-text span; unavailable front matter, endnotes, and later matter are outside the source and are not inferred.",
@@ -188810,19 +189107,19 @@
     "calculation": {
       "schema_version": "subject-index-dimension-calculations-v6",
       "artifact_path": "scoring/dimension-calculations.v6.json",
-      "sha256": "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
-      "calculation_sha256": "206b35875adc95ba5585f1d9437691cba5c4bc18d0eaf99c696fe82f81d6fad7",
-      "rubric_version": "subject-index-rubric-v8",
-      "calculation_profile": "subject-index-dimension-calculation-v5"
+      "sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
+      "calculation_sha256": "1e2a333fb789abdcbe193da27de5ca76dc1b81ecc38b65115597d343733c613e",
+      "rubric_version": "subject-index-rubric-v8.1",
+      "calculation_profile": "subject-index-dimension-calculation-v6"
     },
     "structure_audit": {
       "schema_version": "structure-audit-v6",
       "artifact_path": "staging/structure/structure-audit.v6.json",
-      "sha256": "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd"
+      "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
     },
     "item_assessments": {
       "artifact_path": "scoring/item-assessments.v7.json",
-      "sha256": "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321"
+      "sha256": "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82"
     }
   }
 }

@@ -1,10 +1,18 @@
 # OHFR 2002 — IndexPDF subject-index evaluation
 
-This repository evaluates IndexPDF’s delivered subject-index Markdown export for *The Oxford History of the French Revolution* (2002) using the current Evaluate Subject Index V8 workflow.
+This repository evaluates IndexPDF’s delivered subject-index Markdown export for *The Oxford History of the French Revolution* (2002) using the Evaluate Subject Index V8.1 consequence methodology.
 
 The single canonical workflow state and artifact inventory is [`evaluation/evaluation-state.json`](evaluation/evaluation-state.json). The evaluation ID is `ohfr-2002-indexpdf-v8`. The source has 425 pages; front matter and endnotes absent from that supplied file are outside the available source.
 
-## Current milestone
+## Current V8.1 migration
+
+The authorized targeted migration is complete: **97.19/100**, **zero triggered or binding ceilings**, **zero publication gates**, and **valid evaluation evidence**. Findability is 97.97826850%; the other five dimensions are unchanged. The original V8 score was 95.60 with a binding 90% Findability ceiling and three publication gates.
+
+The [migration report](migration/REPORT.md), [exact change ledger](migration/change-ledger.json), and [validation results](migration/validation.json) explain every targeted judgment and hash change. All 150 current methodology tests pass. All 158 original registered artifacts are byte-preserved locally at `evaluation/archive/v8-original`; public V8 reports also remain in Git at `dbb35e5`. The 148 unchanged artifacts include every locator and missing-access audit, the source, mapping, benchmark release, and candidate normalization. No discovery, benchmark review, or new approval was performed. Current registered scoring/report artifacts use the installed methodology at `25fa3983f4980ad6a168610e08b128def11258b2`.
+
+The sections below preserve the historical V8 completion account. Their old score, gates, reviews, runtime and website checks describe that original release, not a new independent review of this migration. The original delivered-Markdown, source-scope and density limitations still apply.
+
+## Original V8 completion (historical)
 
 The exact source, page map, 17 previously approved chapter chunks, and frozen V8 policy have been verified and registered. All 425 source pages have exactly one chunk owner. An independent candidate-blind compatibility review selected the existing native V8 benchmark (638 subjects, 281 relationships, 638 reader tasks); discovery and full editorial review are not being repeated.
 
@@ -16,7 +24,7 @@ The candidate passed complete private validation: 2,548 records/paths, 2,812 dis
 
 Structure is registered with 2,292 heading nodes, 1,781 locator-bearing paths, 14 node exceptions, and 16 grouped defects. Ten locator lists triggered architectural review; three have confirmed subdivision defects. All 257 delivered cross-references are supported. The deterministic score is **95.60/100**, with three critical gates triggered. The complete public report and companion bundle passed independent closure review, canonical validation, all four existing website collection parsers, scoring-byte preservation, and source-overlap checks. The generic website adapter now loads this bundle without borrowing another evaluation’s data. Independent website closure passed after fixing explicit null states and legacy narrative selection. All 50 focused tests, TypeScript, the 72-page production build, and browser checks passed. No IndexPDF page was added. Website compatibility work was integrated on local main at `1345ed8bbe91898b0fb55258c4403b7f83dacdba` at the user’s direction; the remaining local commits are reserved for the user to push.
 
-## Results
+## Original V8 results (historical)
 
 The canonical score is **95.60/100 — Excellent**. Readiness is **Not publication ready**: central-omission, compound-path, and major-grounding gates are triggered. Gates restrict the readiness claim and do not change the arithmetic.
 
@@ -58,7 +66,7 @@ Website scope is the complete public bundle and a generic adapter compatibility 
 Public source-specific stance narratives are explicitly withheld. Locator and access explanations are generated from structured judgments and evidence identities; the complete authored narratives remain private. This changes presentation only, preserving all canonical scoring files and uncertainty identities.
 
 
-## Final verification and handoff
+## Original V8 verification and handoff (historical)
 
 Canonical validation reports no errors or warnings, all 16 stages are complete, and the typed workflow returns no next actions. The public package preserves delivered order and exact collection bindings; no correction overlay applies. All 46 delegated task IDs are archived after useful outputs were preserved, including the evaluator producer later reused and archived by the separate Indexia run.
 
