@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
+  "installed_files_verified": 110,
+  "installation_receipt_sha256": "77f27d2142de8be509faf94a6f8159a3913bad14f6fa96afc1a06bb11dbfd987",
+  "original_v8_artifacts_verified": 158,
+  "v8_1_baseline_artifacts_verified": 158,
+  "v8_2_artifacts_verified": 158,
+  "state_errors": [],
+  "state_warnings": [],
+  "overall_before": 97.19,
+  "overall_after": 97.19,
+  "numeric_invariance": "All six entire dimension records identical after excluding only formula-version labels and the exact policy file-hash binding; this includes every component, denominator, deduction, bound, cap evaluation, weighted contribution and final percentage. Overall and arithmetic check identical.",
+  "frozen_judgments": "All locator, missing-access and complete structure artifacts byte-identical; all item-assessment judgment rows and causal findings identical.",
+  "provenance": "Native builder reconstruction, original/base policy hashes, original freeze, truthful migration freeze and every reused-stage evidence hash verified.",
+  "projection": "Full bundle schemas, self/file hashes, collection counts, order, identities and privacy checks passed; current report/result/items/calculation schemas passed.",
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "gate_assessment": {
+    "status": "sufficient",
+    "blockers": []
+  },
+  "triggered_gate_ids": [
+    "GATE-WRONG-LOCATOR"
+  ],
+  "unique_affected_locator_ids": [
+    "LOC-05BE1111509F",
+    "LOC-0627DDDC45EE",
+    "LOC-5CEE64F02874",
+    "LOC-8909AEDE85AA",
+    "LOC-B9B6F4DBC156",
+    "LOC-C853B3459625"
+  ],
+  "broken_references": 0,
+  "triggered_ceilings": 0,
+  "binding_ceilings": 0,
+  "review_signals_unchanged": true,
+  "full_methodology_tests": {
+    "passed": 170,
+    "failed": 0,
+    "duration_seconds": 45.443,
+    "includes": "Wrong-destination gates, native migration provenance, consequence policy, registered completion, schemas and projection regression suites"
+  },
+  "release_status": "provisional_adeb691_verified; final release binding and gate publication held pending reviewed uncertainty-scope patch"
+}

@@ -1,0 +1,620 @@
+{
+  "schema_version": "subject-index-policy-build-input-v1",
+  "policy_id": "ohfr-2002-indexpdf-v8.2-retrospective-policy",
+  "source_scope": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "included": [
+      "preparation-approved indexable content",
+      "substantive body, chapter, and part text",
+      "substantive block quotations",
+      "substantive inspectable notes, footnotes, and endnotes",
+      "substantive captions and table text",
+      "eligible text whose role remains unknown",
+      "main text on supplied source pages 1-425"
+    ],
+    "excluded": [
+      "front or back matter designated nonindexable",
+      "bibliographies and source lists",
+      "publisher and candidate indexes",
+      "contents pages and navigation lists",
+      "running furniture and page numbers",
+      "proof or production material",
+      "graph internals and ignored regions",
+      "material unavailable in the supplied source",
+      "front matter, endnotes, and other matter absent from the supplied 425-page source"
+    ],
+    "availability": {
+      "status": "partial_source_supplied",
+      "available_document_page_span": [
+        1,
+        425
+      ],
+      "unavailable_material": [
+        "front matter before source page 1",
+        "endnotes and other matter after source page 425"
+      ],
+      "note": "The exact 425-page source bytes used by the existing evaluation are available; omitted matter is not inferred or substituted."
+    },
+    "mixed_page_rule": "Evaluate eligible regions and ignore excluded regions on the same page.",
+    "word_count_basis": "indexable source words only"
+  },
+  "audience": {
+    "label": "scholarly",
+    "basis": "user_supplied",
+    "confidence": "high",
+    "rationale": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+  },
+  "audit_design": {
+    "mode": "full",
+    "candidate_blindness": "required",
+    "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+    "uninspectable_locator_rate_tolerance": 0.01
+  },
+  "deviations": [],
+  "retrospective_migration": {
+    "original_policy": {
+      "policy_id": "ohfr-2002-original-published-index-v8-policy",
+      "policy_profile_id": "subject-index-standard-policy-v8",
+      "policy_sha256": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
+      "artifact": {
+        "path": "../../evaluation/archive/v8-original/source/evaluation-policy.v4.json",
+        "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b"
+      },
+      "freeze": {
+        "frozen_at": "2026-09-09T13:34:36Z",
+        "candidate_seen": false
+      }
+    },
+    "migrated_at": "2026-09-16T17:18:23Z",
+    "candidate_seen": true,
+    "authorization": {
+      "authorized_by": "user, dispatched through the Published OHFR coordinating task",
+      "reference": "migration/v8.2/AUTHORIZATION.md"
+    },
+    "change_ledger_reference": "migration/v8.2/change-ledger.json",
+    "reused_stages": {
+      "page_mapping": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/page-map.json",
+            "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+          }
+        ]
+      },
+      "chunk_definition": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunk-manifest.json",
+            "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+          }
+        ]
+      },
+      "source_subject_discovery": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/import/native-v8-release/legacy-state.json",
+            "sha256": "6a18926c020f1b5a7e9d08fcab9d09e1886a1a89ae016181f63446d18c1b4d5a"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/import/native-v8-release/source/chunk-manifest.json",
+            "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/import/native-v8-release/source/evaluation-policy.v4.json",
+            "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/import/native-v8-release/source/page-map.json",
+            "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+          }
+        ]
+      },
+      "benchmark_synthesis": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/import/native-v8-release/source/source-benchmark.draft.v1.json",
+            "sha256": "a84d96aa8ed6bb4233d035f11f0f09cf232aa351fa494dad897db3cc85a41294"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/import/native-v8-release/source/source-benchmark.v2.json",
+            "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c"
+          }
+        ]
+      },
+      "benchmark_review": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/import/native-v8-release/validation/source-benchmark-review-inventory.json",
+            "sha256": "5278f3dc570feaec86eb58eddcdd16d7fbdc0c7ba38ec15e5a813fcc0b5fd8d3"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/import/native-v8-release/validation/source-benchmark-review.v1.json",
+            "sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/validation/source-benchmark-compatibility-approval.v1.json",
+            "sha256": "60a4890ee1915cd81e368ec7876d3fc42c4e0d96785c8419955eaaefb6f92083"
+          }
+        ]
+      },
+      "benchmark_freeze": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/source-benchmark.v3.json",
+            "sha256": "06cc88f02103c8730845c55d1f93b4224c1828df45981bb7df4b4bbf45064f67"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/validation/source-benchmark-compatibility-import-provenance.v1.json",
+            "sha256": "37a4c74e7d4d206f9270dfc72a643f9648f416ae5c9fbf386cf034129d5976c6"
+          }
+        ]
+      },
+      "candidate_normalization": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
+            "sha256": "18fecb7858643520e58a4e639f074cc701707e49b52cc3061461750b68054177"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-layout-extraction.v1.json",
+            "sha256": "374057c272e7905e6cdc4aa3a017346efb7ae3f27aaf69c012df32ed76f6298f"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
+            "sha256": "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737"
+          }
+        ]
+      },
+      "source_chunk_preparation": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-001.pages.json",
+            "sha256": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-001.pdf",
+            "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-002.pages.json",
+            "sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-002.pdf",
+            "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-003.pages.json",
+            "sha256": "137041fcbc7ece6a63fbef85072c760f342fc92b28734410a8aeccd1d5c8a272"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-003.pdf",
+            "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-004.pages.json",
+            "sha256": "1353e5061e5cc9988be43e54fe912a2c5b4b2e6bd2e069edb529786a0fde01a8"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-004.pdf",
+            "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-005.pages.json",
+            "sha256": "f9117474d9c2f749acbf2564b8e9e1fa08b8ba2b8a9808cb9175376cf3a574bf"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-005.pdf",
+            "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-006.pages.json",
+            "sha256": "b87631df54474bc7167f0eb7b4dd1e187cb75da7fe5a09d7697c2e798a66f154"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-006.pdf",
+            "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-007.pages.json",
+            "sha256": "693a25f982ac97534f3380439f2b56b35b1e1e023a4686d4e40e7b9950e9c423"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-007.pdf",
+            "sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-008.pages.json",
+            "sha256": "be52821ccc83f0449e9230ea1d0eebab1ca21509bf5757a8281f9ecd35b256ef"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-008.pdf",
+            "sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-009.pages.json",
+            "sha256": "4c25483f5fbd081ae044d416e6c0218f55c32544f8d85f14d6a102bd35de1bf5"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-009.pdf",
+            "sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-010.pages.json",
+            "sha256": "a47ea2d7d5d3f22b92e602ec257eeb6270ec473e925c062ab0c5ae21c850f2d2"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-010.pdf",
+            "sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-011.pages.json",
+            "sha256": "76bd6dbe287db97c2e7c9bb07da5d5646e5b7a4f4b8b7b2af07ab496248250bb"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-011.pdf",
+            "sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-012.pages.json",
+            "sha256": "1aae86ff378f6183aa249f64159ad6989faf4b2a670f99e943212e84c64c9fef"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-012.pdf",
+            "sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-013.pages.json",
+            "sha256": "9851fef1e66228487ec0e40b0e3815cd7545f32a5cb17fa160d077fe700db264"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-013.pdf",
+            "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-014.pages.json",
+            "sha256": "69931f8ac03b3e62741bd23de5a17b2bc99f0d53857c7bb150517631a2c10e17"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-014.pdf",
+            "sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-015.pages.json",
+            "sha256": "f289a89749e60a58a78c7c7f0dfee21c8ca38910dfab17f1adfdc08675f409d8"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-015.pdf",
+            "sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-016.pages.json",
+            "sha256": "645c8040bdca4f7717bd90497f417eb37e8469ae770dcdac4edc1cf5efd428fb"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-016.pdf",
+            "sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-017.pages.json",
+            "sha256": "0d58ce5bc2a9e81e9c8adb53f2c44c9461abfbbfa70198300109dbed98079cbc"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/chunks/CHUNK-017.pdf",
+            "sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-001.txt",
+            "sha256": "c04d135598db4cfa770869f8a6e4b945a23d4d9a527b91f96da9680b214495c3"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-002.txt",
+            "sha256": "5fb45d993d538cb016adfa6af52cb952be6b50bcddc0d9967554a9d9e988e28f"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-003.txt",
+            "sha256": "0ad2f637bbc0f5281a3e5c52bda85823669f9c8d4dd916fd2da7498e757dbc78"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-004.txt",
+            "sha256": "bdf4bb79062fdc27c51efb45d185a4495057c3323e27034796f7424279b675e8"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-005.txt",
+            "sha256": "421c5e797d224db0805954c4412c857722c44d6a066c6f72d5b76114fd230a0f"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-006.txt",
+            "sha256": "11e41246d8b0ae7c8b98468ceda3f162ac144c56aa90b86c0d291e24f19d16eb"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-007.txt",
+            "sha256": "19e046e71903f3e30a611c9d5cda44058a6550a41222d186bfcda3a957822b28"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-008.txt",
+            "sha256": "1500eecbf8e624e7f75f891c836ad70448750882384b7d1051eb7ee378ea437b"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-009.txt",
+            "sha256": "9ca1e79a1372ec8450eae7b29f62171911d208239074de674ac3a6160c9848af"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-010.txt",
+            "sha256": "eacff741ea195efa2a8572ca40bf36cbe49371167bf7fc6c22844dd9d624a09d"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-011.txt",
+            "sha256": "a53add70c059f13790030edd32c101ccc4d26e384ce8d056263af0138a6954e3"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-012.txt",
+            "sha256": "9bd7d7ccd249d16f7309dad3203563759fceff3410aaba12019b26c1c2740f0c"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-013.txt",
+            "sha256": "f81884150d60beb09845d04a99493e6c2159fa655d6ff063e37c305c0e5141d6"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-014.txt",
+            "sha256": "51a7c7f0851cb06193362bc84f2225fc7587aa1721ce915eff96d31669324db0"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-015.txt",
+            "sha256": "24041f29cda0f29f6b5ae19e32670a08c15731e5ec9603968f387121c16a1d12"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-016.txt",
+            "sha256": "17085c53738f2a9be3bc3f481ccef0b79abd8ed932956dc1ed017abf8a338cfb"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/source/restricted/page-text/CHUNK-017.txt",
+            "sha256": "c541d7dd33bbab72925ae06b73ffd7704931ff369bfcc27782c9ff039f1496c9"
+          }
+        ]
+      },
+      "locator_chunk_preparation": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-001.json",
+            "sha256": "028206b59ab3a7144c596db403a3bcf6efd2c85f7027a6391cc98ab705f02e98"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-002.json",
+            "sha256": "ed0e9176e14a446aae30d3bbac0291aabcd630d0cf079a1544984d02d465267d"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-003.json",
+            "sha256": "80a4544e492db4233b7fae26bb9fe5b34ce41c1ba60f6339d281076a121fa8a2"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-004.json",
+            "sha256": "022a354143f92f69988f925bcf1509afaf5b61e277602d20ff09f78fd436cfcf"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-005.json",
+            "sha256": "f8b92f9abf39bcbb4437e4ed94bbe62b21aca01649541808b9490193c95ecea8"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-006.json",
+            "sha256": "69c18d1ec33fdb3b980a7fb8d1dac10daf806b182005cb1dadb23a299968dd69"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-007.json",
+            "sha256": "eea1b857a94e51e3011b49a85bc473618e77f3f37a6f4ab1c190a9f5b0d5d4c9"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-008.json",
+            "sha256": "27249eeba23f0f2ca90ccfceaa09f1791a1fbef2cfe62b640b0ec9c878b1c3ed"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-009.json",
+            "sha256": "11e94994e449a8c9e8e2ecff684bb3ff4f936ffacf69395f17594f52870b0776"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-010.json",
+            "sha256": "646d187215e01178bb7fd7cf7decedbbd1df89212f26a5d31465393a0e48b76d"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-011.json",
+            "sha256": "d09576d09b6496afbd9f6fd1e2e14496701cc7d825e87b830083e8843c9feb9e"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-012.json",
+            "sha256": "9c0f58fa610a749d7935d847ba898b102bc5a04239be21254d1cf0ed923570d7"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-013.json",
+            "sha256": "9fe4af208046d79690efd9f07cd8445fe536b07bae6a55b1e033cfd8617202cd"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-014.json",
+            "sha256": "d34d8ff2615fc992f2c2262954471684e4f25d31a78262835a4fd65417e4b51b"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-015.json",
+            "sha256": "2af902c092965b4f2bed637eb90721fb1f65392200dc5c15286d2238ec6d738d"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-016.json",
+            "sha256": "840e3ed8373d21bd66f7de94149411b86d16ce94db7ea44bf7501b95ea86a1d0"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-017.json",
+            "sha256": "353cf1a86b0f37b0e8f24ca24899fcbb81a2416370e152f6dd52834987d635e7"
+          }
+        ]
+      },
+      "locator_audit": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-001.v2.json",
+            "sha256": "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-002.v2.json",
+            "sha256": "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-003.v2.json",
+            "sha256": "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-004.v2.json",
+            "sha256": "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-005.v2.json",
+            "sha256": "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-006.v2.json",
+            "sha256": "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-007.v2.json",
+            "sha256": "bccfcc78b4b63a88ba42c56a2a91a2777925b23e7cb1f057e18d9874ff0e4bd5"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-008.v2.json",
+            "sha256": "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-009.v2.json",
+            "sha256": "412fe516a788f79893971854a7ac6a8200b2eb5861503cccae915a092ea12dd5"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-010.v2.json",
+            "sha256": "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-011.v2.json",
+            "sha256": "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-012.v2.json",
+            "sha256": "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-013.v2.json",
+            "sha256": "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-014.v2.json",
+            "sha256": "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-015.v2.json",
+            "sha256": "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-016.v2.json",
+            "sha256": "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-017.v2.json",
+            "sha256": "a8983580c6d55ae30f36bff83fb7ebf6c36ae1f6958c6241040ba8ab8bc4d2a3"
+          }
+        ]
+      },
+      "missing_access_audit": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+            "sha256": "b5976f35cd7aeb8c23979eb0bdba88464a45ae8e8e34ffea8e8fef5f3f8f19ff"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+            "sha256": "52b1c20a994d6cca1f2fdd997fde1d1e4a665599e9363600a806c41ae5b2e3de"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+            "sha256": "0c2764cab8e569b274ab9b80490c243362a7403b6751f28a5861eaf84c1e68c0"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+            "sha256": "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+            "sha256": "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+            "sha256": "5447344c9a90bec4dca861272fa353fa0d859518e914e76907ca13c991a69e25"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+            "sha256": "bdf86a6314234a471e1635fcca8190b8f79bc8f9df535a6361b98dcb7ab1af6a"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+            "sha256": "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+            "sha256": "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+            "sha256": "c519d138390695ec9efaa303f5b6f554018d65e7cfcc6dea5d72475f8aa539b0"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+            "sha256": "5641396b806c5d1c8ab3582d8d29603c37424182f75b6cd476f21d2462ea3e8b"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+            "sha256": "bc80ffc54462b28376e792a648abdd1b076b3b3d1f64af80e917352d628fa51a"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+            "sha256": "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+            "sha256": "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+            "sha256": "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+            "sha256": "464895cd1e6719a900d19252cc4e5632b85252e33233b0d184437ee13f84d358"
+          },
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+            "sha256": "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44"
+          }
+        ]
+      },
+      "structure_audit": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../../evaluation/archive/v8.1-before-v8.2/staging/structure/structure-audit.v6.json",
+            "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+          }
+        ]
+      }
+    }
+  }
+}

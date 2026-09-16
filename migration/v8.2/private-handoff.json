@@ -1,0 +1,32 @@
+{
+  "status": "provisional_adeb691_preserved_pending_reviewed_uncertainty_scope_patch",
+  "saved_project_location": "ohfr-2002-indexpdf-esi/evaluation/exports",
+  "archives": [
+    {
+      "basename": "indexpdf-v8-original.byte-archive.zip",
+      "sha256": "27f9b77c65dd9e69e6a6368ef499e81ae49e7c47b0e7e8c43b08852cbd240a0a",
+      "bytes": 21801842
+    },
+    {
+      "basename": "indexpdf-v8.1-frozen.private-complete.zip",
+      "sha256": "5323b2877227600d51969c678d6e48b6e5a3931f0f59e23e443db44a5eeffe3b",
+      "bytes": 21866552
+    },
+    {
+      "basename": "indexpdf-v8.2-adeb691-provisional.private-complete.zip",
+      "sha256": "a3b5fa30f66c5829ed076483b21bd83a695eed695fff1ce559e59c17ac5741a5",
+      "bytes": 21876356
+    }
+  ],
+  "v8_2_state_sha256": "c041496b27503063cc16634ac1b6fb763e973bb6df4361cb9fbdc856bfd8718e",
+  "registered_artifacts_verified": 158,
+  "exclusions": 0,
+  "permissions": "0600",
+  "saved_active_evaluation": "Original V8 unchanged and coherent; no public/private cutover performed.",
+  "restore_layout": {
+    "current": "evaluation",
+    "original_v8": "evaluation/archive/v8-original",
+    "v8_1": "evaluation/archive/v8.1-before-v8.2"
+  },
+  "dependency": "Wait for coordinating task to provide merged/tested/installed uncertainty-scope patch receipt before final gate publication, PR merge or cutover."
+}
