@@ -2,8 +2,8 @@
   "migration_id": "ohfr-2002-indexpdf-v8.1-to-v8.2-2026-09-16",
   "authorization_reference": "migration/v8.2/AUTHORIZATION.md",
   "baseline_git_commit": "bab45952aad6c3115e35acfdfc8f23a50e17e4ed",
-  "methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
-  "installation_receipt_sha256": "77f27d2142de8be509faf94a6f8159a3913bad14f6fa96afc1a06bb11dbfd987",
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
   "original_policy_archive": "evaluation/archive/v8-original/source/evaluation-policy.v4.json",
   "latest_baseline_archive": "evaluation/archive/v8.1-before-v8.2",
   "verified_baseline_checkpoint_sha256": "5323b2877227600d51969c678d6e48b6e5a3931f0f59e23e443db44a5eeffe3b",
@@ -1133,31 +1133,31 @@
     {
       "path": "scoring/dimension-calculation-input.v2.json",
       "before_sha256": "8742e026e90af1a1d26dcd6c76a33e05e72c3962de262e13d062204e1d1b275b",
-      "after_sha256": "c5f4b2004b4b313bd83ecf0fd8d400ca8765a36f32f88c63b1cab2305d14e676",
+      "after_sha256": "ad49010ef18f5ef821191d12521cab44bd789e6aa8333f1959f0c74358c15b87",
       "disposition": "derived_regeneration"
     },
     {
       "path": "scoring/dimension-calculations.v6.json",
       "before_sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
-      "after_sha256": "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb",
+      "after_sha256": "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47",
       "disposition": "derived_regeneration"
     },
     {
       "path": "scoring/evaluation-result.v12.json",
       "before_sha256": "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa",
-      "after_sha256": "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c",
+      "after_sha256": "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4",
       "disposition": "derived_regeneration"
     },
     {
       "path": "scoring/item-assessments.v7.json",
       "before_sha256": "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82",
-      "after_sha256": "848b6b188e0caa09e49701b34029681ed773261bf724bbd04e95fcd7b50e1719",
+      "after_sha256": "c390a8e8af7fdb764c44aaf523e822ddd542a9c60151155916c51cd89ac2abb3",
       "disposition": "derived_regeneration"
     },
     {
       "path": "scoring/projection-metadata.v2.json",
       "before_sha256": "7b99fd37a85820968e548a06424fab5da89da679dd4f028c4a6033f81dc4ade5",
-      "after_sha256": "efba995215b726b754d3bf36e38c459660bfcddc37b3bbd3b639bc76c2e1e023",
+      "after_sha256": "3de460baeaf49403c11576c67a2a32cb3fcc1f1de73a924dc1eae1dc54810bdf",
       "disposition": "derived_regeneration"
     },
     {
@@ -1181,13 +1181,13 @@
     {
       "path": "scoring/v8-canonical-projection/projection.v1.json",
       "before_sha256": "de8a402829c5e02a7a21bb687b45a70d72a2d1492b1e5e770dc9882ccd993b56",
-      "after_sha256": "433272e55bd96a28609edcdb8db268781719479bd300347ccf93b7f80ef30771",
+      "after_sha256": "d7eb49b5787f41a867fba7d0efad1043fa412ec757961e8440ff6c8907ac7c68",
       "disposition": "derived_regeneration"
     },
     {
       "path": "scoring/web-report.v10.json",
       "before_sha256": "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c",
-      "after_sha256": "24b3085a245a34a8cacbb2a6f31f1177e6b9cf0ec57696b6385aaaec438a4f66",
+      "after_sha256": "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99",
       "disposition": "derived_regeneration"
     },
     {
@@ -1529,8 +1529,8 @@
     {
       "path": "staging/structure/structure-audit.v6.json",
       "before_sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
-      "after_sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
-      "disposition": "unchanged_reused"
+      "after_sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
+      "disposition": "additive_uncertainty_gate_scopes_original_fields_unchanged"
     },
     {
       "path": "staging/structure/structure-review-report.md",
@@ -1691,7 +1691,7 @@
     {
       "path": "evaluation-state.json",
       "before_sha256": "eea7161e1ebbbce6613fd6868b14e73f0e016c0194d937f4123d8fcfe90fa980",
-      "after_sha256": "c041496b27503063cc16634ac1b6fb763e973bb6df4361cb9fbdc856bfd8718e",
+      "after_sha256": "577f66ae217afa3486398620ddab17f28db6036cfed3cef643147c9b2844e8f8",
       "disposition": "canonical_registration_and_identity_update"
     }
   ],
@@ -2009,7 +2009,7 @@
       ],
       "structure_audit": {
         "path": "../staging/structure/structure-audit.v6.json",
-        "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+        "sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a"
       }
     }
   },
@@ -2086,7 +2086,14 @@
     ],
     "frozen_judgment_changes": [],
     "target_resolution_encoding_changes": [],
-    "reason": "Complete structure audit is byte-identical: zero cross-reference exceptions, 257 supported references under preserved full-scope pass attestation. No null target inference or new target adjudication."
+    "reason": "All original structure fields, uncertainties, denominators, judgments, and causal findings preserved; only uncertainty_gate_scopes added. Zero cross-reference exceptions and 257 supported references remain under the unchanged full-scope pass attestation. No null-target inference or new target adjudication.",
+    "diagnostic_item_grades_unchanged": true,
+    "arithmetic_structure_projection_unchanged": true,
+    "comparison_exclusions": [
+      "V8.1 formula-version label",
+      "exact policy artifact hash",
+      "exact structure artifact hash"
+    ]
   },
   "gate_change": {
     "before_triggered": [],
@@ -2240,7 +2247,78 @@
   },
   "readiness_before": "publication_ready",
   "readiness_after": "not_publication_ready",
-  "reuse_statement": "No discovery, mapping, benchmark construction/review, candidate normalization or audits rerun. The original benchmark release/review/compatibility approval and all locator/missing/structure audit bytes are unchanged. Current policy is selected by canonical state and exact calculation input; frozen evidence retains its historical provenance hashes.",
+  "reuse_statement": "No discovery, mapping, benchmark construction/review, candidate normalization or audits rerun. Original benchmark release/review/compatibility approval and all locator/missing-access audit bytes unchanged. Structure adds only explicit uncertainty gate scopes; all original fields and records preserved. Registered structure/score/report commands update the exact hash cascade. Historical evidence bindings remain preserved.",
   "validation_reference": "migration/v8.2/validation.json",
-  "release_status": "provisional_adeb691_verified; final release binding and gate publication held pending reviewed uncertainty-scope patch"
+  "release_status": "final_c11c6ccb_validated_ready_for_evaluation_PR_review; no merge or deployment",
+  "uncertainty_scope_patch": {
+    "methodology_pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/50",
+    "preserved_checkpoint_commit": "a49ddfeadb774ca806d91c7e1a38fb9e090c0f7b",
+    "preserved_checkpoint_sha256": "a3b5fa30f66c5829ed076483b21bd83a695eed695fff1ce559e59c17ac5741a5",
+    "preserved_archive": "evaluation/archive/v8.2-adeb691-before-scope-patch",
+    "structure_before_sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
+    "structure_after_sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
+    "original_uncertainties_canonical_sha256": "ba25de223af3c0bbc927fa3c8fe608e2739178e005a687b432d1d5f024b4b8c2",
+    "scope_supplements": [
+      {
+        "uncertainty_id": "UNCERTAINTY-SOURCE-SPAN-001",
+        "scope": "measurement_provenance",
+        "target_ids": [
+          "GLOBAL-STRUCTURE"
+        ],
+        "evidence_ids": [],
+        "rationale": "The preserved record limits evaluation to the supplied 425-page main-text source and excludes unavailable matter. The registered policy independently binds the exact source hash and page span; the locator audits inspect that same available source. This is a declared evaluation-extent limitation, not doubt about source identity or the support at evaluated destinations. No unavailable matter is inferred and no wrong-source or uninspectable finding is waived."
+      },
+      {
+        "uncertainty_id": "UNCERTAINTY-CANDIDATE-FIDELITY-001",
+        "scope": "measurement_provenance",
+        "target_ids": [
+          "GLOBAL-STRUCTURE"
+        ],
+        "evidence_ids": [],
+        "rationale": "The preserved record limits typography claims to the frozen delivered Markdown and registered layout extraction. Those evaluated candidate bytes and their normalized inventory are independently hash-bound and passed the existing complete fidelity review. The limitation concerns unexamined physical typography outside that representation, not the identity of the evaluated candidate or support at its delivered destinations. No claim about the unavailable producer PDF is added."
+      },
+      {
+        "uncertainty_id": "UNCERTAINTY-DENSITY-WORDS-001",
+        "scope": "measurement_provenance",
+        "target_ids": [
+          "CHUNK-001",
+          "CHUNK-002",
+          "CHUNK-003",
+          "CHUNK-004",
+          "CHUNK-005",
+          "CHUNK-006",
+          "CHUNK-007",
+          "CHUNK-008",
+          "CHUNK-009",
+          "CHUNK-010",
+          "CHUNK-011",
+          "CHUNK-012",
+          "CHUNK-013",
+          "CHUNK-014",
+          "CHUNK-015",
+          "CHUNK-016",
+          "CHUNK-017"
+        ],
+        "evidence_ids": [],
+        "rationale": "The preserved record concerns the frozen source-word density denominator and chunk-level extraction, exclusion, hyphenation and tokenization estimates. Those counts remain unchanged. It does not question the independently bound source/candidate identities or any locator support or cross-reference destination finding; no source-inspection or destination-evidence safeguard is waived."
+      },
+      {
+        "uncertainty_id": "UNCERTAINTY-FIRST-LOOKUP-0494",
+        "scope": "benchmark_access",
+        "target_ids": [
+          "SUBJ-0494",
+          "TASK-0494",
+          "NODE-E9D267DB737D"
+        ],
+        "evidence_ids": [],
+        "rationale": "The preserved record retains a medium-confidence boundary judgment about first-lookup effort across multiple supported routes. The unchanged missing-access subject/task evidence records all expected treatments as found and locates uncertainty in the combined subject retrieval task. It does not question the correctness of individual delivered locator destinations or the existence of cross-reference targets. The subject/task/node targets and original uncertainty remain unchanged."
+      }
+    ],
+    "review_basis": "Read every original uncertainty statement; checked original source-scope binding, candidate/layout/inventory identities, complete structure attestation, frozen density limitation and SUBJ-0494 missing-access evidence. No classification was inferred from kind strings or prefixes. Original structure uncertainty rows contain no evidence_ids, so all supplements retain empty arrays without inventing IDs.",
+    "registered_commands": [
+      "register-structure",
+      "score",
+      "build-report"
+    ]
+  }
 }

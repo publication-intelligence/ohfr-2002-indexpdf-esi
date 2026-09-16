@@ -1,6 +1,6 @@
-# IndexPDF combined V8.2 migration — provisional checkpoint
+# IndexPDF combined V8.2 migration
 
-**Release hold:** the coordinator has requested a reviewed V8.2 uncertainty-scoping patch. This document records the validated `adeb691` checkpoint; final gate publication, PR finalization/merge and saved-project cutover await the patched release receipt. No judgment changes or audit reruns are planned.
+**Reviewed patch applied:** methodology PR 50 (`c11c6ccb`) is installed and verified. The original `adeb691` checkpoint is preserved separately. Four explicit uncertainty scopes supplement the unchanged frozen uncertainty records; no audit was rerun.
 
 **Score: 97.19 → 97.19.** Every numeric dimension, component, denominator, deduction, uncertainty bound, cap evaluation and weighted contribution is unchanged from the verified V8.1 checkpoint. There are still **zero triggered or binding ceilings**. No frozen judgments were edited.
 
@@ -32,7 +32,7 @@ These are **one gate and six unique assignments**, not six gates. Exact complete
 
 The seventh unsupported locator, `LOC-0D7950EB3BA7`, has `exact_fit` and weak treatment; it does not qualify. All 13 material partial fits, their ordinary deductions, and the 32 missing-route yellow signals remain unchanged. Nonzero fits and missing supplemental routes were not reclassified to force gates.
 
-`GATE-BROKEN-REFERENCE` does not trigger. The frozen V6 structure ledger has no reference exceptions and attests all 257 delivered references as supported. That supported pass attestation is explicitly reusable under V8.2. No `target_resolution` rows were invented, no null normalized target was treated as a broken destination, and the entire structure ledger remains byte-identical.
+`GATE-BROKEN-REFERENCE` does not trigger. The frozen V6 structure ledger has no reference exceptions and attests all 257 delivered references as supported. That supported pass attestation is explicitly reusable under V8.2. No `target_resolution` rows were invented, no null normalized target was treated as a broken destination, and every original structure field remains unchanged. Only the additive scope supplement changes the structure bytes.
 
 ## Provenance and exact scope
 
@@ -40,13 +40,14 @@ The preserved original V8 policy is the actual candidate-blind policy at `evalua
 
 The native policy builder consumed [policy-build-input.json](policy-build-input.json), the original policy through `--original-policy`, and the V8.1 policy through `--base-policy`. Its schema-defined `retrospective_migration` records the actual V8.2 time, `candidate_seen: true`, [existing authorization](AUTHORIZATION.md), original policy/freeze and exact reused-stage evidence hashes. The old `policy_profile.targeted_migration` workaround is removed. Source scope, audience, audit design, density settings and deviations are unchanged; existing V8.1 gates are retained and the two V8.2 direct gates added.
 
-Identities are `subject-index-standard-policy-v8.2`, `subject-index-rubric-v8.2`, and `subject-index-dimension-calculation-v7`. Installed methodology revision `adeb69171a3278893e8b7ebb3c664ee5bd428efe` was verified across all 110 installed files against receipt SHA-256 `77f27d2142de8be509faf94a6f8159a3913bad14f6fa96afc1a06bb11dbfd987`.
+Identities are `subject-index-standard-policy-v8.2`, `subject-index-rubric-v8.2`, and `subject-index-dimension-calculation-v7`. Installed methodology revision `c11c6ccb16000fe79646af16b7be01f6cbeeac78` was verified across all 111 installed files against receipt SHA-256 `f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204`.
 
-No source discovery, mapping, benchmark synthesis/review, normalization or audit was rerun. Original benchmark release, review and compatibility approval bytes remain separate unchanged historical provenance. The current policy is selected through canonical state and exact calculation-input hashes; historical worker and benchmark policy bindings are retained. Scoring/reporting were reopened only for their derived outputs and completed with registered `score` and `build-report` commands.
+No source discovery, mapping, benchmark synthesis/review, normalization or audit was rerun. Original benchmark release, review and compatibility approval bytes remain separate unchanged historical provenance. The current policy is selected through canonical state and exact calculation-input hashes; historical worker and benchmark policy bindings are retained. The structure registration and scoring/reporting hash cascade were reopened and completed with registered `register-structure`, `score` and `build-report` commands. The scope patch does not rerun the audit: it adds three `measurement_provenance` rows for the frozen source extent, candidate representation and density limitations, and one `benchmark_access` row for the existing first-lookup uncertainty. All original targets remain; all original rows lack evidence IDs, so the supplements use empty arrays with grounded rationales. See the preserved [scope proposal](uncertainty-gate-scopes.proposed.json) and applied supplement in the change ledger.
 
-Eight registered files change, plus canonical state:
+Nine registered files change, plus canonical state:
 
 - `source/evaluation-policy.v4.json`
+- `staging/structure/structure-audit.v6.json`
 - `scoring/dimension-calculation-input.v2.json`
 - `scoring/dimension-calculations.v6.json`
 - `scoring/item-assessments.v7.json`
@@ -56,13 +57,13 @@ Eight registered files change, plus canonical state:
 - `scoring/v8-canonical-projection/projection.v1.json`
 - `evaluation-state.json`
 
-All paths above are relative to `evaluation/`. The other **150 registered artifacts**, including all audits and **all three public data collections**, remain byte-identical. Item-assessment arrays also remain identical; their outer policy/calculation provenance changes. README and the files in this migration folder supply documentation, authorization, exact build input, validation and change records; the canonical state remains the sole workflow inventory.
+All paths above are relative to `evaluation/`. The other **149 registered artifacts**, including all locator and missing-access audits and **all three public data collections**, remain byte-identical. Item-assessment arrays also remain identical; their outer policy/calculation provenance changes. README and the files in this migration folder supply documentation, authorization, exact build input, validation and change records; the canonical state remains the sole workflow inventory.
 
 ## Validation and handoff
 
-All **170 methodology tests passed**. Canonical state has no errors/warnings and no next action. Verification reconstructed the native policy, deterministic calculation and item assessment outputs; checked original/V8.1/V8.2 exact artifact hashes; and validated current schemas and complete projection/collection hashes, counts, order, joins and privacy checks. Entire dimension records compare identically after excluding only the formula-version label and exact policy-hash binding. See [validation.json](validation.json) and the repeatable `verify.py` check.
+All **180 methodology tests passed**. Canonical state has no errors/warnings and no next action. Verification reconstructed the native policy, deterministic calculation and item assessment outputs; checked original/V8.1/V8.2 exact artifact hashes; and validated current schemas and complete projection/collection hashes, counts, order, joins and privacy checks. Entire dimension records compare identically after excluding only the formula-version label and exact policy/structure hash bindings. Against the provisional V8.2 calculation, only the structure hash binding changes. Diagnostic grades, structural arithmetic projection, review signals and all three public data collections are identical to both baselines. See [validation.json](validation.json) and the repeatable `verify.py` check.
 
-Original V8 and V8.1 archives remain preserved, and a separate V8.2 private-complete checkpoint provides the current handoff. The [private-handoff receipt](private-handoff.json) records archive basenames and exact hashes. They are stored privately in the saved project's ignored `evaluation/exports/` directory. Restore the V8.2 checkpoint as the active evaluation, the original archive under `evaluation/archive/v8-original`, and the V8.1 checkpoint under `evaluation/archive/v8.1-before-v8.2` to retain the build-input evidence paths alongside this repository revision.
+Original V8 and V8.1 archives remain preserved, and separate provisional and final V8.2 private-complete checkpoints preserve both runtime releases. The [private-handoff receipt](private-handoff.json) records archive basenames and exact hashes. They are stored privately in the saved project's ignored `evaluation/exports/` directory. Restore the V8.2 checkpoint as the active evaluation, the original archive under `evaluation/archive/v8-original`, and the V8.1 checkpoint under `evaluation/archive/v8.1-before-v8.2` to retain the build-input evidence paths alongside this repository revision. Restore the provisional V8.2 checkpoint under `evaluation/archive/v8.2-adeb691-before-scope-patch` for repeatable before/after verification.
 
 The saved project's active V8 checkout and private files are deliberately left coherent while this evaluation PR awaits user review. After approval/merge, activate the public checkout and matching private V8.2 files together; Git alone cannot transport ignored inputs. This is a staged handoff, not a claim that the saved active evaluation is already V8.2. No website deployment or evaluation-PR merge was performed.
 

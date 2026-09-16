@@ -4,13 +4,13 @@ This repository evaluates IndexPDF’s delivered subject-index Markdown export f
 
 The single canonical workflow state and artifact inventory is [`evaluation/evaluation-state.json`](evaluation/evaluation-state.json). The evaluation ID is `ohfr-2002-indexpdf-v8`. The source has 425 pages; front matter and endnotes absent from that supplied file are outside the available source.
 
-## Provisional V8.2 migration
+## V8.2 migration
 
-**On hold for the coordinator’s reviewed uncertainty-scoping patch.** The values below describe the preserved `adeb691` checkpoint; final release binding and gate publication are pending. No evaluation PR has been opened or merged for this update.
+The combined migration is validated against reviewed methodology commit `c11c6ccb`; the evaluation PR is ready for review. The earlier `adeb691` checkpoint remains preserved.
 
 The combined V8.2 gate-policy and native retrospective-provenance migration retains **97.19/100**, all six numeric dimensions, components, deductions and caps. **One publication gate (`GATE-WRONG-LOCATOR`) covers six confirmed unsupported/no-fit delivered locators**, so readiness is **Not publication ready**. Evaluation validity remains **valid** and gate assessment is **sufficient**, with no blockers. No reference gate triggers; all 257 delivered references retain their frozen supported attestation.
 
-No frozen judgment or audit was changed. All three public data collections are byte-identical to V8.1. The new native policy migration record preserves the original candidate-blind freeze and accurately records current candidate visibility. The [V8.2 report](migration/v8.2/REPORT.md), [change ledger](migration/v8.2/change-ledger.json), and [validation receipt](migration/v8.2/validation.json) document the exact evidence, hashes and numerical-invariance checks. All **170** installed methodology regression tests passed.
+No frozen judgment was changed. Four evidence-backed uncertainty scopes were added while every original uncertainty record remained unchanged; no audit was rerun. All three public data collections are byte-identical to V8.1. The new native policy migration record preserves the original candidate-blind freeze and accurately records current candidate visibility. The [V8.2 report](migration/v8.2/REPORT.md), [change ledger](migration/v8.2/change-ledger.json), and [validation receipt](migration/v8.2/validation.json) document the exact evidence, hashes and numerical-invariance checks. All **180** installed methodology regression tests passed.
 
 This evaluation PR requires user review and merge; no website deployment is included. Separate original V8, V8.1 and V8.2 private archives are retained for a coherent handoff. The saved project's active V8 baseline remains intact pending coordinated activation after review; pulling public files alone does not update ignored private evidence.
 

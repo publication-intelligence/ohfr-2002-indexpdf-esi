@@ -19,8 +19,8 @@
   "dimension_calculations": {
     "schema_version": "subject-index-dimension-calculations-v6",
     "artifact_path": "scoring/dimension-calculations.v6.json",
-    "sha256": "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb",
-    "calculation_sha256": "df7930a61ef508da3850bd749014dc72c7a433b5e91cd76a0906a208512e2680",
+    "sha256": "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47",
+    "calculation_sha256": "e1c6e4768314f56be1c319c949552ab365e676c913ca88a09fc1c3b984fab025",
     "rubric_version": "subject-index-rubric-v8.2",
     "calculation_profile": "subject-index-dimension-calculation-v7"
   },
@@ -82,7 +82,7 @@
   "item_assessments": {
     "schema_version": "subject-index-item-assessments-v7",
     "artifact_path": "scoring/item-assessments.v7.json",
-    "sha256": "848b6b188e0caa09e49701b34029681ed773261bf724bbd04e95fcd7b50e1719",
+    "sha256": "c390a8e8af7fdb764c44aaf523e822ddd542a9c60151155916c51cd89ac2abb3",
     "grading_policy": "subject-index-item-grading-v4",
     "summary": {
       "locators": {
@@ -12011,13 +12011,13 @@
   "structure_audit": {
     "schema_version": "structure-audit-v6",
     "artifact_path": "staging/structure/structure-audit.v6.json",
-    "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+    "sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a"
   },
   "projection_metadata": {
     "schema_version": "subject-index-v8-projection-metadata-v2",
     "artifact_path": "scoring/projection-metadata.v2.json",
-    "sha256": "efba995215b726b754d3bf36e38c459660bfcddc37b3bbd3b639bc76c2e1e023",
-    "projection_metadata_sha256": "7f6bfe703c7df1f21ef931a1beb59a81c47af041a3cd24db447be9370c8bac01"
+    "sha256": "3de460baeaf49403c11576c67a2a32cb3fcc1f1de73a924dc1eae1dc54810bdf",
+    "projection_metadata_sha256": "d4367d0b4f4d50c7b12f6188ca6533762c6a9178ccaeb27b7ac589a962b90fac"
   },
   "critical_gates": [
     {

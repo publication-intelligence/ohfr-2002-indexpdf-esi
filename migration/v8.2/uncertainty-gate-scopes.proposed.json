@@ -1,0 +1,64 @@
+{
+  "status": "prepared_only_not_applied; await reviewed installed patch dispatch",
+  "frozen_structure_artifact": "evaluation/staging/structure/structure-audit.v6.json",
+  "frozen_structure_sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
+  "frozen_uncertainties_canonical_sha256": "ba25de223af3c0bbc927fa3c8fe608e2739178e005a687b432d1d5f024b4b8c2",
+  "uncertainty_gate_scopes": [
+    {
+      "uncertainty_id": "UNCERTAINTY-SOURCE-SPAN-001",
+      "scope": "measurement_provenance",
+      "target_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [],
+      "rationale": "The preserved record limits evaluation to the supplied 425-page main-text source and excludes unavailable matter. The registered policy independently binds the exact source hash and page span; the locator audits inspect that same available source. This is a declared evaluation-extent limitation, not doubt about source identity or the support at evaluated destinations. No unavailable matter is inferred and no wrong-source or uninspectable finding is waived."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-CANDIDATE-FIDELITY-001",
+      "scope": "measurement_provenance",
+      "target_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [],
+      "rationale": "The preserved record limits typography claims to the frozen delivered Markdown and registered layout extraction. Those evaluated candidate bytes and their normalized inventory are independently hash-bound and passed the existing complete fidelity review. The limitation concerns unexamined physical typography outside that representation, not the identity of the evaluated candidate or support at its delivered destinations. No claim about the unavailable producer PDF is added."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-DENSITY-WORDS-001",
+      "scope": "measurement_provenance",
+      "target_ids": [
+        "CHUNK-001",
+        "CHUNK-002",
+        "CHUNK-003",
+        "CHUNK-004",
+        "CHUNK-005",
+        "CHUNK-006",
+        "CHUNK-007",
+        "CHUNK-008",
+        "CHUNK-009",
+        "CHUNK-010",
+        "CHUNK-011",
+        "CHUNK-012",
+        "CHUNK-013",
+        "CHUNK-014",
+        "CHUNK-015",
+        "CHUNK-016",
+        "CHUNK-017"
+      ],
+      "evidence_ids": [],
+      "rationale": "The preserved record concerns the frozen source-word density denominator and chunk-level extraction, exclusion, hyphenation and tokenization estimates. Those counts remain unchanged. It does not question the independently bound source/candidate identities or any locator support or cross-reference destination finding; no source-inspection or destination-evidence safeguard is waived."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-FIRST-LOOKUP-0494",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0494",
+        "TASK-0494",
+        "NODE-E9D267DB737D"
+      ],
+      "evidence_ids": [],
+      "rationale": "The preserved record retains a medium-confidence boundary judgment about first-lookup effort across multiple supported routes. The unchanged missing-access subject/task evidence records all expected treatments as found and locates uncertainty in the combined subject retrieval task. It does not question the correctness of individual delivered locator destinations or the existence of cross-reference targets. The subject/task/node targets and original uncertainty remain unchanged."
+    }
+  ],
+  "review_basis": "Read every original uncertainty statement; checked original source-scope binding, candidate/layout/inventory identities, complete structure attestation, frozen density limitation and SUBJ-0494 missing-access evidence. No classification was inferred from kind strings or prefixes. Original structure uncertainty rows contain no evidence_ids, so all supplements retain empty arrays without inventing IDs.",
+  "application_constraint": "Do not mutate canonical structure/state or rebuild gates until the coordinator verifies and dispatches the installed patch receipt. Preserve adeb691 checkpoint and all original uncertainty rows."
+}

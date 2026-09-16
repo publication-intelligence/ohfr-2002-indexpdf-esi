@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T17:19:44Z",
+  "updated_at": "2026-09-16T17:50:20Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -171,22 +171,21 @@
     },
     "structure_audit": {
       "status": "completed",
-      "updated_at": "2026-09-16T03:19:13Z",
+      "updated_at": "2026-09-16T17:49:17Z",
       "notes": [
-        "Validated and registered the native V8 structure audit atomically.",
-        "Targeted consequence review: four omitted/supplemental-route node exceptions retain minor deductions; one missing XRF consequence clarified as slowing. Denominators, full-scope attestation and all other judgments reused."
+        "Validated and registered the native V8 structure audit atomically."
       ]
     },
     "scoring": {
       "status": "completed",
-      "updated_at": "2026-09-16T17:19:11Z",
+      "updated_at": "2026-09-16T17:49:34Z",
       "notes": [
         "Assembled registered inputs, calculated V8 dimensions, and registered the validated V12 result atomically."
       ]
     },
     "web_report": {
       "status": "completed",
-      "updated_at": "2026-09-16T17:19:44Z",
+      "updated_at": "2026-09-16T17:50:20Z",
       "notes": [
         "Built and registered web-report.v10 and the complete canonical public web projection bundle atomically."
       ]
@@ -1036,17 +1035,17 @@
       "recorded_at": "2026-09-16T01:39:18Z"
     },
     {
-      "artifact_id": "ART-F963E3B1578A",
+      "artifact_id": "ART-1D33B06D67FF",
       "stage": "scoring",
       "artifact_type": "dimension_calculation_input",
       "path": "scoring/dimension-calculation-input.v2.json",
-      "sha256": "c5f4b2004b4b313bd83ecf0fd8d400ca8765a36f32f88c63b1cab2305d14e676",
+      "sha256": "ad49010ef18f5ef821191d12521cab44bd789e6aa8333f1959f0c74358c15b87",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculation-input-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:11Z",
+      "recorded_at": "2026-09-16T17:49:34Z",
       "input_sha256": [
         "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
         "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
@@ -1067,6 +1066,7 @@
         "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
         "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
         "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
+        "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
         "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
         "8f65e1e23e0f0c3ceb97e881de5cf89893ef50c9b3bd1db610fef27ea39c0466",
         "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
@@ -1080,7 +1080,6 @@
         "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
         "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
         "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
-        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
         "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
         "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
         "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
@@ -1088,17 +1087,17 @@
       ]
     },
     {
-      "artifact_id": "ART-00974AFCAFED",
+      "artifact_id": "ART-B6C68EAB1C53",
       "stage": "scoring",
       "artifact_type": "dimension_calculations",
       "path": "scoring/dimension-calculations.v6.json",
-      "sha256": "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb",
+      "sha256": "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculations-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:11Z",
+      "recorded_at": "2026-09-16T17:49:34Z",
       "input_sha256": [
         "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
         "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
@@ -1119,6 +1118,7 @@
         "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
         "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
         "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
+        "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
         "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
         "8f65e1e23e0f0c3ceb97e881de5cf89893ef50c9b3bd1db610fef27ea39c0466",
         "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
@@ -1132,7 +1132,6 @@
         "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
         "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
         "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
-        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
         "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
         "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
         "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
@@ -1140,57 +1139,57 @@
       ]
     },
     {
-      "artifact_id": "ART-63681F7C4EAE",
+      "artifact_id": "ART-867BFE11BB7C",
       "stage": "scoring",
       "artifact_type": "evaluation_result",
       "path": "scoring/evaluation-result.v12.json",
-      "sha256": "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c",
+      "sha256": "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-result-v12",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:11Z",
+      "recorded_at": "2026-09-16T17:49:34Z",
       "input_sha256": [
-        "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb",
-        "848b6b188e0caa09e49701b34029681ed773261bf724bbd04e95fcd7b50e1719",
-        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
-        "efba995215b726b754d3bf36e38c459660bfcddc37b3bbd3b639bc76c2e1e023"
+        "3de460baeaf49403c11576c67a2a32cb3fcc1f1de73a924dc1eae1dc54810bdf",
+        "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
+        "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47",
+        "c390a8e8af7fdb764c44aaf523e822ddd542a9c60151155916c51cd89ac2abb3"
       ]
     },
     {
-      "artifact_id": "ART-E489FCE959D1",
+      "artifact_id": "ART-B6C39D04D08A",
       "stage": "scoring",
       "artifact_type": "item_assessments",
       "path": "scoring/item-assessments.v7.json",
-      "sha256": "848b6b188e0caa09e49701b34029681ed773261bf724bbd04e95fcd7b50e1719",
+      "sha256": "c390a8e8af7fdb764c44aaf523e822ddd542a9c60151155916c51cd89ac2abb3",
       "media_type": "application/json",
       "schema_version": "subject-index-item-assessments-v7",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:11Z",
+      "recorded_at": "2026-09-16T17:49:34Z",
       "input_sha256": [
-        "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb",
-        "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737",
-        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+        "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
+        "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47",
+        "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737"
       ]
     },
     {
-      "artifact_id": "ART-49627FF9D89C",
+      "artifact_id": "ART-26C9CEB1DF52",
       "stage": "scoring",
       "artifact_type": "projection_metadata",
       "path": "scoring/projection-metadata.v2.json",
-      "sha256": "efba995215b726b754d3bf36e38c459660bfcddc37b3bbd3b639bc76c2e1e023",
+      "sha256": "3de460baeaf49403c11576c67a2a32cb3fcc1f1de73a924dc1eae1dc54810bdf",
       "media_type": "application/json",
       "schema_version": "subject-index-v8-projection-metadata-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:11Z",
+      "recorded_at": "2026-09-16T17:49:34Z",
       "input_sha256": [
-        "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb",
-        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+        "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
+        "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47"
       ]
     },
     {
@@ -1204,10 +1203,10 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:44Z",
+      "recorded_at": "2026-09-16T17:50:20Z",
       "input_sha256": [
-        "24b3085a245a34a8cacbb2a6f31f1177e6b9cf0ec57696b6385aaaec438a4f66",
-        "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c"
+        "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99",
+        "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4"
       ]
     },
     {
@@ -1221,10 +1220,10 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:44Z",
+      "recorded_at": "2026-09-16T17:50:20Z",
       "input_sha256": [
-        "24b3085a245a34a8cacbb2a6f31f1177e6b9cf0ec57696b6385aaaec438a4f66",
-        "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c"
+        "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99",
+        "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4"
       ]
     },
     {
@@ -1238,47 +1237,47 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:44Z",
+      "recorded_at": "2026-09-16T17:50:20Z",
       "input_sha256": [
-        "24b3085a245a34a8cacbb2a6f31f1177e6b9cf0ec57696b6385aaaec438a4f66",
-        "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c"
+        "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99",
+        "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4"
       ]
     },
     {
-      "artifact_id": "ART-88C8A61F126B",
+      "artifact_id": "ART-229F58AF5E51",
       "stage": "web_report",
       "artifact_type": "web_projection",
       "path": "scoring/v8-canonical-projection/projection.v1.json",
-      "sha256": "433272e55bd96a28609edcdb8db268781719479bd300347ccf93b7f80ef30771",
+      "sha256": "d7eb49b5787f41a867fba7d0efad1043fa412ec757961e8440ff6c8907ac7c68",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-canonical-web-projection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:44Z",
+      "recorded_at": "2026-09-16T17:50:20Z",
       "input_sha256": [
-        "24b3085a245a34a8cacbb2a6f31f1177e6b9cf0ec57696b6385aaaec438a4f66",
-        "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c"
+        "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99",
+        "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4"
       ]
     },
     {
-      "artifact_id": "ART-B1E39C9520DA",
+      "artifact_id": "ART-6C59BD8B3D7A",
       "stage": "web_report",
       "artifact_type": "web_report",
       "path": "scoring/web-report.v10.json",
-      "sha256": "24b3085a245a34a8cacbb2a6f31f1177e6b9cf0ec57696b6385aaaec438a4f66",
+      "sha256": "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99",
       "media_type": "application/json",
       "schema_version": "subject-index-web-report-v10",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:44Z",
+      "recorded_at": "2026-09-16T17:50:20Z",
       "input_sha256": [
-        "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb",
-        "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c",
-        "848b6b188e0caa09e49701b34029681ed773261bf724bbd04e95fcd7b50e1719",
-        "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
-        "efba995215b726b754d3bf36e38c459660bfcddc37b3bbd3b639bc76c2e1e023"
+        "3de460baeaf49403c11576c67a2a32cb3fcc1f1de73a924dc1eae1dc54810bdf",
+        "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
+        "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47",
+        "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4",
+        "c390a8e8af7fdb764c44aaf523e822ddd542a9c60151155916c51cd89ac2abb3"
       ]
     },
     {
@@ -1975,17 +1974,17 @@
       "recorded_at": "2026-09-16T01:39:18Z"
     },
     {
-      "artifact_id": "ART-932B4C02D1EF",
+      "artifact_id": "ART-E08126BE3A87",
       "stage": "structure_audit",
       "artifact_type": "structure_audit",
       "path": "staging/structure/structure-audit.v6.json",
-      "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b",
+      "sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
       "media_type": "application/json",
       "schema_version": "structure-audit-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:19:13Z",
+      "recorded_at": "2026-09-16T17:49:17Z",
       "input_sha256": [
         "18fecb7858643520e58a4e639f074cc701707e49b52cc3061461750b68054177",
         "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737"

@@ -135,17 +135,17 @@
     "Source excerpts and private layout evidence are excluded.",
     "Exact percentage and weighted-contribution strings are authoritative; numeric rating and points aliases exist only for the established generic website adapter."
   ],
-  "projection_id": "OHFR-V8-WEB-6C1F1B4C3B78",
+  "projection_id": "OHFR-V8-WEB-7C2B79315C55",
   "projection_role": "deterministic_public_safe_display_projection",
-  "projection_sha256": "6c20dcba7135dbafbd116e8b8e5249878b17f4478f94a5e657b77e59475bc730",
+  "projection_sha256": "847c6069fb9886685f64fc07d6e40e238d4405471a6fe24ee396507a18be9fd8",
   "provenance": {
     "benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
-    "calculation_sha256": "df7930a61ef508da3850bd749014dc72c7a433b5e91cd76a0906a208512e2680",
+    "calculation_sha256": "e1c6e4768314f56be1c319c949552ab365e676c913ca88a09fc1c3b984fab025",
     "correction_overlay_sha256": null,
     "dimension_calculation_profile": "subject-index-dimension-calculation-v7",
     "judgment_policy_sha256": "84b44cf3167e61202640aa2982fe83eee9281ee6785b18b7ecbae374b40b2da9",
     "missing_access_audit_set_sha256": "ce3b3385a7ea23cea4560d3098b970f0dd6271845e17c6738bc6d01334dc9c22",
-    "projection_metadata_sha256": "7f6bfe703c7df1f21ef931a1beb59a81c47af041a3cd24db447be9370c8bac01",
+    "projection_metadata_sha256": "d4367d0b4f4d50c7b12f6188ca6533762c6a9178ccaeb27b7ac589a962b90fac",
     "rubric_version": "subject-index-rubric-v8.2",
     "source_artifacts": [
       {
@@ -266,25 +266,25 @@
         "artifact_path": "scoring/dimension-calculations.v6.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-dimension-calculations-v6",
-        "sha256": "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb"
+        "sha256": "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47"
       },
       {
         "artifact_path": "scoring/evaluation-result.v12.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-evaluation-result-v12",
-        "sha256": "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c"
+        "sha256": "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4"
       },
       {
         "artifact_path": "scoring/item-assessments.v7.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-item-assessments-v7",
-        "sha256": "848b6b188e0caa09e49701b34029681ed773261bf724bbd04e95fcd7b50e1719"
+        "sha256": "c390a8e8af7fdb764c44aaf523e822ddd542a9c60151155916c51cd89ac2abb3"
       },
       {
         "artifact_path": "scoring/web-report.v10.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-web-report-v10",
-        "sha256": "24b3085a245a34a8cacbb2a6f31f1177e6b9cf0ec57696b6385aaaec438a4f66"
+        "sha256": "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99"
       },
       {
         "artifact_path": "source/chunk-manifest.json",
@@ -302,7 +302,7 @@
         "artifact_path": "staging/structure/structure-audit.v6.json",
         "availability": "canonical_registered_input",
         "schema_version": "structure-audit-v6",
-        "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+        "sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a"
       }
     ],
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
@@ -875,19 +875,19 @@
             "artifact_path": "scoring/evaluation-result.v12.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-evaluation-result-v12",
-            "sha256": "639aee56d2fac8747ec8b4405d5fc992af3803a92c45192d6ef2dd2ce1f68a4c"
+            "sha256": "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4"
           },
           {
             "artifact_path": "scoring/web-report.v10.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-web-report-v10",
-            "sha256": "24b3085a245a34a8cacbb2a6f31f1177e6b9cf0ec57696b6385aaaec438a4f66"
+            "sha256": "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99"
           },
           {
             "artifact_path": "scoring/dimension-calculations.v6.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-dimension-calculations-v6",
-            "sha256": "548f8bee4422cb315318b764598ea835352ee447e0b16b14969bee5d2e8216bb"
+            "sha256": "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47"
           }
         ],
         "readiness": {
