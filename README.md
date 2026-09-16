@@ -1,65 +1,24 @@
 # OHFR 2002 — IndexPDF subject-index evaluation
 
-This repository is prepared to evaluate the forthcoming IndexPDF subject index for *The Oxford History of the French Revolution* (2002) with the current `evaluate-subject-index` V8 workflow.
+This repository evaluates IndexPDF’s delivered subject-index Markdown export for *The Oxford History of the French Revolution* (2002) using the current Evaluate Subject Index V8 workflow.
 
-## Current state
+The single canonical workflow state and artifact inventory is [`evaluation/evaluation-state.json`](evaluation/evaluation-state.json). The evaluation ID is `ohfr-2002-indexpdf-v8`. The source has 425 pages; front matter and endnotes absent from that supplied file are outside the available source.
 
-The candidate-blind benchmark is frozen and the exact 425-page source has been reconnected. The canonical state is [`evaluation/evaluation-state.json`](evaluation/evaluation-state.json); its next stage is `candidate_normalization`.
+## Current milestone
 
-The imported benchmark retains evaluation ID `ohfr-2002-original-published-index-v8`. That identity is intentionally unchanged because it is embedded in the frozen benchmark. The IndexPDF artifact receives its own candidate ID during normalization.
+The exact source, page map, 17 previously approved chapter chunks, and frozen V8 policy have been verified and registered. All 425 source pages have exactly one chunk owner. An independent candidate-blind compatibility review selected the existing native V8 benchmark (638 subjects, 281 relationships, 638 reader tasks); discovery and full editorial review are not being repeated.
 
-The checkpoint's scoring identity was advanced from calculation profile V4 to V5, as required by the current V8 runtime. The benchmark, policy, page map, chunk manifest, and candidate-blind judgments were not changed. A retired source-chunk inventory record was removed because the current `split-pdf` command no longer creates or consumes that artifact.
+Registration awaits a focused extension of the existing reviewed-legacy importer for native V8 release evidence. The older benchmark repository release has different policy semantics and denominators and is not substituted. The historical source-only release and prior candidate-preparation state remain recoverable in private checkpoints.
 
-Private source, benchmark, evidence, candidate, and checkpoint artifacts are ignored by Git; only canonical control state and eventual public reports are eligible for version control. `evaluation-state.json` is the only control inventory; do not add another manifest or benchmark lock.
+The delivered Markdown remains byte-preserved. [Evaluator PR #33](https://github.com/publication-intelligence/evaluate-subject-index/pull/33) corrects a parser error that treated five heading qualifiers as locators. Corrected candidate artifacts will be normalized, privately validated, and registered after benchmark compatibility import. Locator audits, missing-access audits, structure, scoring, and reporting are not yet complete; no score is claimed.
 
-## Runtime
+## Runtime and privacy
 
-Use the installed skill as the runtime rather than copying its scripts into this repository:
-
-```bash
-source .venv/bin/activate
-export ESI_SKILL="$HOME/.codex/skills/evaluate-subject-index"
-
-python "$ESI_SKILL/scripts/state_cli.py" validate \
-  --state evaluation/evaluation-state.json
-python "$ESI_SKILL/scripts/state_cli.py" next \
-  --state evaluation/evaluation-state.json
-```
-
-The local virtual environment contains the dependencies required by the current skill. To recreate it:
+Use the installed skill and this project’s virtual environment:
 
 ```bash
-uv venv .venv
-uv pip install --python .venv/bin/python \
-  -r ../evaluate-subject-index/requirements.txt
+.venv/bin/python /home/john/.codex/skills/evaluate-subject-index/scripts/state_cli.py validate --state evaluation/evaluation-state.json
+.venv/bin/python /home/john/.codex/skills/evaluate-subject-index/scripts/state_cli.py next --state evaluation/evaluation-state.json
 ```
 
-## When the IndexPDF candidate arrives
-
-Place the exact candidate at `evaluation/candidate/restricted/ohfr-2002-indexpdf.pdf` and convert it mechanically to the published `candidate-layout-extraction-v1` contract. The adjacent methodology checkout currently provides the converter:
-
-```bash
-mkdir -p evaluation/candidate/preparation
-python ../evaluate-subject-index/utilities/subject_index_converter.py \
-  --candidate-id ohfr-2002-indexpdf \
-  --input evaluation/candidate/restricted/ohfr-2002-indexpdf.pdf \
-  --source-sha256 5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047 \
-  --output evaluation/candidate/preparation/candidate-layout-extraction.v1.json
-```
-
-Then run the current preparation sequence:
-
-```bash
-python "$ESI_SKILL/scripts/candidate_preparation_cli.py" normalize \
-  --candidate-id ohfr-2002-indexpdf \
-  --candidate-file evaluation/candidate/restricted/ohfr-2002-indexpdf.pdf \
-  --state evaluation/evaluation-state.json \
-  --page-map evaluation/source/page-map.json \
-  --chunk-manifest evaluation/source/chunk-manifest.json \
-  --policy evaluation/source/evaluation-policy.v4.json \
-  --source-edition 2002 \
-  --layout evaluation/candidate/preparation/candidate-layout-extraction.v1.json \
-  --output-dir evaluation/candidate/preparation/normalized
-```
-
-If normalization writes an issues report, disposition every issue before continuing. Next run `validate-private`, then `register` with `evaluation/source/source-benchmark.v2.json`, and finally `page_chunk_cli.py prepare-locator-chunks`. Use `state_cli.py next` after each transition rather than maintaining workflow state by hand.
+Restricted source, candidate, evidence, layout, and checkpoints are ignored by Git. Public reports will be emitted only through the evaluator’s standard reporting command and validated for privacy and generic website compatibility. Do not add a second manifest or benchmark lock.

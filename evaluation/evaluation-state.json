@@ -1,8 +1,8 @@
 {
   "schema_version": "subject-index-evaluation-state-v6",
-  "evaluation_id": "ohfr-2002-original-published-index-v8",
-  "created_at": "2026-09-09T13:33:46Z",
-  "updated_at": "2026-09-16T00:41:06Z",
+  "evaluation_id": "ohfr-2002-indexpdf-v8",
+  "created_at": "2026-09-16T01:06:43Z",
+  "updated_at": "2026-09-16T01:06:49Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -14,16 +14,7 @@
     ],
     "document_page_basis": "one_based_inclusive"
   },
-  "candidate": {
-    "candidate_id": "ohfr-2002-indexpdf",
-    "candidate_sha256": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
-    "schema_version": "candidate-index-v2",
-    "normalized_path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
-    "normalized_sha256": "2f2a6167ba0a37fd2cdbb7ea42e7590b5fbb39426a8f1a35a2d92edea3d95c05",
-    "item_inventory_path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
-    "benchmark_path": "source/source-benchmark.v2.json",
-    "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983"
-  },
+  "candidate": null,
   "configuration": {
     "audit_mode": "full",
     "index_type": "subject_index",
@@ -45,74 +36,96 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:34:02Z",
+      "updated_at": "2026-09-16T01:06:44Z",
       "notes": [
-        "Exact source hash and 425-page count match the existing V7 source identity; no alternative edition was substituted."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "page_mapping": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:34:04Z",
+      "updated_at": "2026-09-16T01:06:44Z",
       "notes": [
-        "Re-expanded under the pinned V8 CLI and byte-identical to the approved V7 page map for the exact matching source hash."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "chunk_definition": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:34:17Z",
+      "updated_at": "2026-09-16T01:06:44Z",
       "notes": [
-        "Validated under the pinned V8 CLI and byte-identical to the user-approved V7 17-chapter manifest for the matching page map."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "define_policy": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:34:37Z",
+      "updated_at": "2026-09-16T01:06:44Z",
       "notes": [
-        "Fresh standard V8 policy instantiated candidate-blind with no deviations; no V7 policy-bound judgments were reinterpreted."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "source_chunk_preparation": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:36:38Z",
+      "updated_at": "2026-09-16T01:06:49Z",
       "notes": [
-        "Prepared 17 source-only chapter packets and page sidecars from the exact matching source; stopped before discovery."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "source_subject_discovery": {
-      "status": "completed",
-      "updated_at": "2026-09-09T16:31:07Z",
-      "notes": [
-        "Registered parallel source discoveries: CHUNK-001, CHUNK-002, CHUNK-003, CHUNK-004, CHUNK-005, CHUNK-006, CHUNK-007, CHUNK-008, CHUNK-009, CHUNK-010, CHUNK-011, CHUNK-012, CHUNK-013, CHUNK-014, CHUNK-015, CHUNK-016, CHUNK-017."
-      ]
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
     },
     "benchmark_synthesis": {
-      "status": "completed",
-      "updated_at": "2026-09-09T16:48:54Z",
-      "notes": [
-        "Candidate-blind synthesis reconciled all 17 registered discoveries and all 707 source subject records; pinned screen passed."
-      ]
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
     },
     "benchmark_review": {
-      "status": "completed",
-      "updated_at": "2026-09-09T17:14:21Z",
-      "notes": [
-        "Deterministic screen inventory for the registered candidate-blind draft.",
-        "Fresh full candidate-blind review completed; all required IDs reviewed; approve_revised."
-      ]
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
     },
     "benchmark_freeze": {
-      "status": "completed",
-      "updated_at": "2026-09-09T17:14:38Z",
-      "notes": [
-        "Frozen after full independent candidate-blind review; approved version 2 with 43 logged relationship resolutions."
-      ]
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
     },
     "candidate_normalization": {
-      "status": "completed",
-      "updated_at": "2026-09-16T00:41:06Z",
-      "notes": [
-        "Validated and registered directly from local preparation outputs."
-      ]
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
     },
     "locator_chunk_preparation": {
       "status": "not_started",
@@ -147,58 +160,6 @@
   },
   "artifacts": [
     {
-      "artifact_id": "ART-ACB2C5C193EF",
-      "stage": "candidate_normalization",
-      "artifact_type": "candidate_index",
-      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
-      "sha256": "2f2a6167ba0a37fd2cdbb7ea42e7590b5fbb39426a8f1a35a2d92edea3d95c05",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-16T00:41:06Z",
-      "schema_version": "candidate-index-v2"
-    },
-    {
-      "artifact_id": "ART-F2AED680B87D",
-      "stage": "candidate_normalization",
-      "artifact_type": "candidate_layout_extraction",
-      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-layout-extraction.v1.json",
-      "sha256": "374057c272e7905e6cdc4aa3a017346efb7ae3f27aaf69c012df32ed76f6298f",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-16T00:41:06Z",
-      "schema_version": "candidate-layout-extraction-v1"
-    },
-    {
-      "artifact_id": "ART-6A23E63E1F58",
-      "stage": "candidate_normalization",
-      "artifact_type": "item_inventory",
-      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
-      "sha256": "4711491da62b67029abb1ba4f7e81009f3498393ed5cb1735c0d6f078e135261",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-16T00:41:06Z",
-      "schema_version": "subject-index-item-inventory-v2"
-    },
-    {
-      "artifact_id": "ART-EB64209A436E",
-      "stage": "candidate_normalization",
-      "artifact_type": "candidate_normalization_issues",
-      "path": "candidate/preparation/normalized/validation/candidate-normalization-issues.ohfr-2002-indexpdf.v1.json",
-      "sha256": "c2c220ddacd5f98dafa5dfacd51faca0dfae3a442e8269a5f4776d539f8395d9",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-16T00:41:06Z",
-      "schema_version": "candidate-normalization-issues-v1"
-    },
-    {
       "artifact_id": "ART-493F1BBD1F10",
       "stage": "chunk_definition",
       "artifact_type": "approved-chunk-manifest",
@@ -208,7 +169,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:34:17Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "chunk-manifest-v1"
     },
     {
@@ -221,7 +182,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:50Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -234,7 +195,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:45Z"
+      "recorded_at": "2026-09-16T01:06:44Z"
     },
     {
       "artifact_id": "ART-EEC368F41EE5",
@@ -246,7 +207,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:50Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -259,7 +220,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:46Z"
+      "recorded_at": "2026-09-16T01:06:45Z"
     },
     {
       "artifact_id": "ART-B8EA954683EB",
@@ -271,7 +232,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:50Z",
+      "recorded_at": "2026-09-16T01:06:45Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -284,7 +245,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:46Z"
+      "recorded_at": "2026-09-16T01:06:45Z"
     },
     {
       "artifact_id": "ART-1A9C99102222",
@@ -296,7 +257,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:51Z",
+      "recorded_at": "2026-09-16T01:06:45Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -309,7 +270,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:46Z"
+      "recorded_at": "2026-09-16T01:06:45Z"
     },
     {
       "artifact_id": "ART-C351741B2E31",
@@ -321,7 +282,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:51Z",
+      "recorded_at": "2026-09-16T01:06:45Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -334,7 +295,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:46Z"
+      "recorded_at": "2026-09-16T01:06:45Z"
     },
     {
       "artifact_id": "ART-D7ED5575D4B9",
@@ -346,7 +307,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:51Z",
+      "recorded_at": "2026-09-16T01:06:46Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -359,7 +320,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:46Z"
     },
     {
       "artifact_id": "ART-A33DE6BA5B54",
@@ -371,7 +332,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:51Z",
+      "recorded_at": "2026-09-16T01:06:46Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -384,7 +345,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:46Z"
     },
     {
       "artifact_id": "ART-9D60ED702C73",
@@ -396,7 +357,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:46Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -409,7 +370,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:46Z"
     },
     {
       "artifact_id": "ART-E85428D67679",
@@ -421,7 +382,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:47Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -434,7 +395,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:47Z"
     },
     {
       "artifact_id": "ART-1868C644028D",
@@ -446,7 +407,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:47Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -459,7 +420,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:47Z"
     },
     {
       "artifact_id": "ART-2593328D9AD4",
@@ -471,7 +432,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:47Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -484,7 +445,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:48Z"
+      "recorded_at": "2026-09-16T01:06:47Z"
     },
     {
       "artifact_id": "ART-2A6A386EEE8D",
@@ -496,7 +457,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:48Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -509,7 +470,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:48Z"
+      "recorded_at": "2026-09-16T01:06:48Z"
     },
     {
       "artifact_id": "ART-FF617AAC1CB9",
@@ -521,7 +482,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:48Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -534,7 +495,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:48Z"
+      "recorded_at": "2026-09-16T01:06:48Z"
     },
     {
       "artifact_id": "ART-4E1E659BD798",
@@ -546,7 +507,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:53Z",
+      "recorded_at": "2026-09-16T01:06:48Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -559,7 +520,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:48Z"
+      "recorded_at": "2026-09-16T01:06:48Z"
     },
     {
       "artifact_id": "ART-A7EDC7DD955C",
@@ -571,7 +532,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:53Z",
+      "recorded_at": "2026-09-16T01:06:49Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -584,7 +545,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:49Z"
+      "recorded_at": "2026-09-16T01:06:49Z"
     },
     {
       "artifact_id": "ART-5C1D99D2D30B",
@@ -596,7 +557,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:53Z",
+      "recorded_at": "2026-09-16T01:06:49Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -609,7 +570,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:49Z"
+      "recorded_at": "2026-09-16T01:06:49Z"
     },
     {
       "artifact_id": "ART-2B9413943145",
@@ -621,7 +582,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:36:38Z",
+      "recorded_at": "2026-09-16T01:06:49Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -634,7 +595,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:49Z"
+      "recorded_at": "2026-09-16T01:06:49Z"
     },
     {
       "artifact_id": "ART-D5FC578573A8",
@@ -646,7 +607,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:34:37Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "subject-index-evaluation-policy-v4"
     },
     {
@@ -659,7 +620,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:34:04Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "page-map-v1"
     },
     {
@@ -672,263 +633,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:34:02Z"
-    },
-    {
-      "artifact_id": "ART-6391308265CA",
-      "stage": "benchmark_synthesis",
-      "artifact_type": "source-benchmark-draft",
-      "path": "source/source-benchmark.draft.v1.json",
-      "sha256": "a84d96aa8ed6bb4233d035f11f0f09cf232aa351fa494dad897db3cc85a41294",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": false,
-      "recorded_at": "2026-09-09T16:48:54Z",
-      "schema_version": "source-subject-benchmark-draft-v1"
-    },
-    {
-      "artifact_id": "ART-3263C47A8EED",
-      "stage": "benchmark_freeze",
-      "artifact_type": "source-benchmark-v2",
-      "path": "source/source-benchmark.v2.json",
-      "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T17:14:38Z",
-      "schema_version": "source-subject-benchmark-v2"
-    },
-    {
-      "artifact_id": "ART-711BF8FA74C3",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-001.json",
-      "sha256": "85445ae2f986c9055c45b92899e02e4f3929d1c45cd8f7662a1e03319132643c",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-2A57EEFAC89C",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-002.json",
-      "sha256": "6b9628305dce25867616592997a3657b2ed78b0232419a54b57f16875c892fdf",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-9871357A5DD1",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-003.json",
-      "sha256": "35e538697d5f2dfb436fd22c044dff5157e2334ce852265dc95ce7cfb8339f71",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-27FF9849D1B7",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-004.json",
-      "sha256": "82f69c8c23f4cf8e78a1ac4c71802974652fffc2e6c01184793131add44fc618",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-DF9986EEC22C",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-005.json",
-      "sha256": "e84976b5ef52ea03ff3bab1596e17610191f2d431809aade5a0297d1d6c9e9ac",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-605FA4F9255F",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-006.json",
-      "sha256": "eb4ec2ef0161883f0a1e3600d75456a3ae3cbdeeb14e035dcdf565debcfc2dc4",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-2CE639F98647",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-007.json",
-      "sha256": "1794606c77ad5183716d742bfc1cd246255147209d50ce072a75c98f87ad2488",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-21F360C9E365",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-008.json",
-      "sha256": "eccd5b28588f7dbebbb69d7ae28401b3e7aa11c9e76f012f53a94fa85141576d",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-123287FFA9AC",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-009.json",
-      "sha256": "b1b91c60c4dc18b7b5c58a0b9562a45202d65ca1560aac400aac8d7dde9bd911",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-7528F9107D55",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-010.json",
-      "sha256": "7031491fe4f9e28ce7ace7d747af5d1c1a794092c42c34e2b3a4c60221db0c77",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-550431DA82E6",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-011.json",
-      "sha256": "bbe1cca9159a1e0e7964d158e5bbf827794aa1209bd6a2b8afc6d3026ef14901",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-C41EEEA3CAEF",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-012.json",
-      "sha256": "7edb3f244ba8ad70184110886b6b9a1653d465430758bcc4d35daa1bf505b504",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-9407280E54E4",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-013.json",
-      "sha256": "78d2e26ce17f2fd94239b5c4eddb4d54b1ba616dccfcde814df490c44b3c749f",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-7C6C3475243C",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-014.json",
-      "sha256": "ce9721e26aee620cb2530d40312e1d2afaae7ccad6a917d9e0edcee14c5d33e5",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-869F611F2E4B",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-015.json",
-      "sha256": "d2080e65df89a54ff177dd133d700bc01f4fc19a3425ac6ce00efd0738830a6c",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-6824B274B564",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-016.json",
-      "sha256": "92cc73086f4c8bb536377c6d793018ea9b2cb27623a70a591c625ecf699c4ec7",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-30BAFCD06F38",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-017.json",
-      "sha256": "442c9fa4c2a884c0682260b75d9a3b148bb07d77edd36a0f23b8c14c203e0000",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-76D3FE229523",
-      "stage": "benchmark_review",
-      "artifact_type": "source-benchmark-review-inventory",
-      "path": "validation/source-benchmark-review-inventory.json",
-      "sha256": "5278f3dc570feaec86eb58eddcdd16d7fbdc0c7ba38ec15e5a813fcc0b5fd8d3",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": false,
-      "recorded_at": "2026-09-09T17:14:20Z",
-      "schema_version": "source-benchmark-review-inventory-v1"
-    },
-    {
-      "artifact_id": "ART-6D7C12D2E281",
-      "stage": "benchmark_review",
-      "artifact_type": "source-benchmark-review",
-      "path": "validation/source-benchmark-review.v1.json",
-      "sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T17:14:21Z",
-      "schema_version": "source-benchmark-review-v1"
+      "recorded_at": "2026-09-16T01:06:44Z"
     }
   ],
   "blockers": []
