@@ -1,6 +1,6 @@
 {
   "document_type": "preparatory_dependency_review_not_workflow_inventory",
-  "status": "inspection_only_no_migration_executed",
+  "status": "conditional_inspection_only_selection_pending_no_migration_authorized",
   "baseline_commit": "17c211aace9c7fad88934a2f24436d40c3be238e",
   "canonical_state_reference": "evaluation/evaluation-state.json",
   "canonical_state_sha256": "577f66ae217afa3486398620ddab17f28db6036cfed3cef643147c9b2844e8f8",
@@ -23,21 +23,6 @@
       "coalesced_nonincidental_treatments": 1569
     },
     "lineage": "Published native V8 benchmark imported through native_v8_exact"
-  },
-  "target_benchmark": {
-    "repository": "publication-intelligence/ohfr-2002-esi-benchmark",
-    "path": "source/source-benchmark.v3.json",
-    "freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
-    "file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
-    "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
-    "population": {
-      "subjects": 1366,
-      "relationships": 3460,
-      "reader_tasks": 1026,
-      "coalesced_nonincidental_treatments": 3210
-    },
-    "file_matches_freeze_git_blob": true,
-    "release_historical_stop": "Cleared by final v3 release descriptor; do not reinterpret embedded historical stop as current or edit frozen bytes."
   },
   "shared_source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
@@ -75,7 +60,7 @@
     "source_preparation": "Reuse exact source PDF, map, manifest and 51 chunk artifacts after common eligible-region scope confirmation. Source discovery/review chains remain historical, not evidence of discovery for the target release.",
     "candidate_preparation": "Reuse 3 normalized/layout/inventory artifacts and 17 locator packets; registered candidate-to-benchmark binding requires supported transition. No fresh blindness or physical producer-PDF claim.",
     "locator_audits": "17 files / 4273 exact candidate-bound judgments are reusable source evidence under identical region scope. No direct benchmark hash in the audit schema; this does not approve unconditional registration into a changed study. Preserve source/candidate provenance and explicitly handle scope-dependent narrative bindings.",
-    "missing_access": "All 17 selected ledgers bind the old benchmark and ownership hashes. Rebuild deterministic worksets,1366 subject obligations,1026 reader tasks and3210 treatments. No relabeling, count-ratio normalization or wholesale transfer. Only separately approved semantic crosswalk equivalences could authorize bounded evidence reuse.",
+    "missing_access": "Conditional on choosing v3: all 17 current ledgers bind the native benchmark and ownership hashes; rebuild the v3 ownership/worksets and obligations unless a separately approved semantic crosswalk permits bounded reuse. No relabeling or wholesale transfer. Other selections require a revised dependency review.",
     "structure": "Selective reconstruction required; full all-node pass attestation cannot establish new benchmark access. Candidate denominators, mechanics observations,257 physical delivered-reference resolutions and10 candidate/source architecture reviews are reusable evidence. Reassess new warrant, applicability and coverage context.",
     "derived": "Recompute all5 scoring and5 web-report artifacts, caps/gates/validity/readiness and projection collections. Prior report/privacy/website review receipts describe the old bundle only.",
     "policy": "Retain candidate_seen=true and actual exposure; preserve original policy/review/freeze separately. Supported retrospective benchmark transition and common study identity are required."
@@ -275,6 +260,7 @@
     "use": "Unapproved source-review seeds only; no ID transfer approved."
   },
   "required_methodology_support": [
+    "final source-led benchmark choice before any binding or migration",
     "candidate-visible retrospective benchmark replacement with exact old/new lineage",
     "typed invalidation and explicit reuse records preserving historical IDs",
     "study-level semantic benchmark/scope/policy/audit/rubric/calculation/density compatibility guard",
@@ -289,5 +275,31 @@
     "activation",
     "deployment"
   ],
-  "score_invariance_required": false
+  "score_invariance_required": false,
+  "incumbent_v3_under_comparison": {
+    "repository": "publication-intelligence/ohfr-2002-esi-benchmark",
+    "path": "source/source-benchmark.v3.json",
+    "freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+    "file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "population": {
+      "subjects": 1366,
+      "relationships": 3460,
+      "reader_tasks": 1026,
+      "coalesced_nonincidental_treatments": 3210
+    },
+    "file_matches_freeze_git_blob": true,
+    "release_historical_stop": "Cleared by final v3 release descriptor; do not reinterpret embedded historical stop as current or edit frozen bytes."
+  },
+  "benchmark_selection": {
+    "status": "pending_candidate_blind_source_comparison",
+    "options": [
+      "incumbent_v3",
+      "native",
+      "independently_reviewed_v4"
+    ],
+    "incumbent_mandate_proves_superiority": false,
+    "v3_binding_authorized": false,
+    "prior_target_language_superseded": true
+  }
 }
