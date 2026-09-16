@@ -12,7 +12,7 @@ The independently approved native V8 benchmark is now registered through the rev
 
 The delivered Markdown remains byte-preserved. Merged evaluator [PR #33](https://github.com/publication-intelligence/evaluate-subject-index/pull/33) corrects five heading qualifiers incorrectly parsed as locators; merged [PR #34](https://github.com/publication-intelligence/evaluate-subject-index/pull/34) supports exact native V8 benchmark reuse. The installed runtime matches merge `871e2cdd76a564980e1e5e4ff1edb818f53e0374`; 104 evaluator and 20 converter tests passed.
 
-The candidate passed complete private validation: 2,548 records/paths, 2,812 displayed locators, 4,273 atomic assignments, and 257 cross-references. All 17 frozen locator packets collectively cover every assignment exactly once. Locator audits are delegated with unique chapter ownership; missing-access audits, structure, scoring, and reporting follow their validated completion. No score is claimed yet.
+The candidate passed complete private validation: 2,548 records/paths, 2,812 displayed locators, 4,273 atomic assignments, and 257 cross-references. All 17 frozen locator packets collectively cover every assignment exactly once. All locator audits are complete and registered: 4,254 supported, 12 partially supported, 7 unsupported, and zero uninspectable assignments. Missing-access worksets cover 638 subjects, 638 reader tasks, and 1,569 coalesced expected treatments exactly once. Missing-access audits, structure, scoring, and reporting remain pending. No score is claimed yet.
 
 ## Runtime and privacy
 
