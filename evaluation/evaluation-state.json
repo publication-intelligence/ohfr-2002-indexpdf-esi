@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T03:24:59Z",
+  "updated_at": "2026-09-16T03:54:23Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -45,7 +45,7 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-16T03:24:59Z",
+      "updated_at": "2026-09-16T03:54:23Z",
       "notes": [
         "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
@@ -893,16 +893,16 @@
       "schema_version": "missing-access-audit-v1"
     },
     {
-      "artifact_id": "ART-848FE0EB2367",
+      "artifact_id": "ART-BDBD1FC06887",
       "stage": "initialize",
       "artifact_type": "coordinator-notes",
       "path": "coordination/notes.md",
-      "sha256": "dea15cc1a4e16f2328520195c6243d9b86f90dfa98b9791a4e85516324a19b3a",
+      "sha256": "8f0b0d33fcd6bcbb56786b47efe985c268208c96d3711a06cf38c6afebf11260",
       "media_type": "text/markdown",
       "visibility": "private",
       "retention": "required",
       "frozen": false,
-      "recorded_at": "2026-09-16T03:24:59Z"
+      "recorded_at": "2026-09-16T03:53:00Z"
     },
     {
       "artifact_id": "ART-FD1DE542C2D0",
@@ -1989,6 +1989,30 @@
       "recorded_at": "2026-09-16T03:21:08Z"
     },
     {
+      "artifact_id": "ART-C68302E76A56",
+      "stage": "initialize",
+      "artifact_type": "density-coordinator-validation",
+      "path": "validation/density-review/coordinator-reproduction.json",
+      "sha256": "843909c8a33dc226bfb3b3878c58b6eb040b7a18c8ce143531af370c2e6dc50a",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T03:54:23Z"
+    },
+    {
+      "artifact_id": "ART-C8927AF08F56",
+      "stage": "initialize",
+      "artifact_type": "independent-density-review",
+      "path": "validation/density-review/density-review.json",
+      "sha256": "c22624328a20238f6f429d322e7f71b4871ef8f5784b7345f99a839155f2a51e",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T03:54:22Z"
+    },
+    {
       "artifact_id": "ART-97BEA6E36195",
       "stage": "initialize",
       "artifact_type": "map-scope-adjudication",
@@ -2013,6 +2037,32 @@
       "frozen": false,
       "recorded_at": "2026-09-16T02:51:53Z",
       "schema_version": "missing-access-calibration-review-v1"
+    },
+    {
+      "artifact_id": "ART-EFE4993E4206",
+      "stage": "initialize",
+      "artifact_type": "independent-report-review",
+      "path": "validation/report-review/report-review.v1.json",
+      "sha256": "b6c4b19f8b585406524dfcbb9a97dd67f0650ca180708d977587c35d752b8c1f",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T03:54:22Z",
+      "schema_version": "ohfr-v8-private-report-review-v1"
+    },
+    {
+      "artifact_id": "ART-0C76D1B9B91B",
+      "stage": "initialize",
+      "artifact_type": "privacy-review",
+      "path": "validation/report-review/rr003-privacy-closure.v1.json",
+      "sha256": "6b0b9f556ebc6280a0b3b2a81c6375c719d7d57656da2d9b1c276f765e23df41",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T03:54:23Z",
+      "schema_version": "ohfr-v8-private-privacy-closure-v1"
     },
     {
       "artifact_id": "ART-59DF9D0975B7",
