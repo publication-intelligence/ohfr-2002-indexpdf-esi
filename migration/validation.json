@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "original_registered_artifacts_verified": 158,
+  "current_registered_artifacts_verified": 158,
+  "state_errors": [],
+  "state_warnings": [],
+  "checks": [
+    "Original and current exact calculation input hashes",
+    "Source, page map, chunks, benchmark release and all locator/missing audits byte-identical",
+    "Current audit schema and causal semantics",
+    "Deterministic full calculation reconstruction",
+    "Deterministic item assessment/provenance reconstruction",
+    "Current result, report, items, metadata and calculation schemas",
+    "Full projection/collection schemas, content/file hashes, counts, delivered order, locator/task joins and privacy checks",
+    "Five unaffected dimension percentages unchanged",
+    "Zero triggered ceilings and gates; valid evaluation"
+  ],
+  "consequence_regression_tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "full_methodology_suite": {
+    "passed": 150,
+    "failed": 0,
+    "seconds": 56.392,
+    "environment": "System Python 3 with bundled pure-Python pypdf copied into a temporary PYTHONPATH; no runtime source changes. Initial environment-only missing-pypdf error resolved."
+  },
+  "preflight": {
+    "sufficient": true,
+    "evaluation_outcome": "valid",
+    "publication_quality_failure": false,
+    "missing_requirements": []
+  }
+}
