@@ -1,0 +1,293 @@
+{
+  "document_type": "preparatory_dependency_review_not_workflow_inventory",
+  "status": "inspection_only_no_migration_executed",
+  "baseline_commit": "17c211aace9c7fad88934a2f24436d40c3be238e",
+  "canonical_state_reference": "evaluation/evaluation-state.json",
+  "canonical_state_sha256": "577f66ae217afa3486398620ddab17f28db6036cfed3cef643147c9b2844e8f8",
+  "current_structure_sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a",
+  "preservation": {
+    "archive_basename": "indexpdf-v8.2-c11c6ccb-final.private-complete.zip",
+    "archive_sha256": "664a87c0ebbb8a8f07c237136c5f2fcc959d826fd3e452db1b9725bad9133f65",
+    "local_and_saved_copies_verified": true,
+    "registered_artifacts_verified": 158,
+    "state_and_registered_artifacts_unchanged": true
+  },
+  "current_benchmark": {
+    "path": "evaluation/source/source-benchmark.v3.json",
+    "file_sha256": "06cc88f02103c8730845c55d1f93b4224c1828df45981bb7df4b4bbf45064f67",
+    "canonical_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
+    "population": {
+      "subjects": 638,
+      "relationships": 281,
+      "reader_tasks": 638,
+      "coalesced_nonincidental_treatments": 1569
+    },
+    "lineage": "Published native V8 benchmark imported through native_v8_exact"
+  },
+  "target_benchmark": {
+    "repository": "publication-intelligence/ohfr-2002-esi-benchmark",
+    "path": "source/source-benchmark.v3.json",
+    "freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+    "file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "population": {
+      "subjects": 1366,
+      "relationships": 3460,
+      "reader_tasks": 1026,
+      "coalesced_nonincidental_treatments": 3210
+    },
+    "file_matches_freeze_git_blob": true,
+    "release_historical_stop": "Cleared by final v3 release descriptor; do not reinterpret embedded historical stop as current or edit frozen bytes."
+  },
+  "shared_source": {
+    "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
+    "edition": "2002",
+    "filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
+    "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "document_page_basis": "one_based_inclusive"
+  },
+  "source_map_and_chunk_bytes_equal": true,
+  "shared_subject_ids": 0,
+  "candidate_identity": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
+  "artifact_stage_counts": {
+    "candidate_normalization": 3,
+    "locator_audit": 17,
+    "locator_chunk_preparation": 17,
+    "missing_access_audit": 17,
+    "initialize": 28,
+    "source_subject_discovery": 4,
+    "benchmark_synthesis": 2,
+    "benchmark_review": 3,
+    "scoring": 5,
+    "web_report": 5,
+    "chunk_definition": 1,
+    "source_chunk_preparation": 51,
+    "define_policy": 1,
+    "page_mapping": 1,
+    "benchmark_freeze": 2,
+    "structure_audit": 1
+  },
+  "reuse_boundary": {
+    "source_preparation": "Reuse exact source PDF, map, manifest and 51 chunk artifacts after common eligible-region scope confirmation. Source discovery/review chains remain historical, not evidence of discovery for the target release.",
+    "candidate_preparation": "Reuse 3 normalized/layout/inventory artifacts and 17 locator packets; registered candidate-to-benchmark binding requires supported transition. No fresh blindness or physical producer-PDF claim.",
+    "locator_audits": "17 files / 4273 exact candidate-bound judgments are reusable source evidence under identical region scope. No direct benchmark hash in the audit schema; this does not approve unconditional registration into a changed study. Preserve source/candidate provenance and explicitly handle scope-dependent narrative bindings.",
+    "missing_access": "All 17 selected ledgers bind the old benchmark and ownership hashes. Rebuild deterministic worksets,1366 subject obligations,1026 reader tasks and3210 treatments. No relabeling, count-ratio normalization or wholesale transfer. Only separately approved semantic crosswalk equivalences could authorize bounded evidence reuse.",
+    "structure": "Selective reconstruction required; full all-node pass attestation cannot establish new benchmark access. Candidate denominators, mechanics observations,257 physical delivered-reference resolutions and10 candidate/source architecture reviews are reusable evidence. Reassess new warrant, applicability and coverage context.",
+    "derived": "Recompute all5 scoring and5 web-report artifacts, caps/gates/validity/readiness and projection collections. Prior report/privacy/website review receipts describe the old bundle only.",
+    "policy": "Retain candidate_seen=true and actual exposure; preserve original policy/review/freeze separately. Supported retrospective benchmark transition and common study identity are required."
+  },
+  "node_dependency_review": [
+    {
+      "node_id": "NODE-3543C594CF2E",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0004"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-7ACCC1298323",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0005"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-AFE8F4C42D92",
+      "reusable_independent_architecture_findings": [
+        "HAF-ARCH-0004"
+      ],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0100"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-E9D267DB737D",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0011"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-44C63E2491CE",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0008"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-C83F59EEEC2A",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0006"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-D1A666D82A14",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0010"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-8B03B30FFDFB",
+      "reusable_independent_architecture_findings": [
+        "HAF-ARCH-0010"
+      ],
+      "benchmark_dependent_findings_to_reassess": [],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-B775AEEBBC50",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0007"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-78263A15974F",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0003"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-A2435811FD75",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0001"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-E1A287FF6FC9",
+      "reusable_independent_architecture_findings": [
+        "HAF-ARCH-0001"
+      ],
+      "benchmark_dependent_findings_to_reassess": [],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-EB34FCD7A1A0",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0002"
+      ],
+      "whole_node_row_transfer_approved": false
+    },
+    {
+      "node_id": "NODE-F23742E705FF",
+      "reusable_independent_architecture_findings": [],
+      "benchmark_dependent_findings_to_reassess": [
+        "HAF-MISSING-0009",
+        "HAF-XREF-0009"
+      ],
+      "whole_node_row_transfer_approved": false
+    }
+  ],
+  "independent_defect_evidence_candidates": [
+    "DEFECT-SUB-ANTICLERICALISM-001",
+    "DEFECT-SUB-DANTON-001",
+    "DEFECT-SUB-MARIE-ANTOINETTE-001",
+    "DEFECT-LOC-POSITION-001",
+    "DEFECT-LOC-COMPLETE-PATH-FIT-001",
+    "DEFECT-LOC-HEADING-FIT-001",
+    "DEFECT-LOC-SELECTIVITY-001"
+  ],
+  "benchmark_defects_to_rebuild": [
+    "DEFECT-XRF-REVOLUTIONARY-CONSENSUS-001",
+    "DEFECT-HED-MISSING-ACCESS-MAJOR-001",
+    "DEFECT-HED-MISSING-ACCESS-MINOR-001",
+    "DEFECT-COV-HIGH-PRIORITY-MAJOR-001",
+    "DEFECT-COV-HIGH-PRIORITY-ACCESS-MAJOR-001",
+    "DEFECT-COV-OPTIONAL-MAJOR-001",
+    "DEFECT-COV-LOCALIZED-MINOR-001",
+    "DEFECT-LOC-NEGATIVE-MAJOR-001",
+    "DEFECT-LOC-NEGATIVE-MINOR-001"
+  ],
+  "scoring_context": {
+    "reusable_candidate_attempt": {
+      "status": "meaningful_attempt",
+      "evidence_ids": [
+        "EVID-STRUCT-FULL-NODE-REVIEW"
+      ]
+    },
+    "delivered_reference_count": 257,
+    "old_warranted_obligation_ids": [
+      "SUBJ-0191"
+    ],
+    "optional_subject_rows_to_rebuild": 104,
+    "node_component_applicability": "Reassess even though old explicit overrides are empty."
+  },
+  "scope_review": {
+    "old_map_adjudication": "evaluation/validation/map-scope-adjudication.json",
+    "sha256": "ccd22298bd7b52c64adb3c454f648be0ededddced6f4f59e124f0d8117bec1a9",
+    "locator_ids": [
+      "LOC-C7EC8635B5EF",
+      "LOC-21F8A6403C4A",
+      "LOC-2B74EB795674",
+      "LOC-6EBA9C3F158C"
+    ],
+    "document_pages": [
+      3,
+      127,
+      129,
+      225
+    ],
+    "explicit_old_benchmark_narrative_locator": "LOC-21F8A6403C4A",
+    "decision": "Pending common region-scope compatibility; preserve old judgments and proof. Old benchmark/exclusion rationale is not silently rebound."
+  },
+  "density": {
+    "old_source_word_total": 195346,
+    "other_family_source_word_total": 194718,
+    "decision": "Await declared common per-chunk basis and exact provenance; retain candidate locator/path counts, rebuild density fields/uncertainty/calculations as required. No score invariance promised."
+  },
+  "uncertainty_disposition": {
+    "retained_source_candidate_limitations": [
+      "UNCERTAINTY-SOURCE-SPAN-001",
+      "UNCERTAINTY-CANDIDATE-FIDELITY-001"
+    ],
+    "density_rebind_after_common_basis": [
+      "UNCERTAINTY-DENSITY-WORDS-001"
+    ],
+    "old_benchmark_bound_reassess": [
+      "UNCERTAINTY-FIRST-LOOKUP-0494"
+    ],
+    "rule": "Preserve historical originals; explicitly reconstruct current uncertainty/scopes without declaring old benchmark uncertainty resolved."
+  },
+  "crosswalk_preflight": {
+    "file_sha256": "8983d37bc60bb7f5d7919de01182d98d46487911dea2b8c2e03652ba2fe146b3",
+    "approved_crosswalk": false,
+    "automatic_audit_reuse_authorized": false,
+    "label_seed_pairs": 36,
+    "use": "Unapproved source-review seeds only; no ID transfer approved."
+  },
+  "required_methodology_support": [
+    "candidate-visible retrospective benchmark replacement with exact old/new lineage",
+    "typed invalidation and explicit reuse records preserving historical IDs",
+    "study-level semantic benchmark/scope/policy/audit/rubric/calculation/density compatibility guard",
+    "report benchmark identity beside methodology"
+  ],
+  "not_performed": [
+    "canonical state mutation",
+    "benchmark import/replacement",
+    "audit rejudgment",
+    "score recomputation",
+    "merge",
+    "activation",
+    "deployment"
+  ],
+  "score_invariance_required": false
+}

@@ -6,6 +6,8 @@ The single canonical workflow state and artifact inventory is [`evaluation/evalu
 
 ## V8.2 migration
 
+Common-benchmark reconciliation is in preparation. See the [dependency review](migration/common-benchmark/README.md) for reusable evidence, required rebuilds, and the supported-workflow dependency. The existing V8.2 score describes the preserved native benchmark only.
+
 **Comparability hold:** PR 6 is draft while the coordinator investigates different frozen benchmark sizes across the four indexes. This IndexPDF migration retains the imported Published benchmark (638 subjects, 1,569 coalesced treatments). Do not merge, activate bundles, or claim direct cross-index score comparability until that investigation is resolved. No benchmark evidence has been rewritten.
 
 The combined migration is validated against reviewed methodology commit `c11c6ccb`; the evaluation PR is draft pending benchmark-comparability investigation. The earlier `adeb691` checkpoint remains preserved.
