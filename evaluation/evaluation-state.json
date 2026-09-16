@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-original-published-index-v8",
   "created_at": "2026-09-09T13:33:46Z",
-  "updated_at": "2026-09-09T17:14:38Z",
+  "updated_at": "2026-09-16T00:41:06Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -14,7 +14,16 @@
     ],
     "document_page_basis": "one_based_inclusive"
   },
-  "candidate": null,
+  "candidate": {
+    "candidate_id": "ohfr-2002-indexpdf",
+    "candidate_sha256": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
+    "schema_version": "candidate-index-v2",
+    "normalized_path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
+    "normalized_sha256": "2f2a6167ba0a37fd2cdbb7ea42e7590b5fbb39426a8f1a35a2d92edea3d95c05",
+    "item_inventory_path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
+    "benchmark_path": "source/source-benchmark.v2.json",
+    "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983"
+  },
   "configuration": {
     "audit_mode": "full",
     "index_type": "subject_index",
@@ -99,9 +108,11 @@
       ]
     },
     "candidate_normalization": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T00:41:06Z",
+      "notes": [
+        "Validated and registered directly from local preparation outputs."
+      ]
     },
     "locator_chunk_preparation": {
       "status": "not_started",
@@ -135,6 +146,58 @@
     }
   },
   "artifacts": [
+    {
+      "artifact_id": "ART-ACB2C5C193EF",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_index",
+      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
+      "sha256": "2f2a6167ba0a37fd2cdbb7ea42e7590b5fbb39426a8f1a35a2d92edea3d95c05",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T00:41:06Z",
+      "schema_version": "candidate-index-v2"
+    },
+    {
+      "artifact_id": "ART-F2AED680B87D",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_layout_extraction",
+      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-layout-extraction.v1.json",
+      "sha256": "374057c272e7905e6cdc4aa3a017346efb7ae3f27aaf69c012df32ed76f6298f",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T00:41:06Z",
+      "schema_version": "candidate-layout-extraction-v1"
+    },
+    {
+      "artifact_id": "ART-6A23E63E1F58",
+      "stage": "candidate_normalization",
+      "artifact_type": "item_inventory",
+      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
+      "sha256": "4711491da62b67029abb1ba4f7e81009f3498393ed5cb1735c0d6f078e135261",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T00:41:06Z",
+      "schema_version": "subject-index-item-inventory-v2"
+    },
+    {
+      "artifact_id": "ART-EB64209A436E",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_normalization_issues",
+      "path": "candidate/preparation/normalized/validation/candidate-normalization-issues.ohfr-2002-indexpdf.v1.json",
+      "sha256": "c2c220ddacd5f98dafa5dfacd51faca0dfae3a442e8269a5f4776d539f8395d9",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T00:41:06Z",
+      "schema_version": "candidate-normalization-issues-v1"
+    },
     {
       "artifact_id": "ART-493F1BBD1F10",
       "stage": "chunk_definition",
