@@ -1,8 +1,8 @@
 {
   "schema_version": "subject-index-evaluation-state-v6",
-  "evaluation_id": "ohfr-2002-original-published-index-v8",
-  "created_at": "2026-09-09T13:33:46Z",
-  "updated_at": "2026-09-16T00:41:06Z",
+  "evaluation_id": "ohfr-2002-indexpdf-v8",
+  "created_at": "2026-09-16T01:06:43Z",
+  "updated_at": "2026-09-16T06:03:58Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -18,11 +18,11 @@
     "candidate_id": "ohfr-2002-indexpdf",
     "candidate_sha256": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
     "schema_version": "candidate-index-v2",
-    "normalized_path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
-    "normalized_sha256": "2f2a6167ba0a37fd2cdbb7ea42e7590b5fbb39426a8f1a35a2d92edea3d95c05",
-    "item_inventory_path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
-    "benchmark_path": "source/source-benchmark.v2.json",
-    "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983"
+    "normalized_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
+    "normalized_sha256": "18fecb7858643520e58a4e639f074cc701707e49b52cc3061461750b68054177",
+    "item_inventory_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
+    "benchmark_path": "source/source-benchmark.v3.json",
+    "benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d"
   },
   "configuration": {
     "audit_mode": "full",
@@ -45,158 +45,1238 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:34:02Z",
+      "updated_at": "2026-09-16T06:03:58Z",
       "notes": [
-        "Exact source hash and 425-page count match the existing V7 source identity; no alternative edition was substituted."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "page_mapping": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:34:04Z",
+      "updated_at": "2026-09-16T01:06:44Z",
       "notes": [
-        "Re-expanded under the pinned V8 CLI and byte-identical to the approved V7 page map for the exact matching source hash."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "chunk_definition": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:34:17Z",
+      "updated_at": "2026-09-16T01:06:44Z",
       "notes": [
-        "Validated under the pinned V8 CLI and byte-identical to the user-approved V7 17-chapter manifest for the matching page map."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "define_policy": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:34:37Z",
+      "updated_at": "2026-09-16T01:06:44Z",
       "notes": [
-        "Fresh standard V8 policy instantiated candidate-blind with no deviations; no V7 policy-bound judgments were reinterpreted."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "source_chunk_preparation": {
       "status": "completed",
-      "updated_at": "2026-09-09T13:36:38Z",
+      "updated_at": "2026-09-16T01:15:24Z",
       "notes": [
-        "Prepared 17 source-only chapter packets and page sidecars from the exact matching source; stopped before discovery."
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint.",
+        "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
     },
     "source_subject_discovery": {
       "status": "completed",
-      "updated_at": "2026-09-09T16:31:07Z",
+      "updated_at": "2026-09-16T01:39:18Z",
       "notes": [
-        "Registered parallel source discoveries: CHUNK-001, CHUNK-002, CHUNK-003, CHUNK-004, CHUNK-005, CHUNK-006, CHUNK-007, CHUNK-008, CHUNK-009, CHUNK-010, CHUNK-011, CHUNK-012, CHUNK-013, CHUNK-014, CHUNK-015, CHUNK-016, CHUNK-017."
+        "Imported exact candidate-blind native V8 release evidence; discovery was not rerun."
       ]
     },
     "benchmark_synthesis": {
       "status": "completed",
-      "updated_at": "2026-09-09T16:48:54Z",
+      "updated_at": "2026-09-16T01:39:18Z",
       "notes": [
-        "Candidate-blind synthesis reconciled all 17 registered discoveries and all 707 source subject records; pinned screen passed."
+        "Imported the exact independently reviewed native V8 draft and frozen benchmark; synthesis was not rerun."
       ]
     },
     "benchmark_review": {
       "status": "completed",
-      "updated_at": "2026-09-09T17:14:21Z",
+      "updated_at": "2026-09-16T01:39:18Z",
       "notes": [
-        "Deterministic screen inventory for the registered candidate-blind draft.",
-        "Fresh full candidate-blind review completed; all required IDs reviewed; approve_revised."
+        "Validated the historical full review and a separate candidate-blind exact-reuse approval; editorial review was not rerun."
       ]
     },
     "benchmark_freeze": {
       "status": "completed",
-      "updated_at": "2026-09-09T17:14:38Z",
+      "updated_at": "2026-09-16T01:39:18Z",
       "notes": [
-        "Frozen after full independent candidate-blind review; approved version 2 with 43 logged relationship resolutions."
+        "Rebound only evaluation wrapper metadata under the unchanged V8 policy; the full freeze workflow was not rerun."
       ]
     },
     "candidate_normalization": {
       "status": "completed",
-      "updated_at": "2026-09-16T00:41:06Z",
+      "updated_at": "2026-09-16T01:41:17Z",
       "notes": [
         "Validated and registered directly from local preparation outputs."
       ]
     },
     "locator_chunk_preparation": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T01:41:34Z",
+      "notes": [
+        "Registered 17 frozen locator packets with complete exact-once routing."
+      ]
     },
     "locator_audit": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T02:34:31Z",
+      "notes": [
+        "Replaced the complete locator audit batch for all 17 frozen chunks."
+      ]
     },
     "missing_access_audit": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T02:51:27Z",
+      "notes": [
+        "Registered 17/17 current audit chunks."
+      ]
     },
     "structure_audit": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T03:19:13Z",
+      "notes": [
+        "Validated and registered the native V8 structure audit atomically."
+      ]
     },
     "scoring": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T03:21:40Z",
+      "notes": [
+        "Assembled registered inputs, calculated V8 dimensions, and registered the validated V12 result atomically."
+      ]
     },
     "web_report": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T05:02:34Z",
+      "notes": [
+        "Rebuilt and replaced the complete canonical public web projection bundle atomically."
+      ]
     }
   },
   "artifacts": [
     {
-      "artifact_id": "ART-ACB2C5C193EF",
+      "artifact_id": "ART-469D22EEB8C1",
       "stage": "candidate_normalization",
       "artifact_type": "candidate_index",
-      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
-      "sha256": "2f2a6167ba0a37fd2cdbb7ea42e7590b5fbb39426a8f1a35a2d92edea3d95c05",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
+      "sha256": "18fecb7858643520e58a4e639f074cc701707e49b52cc3061461750b68054177",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T00:41:06Z",
+      "recorded_at": "2026-09-16T01:41:17Z",
       "schema_version": "candidate-index-v2"
     },
     {
-      "artifact_id": "ART-F2AED680B87D",
+      "artifact_id": "ART-2984CF619B22",
       "stage": "candidate_normalization",
       "artifact_type": "candidate_layout_extraction",
-      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/candidate-layout-extraction.v1.json",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-layout-extraction.v1.json",
       "sha256": "374057c272e7905e6cdc4aa3a017346efb7ae3f27aaf69c012df32ed76f6298f",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T00:41:06Z",
+      "recorded_at": "2026-09-16T01:41:17Z",
       "schema_version": "candidate-layout-extraction-v1"
     },
     {
-      "artifact_id": "ART-6A23E63E1F58",
+      "artifact_id": "ART-D1C41CFA6394",
       "stage": "candidate_normalization",
       "artifact_type": "item_inventory",
-      "path": "candidate/preparation/normalized/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
-      "sha256": "4711491da62b67029abb1ba4f7e81009f3498393ed5cb1735c0d6f078e135261",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
+      "sha256": "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T00:41:06Z",
+      "recorded_at": "2026-09-16T01:41:17Z",
       "schema_version": "subject-index-item-inventory-v2"
     },
     {
-      "artifact_id": "ART-EB64209A436E",
-      "stage": "candidate_normalization",
-      "artifact_type": "candidate_normalization_issues",
-      "path": "candidate/preparation/normalized/validation/candidate-normalization-issues.ohfr-2002-indexpdf.v1.json",
-      "sha256": "c2c220ddacd5f98dafa5dfacd51faca0dfae3a442e8269a5f4776d539f8395d9",
+      "artifact_id": "ART-B2993776DB19",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "sha256": "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T00:41:06Z",
-      "schema_version": "candidate-normalization-issues-v1"
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-2C11B6461373",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "sha256": "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-9C1CC45B4284",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "sha256": "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-C5CF77E5042A",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "sha256": "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-3CC8AFB8A200",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "sha256": "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-6AB255EEACFA",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "sha256": "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-0C6AF428378F",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "sha256": "bccfcc78b4b63a88ba42c56a2a91a2777925b23e7cb1f057e18d9874ff0e4bd5",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-6C10B8494505",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "sha256": "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-EC9F6F3B224E",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "sha256": "412fe516a788f79893971854a7ac6a8200b2eb5861503cccae915a092ea12dd5",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-B16C86EF88AF",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "sha256": "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-CA070EE26292",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "sha256": "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-C7257EBDACA7",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "sha256": "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-318A0C5DA96C",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "sha256": "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-271E5DFE035E",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "sha256": "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-E459268923A2",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "sha256": "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-7E979B52877C",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "sha256": "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-34D6C68C589C",
+      "stage": "locator_audit",
+      "artifact_type": "locator_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "sha256": "a8983580c6d55ae30f36bff83fb7ebf6c36ae1f6958c6241040ba8ab8bc4d2a3",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:34:31Z",
+      "schema_version": "locator-audit-v2"
+    },
+    {
+      "artifact_id": "ART-6401AB7BFA42",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-001.json",
+      "sha256": "028206b59ab3a7144c596db403a3bcf6efd2c85f7027a6391cc98ab705f02e98",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-8717F5341EB6",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-002.json",
+      "sha256": "ed0e9176e14a446aae30d3bbac0291aabcd630d0cf079a1544984d02d465267d",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-FAEC6723628B",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-003.json",
+      "sha256": "80a4544e492db4233b7fae26bb9fe5b34ce41c1ba60f6339d281076a121fa8a2",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-CF1D77DB7287",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-004.json",
+      "sha256": "022a354143f92f69988f925bcf1509afaf5b61e277602d20ff09f78fd436cfcf",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-3945DB955027",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-005.json",
+      "sha256": "f8b92f9abf39bcbb4437e4ed94bbe62b21aca01649541808b9490193c95ecea8",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-120BA0676B91",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-006.json",
+      "sha256": "69c18d1ec33fdb3b980a7fb8d1dac10daf806b182005cb1dadb23a299968dd69",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-1A3F7A310064",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-007.json",
+      "sha256": "eea1b857a94e51e3011b49a85bc473618e77f3f37a6f4ab1c190a9f5b0d5d4c9",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-2BE1DC0C3F9F",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-008.json",
+      "sha256": "27249eeba23f0f2ca90ccfceaa09f1791a1fbef2cfe62b640b0ec9c878b1c3ed",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-503009580184",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-009.json",
+      "sha256": "11e94994e449a8c9e8e2ecff684bb3ff4f936ffacf69395f17594f52870b0776",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-1EBEF24BBA6E",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-010.json",
+      "sha256": "646d187215e01178bb7fd7cf7decedbbd1df89212f26a5d31465393a0e48b76d",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-4AF7F730C6D3",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-011.json",
+      "sha256": "d09576d09b6496afbd9f6fd1e2e14496701cc7d825e87b830083e8843c9feb9e",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-7F041C998BF8",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-012.json",
+      "sha256": "9c0f58fa610a749d7935d847ba898b102bc5a04239be21254d1cf0ed923570d7",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-080A4F8D1E6C",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-013.json",
+      "sha256": "9fe4af208046d79690efd9f07cd8445fe536b07bae6a55b1e033cfd8617202cd",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-0DB9DF56632A",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-014.json",
+      "sha256": "d34d8ff2615fc992f2c2262954471684e4f25d31a78262835a4fd65417e4b51b",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-7B67DA9D523B",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-015.json",
+      "sha256": "2af902c092965b4f2bed637eb90721fb1f65392200dc5c15286d2238ec6d738d",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-1C9748BDFC84",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-016.json",
+      "sha256": "840e3ed8373d21bd66f7de94149411b86d16ce94db7ea44bf7501b95ea86a1d0",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-1AE33A634336",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-packets/candidate-locator-CHUNK-017.json",
+      "sha256": "353cf1a86b0f37b0e8f24ca24899fcbb81a2416370e152f6dd52834987d635e7",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:41:34Z"
+    },
+    {
+      "artifact_id": "ART-48505CBBC57E",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "sha256": "b5976f35cd7aeb8c23979eb0bdba88464a45ae8e8e34ffea8e8fef5f3f8f19ff",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:26Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-2F494C2554AF",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "sha256": "52b1c20a994d6cca1f2fdd997fde1d1e4a665599e9363600a806c41ae5b2e3de",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:26Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-4BF833E18348",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "sha256": "0c2764cab8e569b274ab9b80490c243362a7403b6751f28a5861eaf84c1e68c0",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:26Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-4BA38094CA80",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "sha256": "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:26Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-1F451C480BB6",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "sha256": "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:26Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-3EEA60F0F3FE",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "sha256": "5447344c9a90bec4dca861272fa353fa0d859518e914e76907ca13c991a69e25",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:26Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-2AB157BFC744",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "sha256": "bdf86a6314234a471e1635fcca8190b8f79bc8f9df535a6361b98dcb7ab1af6a",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:26Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-CFAB4EB1AB7C",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "sha256": "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-5630EA716083",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "sha256": "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-D35E0D56E93C",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "sha256": "c519d138390695ec9efaa303f5b6f554018d65e7cfcc6dea5d72475f8aa539b0",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-7B95A0D9DD02",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "sha256": "5641396b806c5d1c8ab3582d8d29603c37424182f75b6cd476f21d2462ea3e8b",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-987A30257FA7",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "sha256": "bc80ffc54462b28376e792a648abdd1b076b3b3d1f64af80e917352d628fa51a",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-C90781539464",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "sha256": "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-6853E0805FED",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "sha256": "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-7D534FECBE14",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "sha256": "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-07027432EB42",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "sha256": "464895cd1e6719a900d19252cc4e5632b85252e33233b0d184437ee13f84d358",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-EEFC3CE3076B",
+      "stage": "missing_access_audit",
+      "artifact_type": "missing_access_audit",
+      "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "sha256": "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T02:51:27Z",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-32D4134ED829",
+      "stage": "initialize",
+      "artifact_type": "coordinator-notes",
+      "path": "coordination/notes.md",
+      "sha256": "7f98b3607aaaf115d910ebda2d8ccd4f4126f6aeb6e34f03cc4853ac58cd3e45",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:03:58Z"
+    },
+    {
+      "artifact_id": "ART-28DFB921FD21",
+      "stage": "initialize",
+      "artifact_type": "presentation-producer-review",
+      "path": "coordination/presentation-producer-report.md",
+      "sha256": "32e840f87b9fb80b83735c0b6786819566f8fdee994ade0a17c6af4a339e50b8",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:05:14Z"
+    },
+    {
+      "artifact_id": "ART-FD1DE542C2D0",
+      "stage": "initialize",
+      "artifact_type": "evaluator-path-denominator-review",
+      "path": "coordination/structure-path-denominator-fix-report.md",
+      "sha256": "cbfddcf3040ad5e0ee32e4eea574ff8cb0929a5e485933ed8398c2908c7e823a",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T02:40:37Z"
+    },
+    {
+      "artifact_id": "ART-586852937877",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_native_v8_discovery_release_evidence",
+      "path": "import/native-v8-release/legacy-state.json",
+      "sha256": "6a18926c020f1b5a7e9d08fcab9d09e1886a1a89ae016181f63446d18c1b4d5a",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-state-v6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-8D2CF082A26A",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_native_v8_chunk_manifest_evidence",
+      "path": "import/native-v8-release/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "media_type": "application/json",
+      "schema_version": "chunk-manifest-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-D8806A45AAC4",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_native_v8_policy_evidence",
+      "path": "import/native-v8-release/source/evaluation-policy.v4.json",
+      "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-policy-v4",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-7E4439C86371",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_native_v8_page_map_evidence",
+      "path": "import/native-v8-release/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "media_type": "application/json",
+      "schema_version": "page-map-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-E98B801C895E",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "imported_reviewed_native_v8_draft",
+      "path": "import/native-v8-release/source/source-benchmark.draft.v1.json",
+      "sha256": "a84d96aa8ed6bb4233d035f11f0f09cf232aa351fa494dad897db3cc85a41294",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-draft-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-054984BA6EF4",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "imported_reviewed_native_v8_benchmark",
+      "path": "import/native-v8-release/source/source-benchmark.v2.json",
+      "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-0646DB50BE41",
+      "stage": "benchmark_review",
+      "artifact_type": "legacy_full_review_inventory_evidence",
+      "path": "import/native-v8-release/validation/source-benchmark-review-inventory.json",
+      "sha256": "5278f3dc570feaec86eb58eddcdd16d7fbdc0c7ba38ec15e5a813fcc0b5fd8d3",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-inventory-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-C7127591572F",
+      "stage": "benchmark_review",
+      "artifact_type": "legacy_full_review_evidence",
+      "path": "import/native-v8-release/validation/source-benchmark-review.v1.json",
+      "sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-9D8A30129B8E",
+      "stage": "scoring",
+      "artifact_type": "dimension_calculation_input",
+      "path": "scoring/dimension-calculation-input.v2.json",
+      "sha256": "75906d68e834414cbb61be697b18a3b7d132563007a2e8cb2145b866b08ff3b7",
+      "media_type": "application/json",
+      "schema_version": "subject-index-dimension-calculation-input-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T03:21:40Z",
+      "input_sha256": [
+        "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
+        "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
+        "0c2764cab8e569b274ab9b80490c243362a7403b6751f28a5861eaf84c1e68c0",
+        "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd",
+        "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46",
+        "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69",
+        "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144",
+        "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef",
+        "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d",
+        "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f",
+        "412fe516a788f79893971854a7ac6a8200b2eb5861503cccae915a092ea12dd5",
+        "464895cd1e6719a900d19252cc4e5632b85252e33233b0d184437ee13f84d358",
+        "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+        "52b1c20a994d6cca1f2fdd997fde1d1e4a665599e9363600a806c41ae5b2e3de",
+        "5447344c9a90bec4dca861272fa353fa0d859518e914e76907ca13c991a69e25",
+        "5641396b806c5d1c8ab3582d8d29603c37424182f75b6cd476f21d2462ea3e8b",
+        "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
+        "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
+        "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
+        "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
+        "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
+        "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
+        "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42",
+        "a8983580c6d55ae30f36bff83fb7ebf6c36ae1f6958c6241040ba8ab8bc4d2a3",
+        "b5976f35cd7aeb8c23979eb0bdba88464a45ae8e8e34ffea8e8fef5f3f8f19ff",
+        "bc80ffc54462b28376e792a648abdd1b076b3b3d1f64af80e917352d628fa51a",
+        "bccfcc78b4b63a88ba42c56a2a91a2777925b23e7cb1f057e18d9874ff0e4bd5",
+        "bdf86a6314234a471e1635fcca8190b8f79bc8f9df535a6361b98dcb7ab1af6a",
+        "c519d138390695ec9efaa303f5b6f554018d65e7cfcc6dea5d72475f8aa539b0",
+        "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
+        "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
+        "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
+        "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
+        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
+        "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
+        "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
+        "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d"
+      ]
+    },
+    {
+      "artifact_id": "ART-4507D8881E07",
+      "stage": "scoring",
+      "artifact_type": "dimension_calculations",
+      "path": "scoring/dimension-calculations.v6.json",
+      "sha256": "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
+      "media_type": "application/json",
+      "schema_version": "subject-index-dimension-calculations-v6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T03:21:40Z",
+      "input_sha256": [
+        "031ef83b96f28648eadb9ad8b51bf02b31be8d02d1035a820788d57599b04662",
+        "09a4981e6ebf22010b228ffc47c0bc437849a5299f12ec525c24999eeaddd908",
+        "0c2764cab8e569b274ab9b80490c243362a7403b6751f28a5861eaf84c1e68c0",
+        "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd",
+        "22ff152abe204ec62ed1752dfa6d7662f9e9e875ad86855efc279fda7de03f46",
+        "27fe5c888503e59f40db963886bc99cb7c65de6fa7d50ddf7543335e3ef21b69",
+        "2a15fbf07b2acb9e659885d491e0d89ee7b5c349442e170a4d5e55ce71069144",
+        "30f57268e3b8c140c636c4519c0e3c30c1fcb6397ab0c7cefec47780affbdeef",
+        "339231b95ff1a1391f1fee4401325271cd6e86493cc733c5a1444f59d27cb18d",
+        "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f",
+        "412fe516a788f79893971854a7ac6a8200b2eb5861503cccae915a092ea12dd5",
+        "464895cd1e6719a900d19252cc4e5632b85252e33233b0d184437ee13f84d358",
+        "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+        "52b1c20a994d6cca1f2fdd997fde1d1e4a665599e9363600a806c41ae5b2e3de",
+        "5447344c9a90bec4dca861272fa353fa0d859518e914e76907ca13c991a69e25",
+        "5641396b806c5d1c8ab3582d8d29603c37424182f75b6cd476f21d2462ea3e8b",
+        "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
+        "74fbb2ea981beb85282396fc3827aea0924fa8f3285527e11aad499857c95f44",
+        "79afbaf9c0a48f3c785ef6dd72ac60ae89a44cc489403a3671190c6cdcf0baa3",
+        "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
+        "8a273c5ed5dd554a2e5c7f3aa91a2c8846e8adea42461a993cdc35af5372752b",
+        "94565d1a0f4468160440c826dbd33733aa2c2389571febf7e0bf16073d4d6330",
+        "a7cea1e3fc4555327f3c6531c90403e4779a59102573069260458508585e6b42",
+        "a8983580c6d55ae30f36bff83fb7ebf6c36ae1f6958c6241040ba8ab8bc4d2a3",
+        "b5976f35cd7aeb8c23979eb0bdba88464a45ae8e8e34ffea8e8fef5f3f8f19ff",
+        "bc80ffc54462b28376e792a648abdd1b076b3b3d1f64af80e917352d628fa51a",
+        "bccfcc78b4b63a88ba42c56a2a91a2777925b23e7cb1f057e18d9874ff0e4bd5",
+        "bdf86a6314234a471e1635fcca8190b8f79bc8f9df535a6361b98dcb7ab1af6a",
+        "c519d138390695ec9efaa303f5b6f554018d65e7cfcc6dea5d72475f8aa539b0",
+        "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
+        "d734be354e4158e2c0250a3876b2d2656484d432709d4f24d63727c5cf4a3457",
+        "d795ea51fd16415072e100b14ad0456ff0bcc6750b8f3e2e7a09909e80532692",
+        "e19fc1d598d8e127094c33891137923c919995e0c8ce51840df2933289840025",
+        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
+        "e9032a79dca6692f281bb63990b6ea59e6d5e1c7bfd35473cfcdad4878bb3008",
+        "f1b7f3308c50c7e0a3481b3f0e4a3219ee544ed77272fdb896d3fb8bb7d346b9",
+        "ffe9337437eab51321e7be55e64c050fee28f9b4c6015ae1b8a6dff9e6110f4d"
+      ]
+    },
+    {
+      "artifact_id": "ART-D7937908639E",
+      "stage": "scoring",
+      "artifact_type": "evaluation_result",
+      "path": "scoring/evaluation-result.v12.json",
+      "sha256": "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-result-v12",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T03:21:40Z",
+      "input_sha256": [
+        "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
+        "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
+        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
+        "ff0b7ef164e808423baa8c0e470a86a97a1e597aaec1b308c17d89739030c132"
+      ]
+    },
+    {
+      "artifact_id": "ART-8BD3F00FA39A",
+      "stage": "scoring",
+      "artifact_type": "item_assessments",
+      "path": "scoring/item-assessments.v7.json",
+      "sha256": "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
+      "media_type": "application/json",
+      "schema_version": "subject-index-item-assessments-v7",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T03:21:40Z",
+      "input_sha256": [
+        "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
+        "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737",
+        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd"
+      ]
+    },
+    {
+      "artifact_id": "ART-F6365DAE1A63",
+      "stage": "scoring",
+      "artifact_type": "projection_metadata",
+      "path": "scoring/projection-metadata.v2.json",
+      "sha256": "ff0b7ef164e808423baa8c0e470a86a97a1e597aaec1b308c17d89739030c132",
+      "media_type": "application/json",
+      "schema_version": "subject-index-v8-projection-metadata-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T03:21:40Z",
+      "input_sha256": [
+        "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
+        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd"
+      ]
+    },
+    {
+      "artifact_id": "ART-F676B5F598A6",
+      "stage": "web_report",
+      "artifact_type": "web_density",
+      "path": "scoring/v8-canonical-projection/data/density.v1.json",
+      "sha256": "cccf4c9ee0c16d9b74b1710d60cb92ff7b48f087440cad574b5a4d8c91cb3555",
+      "media_type": "application/json",
+      "schema_version": "ohfr-v8-web-collection-v1",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:02:34Z",
+      "input_sha256": [
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
+      ]
+    },
+    {
+      "artifact_id": "ART-23FC1C25F0EF",
+      "stage": "web_report",
+      "artifact_type": "web_index_records",
+      "path": "scoring/v8-canonical-projection/data/index-records.v1.json",
+      "sha256": "351bdd16bebe02f8f06576c82ccc8d7fb91add452e1af40065325a4cd6391ed4",
+      "media_type": "application/json",
+      "schema_version": "ohfr-v8-web-collection-v1",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:02:34Z",
+      "input_sha256": [
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
+      ]
+    },
+    {
+      "artifact_id": "ART-6493FE78EE29",
+      "stage": "web_report",
+      "artifact_type": "web_source_subjects",
+      "path": "scoring/v8-canonical-projection/data/source-subjects.v1.json",
+      "sha256": "6a6ebcf668ac6e6de74a2518f5bf103e35cb5f302cb6b423accdaa3e5bb7284b",
+      "media_type": "application/json",
+      "schema_version": "ohfr-v8-web-collection-v1",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:02:34Z",
+      "input_sha256": [
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
+      ]
+    },
+    {
+      "artifact_id": "ART-8582B259541A",
+      "stage": "web_report",
+      "artifact_type": "web_projection",
+      "path": "scoring/v8-canonical-projection/projection.v1.json",
+      "sha256": "a44bea41deba0a3cb54a9a1f6ffa50cf87c491969544d9ffe1cb8226afd18edb",
+      "media_type": "application/json",
+      "schema_version": "ohfr-v8-canonical-web-projection-v1",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:02:34Z",
+      "input_sha256": [
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
+      ]
+    },
+    {
+      "artifact_id": "ART-5167D96436FE",
+      "stage": "web_report",
+      "artifact_type": "web_report",
+      "path": "scoring/web-report.v10.json",
+      "sha256": "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f",
+      "media_type": "application/json",
+      "schema_version": "subject-index-web-report-v10",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:02:34Z",
+      "input_sha256": [
+        "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
+        "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
+        "ff0b7ef164e808423baa8c0e470a86a97a1e597aaec1b308c17d89739030c132"
+      ]
     },
     {
       "artifact_id": "ART-493F1BBD1F10",
@@ -208,7 +1288,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:34:17Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "chunk-manifest-v1"
     },
     {
@@ -221,7 +1301,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:50Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -234,7 +1314,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:45Z"
+      "recorded_at": "2026-09-16T01:06:44Z"
     },
     {
       "artifact_id": "ART-EEC368F41EE5",
@@ -246,7 +1326,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:50Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -259,7 +1339,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:46Z"
+      "recorded_at": "2026-09-16T01:06:45Z"
     },
     {
       "artifact_id": "ART-B8EA954683EB",
@@ -271,7 +1351,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:50Z",
+      "recorded_at": "2026-09-16T01:06:45Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -284,7 +1364,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:46Z"
+      "recorded_at": "2026-09-16T01:06:45Z"
     },
     {
       "artifact_id": "ART-1A9C99102222",
@@ -296,7 +1376,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:51Z",
+      "recorded_at": "2026-09-16T01:06:45Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -309,7 +1389,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:46Z"
+      "recorded_at": "2026-09-16T01:06:45Z"
     },
     {
       "artifact_id": "ART-C351741B2E31",
@@ -321,7 +1401,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:51Z",
+      "recorded_at": "2026-09-16T01:06:45Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -334,7 +1414,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:46Z"
+      "recorded_at": "2026-09-16T01:06:45Z"
     },
     {
       "artifact_id": "ART-D7ED5575D4B9",
@@ -346,7 +1426,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:51Z",
+      "recorded_at": "2026-09-16T01:06:46Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -359,7 +1439,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:46Z"
     },
     {
       "artifact_id": "ART-A33DE6BA5B54",
@@ -371,7 +1451,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:51Z",
+      "recorded_at": "2026-09-16T01:06:46Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -384,7 +1464,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:46Z"
     },
     {
       "artifact_id": "ART-9D60ED702C73",
@@ -396,7 +1476,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:46Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -409,7 +1489,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:46Z"
     },
     {
       "artifact_id": "ART-E85428D67679",
@@ -421,7 +1501,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:47Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -434,7 +1514,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:47Z"
     },
     {
       "artifact_id": "ART-1868C644028D",
@@ -446,7 +1526,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:47Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -459,7 +1539,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:47Z"
+      "recorded_at": "2026-09-16T01:06:47Z"
     },
     {
       "artifact_id": "ART-2593328D9AD4",
@@ -471,7 +1551,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:47Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -484,7 +1564,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:48Z"
+      "recorded_at": "2026-09-16T01:06:47Z"
     },
     {
       "artifact_id": "ART-2A6A386EEE8D",
@@ -496,7 +1576,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:48Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -509,7 +1589,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:48Z"
+      "recorded_at": "2026-09-16T01:06:48Z"
     },
     {
       "artifact_id": "ART-FF617AAC1CB9",
@@ -521,7 +1601,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:52Z",
+      "recorded_at": "2026-09-16T01:06:48Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -534,7 +1614,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:48Z"
+      "recorded_at": "2026-09-16T01:06:48Z"
     },
     {
       "artifact_id": "ART-4E1E659BD798",
@@ -546,7 +1626,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:53Z",
+      "recorded_at": "2026-09-16T01:06:48Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -559,7 +1639,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:48Z"
+      "recorded_at": "2026-09-16T01:06:48Z"
     },
     {
       "artifact_id": "ART-A7EDC7DD955C",
@@ -571,7 +1651,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:53Z",
+      "recorded_at": "2026-09-16T01:06:49Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -584,7 +1664,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:49Z"
+      "recorded_at": "2026-09-16T01:06:49Z"
     },
     {
       "artifact_id": "ART-5C1D99D2D30B",
@@ -596,7 +1676,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:53Z",
+      "recorded_at": "2026-09-16T01:06:49Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -609,7 +1689,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:49Z"
+      "recorded_at": "2026-09-16T01:06:49Z"
     },
     {
       "artifact_id": "ART-2B9413943145",
@@ -621,7 +1701,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:36:38Z",
+      "recorded_at": "2026-09-16T01:06:49Z",
       "schema_version": "source-chunk-sidecar-v1"
     },
     {
@@ -634,7 +1714,7 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:35:49Z"
+      "recorded_at": "2026-09-16T01:06:49Z"
     },
     {
       "artifact_id": "ART-D5FC578573A8",
@@ -646,7 +1726,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:34:37Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "subject-index-evaluation-policy-v4"
     },
     {
@@ -659,7 +1739,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:34:04Z",
+      "recorded_at": "2026-09-16T01:06:44Z",
       "schema_version": "page-map-v1"
     },
     {
@@ -672,263 +1752,566 @@
       "visibility": "restricted",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T13:34:02Z"
+      "recorded_at": "2026-09-16T01:06:44Z"
     },
     {
-      "artifact_id": "ART-6391308265CA",
-      "stage": "benchmark_synthesis",
-      "artifact_type": "source-benchmark-draft",
-      "path": "source/source-benchmark.draft.v1.json",
-      "sha256": "a84d96aa8ed6bb4233d035f11f0f09cf232aa351fa494dad897db3cc85a41294",
-      "media_type": "application/json",
-      "visibility": "private",
+      "artifact_id": "ART-9C2EA9D2A3B2",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-001.txt",
+      "sha256": "c04d135598db4cfa770869f8a6e4b945a23d4d9a527b91f96da9680b214495c3",
+      "media_type": "text/plain",
+      "visibility": "restricted",
       "retention": "required",
-      "frozen": false,
-      "recorded_at": "2026-09-09T16:48:54Z",
-      "schema_version": "source-subject-benchmark-draft-v1"
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:21Z"
     },
     {
-      "artifact_id": "ART-3263C47A8EED",
+      "artifact_id": "ART-DA16FE63CB98",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-002.txt",
+      "sha256": "5fb45d993d538cb016adfa6af52cb952be6b50bcddc0d9967554a9d9e988e28f",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:21Z"
+    },
+    {
+      "artifact_id": "ART-ACB3127AD0DD",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-003.txt",
+      "sha256": "0ad2f637bbc0f5281a3e5c52bda85823669f9c8d4dd916fd2da7498e757dbc78",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:22Z"
+    },
+    {
+      "artifact_id": "ART-DEE02E0DDFD7",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-004.txt",
+      "sha256": "bdf4bb79062fdc27c51efb45d185a4495057c3323e27034796f7424279b675e8",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:22Z"
+    },
+    {
+      "artifact_id": "ART-154576DE8653",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-005.txt",
+      "sha256": "421c5e797d224db0805954c4412c857722c44d6a066c6f72d5b76114fd230a0f",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:22Z"
+    },
+    {
+      "artifact_id": "ART-3E6F10979EEC",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-006.txt",
+      "sha256": "11e41246d8b0ae7c8b98468ceda3f162ac144c56aa90b86c0d291e24f19d16eb",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:22Z"
+    },
+    {
+      "artifact_id": "ART-647C52BE5818",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-007.txt",
+      "sha256": "19e046e71903f3e30a611c9d5cda44058a6550a41222d186bfcda3a957822b28",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:22Z"
+    },
+    {
+      "artifact_id": "ART-8858A3AB30F6",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-008.txt",
+      "sha256": "1500eecbf8e624e7f75f891c836ad70448750882384b7d1051eb7ee378ea437b",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:22Z"
+    },
+    {
+      "artifact_id": "ART-00BDC47966AA",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-009.txt",
+      "sha256": "9ca1e79a1372ec8450eae7b29f62171911d208239074de674ac3a6160c9848af",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:23Z"
+    },
+    {
+      "artifact_id": "ART-97505EF961AD",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-010.txt",
+      "sha256": "eacff741ea195efa2a8572ca40bf36cbe49371167bf7fc6c22844dd9d624a09d",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:23Z"
+    },
+    {
+      "artifact_id": "ART-C7DB2BD777BA",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-011.txt",
+      "sha256": "a53add70c059f13790030edd32c101ccc4d26e384ce8d056263af0138a6954e3",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:23Z"
+    },
+    {
+      "artifact_id": "ART-9866E54EF966",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-012.txt",
+      "sha256": "9bd7d7ccd249d16f7309dad3203563759fceff3410aaba12019b26c1c2740f0c",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:23Z"
+    },
+    {
+      "artifact_id": "ART-5D88939D19FA",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-013.txt",
+      "sha256": "f81884150d60beb09845d04a99493e6c2159fa655d6ff063e37c305c0e5141d6",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:23Z"
+    },
+    {
+      "artifact_id": "ART-ED717674056E",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-014.txt",
+      "sha256": "51a7c7f0851cb06193362bc84f2225fc7587aa1721ce915eff96d31669324db0",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:24Z"
+    },
+    {
+      "artifact_id": "ART-1BDBE2CAA70D",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-015.txt",
+      "sha256": "24041f29cda0f29f6b5ae19e32670a08c15731e5ec9603968f387121c16a1d12",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:24Z"
+    },
+    {
+      "artifact_id": "ART-E5C69B8C0FBD",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-016.txt",
+      "sha256": "17085c53738f2a9be3bc3f481ccef0b79abd8ed932956dc1ed017abf8a338cfb",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:24Z"
+    },
+    {
+      "artifact_id": "ART-120DA9A68457",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-text",
+      "path": "source/restricted/page-text/CHUNK-017.txt",
+      "sha256": "c541d7dd33bbab72925ae06b73ffd7704931ff369bfcc27782c9ff039f1496c9",
+      "media_type": "text/plain",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:15:24Z"
+    },
+    {
+      "artifact_id": "ART-FE3C2F593961",
       "stage": "benchmark_freeze",
-      "artifact_type": "source-benchmark-v2",
-      "path": "source/source-benchmark.v2.json",
-      "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v3.json",
+      "sha256": "06cc88f02103c8730845c55d1f93b4224c1828df45981bb7df4b4bbf45064f67",
       "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T17:14:38Z",
-      "schema_version": "source-subject-benchmark-v2"
+      "recorded_at": "2026-09-16T01:39:18Z"
     },
     {
-      "artifact_id": "ART-711BF8FA74C3",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-001.json",
-      "sha256": "85445ae2f986c9055c45b92899e02e4f3929d1c45cd8f7662a1e03319132643c",
+      "artifact_id": "ART-932B4C02D1EF",
+      "stage": "structure_audit",
+      "artifact_type": "structure_audit",
+      "path": "staging/structure/structure-audit.v6.json",
+      "sha256": "e2d07ccdef3112e742531c1cd6667378d22ac7d9639e91d3405cc86b3b1943bd",
       "media_type": "application/json",
+      "schema_version": "structure-audit-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
+      "recorded_at": "2026-09-16T03:19:13Z",
+      "input_sha256": [
+        "18fecb7858643520e58a4e639f074cc701707e49b52cc3061461750b68054177",
+        "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737"
+      ]
     },
     {
-      "artifact_id": "ART-2A57EEFAC89C",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-002.json",
-      "sha256": "6b9628305dce25867616592997a3657b2ed78b0232419a54b57f16875c892fdf",
-      "media_type": "application/json",
+      "artifact_id": "ART-136A479F5A33",
+      "stage": "initialize",
+      "artifact_type": "structure-review-report",
+      "path": "staging/structure/structure-review-report.md",
+      "sha256": "bb0087024bcebe9b13db1f65731517aadb1a27e1fc0ebfefa1f6a98eb84b4639",
+      "media_type": "text/markdown",
       "visibility": "private",
       "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
+      "frozen": false,
+      "recorded_at": "2026-09-16T03:21:08Z"
     },
     {
-      "artifact_id": "ART-9871357A5DD1",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-003.json",
-      "sha256": "35e538697d5f2dfb436fd22c044dff5157e2334ce852265dc95ce7cfb8339f71",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-27FF9849D1B7",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-004.json",
-      "sha256": "82f69c8c23f4cf8e78a1ac4c71802974652fffc2e6c01184793131add44fc618",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-DF9986EEC22C",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-005.json",
-      "sha256": "e84976b5ef52ea03ff3bab1596e17610191f2d431809aade5a0297d1d6c9e9ac",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-605FA4F9255F",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-006.json",
-      "sha256": "eb4ec2ef0161883f0a1e3600d75456a3ae3cbdeeb14e035dcdf565debcfc2dc4",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-2CE639F98647",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-007.json",
-      "sha256": "1794606c77ad5183716d742bfc1cd246255147209d50ce072a75c98f87ad2488",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-21F360C9E365",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-008.json",
-      "sha256": "eccd5b28588f7dbebbb69d7ae28401b3e7aa11c9e76f012f53a94fa85141576d",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-123287FFA9AC",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-009.json",
-      "sha256": "b1b91c60c4dc18b7b5c58a0b9562a45202d65ca1560aac400aac8d7dde9bd911",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-7528F9107D55",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-010.json",
-      "sha256": "7031491fe4f9e28ce7ace7d747af5d1c1a794092c42c34e2b3a4c60221db0c77",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-550431DA82E6",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-011.json",
-      "sha256": "bbe1cca9159a1e0e7964d158e5bbf827794aa1209bd6a2b8afc6d3026ef14901",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-C41EEEA3CAEF",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-012.json",
-      "sha256": "7edb3f244ba8ad70184110886b6b9a1653d465430758bcc4d35daa1bf505b504",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-9407280E54E4",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-013.json",
-      "sha256": "78d2e26ce17f2fd94239b5c4eddb4d54b1ba616dccfcde814df490c44b3c749f",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-7C6C3475243C",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-014.json",
-      "sha256": "ce9721e26aee620cb2530d40312e1d2afaae7ccad6a917d9e0edcee14c5d33e5",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-869F611F2E4B",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-015.json",
-      "sha256": "d2080e65df89a54ff177dd133d700bc01f4fc19a3425ac6ce00efd0738830a6c",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-6824B274B564",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-016.json",
-      "sha256": "92cc73086f4c8bb536377c6d793018ea9b2cb27623a70a591c625ecf699c4ec7",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-30BAFCD06F38",
-      "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
-      "path": "source/source-subject-chunk.CHUNK-017.json",
-      "sha256": "442c9fa4c2a884c0682260b75d9a3b148bb07d77edd36a0f23b8c14c203e0000",
-      "media_type": "application/json",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-09T16:31:07Z"
-    },
-    {
-      "artifact_id": "ART-76D3FE229523",
-      "stage": "benchmark_review",
-      "artifact_type": "source-benchmark-review-inventory",
-      "path": "validation/source-benchmark-review-inventory.json",
-      "sha256": "5278f3dc570feaec86eb58eddcdd16d7fbdc0c7ba38ec15e5a813fcc0b5fd8d3",
+      "artifact_id": "ART-C68302E76A56",
+      "stage": "initialize",
+      "artifact_type": "density-coordinator-validation",
+      "path": "validation/density-review/coordinator-reproduction.json",
+      "sha256": "843909c8a33dc226bfb3b3878c58b6eb040b7a18c8ce143531af370c2e6dc50a",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": false,
-      "recorded_at": "2026-09-09T17:14:20Z",
-      "schema_version": "source-benchmark-review-inventory-v1"
+      "recorded_at": "2026-09-16T03:54:23Z"
     },
     {
-      "artifact_id": "ART-6D7C12D2E281",
-      "stage": "benchmark_review",
-      "artifact_type": "source-benchmark-review",
-      "path": "validation/source-benchmark-review.v1.json",
-      "sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0",
+      "artifact_id": "ART-C8927AF08F56",
+      "stage": "initialize",
+      "artifact_type": "independent-density-review",
+      "path": "validation/density-review/density-review.json",
+      "sha256": "c22624328a20238f6f429d322e7f71b4871ef8f5784b7345f99a839155f2a51e",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T03:54:22Z"
+    },
+    {
+      "artifact_id": "ART-7C9FDAE1E4B4",
+      "stage": "initialize",
+      "artifact_type": "density-reporting-closure",
+      "path": "validation/density-review/reporting-closure.json",
+      "sha256": "e4b01062cca7fc4356af5944037201b4b87844d13f1fc716318e1898e72c9de7",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T04:21:45Z",
+      "schema_version": "private-density-reporting-closure-v1"
+    },
+    {
+      "artifact_id": "ART-E54314C09B53",
+      "stage": "initialize",
+      "artifact_type": "runtime-byte-verification",
+      "path": "validation/final-installed-runtime.json",
+      "sha256": "81b509f6c6976dd9071a165a821d516815ba012ac43b1f4ed8d4f04c2bbd745d",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:58Z"
+    },
+    {
+      "artifact_id": "ART-97BEA6E36195",
+      "stage": "initialize",
+      "artifact_type": "map-scope-adjudication",
+      "path": "validation/map-scope-adjudication.json",
+      "sha256": "ccd22298bd7b52c64adb3c454f648be0ededddced6f4f59e124f0d8117bec1a9",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T02:31:27Z",
+      "schema_version": "private-map-scope-adjudication-v1"
+    },
+    {
+      "artifact_id": "ART-BA4D6C503889",
+      "stage": "initialize",
+      "artifact_type": "missing-access-calibration-review",
+      "path": "validation/missing-access-calibration-review.json",
+      "sha256": "96d55f21661f7e3d4156143928f428ef49aa5ff9336654340750d587a8b86189",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T02:51:53Z",
+      "schema_version": "missing-access-calibration-review-v1"
+    },
+    {
+      "artifact_id": "ART-CFA9A6D308A0",
+      "stage": "initialize",
+      "artifact_type": "presentation-public-diff-check",
+      "path": "validation/presentation-public-diff.json",
+      "sha256": "487974f132ac824340f0250e9a6b5003bb65682429360175b6f23e98b2b40291",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:05:15Z"
+    },
+    {
+      "artifact_id": "ART-6FFC9059F681",
+      "stage": "initialize",
+      "artifact_type": "presentation-summary-independent-review",
+      "path": "validation/report-review/presentation-summary-independent-review.v1.json",
+      "sha256": "58a7e8a6fd0ab6cf5b8dcbc9b3a7f2a2886bd102cf476d41a081a6bbe0fb0d65",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:13:13Z",
+      "schema_version": "ohfr-v8-private-presentation-summary-independent-review-v1"
+    },
+    {
+      "artifact_id": "ART-C67D5D82DAB4",
+      "stage": "initialize",
+      "artifact_type": "independent-public-bundle-closure",
+      "path": "validation/report-review/public-bundle-targeted-closure.v1.json",
+      "sha256": "53f3692d901991b63f2001af2b804855d01516b684ece394972a8f0d50916eda",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T04:29:59Z",
+      "schema_version": "ohfr-v8-private-public-bundle-targeted-closure-v1"
+    },
+    {
+      "artifact_id": "ART-EFE4993E4206",
+      "stage": "initialize",
+      "artifact_type": "independent-report-review",
+      "path": "validation/report-review/report-review.v1.json",
+      "sha256": "b6c4b19f8b585406524dfcbb9a97dd67f0650ca180708d977587c35d752b8c1f",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T03:54:22Z",
+      "schema_version": "ohfr-v8-private-report-review-v1"
+    },
+    {
+      "artifact_id": "ART-C3E61912C040",
+      "stage": "initialize",
+      "artifact_type": "privacy-eight-word-review",
+      "path": "validation/report-review/rr003-eight-word-nonlocator-review.v1.json",
+      "sha256": "ff60892fbf969426714e52b39ccf64d6d11aa0c1f5b3305dfce1e270282a7e14",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T04:02:29Z",
+      "schema_version": "ohfr-v8-private-eight-word-nonlocator-review-v1"
+    },
+    {
+      "artifact_id": "ART-0C76D1B9B91B",
+      "stage": "initialize",
+      "artifact_type": "privacy-review",
+      "path": "validation/report-review/rr003-privacy-closure.v1.json",
+      "sha256": "6b0b9f556ebc6280a0b3b2a81c6375c719d7d57656da2d9b1c276f765e23df41",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T03:54:23Z",
+      "schema_version": "ohfr-v8-private-privacy-closure-v1"
+    },
+    {
+      "artifact_id": "ART-59DF9D0975B7",
+      "stage": "benchmark_review",
+      "artifact_type": "benchmark_compatibility_approval",
+      "path": "validation/source-benchmark-compatibility-approval.v1.json",
+      "sha256": "60a4890ee1915cd81e368ec7876d3fc42c4e0d96785c8419955eaaefb6f92083",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-compatibility-approval-v1",
+      "visibility": "private",
+      "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-09T17:14:21Z",
-      "schema_version": "source-benchmark-review-v1"
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-8A5AA58747CA",
+      "stage": "benchmark_freeze",
+      "artifact_type": "benchmark_compatibility_import_provenance",
+      "path": "validation/source-benchmark-compatibility-import-provenance.v1.json",
+      "sha256": "37a4c74e7d4d206f9270dfc72a643f9648f416ae5c9fbf386cf034129d5976c6",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-compatibility-import-provenance-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-7D535B51E17A",
+      "stage": "initialize",
+      "artifact_type": "website-render-regression",
+      "path": "validation/website-final-coordinator-tests.log",
+      "sha256": "4e71bd28b4027e5fa3d70e9e896909fb37f38e617ee06fcde7b699cf3b688e06",
+      "media_type": "application/octet-stream",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:57Z"
+    },
+    {
+      "artifact_id": "ART-9404AA55D2E0",
+      "stage": "initialize",
+      "artifact_type": "website-identity-render-regression",
+      "path": "validation/website-identity-closure-coordinator-tests.log",
+      "sha256": "63e38fa0f138f18fb17f46e50ddb7296ea4d5b1c6a4cc4a7d78e76d532875343",
+      "media_type": "application/octet-stream",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:00:43Z"
+    },
+    {
+      "artifact_id": "ART-8D2EB36DD502",
+      "stage": "initialize",
+      "artifact_type": "website-browser-qa",
+      "path": "validation/website-review/coordinator-browser-qa.md",
+      "sha256": "37aec846e58b81af085f94fa1428be440ed1af50e809223306d4c4f8af1c37ae",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:00:42Z"
+    },
+    {
+      "artifact_id": "ART-CB1ECFB9CE18",
+      "stage": "initialize",
+      "artifact_type": "website-final-build",
+      "path": "validation/website-review/final-production-build.log",
+      "sha256": "e0a75ed28529bc0bf28dbf34ab6bd0e94a1b242c7c69aedcb400e1280c034a80",
+      "media_type": "application/octet-stream",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:00:42Z"
+    },
+    {
+      "artifact_id": "ART-DEAD7916A6F7",
+      "stage": "initialize",
+      "artifact_type": "initial-website-review",
+      "path": "validation/website-review/initial/rr002-website-compatibility-closure.v1.json",
+      "sha256": "20c4636e330a16892d875dfdd8264f3d82bbe8b27196abd26f8abb8615055da1",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:54Z",
+      "schema_version": "ohfr-v8-private-rr002-website-compatibility-closure-v1"
+    },
+    {
+      "artifact_id": "ART-B8E0F62E586D",
+      "stage": "initialize",
+      "artifact_type": "website-final-independent-review-report",
+      "path": "validation/website-review/rr002-website-compatibility-final-closure.md",
+      "sha256": "2a4e7265c375e46d7fb7e6068a437763d1945619f56adc6f98dfe24a876e906c",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:03:13Z"
+    },
+    {
+      "artifact_id": "ART-09105A1F84B3",
+      "stage": "initialize",
+      "artifact_type": "website-final-independent-review",
+      "path": "validation/website-review/rr002-website-compatibility-final-closure.v1.json",
+      "sha256": "b53627fb64a59ba1abb2eb912117a9bbb25985a0e74b7e30e09974a7a980c619",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:03:12Z",
+      "schema_version": "ohfr-v8-private-rr002-website-compatibility-final-closure-v1"
+    },
+    {
+      "artifact_id": "ART-5376BEB8ADBC",
+      "stage": "initialize",
+      "artifact_type": "website-followup-review",
+      "path": "validation/website-review/rr002-website-compatibility-followup-review.v1.json",
+      "sha256": "1803d8487ffdad11f0cee50d910f6e2e55c833ddd1055040b82c279a73a82b45",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:55Z",
+      "schema_version": "ohfr-v8-private-rr002-website-compatibility-followup-review-v1"
+    },
+    {
+      "artifact_id": "ART-004845E0A932",
+      "stage": "initialize",
+      "artifact_type": "website-runtime-verifier",
+      "path": "validation/website-review/verify-rr002-runtime.ts",
+      "sha256": "b424c3281a3c89520db36b786aff923937b1fd06b8dd94c788b96c8adb3d7bbf",
+      "media_type": "text/vnd.trolltech.linguist",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:57Z"
+    },
+    {
+      "artifact_id": "ART-29D0AD1E7513",
+      "stage": "initialize",
+      "artifact_type": "website-worker-closure-qa",
+      "path": "validation/website-review/worker-closure-qa.md",
+      "sha256": "b27f39e61bf25816c1bbc9ced72f1fb37569592fe9d41c43e096041011c9a6d2",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:00:41Z"
+    },
+    {
+      "artifact_id": "ART-01E9BBF93288",
+      "stage": "initialize",
+      "artifact_type": "website-worker-qa",
+      "path": "validation/website-review/worker-qa.md",
+      "sha256": "dae312142b7292f52d0e36f970c83b486e96a6f7ee4c11a92f531f3b1761aaf1",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:55Z"
     }
   ],
   "blockers": []
