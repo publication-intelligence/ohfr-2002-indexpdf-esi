@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T05:13:36Z",
+  "updated_at": "2026-09-16T06:03:58Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -45,7 +45,7 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-16T05:13:36Z",
+      "updated_at": "2026-09-16T06:03:58Z",
       "notes": [
         "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
@@ -893,16 +893,16 @@
       "schema_version": "missing-access-audit-v1"
     },
     {
-      "artifact_id": "ART-05980AD902AF",
+      "artifact_id": "ART-32D4134ED829",
       "stage": "initialize",
       "artifact_type": "coordinator-notes",
       "path": "coordination/notes.md",
-      "sha256": "848edd49f14299187b5af99d4ef8ed1eb56ca1f876433ccc01f67fffeaeebb6f",
+      "sha256": "7f98b3607aaaf115d910ebda2d8ccd4f4126f6aeb6e34f03cc4853ac58cd3e45",
       "media_type": "text/markdown",
       "visibility": "private",
       "retention": "required",
       "frozen": false,
-      "recorded_at": "2026-09-16T05:13:36Z"
+      "recorded_at": "2026-09-16T06:03:58Z"
     },
     {
       "artifact_id": "ART-28DFB921FD21",
@@ -2038,6 +2038,18 @@
       "schema_version": "private-density-reporting-closure-v1"
     },
     {
+      "artifact_id": "ART-E54314C09B53",
+      "stage": "initialize",
+      "artifact_type": "runtime-byte-verification",
+      "path": "validation/final-installed-runtime.json",
+      "sha256": "81b509f6c6976dd9071a165a821d516815ba012ac43b1f4ed8d4f04c2bbd745d",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:58Z"
+    },
+    {
       "artifact_id": "ART-97BEA6E36195",
       "stage": "initialize",
       "artifact_type": "map-scope-adjudication",
@@ -2165,6 +2177,141 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-7D535B51E17A",
+      "stage": "initialize",
+      "artifact_type": "website-render-regression",
+      "path": "validation/website-final-coordinator-tests.log",
+      "sha256": "4e71bd28b4027e5fa3d70e9e896909fb37f38e617ee06fcde7b699cf3b688e06",
+      "media_type": "application/octet-stream",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:57Z"
+    },
+    {
+      "artifact_id": "ART-9404AA55D2E0",
+      "stage": "initialize",
+      "artifact_type": "website-identity-render-regression",
+      "path": "validation/website-identity-closure-coordinator-tests.log",
+      "sha256": "63e38fa0f138f18fb17f46e50ddb7296ea4d5b1c6a4cc4a7d78e76d532875343",
+      "media_type": "application/octet-stream",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:00:43Z"
+    },
+    {
+      "artifact_id": "ART-8D2EB36DD502",
+      "stage": "initialize",
+      "artifact_type": "website-browser-qa",
+      "path": "validation/website-review/coordinator-browser-qa.md",
+      "sha256": "37aec846e58b81af085f94fa1428be440ed1af50e809223306d4c4f8af1c37ae",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:00:42Z"
+    },
+    {
+      "artifact_id": "ART-CB1ECFB9CE18",
+      "stage": "initialize",
+      "artifact_type": "website-final-build",
+      "path": "validation/website-review/final-production-build.log",
+      "sha256": "e0a75ed28529bc0bf28dbf34ab6bd0e94a1b242c7c69aedcb400e1280c034a80",
+      "media_type": "application/octet-stream",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:00:42Z"
+    },
+    {
+      "artifact_id": "ART-DEAD7916A6F7",
+      "stage": "initialize",
+      "artifact_type": "initial-website-review",
+      "path": "validation/website-review/initial/rr002-website-compatibility-closure.v1.json",
+      "sha256": "20c4636e330a16892d875dfdd8264f3d82bbe8b27196abd26f8abb8615055da1",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:54Z",
+      "schema_version": "ohfr-v8-private-rr002-website-compatibility-closure-v1"
+    },
+    {
+      "artifact_id": "ART-B8E0F62E586D",
+      "stage": "initialize",
+      "artifact_type": "website-final-independent-review-report",
+      "path": "validation/website-review/rr002-website-compatibility-final-closure.md",
+      "sha256": "2a4e7265c375e46d7fb7e6068a437763d1945619f56adc6f98dfe24a876e906c",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:03:13Z"
+    },
+    {
+      "artifact_id": "ART-09105A1F84B3",
+      "stage": "initialize",
+      "artifact_type": "website-final-independent-review",
+      "path": "validation/website-review/rr002-website-compatibility-final-closure.v1.json",
+      "sha256": "b53627fb64a59ba1abb2eb912117a9bbb25985a0e74b7e30e09974a7a980c619",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:03:12Z",
+      "schema_version": "ohfr-v8-private-rr002-website-compatibility-final-closure-v1"
+    },
+    {
+      "artifact_id": "ART-5376BEB8ADBC",
+      "stage": "initialize",
+      "artifact_type": "website-followup-review",
+      "path": "validation/website-review/rr002-website-compatibility-followup-review.v1.json",
+      "sha256": "1803d8487ffdad11f0cee50d910f6e2e55c833ddd1055040b82c279a73a82b45",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:55Z",
+      "schema_version": "ohfr-v8-private-rr002-website-compatibility-followup-review-v1"
+    },
+    {
+      "artifact_id": "ART-004845E0A932",
+      "stage": "initialize",
+      "artifact_type": "website-runtime-verifier",
+      "path": "validation/website-review/verify-rr002-runtime.ts",
+      "sha256": "b424c3281a3c89520db36b786aff923937b1fd06b8dd94c788b96c8adb3d7bbf",
+      "media_type": "text/vnd.trolltech.linguist",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:57Z"
+    },
+    {
+      "artifact_id": "ART-29D0AD1E7513",
+      "stage": "initialize",
+      "artifact_type": "website-worker-closure-qa",
+      "path": "validation/website-review/worker-closure-qa.md",
+      "sha256": "b27f39e61bf25816c1bbc9ced72f1fb37569592fe9d41c43e096041011c9a6d2",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T06:00:41Z"
+    },
+    {
+      "artifact_id": "ART-01E9BBF93288",
+      "stage": "initialize",
+      "artifact_type": "website-worker-qa",
+      "path": "validation/website-review/worker-qa.md",
+      "sha256": "dae312142b7292f52d0e36f970c83b486e96a6f7ee4c11a92f531f3b1761aaf1",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:53:55Z"
     }
   ],
   "blockers": []
