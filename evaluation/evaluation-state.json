@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T01:15:24Z",
+  "updated_at": "2026-09-16T01:40:11Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -36,7 +36,7 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-16T01:06:44Z",
+      "updated_at": "2026-09-16T01:40:11Z",
       "notes": [
         "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
@@ -103,24 +103,32 @@
       ]
     },
     "source_subject_discovery": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T01:39:18Z",
+      "notes": [
+        "Imported exact candidate-blind native V8 release evidence; discovery was not rerun."
+      ]
     },
     "benchmark_synthesis": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T01:39:18Z",
+      "notes": [
+        "Imported the exact independently reviewed native V8 draft and frozen benchmark; synthesis was not rerun."
+      ]
     },
     "benchmark_review": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T01:39:18Z",
+      "notes": [
+        "Validated the historical full review and a separate candidate-blind exact-reuse approval; editorial review was not rerun."
+      ]
     },
     "benchmark_freeze": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T01:39:18Z",
+      "notes": [
+        "Rebound only evaluation wrapper metadata under the unchanged V8 policy; the full freeze workflow was not rerun."
+      ]
     },
     "candidate_normalization": {
       "status": "not_started",
@@ -159,6 +167,122 @@
     }
   },
   "artifacts": [
+    {
+      "artifact_id": "ART-E298D5CF437E",
+      "stage": "initialize",
+      "artifact_type": "coordinator-notes",
+      "path": "coordination/notes.md",
+      "sha256": "05f55af47bb0a5d550b1e85e415ab997137c935a4d6d74e63bd8539ea04db339",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T01:40:11Z"
+    },
+    {
+      "artifact_id": "ART-586852937877",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_native_v8_discovery_release_evidence",
+      "path": "import/native-v8-release/legacy-state.json",
+      "sha256": "6a18926c020f1b5a7e9d08fcab9d09e1886a1a89ae016181f63446d18c1b4d5a",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-state-v6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-8D2CF082A26A",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_native_v8_chunk_manifest_evidence",
+      "path": "import/native-v8-release/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "media_type": "application/json",
+      "schema_version": "chunk-manifest-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-D8806A45AAC4",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_native_v8_policy_evidence",
+      "path": "import/native-v8-release/source/evaluation-policy.v4.json",
+      "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-policy-v4",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-7E4439C86371",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_native_v8_page_map_evidence",
+      "path": "import/native-v8-release/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "media_type": "application/json",
+      "schema_version": "page-map-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-E98B801C895E",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "imported_reviewed_native_v8_draft",
+      "path": "import/native-v8-release/source/source-benchmark.draft.v1.json",
+      "sha256": "a84d96aa8ed6bb4233d035f11f0f09cf232aa351fa494dad897db3cc85a41294",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-draft-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-054984BA6EF4",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "imported_reviewed_native_v8_benchmark",
+      "path": "import/native-v8-release/source/source-benchmark.v2.json",
+      "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-0646DB50BE41",
+      "stage": "benchmark_review",
+      "artifact_type": "legacy_full_review_inventory_evidence",
+      "path": "import/native-v8-release/validation/source-benchmark-review-inventory.json",
+      "sha256": "5278f3dc570feaec86eb58eddcdd16d7fbdc0c7ba38ec15e5a813fcc0b5fd8d3",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-inventory-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-C7127591572F",
+      "stage": "benchmark_review",
+      "artifact_type": "legacy_full_review_evidence",
+      "path": "import/native-v8-release/validation/source-benchmark-review.v1.json",
+      "sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
     {
       "artifact_id": "ART-493F1BBD1F10",
       "stage": "chunk_definition",
@@ -838,6 +962,45 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-09-16T01:15:24Z"
+    },
+    {
+      "artifact_id": "ART-FE3C2F593961",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v3.json",
+      "sha256": "06cc88f02103c8730845c55d1f93b4224c1828df45981bb7df4b4bbf45064f67",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-59DF9D0975B7",
+      "stage": "benchmark_review",
+      "artifact_type": "benchmark_compatibility_approval",
+      "path": "validation/source-benchmark-compatibility-approval.v1.json",
+      "sha256": "60a4890ee1915cd81e368ec7876d3fc42c4e0d96785c8419955eaaefb6f92083",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-compatibility-approval-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-8A5AA58747CA",
+      "stage": "benchmark_freeze",
+      "artifact_type": "benchmark_compatibility_import_provenance",
+      "path": "validation/source-benchmark-compatibility-import-provenance.v1.json",
+      "sha256": "37a4c74e7d4d206f9270dfc72a643f9648f416ae5c9fbf386cf034129d5976c6",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-compatibility-import-provenance-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T01:39:18Z"
     }
   ],
   "blockers": []
