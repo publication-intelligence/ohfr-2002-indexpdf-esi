@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T01:41:34Z",
+  "updated_at": "2026-09-16T01:48:57Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -45,7 +45,7 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-16T01:40:11Z",
+      "updated_at": "2026-09-16T01:48:57Z",
       "notes": [
         "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
@@ -441,16 +441,16 @@
       "recorded_at": "2026-09-16T01:41:34Z"
     },
     {
-      "artifact_id": "ART-E298D5CF437E",
+      "artifact_id": "ART-C6FFF43484F9",
       "stage": "initialize",
       "artifact_type": "coordinator-notes",
       "path": "coordination/notes.md",
-      "sha256": "05f55af47bb0a5d550b1e85e415ab997137c935a4d6d74e63bd8539ea04db339",
+      "sha256": "854eae99f23eb11a51f24de48353b7faee0b7659be43daff50ea58613aca77a1",
       "media_type": "text/markdown",
       "visibility": "private",
       "retention": "required",
       "frozen": false,
-      "recorded_at": "2026-09-16T01:40:11Z"
+      "recorded_at": "2026-09-16T01:48:57Z"
     },
     {
       "artifact_id": "ART-586852937877",

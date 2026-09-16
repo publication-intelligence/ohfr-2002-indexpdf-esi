@@ -8,9 +8,11 @@ The single canonical workflow state and artifact inventory is [`evaluation/evalu
 
 The exact source, page map, 17 previously approved chapter chunks, and frozen V8 policy have been verified and registered. All 425 source pages have exactly one chunk owner. An independent candidate-blind compatibility review selected the existing native V8 benchmark (638 subjects, 281 relationships, 638 reader tasks); discovery and full editorial review are not being repeated.
 
-Registration awaits a focused extension of the existing reviewed-legacy importer for native V8 release evidence. The older benchmark repository release has different policy semantics and denominators and is not substituted. The historical source-only release and prior candidate-preparation state remain recoverable in private checkpoints.
+The independently approved native V8 benchmark is now registered through the reviewed-legacy compatibility workflow. Only approved evaluation-wrapper identities changed; source judgments, stable IDs, and policy are unchanged. The older benchmark repository release has different policy semantics and denominators and was not substituted.
 
-The delivered Markdown remains byte-preserved. [Evaluator PR #33](https://github.com/publication-intelligence/evaluate-subject-index/pull/33) corrects a parser error that treated five heading qualifiers as locators. Corrected candidate artifacts will be normalized, privately validated, and registered after benchmark compatibility import. Locator audits, missing-access audits, structure, scoring, and reporting are not yet complete; no score is claimed.
+The delivered Markdown remains byte-preserved. Merged evaluator [PR #33](https://github.com/publication-intelligence/evaluate-subject-index/pull/33) corrects five heading qualifiers incorrectly parsed as locators; merged [PR #34](https://github.com/publication-intelligence/evaluate-subject-index/pull/34) supports exact native V8 benchmark reuse. The installed runtime matches merge `871e2cdd76a564980e1e5e4ff1edb818f53e0374`; 104 evaluator and 20 converter tests passed.
+
+The candidate passed complete private validation: 2,548 records/paths, 2,812 displayed locators, 4,273 atomic assignments, and 257 cross-references. All 17 frozen locator packets collectively cover every assignment exactly once. Locator audits are delegated with unique chapter ownership; missing-access audits, structure, scoring, and reporting follow their validated completion. No score is claimed yet.
 
 ## Runtime and privacy
 
