@@ -11,3 +11,16 @@ evaluation/*
 
 # Local workflow state and recovery exports.
 *.zip
+# Only the reviewed public evaluation package is publishable.
+!evaluation/scoring/
+evaluation/scoring/*
+!evaluation/scoring/evaluation-result.v12.json
+!evaluation/scoring/web-report.v10.json
+!evaluation/scoring/v8-canonical-projection/
+evaluation/scoring/v8-canonical-projection/*
+!evaluation/scoring/v8-canonical-projection/projection.v1.json
+!evaluation/scoring/v8-canonical-projection/data/
+evaluation/scoring/v8-canonical-projection/data/*
+!evaluation/scoring/v8-canonical-projection/data/index-records.v1.json
+!evaluation/scoring/v8-canonical-projection/data/source-subjects.v1.json
+!evaluation/scoring/v8-canonical-projection/data/density.v1.json

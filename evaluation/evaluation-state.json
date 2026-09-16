@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T03:54:23Z",
+  "updated_at": "2026-09-16T04:30:25Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -45,7 +45,7 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-16T03:54:23Z",
+      "updated_at": "2026-09-16T04:30:25Z",
       "notes": [
         "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
@@ -183,9 +183,9 @@
     },
     "web_report": {
       "status": "completed",
-      "updated_at": "2026-09-16T03:21:51Z",
+      "updated_at": "2026-09-16T04:24:35Z",
       "notes": [
-        "Built and registered web-report.v10 and the complete canonical public web projection bundle atomically."
+        "Rebuilt and replaced the complete canonical public web projection bundle atomically."
       ]
     }
   },
@@ -893,16 +893,16 @@
       "schema_version": "missing-access-audit-v1"
     },
     {
-      "artifact_id": "ART-BDBD1FC06887",
+      "artifact_id": "ART-E0B98A010FF4",
       "stage": "initialize",
       "artifact_type": "coordinator-notes",
       "path": "coordination/notes.md",
-      "sha256": "8f0b0d33fcd6bcbb56786b47efe985c268208c96d3711a06cf38c6afebf11260",
+      "sha256": "687636e21d2ec120088330bef2d496b20cd0dda063b73440f0a40d8b454b45c5",
       "media_type": "text/markdown",
       "visibility": "private",
       "retention": "required",
       "frozen": false,
-      "recorded_at": "2026-09-16T03:53:00Z"
+      "recorded_at": "2026-09-16T04:30:25Z"
     },
     {
       "artifact_id": "ART-FD1DE542C2D0",
@@ -1189,75 +1189,75 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:51Z",
+      "recorded_at": "2026-09-16T04:24:35Z",
       "input_sha256": [
-        "826213e3002f98f8ea200bf5e956d80c968e0ef2cf42149913c8a0179938b2b1",
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e"
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
       ]
     },
     {
-      "artifact_id": "ART-9DD5CDBCC004",
+      "artifact_id": "ART-23FC1C25F0EF",
       "stage": "web_report",
       "artifact_type": "web_index_records",
       "path": "scoring/v8-canonical-projection/data/index-records.v1.json",
-      "sha256": "d46fd9f02c27e75a982ae01a0363e1cfc47ae6ed59ab223c6b04dee953435cb2",
+      "sha256": "351bdd16bebe02f8f06576c82ccc8d7fb91add452e1af40065325a4cd6391ed4",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-web-collection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:51Z",
+      "recorded_at": "2026-09-16T04:24:35Z",
       "input_sha256": [
-        "826213e3002f98f8ea200bf5e956d80c968e0ef2cf42149913c8a0179938b2b1",
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e"
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
       ]
     },
     {
-      "artifact_id": "ART-101CE69D31AC",
+      "artifact_id": "ART-6493FE78EE29",
       "stage": "web_report",
       "artifact_type": "web_source_subjects",
       "path": "scoring/v8-canonical-projection/data/source-subjects.v1.json",
-      "sha256": "bd7c9cc63d587ebf3a45d113b9c6252badeead43968468ad4c2175ba3b1dbf90",
+      "sha256": "6a6ebcf668ac6e6de74a2518f5bf103e35cb5f302cb6b423accdaa3e5bb7284b",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-web-collection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:51Z",
+      "recorded_at": "2026-09-16T04:24:35Z",
       "input_sha256": [
-        "826213e3002f98f8ea200bf5e956d80c968e0ef2cf42149913c8a0179938b2b1",
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e"
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
       ]
     },
     {
-      "artifact_id": "ART-7D54C427B76E",
+      "artifact_id": "ART-0B10BB5C6189",
       "stage": "web_report",
       "artifact_type": "web_projection",
       "path": "scoring/v8-canonical-projection/projection.v1.json",
-      "sha256": "f6f04c6c482596eaf608143c0f2e5feb7759ad632533efd92e8e3af178253bc7",
+      "sha256": "bba6a4d33a75e1de602e70b490b769bb92921cca282742d5862e28a74149fc4a",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-canonical-web-projection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:51Z",
+      "recorded_at": "2026-09-16T04:24:35Z",
       "input_sha256": [
-        "826213e3002f98f8ea200bf5e956d80c968e0ef2cf42149913c8a0179938b2b1",
-        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e"
+        "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
+        "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
       ]
     },
     {
-      "artifact_id": "ART-93B0CDACA269",
+      "artifact_id": "ART-85D46D7A45F5",
       "stage": "web_report",
       "artifact_type": "web_report",
       "path": "scoring/web-report.v10.json",
-      "sha256": "826213e3002f98f8ea200bf5e956d80c968e0ef2cf42149913c8a0179938b2b1",
+      "sha256": "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712",
       "media_type": "application/json",
       "schema_version": "subject-index-web-report-v10",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T03:21:51Z",
+      "recorded_at": "2026-09-16T04:24:35Z",
       "input_sha256": [
         "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
         "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
@@ -2013,6 +2013,19 @@
       "recorded_at": "2026-09-16T03:54:22Z"
     },
     {
+      "artifact_id": "ART-7C9FDAE1E4B4",
+      "stage": "initialize",
+      "artifact_type": "density-reporting-closure",
+      "path": "validation/density-review/reporting-closure.json",
+      "sha256": "e4b01062cca7fc4356af5944037201b4b87844d13f1fc716318e1898e72c9de7",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T04:21:45Z",
+      "schema_version": "private-density-reporting-closure-v1"
+    },
+    {
       "artifact_id": "ART-97BEA6E36195",
       "stage": "initialize",
       "artifact_type": "map-scope-adjudication",
@@ -2039,6 +2052,19 @@
       "schema_version": "missing-access-calibration-review-v1"
     },
     {
+      "artifact_id": "ART-C67D5D82DAB4",
+      "stage": "initialize",
+      "artifact_type": "independent-public-bundle-closure",
+      "path": "validation/report-review/public-bundle-targeted-closure.v1.json",
+      "sha256": "53f3692d901991b63f2001af2b804855d01516b684ece394972a8f0d50916eda",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T04:29:59Z",
+      "schema_version": "ohfr-v8-private-public-bundle-targeted-closure-v1"
+    },
+    {
       "artifact_id": "ART-EFE4993E4206",
       "stage": "initialize",
       "artifact_type": "independent-report-review",
@@ -2050,6 +2076,19 @@
       "frozen": false,
       "recorded_at": "2026-09-16T03:54:22Z",
       "schema_version": "ohfr-v8-private-report-review-v1"
+    },
+    {
+      "artifact_id": "ART-C3E61912C040",
+      "stage": "initialize",
+      "artifact_type": "privacy-eight-word-review",
+      "path": "validation/report-review/rr003-eight-word-nonlocator-review.v1.json",
+      "sha256": "ff60892fbf969426714e52b39ccf64d6d11aa0c1f5b3305dfce1e270282a7e14",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T04:02:29Z",
+      "schema_version": "ohfr-v8-private-eight-word-nonlocator-review-v1"
     },
     {
       "artifact_id": "ART-0C76D1B9B91B",
