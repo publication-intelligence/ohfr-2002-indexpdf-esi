@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T02:10:40Z",
+  "updated_at": "2026-09-16T02:37:14Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -45,7 +45,7 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-16T02:10:40Z",
+      "updated_at": "2026-09-16T02:37:14Z",
       "notes": [
         "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
@@ -155,30 +155,38 @@
     },
     "locator_audit": {
       "status": "completed",
-      "updated_at": "2026-09-16T02:09:33Z",
+      "updated_at": "2026-09-16T02:34:31Z",
       "notes": [
-        "Registered 17/17 current audit chunks."
+        "Replaced the complete locator audit batch for all 17 frozen chunks."
       ]
     },
     "missing_access_audit": {
       "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "updated_at": "2026-09-16T02:34:31Z",
+      "notes": [
+        "Invalidated by complete locator_audit batch replacement."
+      ]
     },
     "structure_audit": {
       "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "updated_at": "2026-09-16T02:34:31Z",
+      "notes": [
+        "Invalidated by complete locator_audit batch replacement."
+      ]
     },
     "scoring": {
       "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "updated_at": "2026-09-16T02:34:31Z",
+      "notes": [
+        "Invalidated by complete locator_audit batch replacement."
+      ]
     },
     "web_report": {
       "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "updated_at": "2026-09-16T02:34:31Z",
+      "notes": [
+        "Invalidated by complete locator_audit batch replacement."
+      ]
     }
   },
   "artifacts": [
@@ -222,16 +230,16 @@
       "schema_version": "subject-index-item-inventory-v2"
     },
     {
-      "artifact_id": "ART-A3E8004D7A03",
+      "artifact_id": "ART-B2993776DB19",
       "stage": "locator_audit",
       "artifact_type": "locator_audit",
       "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-001.v2.json",
-      "sha256": "dc58ffaa6720c92123a88924b3f8768d443d6410eb6f4ac6183698475e94a232",
+      "sha256": "5c52be08321ae00f2487d113b58398b1ae5d76e4cbb8b9c7069e945888d8ee6b",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -244,7 +252,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -257,7 +265,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -270,20 +278,20 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
-      "artifact_id": "ART-E5ECBF7DF0B2",
+      "artifact_id": "ART-3CC8AFB8A200",
       "stage": "locator_audit",
       "artifact_type": "locator_audit",
       "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-005.v2.json",
-      "sha256": "9db6723f07d87dd097d0979826a44d6cc155efbe6e8a79b7f20240b45b9e18df",
+      "sha256": "20a8be628813a42f4247fdee115ebfe78d0ed04ffe41e9b641190306457ed3bd",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -296,7 +304,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -309,7 +317,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -322,7 +330,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -335,20 +343,20 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
-      "artifact_id": "ART-95C31A1B93D6",
+      "artifact_id": "ART-B16C86EF88AF",
       "stage": "locator_audit",
       "artifact_type": "locator_audit",
       "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-010.v2.json",
-      "sha256": "c59f354153ca546a5bd8c5bd5fc4170ed294e6548e00fdfe6d53ad12a952efb8",
+      "sha256": "40d9a327596853f96b22813bd82d71e4a45e134f485179e50b2256bcdb2d215f",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -361,7 +369,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -374,7 +382,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -387,7 +395,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -400,20 +408,20 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
-      "artifact_id": "ART-C065F9DFB223",
+      "artifact_id": "ART-E459268923A2",
       "stage": "locator_audit",
       "artifact_type": "locator_audit",
       "path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/locator-audits/locator-audit.CHUNK-015.v2.json",
-      "sha256": "d775980feedbd700a32cfc8de02d8b36cc6de895d4c062cfe5dd078413f9b3bb",
+      "sha256": "d4347d6e3b2e7bc15e0c33c4fb285a88bd133ab421c7efde539b05da046d9ffa",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -426,7 +434,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -439,7 +447,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T02:09:32Z",
+      "recorded_at": "2026-09-16T02:34:31Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -664,16 +672,16 @@
       "recorded_at": "2026-09-16T01:41:34Z"
     },
     {
-      "artifact_id": "ART-EEF18B50809B",
+      "artifact_id": "ART-289F8A9481D5",
       "stage": "initialize",
       "artifact_type": "coordinator-notes",
       "path": "coordination/notes.md",
-      "sha256": "b51ac9a28960710340caf9f5768b168b14292d4a6957782949f9c91f89efe21f",
+      "sha256": "17dbddeaea69c67706267d89cdf8603b1e76f53d838870ea19dc6670dd5a13ef",
       "media_type": "text/markdown",
       "visibility": "private",
       "retention": "required",
       "frozen": false,
-      "recorded_at": "2026-09-16T02:10:40Z"
+      "recorded_at": "2026-09-16T02:37:14Z"
     },
     {
       "artifact_id": "ART-586852937877",
@@ -1471,6 +1479,19 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-09-16T01:39:18Z"
+    },
+    {
+      "artifact_id": "ART-97BEA6E36195",
+      "stage": "initialize",
+      "artifact_type": "map-scope-adjudication",
+      "path": "validation/map-scope-adjudication.json",
+      "sha256": "ccd22298bd7b52c64adb3c454f648be0ededddced6f4f59e124f0d8117bec1a9",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T02:31:27Z",
+      "schema_version": "private-map-scope-adjudication-v1"
     },
     {
       "artifact_id": "ART-59DF9D0975B7",
