@@ -1,5 +1,7 @@
 # IndexPDF combined V8.2 migration
 
+**Comparability hold:** PR 6 is draft while the coordinator investigates different frozen benchmark sizes across the four indexes. This IndexPDF migration retains the imported Published benchmark (638 subjects, 1,569 coalesced treatments). Do not merge, activate bundles, or claim direct cross-index score comparability until that investigation is resolved. No benchmark evidence has been rewritten.
+
 **Reviewed patch applied:** methodology PR 50 (`c11c6ccb`) is installed and verified. The original `adeb691` checkpoint is preserved separately. Four explicit uncertainty scopes supplement the unchanged frozen uncertainty records; no audit was rerun.
 
 **Score: 97.19 → 97.19.** Every numeric dimension, component, denominator, deduction, uncertainty bound, cap evaluation and weighted contribution is unchanged from the verified V8.1 checkpoint. There are still **zero triggered or binding ceilings**. No frozen judgments were edited.

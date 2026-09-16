@@ -6,7 +6,9 @@ The single canonical workflow state and artifact inventory is [`evaluation/evalu
 
 ## V8.2 migration
 
-The combined migration is validated against reviewed methodology commit `c11c6ccb`; the evaluation PR is ready for review. The earlier `adeb691` checkpoint remains preserved.
+**Comparability hold:** PR 6 is draft while the coordinator investigates different frozen benchmark sizes across the four indexes. This IndexPDF migration retains the imported Published benchmark (638 subjects, 1,569 coalesced treatments). Do not merge, activate bundles, or claim direct cross-index score comparability until that investigation is resolved. No benchmark evidence has been rewritten.
+
+The combined migration is validated against reviewed methodology commit `c11c6ccb`; the evaluation PR is draft pending benchmark-comparability investigation. The earlier `adeb691` checkpoint remains preserved.
 
 The combined V8.2 gate-policy and native retrospective-provenance migration retains **97.19/100**, all six numeric dimensions, components, deductions and caps. **One publication gate (`GATE-WRONG-LOCATOR`) covers six confirmed unsupported/no-fit delivered locators**, so readiness is **Not publication ready**. Evaluation validity remains **valid** and gate assessment is **sufficient**, with no blockers. No reference gate triggers; all 257 delivered references retain their frozen supported attestation.
 

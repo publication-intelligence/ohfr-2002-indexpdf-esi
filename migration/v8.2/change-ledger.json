@@ -2249,7 +2249,7 @@
   "readiness_after": "not_publication_ready",
   "reuse_statement": "No discovery, mapping, benchmark construction/review, candidate normalization or audits rerun. Original benchmark release/review/compatibility approval and all locator/missing-access audit bytes unchanged. Structure adds only explicit uncertainty gate scopes; all original fields and records preserved. Registered structure/score/report commands update the exact hash cascade. Historical evidence bindings remain preserved.",
   "validation_reference": "migration/v8.2/validation.json",
-  "release_status": "final_c11c6ccb_validated_ready_for_evaluation_PR_review; no merge or deployment",
+  "release_status": "migration_validated_PR6_draft_pending_benchmark_comparability_investigation; no merge, bundle cutover, deployment or cross-index comparability claim",
   "uncertainty_scope_patch": {
     "methodology_pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/50",
     "preserved_checkpoint_commit": "a49ddfeadb774ca806d91c7e1a38fb9e090c0f7b",
