@@ -136,7 +136,7 @@
   ],
   "projection_id": "OHFR-V8-WEB-FEA779EA78EE",
   "projection_role": "deterministic_public_safe_display_projection",
-  "projection_sha256": "6afad039678fcf4050ce36103cf8409f04d589c90b8707a3b8f32c40688b05f5",
+  "projection_sha256": "e5a7a83bc10285a48d24ef7f6596d60b60787f8417338f3c600eed1d23a4f357",
   "provenance": {
     "benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
     "calculation_sha256": "206b35875adc95ba5585f1d9437691cba5c4bc18d0eaf99c696fe82f81d6fad7",
@@ -283,7 +283,7 @@
         "artifact_path": "scoring/web-report.v10.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-web-report-v10",
-        "sha256": "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
+        "sha256": "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
       },
       {
         "artifact_path": "source/chunk-manifest.json",
@@ -432,7 +432,7 @@
             "artifact_path": "scoring/web-report.v10.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-web-report-v10",
-            "sha256": "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
+            "sha256": "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
           },
           {
             "artifact_path": "scoring/dimension-calculations.v6.json",

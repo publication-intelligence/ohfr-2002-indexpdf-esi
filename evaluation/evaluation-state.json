@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexpdf-v8",
   "created_at": "2026-09-16T01:06:43Z",
-  "updated_at": "2026-09-16T04:30:25Z",
+  "updated_at": "2026-09-16T05:13:36Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "edition": "2002",
@@ -45,7 +45,7 @@
   "stages": {
     "initialize": {
       "status": "completed",
-      "updated_at": "2026-09-16T04:30:25Z",
+      "updated_at": "2026-09-16T05:13:36Z",
       "notes": [
         "Reused exact validated source-level artifact; no source, mapping, approved chunk boundary, or frozen policy change. Prior full-run state preserved in preflight portable checkpoint."
       ]
@@ -183,7 +183,7 @@
     },
     "web_report": {
       "status": "completed",
-      "updated_at": "2026-09-16T04:24:35Z",
+      "updated_at": "2026-09-16T05:02:34Z",
       "notes": [
         "Rebuilt and replaced the complete canonical public web projection bundle atomically."
       ]
@@ -893,16 +893,28 @@
       "schema_version": "missing-access-audit-v1"
     },
     {
-      "artifact_id": "ART-E0B98A010FF4",
+      "artifact_id": "ART-05980AD902AF",
       "stage": "initialize",
       "artifact_type": "coordinator-notes",
       "path": "coordination/notes.md",
-      "sha256": "687636e21d2ec120088330bef2d496b20cd0dda063b73440f0a40d8b454b45c5",
+      "sha256": "848edd49f14299187b5af99d4ef8ed1eb56ca1f876433ccc01f67fffeaeebb6f",
       "media_type": "text/markdown",
       "visibility": "private",
       "retention": "required",
       "frozen": false,
-      "recorded_at": "2026-09-16T04:30:25Z"
+      "recorded_at": "2026-09-16T05:13:36Z"
+    },
+    {
+      "artifact_id": "ART-28DFB921FD21",
+      "stage": "initialize",
+      "artifact_type": "presentation-producer-review",
+      "path": "coordination/presentation-producer-report.md",
+      "sha256": "32e840f87b9fb80b83735c0b6786819566f8fdee994ade0a17c6af4a339e50b8",
+      "media_type": "text/markdown",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:05:14Z"
     },
     {
       "artifact_id": "ART-FD1DE542C2D0",
@@ -1189,10 +1201,10 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T04:24:35Z",
+      "recorded_at": "2026-09-16T05:02:34Z",
       "input_sha256": [
         "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
+        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
       ]
     },
     {
@@ -1206,10 +1218,10 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T04:24:35Z",
+      "recorded_at": "2026-09-16T05:02:34Z",
       "input_sha256": [
         "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
+        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
       ]
     },
     {
@@ -1223,41 +1235,41 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T04:24:35Z",
+      "recorded_at": "2026-09-16T05:02:34Z",
       "input_sha256": [
         "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
+        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
       ]
     },
     {
-      "artifact_id": "ART-0B10BB5C6189",
+      "artifact_id": "ART-8582B259541A",
       "stage": "web_report",
       "artifact_type": "web_projection",
       "path": "scoring/v8-canonical-projection/projection.v1.json",
-      "sha256": "bba6a4d33a75e1de602e70b490b769bb92921cca282742d5862e28a74149fc4a",
+      "sha256": "a44bea41deba0a3cb54a9a1f6ffa50cf87c491969544d9ffe1cb8226afd18edb",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-canonical-web-projection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T04:24:35Z",
+      "recorded_at": "2026-09-16T05:02:34Z",
       "input_sha256": [
         "a536171b94daa582276b6d93929d5d01ac5e42835c3af8bfd2f2a09d55fc761e",
-        "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712"
+        "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f"
       ]
     },
     {
-      "artifact_id": "ART-85D46D7A45F5",
+      "artifact_id": "ART-5167D96436FE",
       "stage": "web_report",
       "artifact_type": "web_report",
       "path": "scoring/web-report.v10.json",
-      "sha256": "e1e46d274862080661ba5dfa8309f6dc38ed0aa19d463fc9dc65723935a6a712",
+      "sha256": "d81285dd4f37917ff6c34febf825b9ed44d0de5565f410f42dfd936220a0b96f",
       "media_type": "application/json",
       "schema_version": "subject-index-web-report-v10",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T04:24:35Z",
+      "recorded_at": "2026-09-16T05:02:34Z",
       "input_sha256": [
         "0d1abc73b29c2f7774d26f0efa1ff7065e86ac7ad321b7976576c02f2033d321",
         "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700",
@@ -2050,6 +2062,31 @@
       "frozen": false,
       "recorded_at": "2026-09-16T02:51:53Z",
       "schema_version": "missing-access-calibration-review-v1"
+    },
+    {
+      "artifact_id": "ART-CFA9A6D308A0",
+      "stage": "initialize",
+      "artifact_type": "presentation-public-diff-check",
+      "path": "validation/presentation-public-diff.json",
+      "sha256": "487974f132ac824340f0250e9a6b5003bb65682429360175b6f23e98b2b40291",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:05:15Z"
+    },
+    {
+      "artifact_id": "ART-6FFC9059F681",
+      "stage": "initialize",
+      "artifact_type": "presentation-summary-independent-review",
+      "path": "validation/report-review/presentation-summary-independent-review.v1.json",
+      "sha256": "58a7e8a6fd0ab6cf5b8dcbc9b3a7f2a2886bd102cf476d41a081a6bbe0fb0d65",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T05:13:13Z",
+      "schema_version": "ohfr-v8-private-presentation-summary-independent-review-v1"
     },
     {
       "artifact_id": "ART-C67D5D82DAB4",

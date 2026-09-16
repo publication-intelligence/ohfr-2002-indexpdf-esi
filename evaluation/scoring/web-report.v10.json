@@ -62,6 +62,446 @@
     "item_grades_used": false,
     "gates_used": false
   },
+  "presentation_summary": {
+    "schema_version": "subject-index-presentation-summary-v1",
+    "provenance": {
+      "evaluation_id": "ohfr-2002-indexpdf-v8",
+      "web_report_sha256": "4799d42c6f6e54bb806971979783ee547e6201082a215773339098d3904f9700"
+    },
+    "coverage_by_priority": {
+      "essential": {
+        "complete": 167,
+        "partial": 11,
+        "missing": 0
+      },
+      "major": {
+        "complete": 332,
+        "partial": 24,
+        "missing": 0
+      },
+      "optional": {
+        "complete": 82,
+        "partial": 13,
+        "missing": 9
+      }
+    },
+    "scope": {
+      "displayed_locators": 2812,
+      "expected_treatments": 1569
+    },
+    "metrics": [
+      {
+        "metric_id": "weighted_concept_access_partial_credit",
+        "label": "Meaningful coverage",
+        "display_value": "95.85%",
+        "value": "0.9585185185185185185185185185",
+        "complete_weight": "1247",
+        "partial_weight": "94",
+        "denominator_weight": "1350"
+      },
+      {
+        "metric_id": "essential_concept_miss_rate",
+        "label": "Essential subjects covered",
+        "display_value": "100.00%",
+        "value": "0",
+        "numerator": "0",
+        "denominator": "178"
+      },
+      {
+        "metric_id": "locator_recall",
+        "label": "Expected-treatment recall",
+        "display_value": "96.49%",
+        "value": "0.9649458253664754620777565328",
+        "numerator": "1514",
+        "denominator": "1569"
+      },
+      {
+        "metric_id": "reader_task_strict_success",
+        "label": "Coverage-conditioned research-question access",
+        "display_value": "94.12%",
+        "value": "0.9411764705882352941176470588",
+        "partial_credit_value": "0.967408585055643879173290938",
+        "numerator": "592",
+        "denominator": "629"
+      },
+      {
+        "metric_id": "substantive_selectivity",
+        "label": "Substantive selectivity",
+        "display_value": "90.89%",
+        "value": "0.9088566073102155576382380506",
+        "numerator": "3879",
+        "denominator": "4268"
+      },
+      {
+        "metric_id": "strict_supported_locator_rate",
+        "label": "Locator keep precision",
+        "display_value": "99.53%",
+        "value": "0.9953194476948279897027849286",
+        "numerator": "4253",
+        "denominator": "4273"
+      },
+      {
+        "metric_id": "conceptual_stance_fidelity",
+        "label": "Conceptual and stance fidelity",
+        "display_value": "100.00%",
+        "value": "1",
+        "numerator": "2292",
+        "denominator": "2292"
+      },
+      {
+        "metric_id": "valid_entry_precision_at_least_partial",
+        "label": "Reliability F1",
+        "display_value": "97.99%",
+        "value": "0.979897322222424284250851774",
+        "numerator": "1.920858691918380594531569639",
+        "denominator": "1.960265273061303451780541461"
+      },
+      {
+        "metric_id": "density_fit",
+        "label": "Density fit",
+        "display_value": "96.80%",
+        "value": "0.9679542964790679102720301414",
+        "numerator": "96.79542964790679102720301414",
+        "denominator": "100"
+      },
+      {
+        "metric_id": "heading_access_architecture",
+        "label": "Heading-access architecture",
+        "display_value": "99.86%",
+        "value": "0.9985602094240837696335078534",
+        "numerator": "2288.7",
+        "denominator": "2292"
+      },
+      {
+        "metric_id": "cross_reference_validity",
+        "label": "Cross-reference validity",
+        "display_value": "99.61%",
+        "value": "0.996124031007751937984496124",
+        "numerator": "257",
+        "denominator": "258"
+      },
+      {
+        "metric_id": "mechanics_consistency",
+        "label": "Mechanics and consistency",
+        "display_value": "100.00%",
+        "value": "1",
+        "numerator": "2292",
+        "denominator": "2292"
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension_id": "meaningful_coverage",
+        "label": "Meaningful coverage",
+        "rationale": "Measures priority-weighted access to frozen source subjects; complete access receives full credit, partial access receives half credit, and missing access receives none.",
+        "calculation_basis": [
+          {
+            "equation": "Priority-weighted subject access = 1294 / 1350 = 95.85185185185185185185185185%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              95.85185185185185
+            ],
+            "score": 95.85185185185185
+          },
+          {
+            "equation": "Canonical pre-cap percentage = 95.85185185185185185185185185%",
+            "kind": "step",
+            "number_scores": [
+              95.85185185185185
+            ],
+            "score": 95.85185185185185
+          },
+          {
+            "equation": "No canonical cap reduced the 95.85185185185185185185185185% result",
+            "kind": "step",
+            "number_scores": [
+              95.85185185185185
+            ],
+            "score": 95.85185185185185
+          }
+        ]
+      },
+      {
+        "dimension_id": "editorial_selectivity",
+        "label": "Editorial selectivity",
+        "rationale": "Combines substantive locator selectivity and source-word-weighted density fit using the canonical component weights.",
+        "calculation_basis": [
+          {
+            "equation": "Substantive selectivity = 3879 / 4268 = 90.88566073102155576382380506%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              90.88566073102156
+            ],
+            "score": 90.88566073102156
+          },
+          {
+            "equation": "Density fit = 96.79542964790679102720301414 / 100 = 96.79542964790679102720301414%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              96.79542964790679
+            ],
+            "score": 96.79542964790679
+          },
+          {
+            "equation": "Canonical weighted combination = 90.88566073102155576382380506% * 0.6666666666666666666666666667 + 96.79542964790679102720301414% * 0.3333333333333333333333333333 = 92.85558370331663418495020807%",
+            "kind": "step",
+            "number_scores": [
+              90.88566073102156,
+              null,
+              96.79542964790679,
+              null,
+              92.85558370331664
+            ],
+            "score": 92.85558370331664
+          },
+          {
+            "equation": "No canonical cap reduced the 92.85558370331663418495020807% result",
+            "kind": "step",
+            "number_scores": [
+              92.85558370331664
+            ],
+            "score": 92.85558370331664
+          }
+        ]
+      },
+      {
+        "dimension_id": "conceptual_stance_fidelity",
+        "label": "Conceptual and stance fidelity",
+        "rationale": "Measures source-grounded conceptual and stance fidelity across the audited heading-node denominator.",
+        "calculation_basis": [
+          {
+            "equation": "Conceptual and stance node credit = 2292 / 2292 = 100%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              100.0
+            ],
+            "score": 100.0
+          },
+          {
+            "equation": "Canonical pre-cap percentage = 100%",
+            "kind": "step",
+            "number_scores": [
+              100.0
+            ],
+            "score": 100.0
+          },
+          {
+            "equation": "No canonical cap reduced the 100% result",
+            "kind": "step",
+            "number_scores": [
+              100.0
+            ],
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "dimension_id": "page_reference_reliability",
+        "label": "Page-reference reliability",
+        "rationale": "Combines binary locator keep precision and expected-treatment recall with the canonical harmonic mean and caps.",
+        "calculation_basis": [
+          {
+            "equation": "Locator keep precision = 4253 / 4273 = 99.53194476948279897027849286%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              99.5319447694828
+            ],
+            "score": 99.5319447694828
+          },
+          {
+            "equation": "Page-treatment diagnostic = 4034.3 / 4273 = 94.41376082377720571027381231%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              94.41376082377721
+            ],
+            "score": 94.41376082377721,
+            "tooltip": "Reported diagnostic or safeguard only; excluded as an independent weighted score component."
+          },
+          {
+            "equation": "Complete-path-fit diagnostic = 4263.1 / 4273 = 99.76831266089398549028785397%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              99.76831266089398
+            ],
+            "score": 99.76831266089398,
+            "tooltip": "Reported diagnostic or safeguard only; excluded as an independent weighted score component."
+          },
+          {
+            "equation": "Diagnostic locator credit = 4033.15 / 4273 = 94.38684764802246665106482565%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              94.38684764802247
+            ],
+            "score": 94.38684764802247,
+            "tooltip": "Reported diagnostic or safeguard only; excluded as an independent weighted score component."
+          },
+          {
+            "equation": "Expected-treatment recall = 1514 / 1569 = 96.49458253664754620777565328%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              96.49458253664754
+            ],
+            "score": 96.49458253664754
+          },
+          {
+            "equation": "Reliability harmonic mean = 1.920858691918380594531569639 / 1.960265273061303451780541461 = 97.9897322222424284250851774%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              97.98973222224242
+            ],
+            "score": 97.98973222224242
+          },
+          {
+            "equation": "High-value treatment recall = 1170 / 1186 = 98.65092748735244519392917369%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              98.65092748735245
+            ],
+            "score": 98.65092748735245,
+            "tooltip": "Reported diagnostic or safeguard only; excluded as an independent weighted score component."
+          },
+          {
+            "equation": "Canonical harmonic mean = 2 * 99.53194476948279897027849286% * 96.49458253664754620777565328% / (99.53194476948279897027849286% + 96.49458253664754620777565328%) = 97.9897322222424284250851774%",
+            "kind": "step",
+            "number_scores": [
+              null,
+              99.5319447694828,
+              96.49458253664754,
+              99.5319447694828,
+              96.49458253664754,
+              97.98973222224242
+            ],
+            "score": 97.98973222224242
+          },
+          {
+            "equation": "No canonical cap reduced the 97.9897322222424284250851774% result",
+            "kind": "step",
+            "number_scores": [
+              97.98973222224242
+            ],
+            "score": 97.98973222224242
+          }
+        ]
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "label": "Findability and navigation",
+        "rationale": "Combines coverage-conditioned reader tasks, heading-access architecture, and cross-reference validity with the canonical weights and caps.",
+        "calculation_basis": [
+          {
+            "equation": "Coverage-conditioned reader-task credit = 608.5 / 629 = 96.7408585055643879173290938%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              96.74085850556439
+            ],
+            "score": 96.74085850556439
+          },
+          {
+            "equation": "Heading-access architecture = 2288.7 / 2292 = 99.85602094240837696335078534%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              99.85602094240838
+            ],
+            "score": 99.85602094240838
+          },
+          {
+            "equation": "Cross-reference validity = 257 / 258 = 99.6124031007751937984496124%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              99.6124031007752
+            ],
+            "score": 99.6124031007752
+          },
+          {
+            "equation": "Canonical weighted combination = 96.7408585055643879173290938% * 0.6 + 99.85602094240837696335078534% * 0.3 + 99.6124031007751937984496124% * 0.1 = 97.96256169613866521924765312%",
+            "kind": "step",
+            "number_scores": [
+              96.74085850556439,
+              null,
+              99.85602094240838,
+              null,
+              99.6124031007752,
+              null,
+              97.96256169613866
+            ],
+            "score": 97.96256169613866
+          },
+          {
+            "equation": "Applied cap = min(97.96256169613866521924765312%, 90%) = 90%",
+            "kind": "step",
+            "number_scores": [
+              97.96256169613866,
+              null,
+              90.0
+            ],
+            "score": 90.0,
+            "tooltip": "Canonical cap: findability.localized_major_navigation."
+          }
+        ]
+      },
+      {
+        "dimension_id": "mechanics_consistency",
+        "label": "Mechanics and consistency",
+        "rationale": "Measures mechanical consistency across the audited heading-node denominator using the canonical status credits.",
+        "calculation_basis": [
+          {
+            "equation": "Mechanics node credit = 2292 / 2292 = 100%",
+            "kind": "input",
+            "number_scores": [
+              null,
+              null,
+              100.0
+            ],
+            "score": 100.0
+          },
+          {
+            "equation": "Canonical pre-cap percentage = 100%",
+            "kind": "step",
+            "number_scores": [
+              100.0
+            ],
+            "score": 100.0
+          },
+          {
+            "equation": "No canonical cap reduced the 100% result",
+            "kind": "step",
+            "number_scores": [
+              100.0
+            ],
+            "score": 100.0
+          }
+        ]
+      }
+    ]
+  },
   "precision_diagnostics": {
     "keep_precision_numerator": 4253,
     "keep_precision_denominator": 4273,
