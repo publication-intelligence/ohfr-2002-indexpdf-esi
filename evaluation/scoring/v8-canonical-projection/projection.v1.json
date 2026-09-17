@@ -135,18 +135,18 @@
     "Source excerpts and private layout evidence are excluded.",
     "Exact percentage and weighted-contribution strings are authoritative; numeric rating and points aliases exist only for the established generic website adapter."
   ],
-  "projection_id": "OHFR-V8-WEB-861761769405",
+  "projection_id": "OHFR-V8-WEB-7C2B79315C55",
   "projection_role": "deterministic_public_safe_display_projection",
-  "projection_sha256": "6a14825cf657f3f62f20a42c01832f31aa8709754ae9e62e160ba7ca88cea2f9",
+  "projection_sha256": "847c6069fb9886685f64fc07d6e40e238d4405471a6fe24ee396507a18be9fd8",
   "provenance": {
     "benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
-    "calculation_sha256": "1e2a333fb789abdcbe193da27de5ca76dc1b81ecc38b65115597d343733c613e",
+    "calculation_sha256": "e1c6e4768314f56be1c319c949552ab365e676c913ca88a09fc1c3b984fab025",
     "correction_overlay_sha256": null,
-    "dimension_calculation_profile": "subject-index-dimension-calculation-v6",
-    "judgment_policy_sha256": "c2e7a937b9c86307891624d4b578ebd603815bed7e8ffe4c35890879146afc8f",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v7",
+    "judgment_policy_sha256": "84b44cf3167e61202640aa2982fe83eee9281ee6785b18b7ecbae374b40b2da9",
     "missing_access_audit_set_sha256": "ce3b3385a7ea23cea4560d3098b970f0dd6271845e17c6738bc6d01334dc9c22",
-    "projection_metadata_sha256": "4e2faaa5c31b33cbc75cb5690d9c9e1f4fee6888b69b89442e3b5972352e0792",
-    "rubric_version": "subject-index-rubric-v8.1",
+    "projection_metadata_sha256": "d4367d0b4f4d50c7b12f6188ca6533762c6a9178ccaeb27b7ac589a962b90fac",
+    "rubric_version": "subject-index-rubric-v8.2",
     "source_artifacts": [
       {
         "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
@@ -266,25 +266,25 @@
         "artifact_path": "scoring/dimension-calculations.v6.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-dimension-calculations-v6",
-        "sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d"
+        "sha256": "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47"
       },
       {
         "artifact_path": "scoring/evaluation-result.v12.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-evaluation-result-v12",
-        "sha256": "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa"
+        "sha256": "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4"
       },
       {
         "artifact_path": "scoring/item-assessments.v7.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-item-assessments-v7",
-        "sha256": "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82"
+        "sha256": "c390a8e8af7fdb764c44aaf523e822ddd542a9c60151155916c51cd89ac2abb3"
       },
       {
         "artifact_path": "scoring/web-report.v10.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-web-report-v10",
-        "sha256": "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c"
+        "sha256": "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99"
       },
       {
         "artifact_path": "source/chunk-manifest.json",
@@ -302,7 +302,7 @@
         "artifact_path": "staging/structure/structure-audit.v6.json",
         "availability": "canonical_registered_input",
         "schema_version": "structure-audit-v6",
-        "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+        "sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a"
       }
     ],
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
@@ -392,6 +392,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-SCOPE-LOCATOR",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -405,6 +406,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -418,6 +420,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-CENTRAL-OMISSION",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -431,6 +434,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-STANCE",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -444,6 +448,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-COMPOUND",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -457,6 +462,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-SEE-SUBSTITUTION",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -470,6 +476,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-CROSS-REFERENCE",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -483,6 +490,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-CLUTTER",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -496,6 +504,7 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-GROUNDING",
             "qualifying_locator_evidence": [],
             "standard": true,
@@ -509,11 +518,156 @@
             "consequence_evidence": [],
             "defect_ids": [],
             "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+            "direct_destination_evidence": [],
             "gate_id": "GATE-STRUCTURE",
             "qualifying_locator_evidence": [],
             "standard": true,
             "systemic_groups": [],
             "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [
+              "LOC-05BE1111509F",
+              "LOC-0627DDDC45EE",
+              "LOC-5CEE64F02874",
+              "LOC-8909AEDE85AA",
+              "LOC-B9B6F4DBC156",
+              "LOC-C853B3459625"
+            ],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+            "direct_destination_evidence": [
+              {
+                "complete_heading_path": [
+                  "nobility",
+                  "accession to the National Assembly"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 105,
+                "evidence_ids": [
+                  "EVID-6049F7F3D636001F"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-05BE1111509F",
+                "path_id": "PATH-471448B53498",
+                "source_page_label": "105",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Dauphiné",
+                  "deputies' role at the Estates-General"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 105,
+                "evidence_ids": [
+                  "EVID-78C77B00D4304DA7"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-0627DDDC45EE",
+                "path_id": "PATH-AE5E5CEF27DC",
+                "source_page_label": "105",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "foreign trade, France",
+                  "competition with Great Britain"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 423,
+                "evidence_ids": [
+                  "EVID-CHUNK017-5CEE64F02874"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-5CEE64F02874",
+                "path_id": "PATH-B864BBDFBB7F",
+                "source_page_label": "423",
+                "source_scope_status": "indexable",
+                "treatment_class": "passing_mention"
+              },
+              {
+                "complete_heading_path": [
+                  "Bonaparte, Napoleon",
+                  "domestic political role"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 329,
+                "evidence_ids": [
+                  "EVID-CHUNK014-8909AEDE85AA"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-8909AEDE85AA",
+                "path_id": "PATH-5A9B26F17325",
+                "source_page_label": "329",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "church lands",
+                  "confiscation and sale under French rule"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 365,
+                "evidence_ids": [
+                  "EVID-015-B9B6F4DBC156"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-B9B6F4DBC156",
+                "path_id": "PATH-FF29EFF550F0",
+                "source_page_label": "365",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "nobility",
+                  "liberal minority among deputies"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 105,
+                "evidence_ids": [
+                  "EVID-DE763C4E20B7EB1B"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-C853B3459625",
+                "path_id": "PATH-EE5F7EAE00D5",
+                "source_page_label": "105",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              }
+            ],
+            "gate_id": "GATE-WRONG-LOCATOR",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+            "threshold_reason": "Confirmed delivered destination failure from finalized audit evidence; one item is sufficient, independent of severity, defect records, rates, or spread.",
+            "triggered": true
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-BROKEN-REFERENCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
             "threshold_reason": "No qualifying evidence crosses this threshold.",
             "triggered": false
           }
@@ -721,24 +875,27 @@
             "artifact_path": "scoring/evaluation-result.v12.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-evaluation-result-v12",
-            "sha256": "5896010fcc3d79a7f0a1c6542957828b93c4b99e59de711dc4c9ec86270594aa"
+            "sha256": "af0043e3422bafa873b9f367b50a5e0d465cae0fee095709daf08cc02c7dadd4"
           },
           {
             "artifact_path": "scoring/web-report.v10.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-web-report-v10",
-            "sha256": "d8610266f3335450717ef23a7fe54ad311abb69500aaa471af7b8bb08fdbad7c"
+            "sha256": "4c89948255e4ec47d0c2ef0a196c46b83655e56f442475b864942cc44a313c99"
           },
           {
             "artifact_path": "scoring/dimension-calculations.v6.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-dimension-calculations-v6",
-            "sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d"
+            "sha256": "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47"
           }
         ],
         "readiness": {
-          "status": "publication_ready",
-          "triggered_gate_ids": []
+          "assessment_blockers": [],
+          "status": "not_publication_ready",
+          "triggered_gate_ids": [
+            "GATE-WRONG-LOCATOR"
+          ]
         },
         "role": "authoritative_primary_observation",
         "score": 97.19,
@@ -747,7 +904,7 @@
             "awarded_points": 19.17037037037037,
             "dimension_id": "meaningful_coverage",
             "dimension_percentage": "95.85185185185185185185185185",
-            "formula_id": "subject-index-dimension-calculation-v6:meaningful_coverage",
+            "formula_id": "subject-index-dimension-calculation-v7:meaningful_coverage",
             "maximum_points": 20,
             "rating": 4.792592592592593,
             "weight": 20,
@@ -757,7 +914,7 @@
             "awarded_points": 13.928337555497496,
             "dimension_id": "editorial_selectivity",
             "dimension_percentage": "92.85558370331663418495020807",
-            "formula_id": "subject-index-dimension-calculation-v6:editorial_selectivity",
+            "formula_id": "subject-index-dimension-calculation-v7:editorial_selectivity",
             "maximum_points": 15,
             "rating": 4.642779185165832,
             "weight": 15,
@@ -767,7 +924,7 @@
             "awarded_points": 15.0,
             "dimension_id": "conceptual_stance_fidelity",
             "dimension_percentage": "100",
-            "formula_id": "subject-index-dimension-calculation-v6:conceptual_stance_fidelity",
+            "formula_id": "subject-index-dimension-calculation-v7:conceptual_stance_fidelity",
             "maximum_points": 15,
             "rating": 5.0,
             "weight": 15,
@@ -777,7 +934,7 @@
             "awarded_points": 24.497433055560606,
             "dimension_id": "page_reference_reliability",
             "dimension_percentage": "97.9897322222424284250851774",
-            "formula_id": "subject-index-dimension-calculation-v6:page_reference_reliability",
+            "formula_id": "subject-index-dimension-calculation-v7:page_reference_reliability",
             "maximum_points": 25,
             "rating": 4.899486611112121,
             "weight": 25,
@@ -787,7 +944,7 @@
             "awarded_points": 19.595653700484277,
             "dimension_id": "findability_navigation",
             "dimension_percentage": "97.97826850242138773233665836",
-            "formula_id": "subject-index-dimension-calculation-v6:findability_navigation",
+            "formula_id": "subject-index-dimension-calculation-v7:findability_navigation",
             "maximum_points": 20,
             "rating": 4.898913425121069,
             "weight": 20,
@@ -797,7 +954,7 @@
             "awarded_points": 5.0,
             "dimension_id": "mechanics_consistency",
             "dimension_percentage": "100",
-            "formula_id": "subject-index-dimension-calculation-v6:mechanics_consistency",
+            "formula_id": "subject-index-dimension-calculation-v7:mechanics_consistency",
             "maximum_points": 5,
             "rating": 5.0,
             "weight": 5,

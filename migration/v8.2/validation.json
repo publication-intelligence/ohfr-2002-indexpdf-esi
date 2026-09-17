@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "installed_files_verified": 111,
+  "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+  "provisional_v8_2_artifacts_verified": 158,
+  "uncertainty_scope_supplements": 4,
+  "original_v8_artifacts_verified": 158,
+  "v8_1_baseline_artifacts_verified": 158,
+  "v8_2_artifacts_verified": 158,
+  "state_errors": [],
+  "state_warnings": [],
+  "overall_before": 97.19,
+  "overall_after": 97.19,
+  "numeric_invariance": "All six entire dimension records identical to V8.1 after excluding only formula-version labels and exact policy/structure file-hash bindings; identical to provisional V8.2 except the structure binding; this includes every component, denominator, deduction, bound, cap evaluation, weighted contribution and final percentage. Overall and arithmetic check identical.",
+  "frozen_judgments": "All locator and missing-access artifacts byte-identical; structure differs only by four additive uncertainty_gate_scopes. Every original structure field, uncertainty, judgment and item-assessment/causal row unchanged.",
+  "provenance": "Native builder reconstruction, original/base policy hashes, original freeze, truthful migration freeze and every reused-stage evidence hash verified.",
+  "projection": "Full bundle schemas, self/file hashes, collection counts, order, identities and privacy checks passed; current report/result/items/calculation schemas passed.",
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "gate_assessment": {
+    "status": "sufficient",
+    "blockers": []
+  },
+  "triggered_gate_ids": [
+    "GATE-WRONG-LOCATOR"
+  ],
+  "unique_affected_locator_ids": [
+    "LOC-05BE1111509F",
+    "LOC-0627DDDC45EE",
+    "LOC-5CEE64F02874",
+    "LOC-8909AEDE85AA",
+    "LOC-B9B6F4DBC156",
+    "LOC-C853B3459625"
+  ],
+  "broken_references": 0,
+  "triggered_ceilings": 0,
+  "binding_ceilings": 0,
+  "review_signals_unchanged": true,
+  "methodology_tests": {
+    "passed": 180,
+    "duration_seconds": 42.638,
+    "log_sha256": "7541ec628edf5b79dd000d0edfca385d28a47621d3093bcefe07c90dcff56be6"
+  }
+}

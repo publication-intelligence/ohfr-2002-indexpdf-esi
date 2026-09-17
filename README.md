@@ -1,10 +1,24 @@
 # OHFR 2002 — IndexPDF subject-index evaluation
 
-This repository evaluates IndexPDF’s delivered subject-index Markdown export for *The Oxford History of the French Revolution* (2002) using the Evaluate Subject Index V8.1 consequence methodology.
+This repository evaluates IndexPDF’s delivered subject-index Markdown export for *The Oxford History of the French Revolution* (2002) using the Evaluate Subject Index V8.2 methodology.
 
 The single canonical workflow state and artifact inventory is [`evaluation/evaluation-state.json`](evaluation/evaluation-state.json). The evaluation ID is `ohfr-2002-indexpdf-v8`. The source has 425 pages; front matter and endnotes absent from that supplied file are outside the available source.
 
-## Current V8.1 migration
+## V8.2 migration
+
+Common-benchmark reconciliation is in preparation. See the [dependency review](migration/common-benchmark/README.md) for reusable evidence, required rebuilds, and the supported-workflow dependency. The existing V8.2 score describes the preserved native benchmark only.
+
+**Comparability hold:** PR 6 is draft while the coordinator investigates different frozen benchmark sizes across the four indexes. This IndexPDF migration retains the imported Published benchmark (638 subjects, 1,569 coalesced treatments). Do not merge, activate bundles, or claim direct cross-index score comparability until that investigation is resolved. No benchmark evidence has been rewritten.
+
+The combined migration is validated against reviewed methodology commit `c11c6ccb`; the evaluation PR is draft pending benchmark-comparability investigation. The earlier `adeb691` checkpoint remains preserved.
+
+The combined V8.2 gate-policy and native retrospective-provenance migration retains **97.19/100**, all six numeric dimensions, components, deductions and caps. **One publication gate (`GATE-WRONG-LOCATOR`) covers six confirmed unsupported/no-fit delivered locators**, so readiness is **Not publication ready**. Evaluation validity remains **valid** and gate assessment is **sufficient**, with no blockers. No reference gate triggers; all 257 delivered references retain their frozen supported attestation.
+
+No frozen judgment was changed. Four evidence-backed uncertainty scopes were added while every original uncertainty record remained unchanged; no audit was rerun. All three public data collections are byte-identical to V8.1. The new native policy migration record preserves the original candidate-blind freeze and accurately records current candidate visibility. The [V8.2 report](migration/v8.2/REPORT.md), [change ledger](migration/v8.2/change-ledger.json), and [validation receipt](migration/v8.2/validation.json) document the exact evidence, hashes and numerical-invariance checks. All **180** installed methodology regression tests passed.
+
+This evaluation PR requires user review and merge; no website deployment is included. Separate original V8, V8.1 and V8.2 private archives are retained for a coherent handoff. The saved project's active V8 baseline remains intact pending coordinated activation after review; pulling public files alone does not update ignored private evidence.
+
+## V8.1 migration (historical)
 
 The authorized targeted migration is complete: **97.19/100**, **zero triggered or binding ceilings**, **zero publication gates**, and **valid evaluation evidence**. Findability is 97.97826850%; the other five dimensions are unchanged. The original V8 score was 95.60 with a binding 90% Findability ceiling and three publication gates.
 

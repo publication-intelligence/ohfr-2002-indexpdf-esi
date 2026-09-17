@@ -7,10 +7,10 @@
   },
   "provenance": {
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
-    "judgment_policy_sha256": "c2e7a937b9c86307891624d4b578ebd603815bed7e8ffe4c35890879146afc8f",
+    "judgment_policy_sha256": "84b44cf3167e61202640aa2982fe83eee9281ee6785b18b7ecbae374b40b2da9",
     "benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
-    "rubric_version": "subject-index-rubric-v8.1",
-    "dimension_calculation_profile": "subject-index-dimension-calculation-v6"
+    "rubric_version": "subject-index-rubric-v8.2",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v7"
   },
   "audit_scope": {
     "mode": "full",
@@ -19,10 +19,10 @@
   "dimension_calculations": {
     "schema_version": "subject-index-dimension-calculations-v6",
     "artifact_path": "scoring/dimension-calculations.v6.json",
-    "sha256": "795198db31137b8763be52d7eaaea047989d903f7db0585b51e7be4b2acc601d",
-    "calculation_sha256": "1e2a333fb789abdcbe193da27de5ca76dc1b81ecc38b65115597d343733c613e",
-    "rubric_version": "subject-index-rubric-v8.1",
-    "calculation_profile": "subject-index-dimension-calculation-v6"
+    "sha256": "8c6f7e1a73558aacdd20b173db0d69009b2cac765c1e9a7accfd831aa11c6c47",
+    "calculation_sha256": "e1c6e4768314f56be1c319c949552ab365e676c913ca88a09fc1c3b984fab025",
+    "rubric_version": "subject-index-rubric-v8.2",
+    "calculation_profile": "subject-index-dimension-calculation-v7"
   },
   "scorecard": [
     {
@@ -30,42 +30,42 @@
       "weight": 20,
       "dimension_percentage": "95.85185185185185185185185185",
       "weighted_contribution": "19.17037037037037037037037037",
-      "formula_id": "subject-index-dimension-calculation-v6:meaningful_coverage"
+      "formula_id": "subject-index-dimension-calculation-v7:meaningful_coverage"
     },
     {
       "dimension_id": "editorial_selectivity",
       "weight": 15,
       "dimension_percentage": "92.85558370331663418495020807",
       "weighted_contribution": "13.92833755549749512774253121",
-      "formula_id": "subject-index-dimension-calculation-v6:editorial_selectivity"
+      "formula_id": "subject-index-dimension-calculation-v7:editorial_selectivity"
     },
     {
       "dimension_id": "conceptual_stance_fidelity",
       "weight": 15,
       "dimension_percentage": "100",
       "weighted_contribution": "15",
-      "formula_id": "subject-index-dimension-calculation-v6:conceptual_stance_fidelity"
+      "formula_id": "subject-index-dimension-calculation-v7:conceptual_stance_fidelity"
     },
     {
       "dimension_id": "page_reference_reliability",
       "weight": 25,
       "dimension_percentage": "97.9897322222424284250851774",
       "weighted_contribution": "24.49743305556060710627129435",
-      "formula_id": "subject-index-dimension-calculation-v6:page_reference_reliability"
+      "formula_id": "subject-index-dimension-calculation-v7:page_reference_reliability"
     },
     {
       "dimension_id": "findability_navigation",
       "weight": 20,
       "dimension_percentage": "97.97826850242138773233665836",
       "weighted_contribution": "19.59565370048427754646733167",
-      "formula_id": "subject-index-dimension-calculation-v6:findability_navigation"
+      "formula_id": "subject-index-dimension-calculation-v7:findability_navigation"
     },
     {
       "dimension_id": "mechanics_consistency",
       "weight": 5,
       "dimension_percentage": "100",
       "weighted_contribution": "5",
-      "formula_id": "subject-index-dimension-calculation-v6:mechanics_consistency"
+      "formula_id": "subject-index-dimension-calculation-v7:mechanics_consistency"
     }
   ],
   "overall_percentage": 97.19,
@@ -82,7 +82,7 @@
   "item_assessments": {
     "schema_version": "subject-index-item-assessments-v7",
     "artifact_path": "scoring/item-assessments.v7.json",
-    "sha256": "a272d0bcfc39c5edbfbd921dfd3f40697a900b3e4abcae33f999cc4bf5303a82",
+    "sha256": "c390a8e8af7fdb764c44aaf523e822ddd542a9c60151155916c51cd89ac2abb3",
     "grading_policy": "subject-index-item-grading-v4",
     "summary": {
       "locators": {
@@ -12011,13 +12011,13 @@
   "structure_audit": {
     "schema_version": "structure-audit-v6",
     "artifact_path": "staging/structure/structure-audit.v6.json",
-    "sha256": "dd8181555d19d358282c830c5d1ac4f160d4c428802cf1ae4b3da070d34a322b"
+    "sha256": "871a20520283b58aea4aa5de008bf3ca78c785bbe12613a27d0b246de4a3736a"
   },
   "projection_metadata": {
     "schema_version": "subject-index-v8-projection-metadata-v2",
     "artifact_path": "scoring/projection-metadata.v2.json",
-    "sha256": "7b99fd37a85820968e548a06424fab5da89da679dd4f028c4a6033f81dc4ade5",
-    "projection_metadata_sha256": "4e2faaa5c31b33cbc75cb5690d9c9e1f4fee6888b69b89442e3b5972352e0792"
+    "sha256": "3de460baeaf49403c11576c67a2a32cb3fcc1f1de73a924dc1eae1dc54810bdf",
+    "projection_metadata_sha256": "d4367d0b4f4d50c7b12f6188ca6533762c6a9178ccaeb27b7ac589a962b90fac"
   },
   "critical_gates": [
     {
@@ -12030,6 +12030,7 @@
       "threshold": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12043,6 +12044,7 @@
       "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12056,6 +12058,7 @@
       "threshold": "Critical central omission or major omission demonstrably destroying high-priority access",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12069,6 +12072,7 @@
       "threshold": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12082,6 +12086,7 @@
       "threshold": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12095,6 +12100,7 @@
       "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12108,6 +12114,7 @@
       "threshold": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12121,6 +12128,7 @@
       "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12134,6 +12142,7 @@
       "threshold": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     },
@@ -12147,10 +12156,159 @@
       "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
       "systemic_groups": [],
       "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-WRONG-LOCATOR",
+      "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [],
+      "affected_evidence_ids": [
+        "LOC-05BE1111509F",
+        "LOC-0627DDDC45EE",
+        "LOC-5CEE64F02874",
+        "LOC-8909AEDE85AA",
+        "LOC-B9B6F4DBC156",
+        "LOC-C853B3459625"
+      ],
+      "threshold": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [
+        {
+          "locator_id": "LOC-05BE1111509F",
+          "path_id": "PATH-471448B53498",
+          "complete_heading_path": [
+            "nobility",
+            "accession to the National Assembly"
+          ],
+          "document_page": 105,
+          "source_page_label": "105",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-6049F7F3D636001F"
+          ]
+        },
+        {
+          "locator_id": "LOC-0627DDDC45EE",
+          "path_id": "PATH-AE5E5CEF27DC",
+          "complete_heading_path": [
+            "Dauphiné",
+            "deputies' role at the Estates-General"
+          ],
+          "document_page": 105,
+          "source_page_label": "105",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-78C77B00D4304DA7"
+          ]
+        },
+        {
+          "locator_id": "LOC-5CEE64F02874",
+          "path_id": "PATH-B864BBDFBB7F",
+          "complete_heading_path": [
+            "foreign trade, France",
+            "competition with Great Britain"
+          ],
+          "document_page": 423,
+          "source_page_label": "423",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CHUNK017-5CEE64F02874"
+          ]
+        },
+        {
+          "locator_id": "LOC-8909AEDE85AA",
+          "path_id": "PATH-5A9B26F17325",
+          "complete_heading_path": [
+            "Bonaparte, Napoleon",
+            "domestic political role"
+          ],
+          "document_page": 329,
+          "source_page_label": "329",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CHUNK014-8909AEDE85AA"
+          ]
+        },
+        {
+          "locator_id": "LOC-B9B6F4DBC156",
+          "path_id": "PATH-FF29EFF550F0",
+          "complete_heading_path": [
+            "church lands",
+            "confiscation and sale under French rule"
+          ],
+          "document_page": 365,
+          "source_page_label": "365",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-015-B9B6F4DBC156"
+          ]
+        },
+        {
+          "locator_id": "LOC-C853B3459625",
+          "path_id": "PATH-EE5F7EAE00D5",
+          "complete_heading_path": [
+            "nobility",
+            "liberal minority among deputies"
+          ],
+          "document_page": 105,
+          "source_page_label": "105",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DE763C4E20B7EB1B"
+          ]
+        }
+      ],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "Confirmed delivered destination failure from finalized audit evidence; one item is sufficient, independent of severity, defect records, rates, or spread."
+    },
+    {
+      "gate_id": "GATE-BROKEN-REFERENCE",
+      "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
       "qualifying_locator_evidence": [],
       "threshold_reason": "No qualifying evidence crosses this threshold."
     }
   ],
+  "gate_assessment": {
+    "status": "sufficient",
+    "blockers": []
+  },
   "evaluation_validity": {
     "status": "valid",
     "blockers": [],
@@ -12228,14 +12386,14 @@
   "comparison_key": {
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
     "benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
-    "judgment_policy_sha256": "c2e7a937b9c86307891624d4b578ebd603815bed7e8ffe4c35890879146afc8f",
+    "judgment_policy_sha256": "84b44cf3167e61202640aa2982fe83eee9281ee6785b18b7ecbae374b40b2da9",
     "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
     "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
     "inclusion_policy": "Frozen current-V8 source scope and candidate-blind benchmark.",
     "audit_mode": "full",
     "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
-    "rubric_version": "subject-index-rubric-v8.1",
-    "dimension_calculation_profile": "subject-index-dimension-calculation-v6"
+    "rubric_version": "subject-index-rubric-v8.2",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v7"
   },
   "limitations": [
     "The evaluation covers the supplied 425-page main-text span; unavailable front matter, endnotes, and later matter are outside the source and are not inferred.",
