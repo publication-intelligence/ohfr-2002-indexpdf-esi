@@ -1,0 +1,1784 @@
+{
+  "schema_version": "subject-index-v10-projection-metadata-v2",
+  "candidate_label": "ohfr-2002-indexpdf",
+  "inclusion_policy": "Preserved V8.2 source scope with independently reviewed V10 benchmark access amendment.",
+  "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+  "critical_gates": [
+    {
+      "gate_id": "GATE-WRONG-LOCATOR",
+      "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [],
+      "affected_evidence_ids": [
+        "LOC-5CEE64F02874",
+        "LOC-B9B6F4DBC156"
+      ],
+      "threshold": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [
+        {
+          "locator_id": "LOC-5CEE64F02874",
+          "path_id": "PATH-B864BBDFBB7F",
+          "complete_heading_path": [
+            "foreign trade, France",
+            "competition with Great Britain"
+          ],
+          "document_page": 423,
+          "source_page_label": "423",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-V10-PREP-5CEE64F02874"
+          ]
+        },
+        {
+          "locator_id": "LOC-B9B6F4DBC156",
+          "path_id": "PATH-FF29EFF550F0",
+          "complete_heading_path": [
+            "church lands",
+            "confiscation and sale under French rule"
+          ],
+          "document_page": 365,
+          "source_page_label": "365",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-V10-PREP-B9B6F4DBC156"
+          ]
+        }
+      ],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "Qualifying structured V10 evidence under the recorded predicate and ownership order."
+    },
+    {
+      "gate_id": "GATE-BROKEN-REFERENCE",
+      "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-SCOPE-LOCATOR",
+      "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+      "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-CENTRAL-OMISSION",
+      "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Critical central omission or major omission demonstrably destroying high-priority access",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-STANCE",
+      "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-COMPOUND",
+      "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-SEE-SUBSTITUTION",
+      "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-CLUTTER",
+      "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-GROUNDING",
+      "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-STRUCTURE",
+      "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    }
+  ],
+  "gate_assessment": {
+    "status": "sufficient",
+    "blockers": []
+  },
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "review_signals": [
+    {
+      "signal_id": "REVIEW-PARTIAL-FIT",
+      "color": "yellow",
+      "affected_evidence_ids": [
+        "LOC-12D952420ABC",
+        "LOC-1E38D9E668B4",
+        "LOC-805F174738EB",
+        "LOC-C4A61C608A77",
+        "LOC-D641B69458DB",
+        "LOC-D92A08C94A10",
+        "LOC-E25B65970A6E"
+      ],
+      "count": 7,
+      "reason": "Partial fits retain ordinary diagnostic and rating consequences; no cap or gate.",
+      "individually_caps_or_gates": false
+    },
+    {
+      "signal_id": "REVIEW-MISSING-SUPPLEMENTAL-ROUTE",
+      "color": "yellow",
+      "affected_evidence_ids": [
+        "SUBJ-SUCC-0F8A724D947A",
+        "SUBJ-SUCC-2DA10285B986",
+        "SUBJ-SUCC-3A7F282F3591",
+        "SUBJ-SUCC-4006B19862D2",
+        "SUBJ-SUCC-43CA55F5B4B5",
+        "SUBJ-SUCC-4FF0A62E6420",
+        "SUBJ-SUCC-5BEA7C529D09",
+        "SUBJ-SUCC-5CA7BB7C9F57",
+        "SUBJ-SUCC-81ED036EECC7",
+        "SUBJ-SUCC-8304ACAD99F6",
+        "SUBJ-SUCC-833CB6DEB96A",
+        "SUBJ-SUCC-ADDF1D28A12D",
+        "SUBJ-SUCC-E1FC8E3CE663",
+        "SUBJ-SUCC-E5CD9F2A376A",
+        "SUBJ-SUCC-EAEA22BCE482",
+        "SUBJ-SUCC-F20A9ACB7D3D",
+        "SUBJ-SUCC-F27497F512D7",
+        "TASK-SUCC-688C615B9475"
+      ],
+      "count": 18,
+      "reason": "Supplemental route omissions remain scored; no individual cap or gate.",
+      "individually_caps_or_gates": false
+    }
+  ],
+  "report_id": "ohfr-2002-indexpdf-v8-v10",
+  "headline": "Subject-index evaluation",
+  "summary": "V10 percentage evaluation from validated registered artifacts and independently reviewed benchmark access proof.",
+  "interpretation": "The validated V10 calculation produced an overall percentage of 97.52%.",
+  "defect_counts": {
+    "minor": 53
+  },
+  "strengths": [
+    {
+      "strength_id": "STRENGTH-V10-HIERARCHY",
+      "summary": "The delivered two-level hierarchy contains885 main headings and1406 subheadings; current normalization faithfully preserves the raw candidate and restores both forced-loan directives.",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [
+        "EVID-V10-STRUCTURE-COMPATIBILITY"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-V10-ARCHITECTURE",
+      "summary": "Seven of ten numerically triggered paths are coherent or sufficiently subdivided; no numerical threshold alone is treated as a defect.",
+      "affected_item_ids": [
+        "PATH-193E66B4B8BD",
+        "PATH-218C714A9AC4",
+        "PATH-24F667F368C3",
+        "PATH-3B0B28A1E90E",
+        "PATH-8FFBF94FD603",
+        "PATH-CB43C095CF32",
+        "PATH-E3E257733049"
+      ],
+      "evidence_ids": [
+        "EVID-V10-ARCHITECTURE-REVIEW"
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "defect_id": "DEFECT-SUB-ANTICLERICALISM-001",
+      "code": "SUB",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "NODE-E1A287FF6FC9"
+      ],
+      "affected_source_sections": [
+        "CHUNK-004",
+        "CHUNK-005",
+        "CHUNK-006",
+        "CHUNK-014",
+        "CHUNK-016"
+      ],
+      "affected_structural_sections": [
+        "NODE-E1A287FF6FC9"
+      ],
+      "root_cause_family": "chronologically_distinct_anticlericalism_treatments_left_in_long_unsorted_locator_string",
+      "affected_count": 1,
+      "applicable_count": 2292,
+      "affected_rate": 0.0004363001745200698,
+      "source_section_denominator": 17,
+      "source_section_rate": "0.294118",
+      "structural_section_denominator": 885,
+      "structural_section_rate": "0.001130",
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-SUB-DANTON-001",
+      "code": "SUB",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "NODE-AFE8F4C42D92"
+      ],
+      "affected_source_sections": [
+        "CHUNK-008",
+        "CHUNK-010",
+        "CHUNK-011"
+      ],
+      "affected_structural_sections": [
+        "NODE-AFE8F4C42D92"
+      ],
+      "root_cause_family": "distinct_person_roles_and_phases_left_in_long_direct_locator_string",
+      "affected_count": 1,
+      "applicable_count": 2292,
+      "affected_rate": 0.0004363001745200698,
+      "source_section_denominator": 17,
+      "source_section_rate": "0.176471",
+      "structural_section_denominator": 885,
+      "structural_section_rate": "0.001130",
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-SUB-MARIE-ANTOINETTE-001",
+      "code": "SUB",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "NODE-8B03B30FFDFB"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001",
+        "CHUNK-002",
+        "CHUNK-004",
+        "CHUNK-006",
+        "CHUNK-008",
+        "CHUNK-011"
+      ],
+      "affected_structural_sections": [
+        "NODE-8B03B30FFDFB"
+      ],
+      "root_cause_family": "distinct_person_roles_and_phases_left_in_long_direct_locator_string",
+      "affected_count": 1,
+      "applicable_count": 2292,
+      "affected_rate": 0.0004363001745200698,
+      "source_section_denominator": 17,
+      "source_section_rate": "0.352941",
+      "structural_section_denominator": 885,
+      "structural_section_rate": "0.001130",
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C001-COV-107FFF6D0A82",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-107FFF6D0A82"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001"
+      ],
+      "affected_structural_sections": [
+        "NODE-1C4BBFCFA4BF",
+        "NODE-90FE552B549A",
+        "NODE-B87DFF0A4C5B"
+      ],
+      "root_cause_family": "omitted_source_treatment",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.003389830508474576,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C001-COV-40D6609E18E5",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-40D6609E18E5"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001"
+      ],
+      "affected_structural_sections": [
+        "NODE-13BA638414CE",
+        "NODE-90FE552B549A",
+        "NODE-BB994EA93DBE",
+        "NODE-F9ECBA85E9DC"
+      ],
+      "root_cause_family": "omitted_source_treatment",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.004519774011299435,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C001-HED-43CA55F5B4B5",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-43CA55F5B4B5"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001"
+      ],
+      "affected_structural_sections": [
+        "NODE-2F5555462B78",
+        "NODE-843FF5857181",
+        "NODE-EB34FCD7A1A0"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.003389830508474576,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C001-HED-5CA7BB7C9F57",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-5CA7BB7C9F57"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001"
+      ],
+      "affected_structural_sections": [
+        "NODE-5CF714CB7A30",
+        "NODE-9B869086F3E9",
+        "NODE-BE79F758FFCB"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.003389830508474576,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C001-HED-81ED036EECC7",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-81ED036EECC7"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001"
+      ],
+      "affected_structural_sections": [
+        "NODE-2960DC888725",
+        "NODE-2F5555462B78",
+        "NODE-6DC6A4EF942D",
+        "NODE-E0258F422C86"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.004519774011299435,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C001-HED-833CB6DEB96A",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-833CB6DEB96A"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001"
+      ],
+      "affected_structural_sections": [
+        "NODE-22E0BCE26EEC",
+        "NODE-843FF5857181",
+        "NODE-C8DFD5DEB3A3",
+        "NODE-EB34FCD7A1A0"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.004519774011299435,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C001-HED-E1FC8E3CE663",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-E1FC8E3CE663",
+        "SUBJ-SUCC-0F8A724D947A"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001",
+        "CHUNK-004"
+      ],
+      "affected_structural_sections": [
+        "NODE-174CCE329DE4",
+        "NODE-1C0180D27482",
+        "NODE-9B869086F3E9",
+        "NODE-E57B17163E59"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 2,
+      "applicable_count": 531,
+      "affected_rate": 0.003766478342749529,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.11764705882352941,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.004519774011299435,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C001-HED-F20A9ACB7D3D",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-F20A9ACB7D3D"
+      ],
+      "affected_source_sections": [
+        "CHUNK-001"
+      ],
+      "affected_structural_sections": [
+        "NODE-9B869086F3E9"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-HED-4006B19862D2",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-4006B19862D2"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-45476ED950C6",
+        "NODE-6A9B1D68A55D",
+        "NODE-C83F59EEEC2A",
+        "NODE-FB7B33F38AF6"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.004519774011299435,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-COV-5B6BA13D89A3",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-5B6BA13D89A3"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-70A02D7CBBE1"
+      ],
+      "root_cause_family": "omitted_source_treatment",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-HED-5BEA7C529D09",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-5BEA7C529D09"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-5AAF79BEC49D",
+        "NODE-A31C7C11504A",
+        "NODE-E7157077D4A4"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.003389830508474576,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-COV-71B17F79525C",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-71B17F79525C"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-219DAC9365DA",
+        "NODE-5AAF79BEC49D",
+        "NODE-A31C7C11504A",
+        "NODE-E689CE4210A3",
+        "NODE-FB7B33F38AF6"
+      ],
+      "root_cause_family": "omitted_source_treatment",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.005649717514124294,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-HED-8304ACAD99F6",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-8304ACAD99F6"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-5AAF79BEC49D",
+        "NODE-6A9B1D68A55D",
+        "NODE-6F602B6DC888"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.003389830508474576,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-HED-ADDF1D28A12D",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-ADDF1D28A12D"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-45476ED950C6",
+        "NODE-69B14F9F30B5"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0022598870056497176,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-HED-E5CD9F2A376A",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-E5CD9F2A376A"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-1B545487E60D",
+        "NODE-BAFB3EDEC66B",
+        "NODE-FD932249131B"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.003389830508474576,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-HED-EAEA22BCE482",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-EAEA22BCE482"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-043C6815D78F",
+        "NODE-7D73AF2DE77A"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0022598870056497176,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-C003-HED-F27497F512D7",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-F27497F512D7"
+      ],
+      "affected_source_sections": [
+        "CHUNK-003"
+      ],
+      "affected_structural_sections": [
+        "NODE-45476ED950C6",
+        "NODE-69B14F9F30B5",
+        "NODE-A40A54FC6D0D"
+      ],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.003389830508474576,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-BD6B5D420247",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-BD6B5D420247"
+      ],
+      "affected_source_sections": [
+        "CHUNK-006"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-F066F35B29BE",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-F066F35B29BE"
+      ],
+      "affected_source_sections": [
+        "CHUNK-006"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-D93987F3BB44",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-D93987F3BB44"
+      ],
+      "affected_source_sections": [
+        "CHUNK-007"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-40720510D7E5",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-40720510D7E5"
+      ],
+      "affected_source_sections": [
+        "CHUNK-008"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-4A15787A5F56",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-4A15787A5F56"
+      ],
+      "affected_source_sections": [
+        "CHUNK-008"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-4A316B580039",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-4A316B580039"
+      ],
+      "affected_source_sections": [
+        "CHUNK-008"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-90327630B4F3",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-90327630B4F3"
+      ],
+      "affected_source_sections": [
+        "CHUNK-008"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-A09DB8EABD5C",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-A09DB8EABD5C"
+      ],
+      "affected_source_sections": [
+        "CHUNK-009"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-E801BA395EE8",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-E801BA395EE8"
+      ],
+      "affected_source_sections": [
+        "CHUNK-009"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-7754A8D39F3E",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-7754A8D39F3E"
+      ],
+      "affected_source_sections": [
+        "CHUNK-011"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-7FD46BD9C318",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-7FD46BD9C318"
+      ],
+      "affected_source_sections": [
+        "CHUNK-011"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-6CADAB0E6D01",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-6CADAB0E6D01"
+      ],
+      "affected_source_sections": [
+        "CHUNK-012"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-3CA7ED910B5B",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-3CA7ED910B5B"
+      ],
+      "affected_source_sections": [
+        "CHUNK-013"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-AB9E2AC4F876",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-AB9E2AC4F876"
+      ],
+      "affected_source_sections": [
+        "CHUNK-013"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-C47971AD0857",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-C47971AD0857"
+      ],
+      "affected_source_sections": [
+        "CHUNK-013"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-COV-9C234417CEB0",
+      "code": "COV",
+      "dimension_owner": "meaningful_coverage",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-9C234417CEB0"
+      ],
+      "affected_source_sections": [
+        "CHUNK-015"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "specific_required_treatment_or_facet_not_retrievable",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-D641B69458DB",
+      "code": "CMP",
+      "dimension_owner": "page_reference_reliability",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-D641B69458DB"
+      ],
+      "affected_source_sections": [
+        "CHUNK-004"
+      ],
+      "affected_structural_sections": [
+        "NODE-8CFD4A2B3DA3"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-805F174738EB",
+      "code": "CMP",
+      "dimension_owner": "page_reference_reliability",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-805F174738EB"
+      ],
+      "affected_source_sections": [
+        "CHUNK-004"
+      ],
+      "affected_structural_sections": [
+        "NODE-8CFD4A2B3DA3"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-21F8A6403C4A",
+      "code": "SEL",
+      "dimension_owner": "editorial_selectivity",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-21F8A6403C4A"
+      ],
+      "affected_source_sections": [
+        "CHUNK-005"
+      ],
+      "affected_structural_sections": [
+        "NODE-E4771442F2EE"
+      ],
+      "root_cause_family": "caption_only_destination",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-1E38D9E668B4",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-1E38D9E668B4"
+      ],
+      "affected_source_sections": [
+        "CHUNK-005"
+      ],
+      "affected_structural_sections": [
+        "NODE-8A392F90DF86"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-2B74EB795674",
+      "code": "SEL",
+      "dimension_owner": "editorial_selectivity",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-2B74EB795674"
+      ],
+      "affected_source_sections": [
+        "CHUNK-005"
+      ],
+      "affected_structural_sections": [
+        "NODE-418454731314"
+      ],
+      "root_cause_family": "caption_only_destination",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-12D952420ABC",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-12D952420ABC"
+      ],
+      "affected_source_sections": [
+        "CHUNK-007"
+      ],
+      "affected_structural_sections": [
+        "NODE-588A8FBD2086"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-C4A61C608A77",
+      "code": "CMP",
+      "dimension_owner": "page_reference_reliability",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-C4A61C608A77"
+      ],
+      "affected_source_sections": [
+        "CHUNK-007"
+      ],
+      "affected_structural_sections": [
+        "NODE-BA88F18B200F"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-E25B65970A6E",
+      "code": "CMP",
+      "dimension_owner": "page_reference_reliability",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-E25B65970A6E"
+      ],
+      "affected_source_sections": [
+        "CHUNK-013"
+      ],
+      "affected_structural_sections": [
+        "NODE-74A0612D4C09"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-D92A08C94A10",
+      "code": "CMP",
+      "dimension_owner": "page_reference_reliability",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-D92A08C94A10"
+      ],
+      "affected_source_sections": [
+        "CHUNK-013"
+      ],
+      "affected_structural_sections": [
+        "NODE-E2B50A59BC70"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-0D7950EB3BA7",
+      "code": "SEL",
+      "dimension_owner": "editorial_selectivity",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-0D7950EB3BA7"
+      ],
+      "affected_source_sections": [
+        "CHUNK-014"
+      ],
+      "affected_structural_sections": [
+        "NODE-D51B8D942308"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-B9B6F4DBC156",
+      "code": "LOC_POS",
+      "dimension_owner": "page_reference_reliability",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-B9B6F4DBC156"
+      ],
+      "affected_source_sections": [
+        "CHUNK-015"
+      ],
+      "affected_structural_sections": [
+        "NODE-276573D801BA"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-LOC-5CEE64F02874",
+      "code": "LOC_POS",
+      "dimension_owner": "page_reference_reliability",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "LOC-5CEE64F02874"
+      ],
+      "affected_source_sections": [
+        "CHUNK-017"
+      ],
+      "affected_structural_sections": [
+        "NODE-931A3F45474F"
+      ],
+      "root_cause_family": "page_break_omits_promised_predicate",
+      "affected_count": 1,
+      "applicable_count": 4273,
+      "affected_rate": 0.0002340276152586005,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0.0011299435028248588,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-HED-ILLUMINATI",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-2DA10285B986"
+      ],
+      "affected_source_sections": [
+        "CHUNK-007"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "missing_named_first_lookup_with_unannounced_thematic_alternative",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-HED-GUSTAVUS",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-3A7F282F3591"
+      ],
+      "affected_source_sections": [
+        "CHUNK-007"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "missing_named_first_lookup_with_unannounced_thematic_alternative",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-HED-CADOUDAL",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "SUBJ-SUCC-4FF0A62E6420"
+      ],
+      "affected_source_sections": [
+        "CHUNK-013"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "missing_named_first_lookup_with_unannounced_thematic_alternative",
+      "affected_count": 1,
+      "applicable_count": 531,
+      "affected_rate": 0.0018832391713747645,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-HED-CAIRA",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "TASK-SUCC-688C615B9475"
+      ],
+      "affected_source_sections": [
+        "CHUNK-005"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "missing_named_first_lookup_with_unannounced_thematic_alternative",
+      "affected_count": 1,
+      "applicable_count": 617,
+      "affected_rate": 0.0016207455429497568,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-V10-HED-90327630B4F3",
+      "code": "HED",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "generic",
+      "affected_item_ids": [
+        "PATH-1B67410BDF46"
+      ],
+      "affected_source_sections": [
+        "CHUNK-008"
+      ],
+      "affected_structural_sections": [],
+      "root_cause_family": "omitted_specific_lookup_route",
+      "affected_count": 1,
+      "applicable_count": 2292,
+      "affected_rate": 0.0004363001745200698,
+      "source_section_denominator": 17,
+      "source_section_rate": 0.058823529411764705,
+      "structural_section_denominator": 885,
+      "structural_section_rate": 0,
+      "high_priority_access_destroyed": false
+    }
+  ],
+  "examples": [],
+  "limitations": [
+    "The evaluation covers the supplied 425-page main-text span; unavailable front matter, endnotes, and later matter are outside the source and are not inferred.",
+    "Structure review uses the frozen delivered Markdown and registered layout extraction; it does not independently rejudge physical typography beyond that fidelity record.",
+    "The193118-word density denominator is the frozen common body-and-caption measurement; extraction, hyphenation and tokenization retain bounded estimate uncertainty by chunk."
+  ],
+  "canonical_calculation": {
+    "schema_version": "subject-index-dimension-calculations-v9",
+    "execution_contract": {
+      "execution_contract_id": "subject-index-v10-semantic-execution-v3",
+      "contract_constituents": {
+        "subject-index-evaluation-v10-decision-v3": "779fb8ffb21bc17fe87a23ee9160a124e013a094c08280b7bdb26fef40d2da50",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v1": "e0f0e91a23274a94e292409b17df53d1b403bd0a52b26e6e7ae84809430c5f76",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v2": "fea2a5b87f9e063d28135895fdb7d3637dfe4d2edd294fb7a50fd3aff7009277",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v3": "4031abef00cb37508f30c8c89ec5e12592ce89369f144c1473ebc43bf9503a7d",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v4": "b5d51033cb03093ca242841f8d9a5aac510915cfedad800614078e5199220a64"
+      },
+      "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d",
+      "runtime_payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856",
+      "compatibility_sha256": "96dc0b0b65aaf8109e7ff0c1f90f13185764dfeef411b54ffc2505d9fd48b0d1",
+      "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94"
+    },
+    "artifact_path": "scoring-v10.2-pr71-authoritative/dimension-calculations.v9.json",
+    "sha256": "01ae9fe200cc840f51d10c93f00846219409c479255be687b1488146212ed6d6",
+    "calculation_sha256": "c389145f77699a163c41de10972389af28efcbef8546b6d3605b514112602eb7",
+    "rubric_version": "subject-index-rubric-v10",
+    "calculation_profile": "subject-index-dimension-calculation-v9"
+  },
+  "canonical_structure_audit": {
+    "schema_version": "structure-audit-v6",
+    "artifact_path": "staging/v10/structure-audit.v6.json",
+    "sha256": "28c4b5e3cbae17fac7937708db5d94c108ee16ba963bda8cb41c604e39e93a97"
+  },
+  "canonical_heading_access_source": {
+    "role": "heading_access_causal_source",
+    "schema_version": "structure-audit-v6",
+    "artifact_path": "staging/v10/structure-audit.v6.json",
+    "sha256": "28c4b5e3cbae17fac7937708db5d94c108ee16ba963bda8cb41c604e39e93a97"
+  },
+  "projection_metadata_sha256": "09832b316c1e7021df4f4ee8260de927d2cfdde6294b0894612dec796b4abcb5"
+}
