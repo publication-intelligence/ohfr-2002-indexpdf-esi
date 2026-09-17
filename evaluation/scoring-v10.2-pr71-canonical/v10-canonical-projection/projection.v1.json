@@ -1,0 +1,1113 @@
+{
+  "authoritative_evaluation": {
+    "status": "authoritative"
+  },
+  "collections": [
+    {
+      "artifact_path": "data/index-records.v1.json",
+      "collection_id": "index_records",
+      "content_sha256": "fff51fac9d273bde46e94239a90bbd829d7854a2512920580256af9510ca8e5b",
+      "count": 2548,
+      "file_sha256": "5fc87584f751f6a8565637bb40b1a8f45f851b5fcc5945cef76aba1f81a5def6"
+    },
+    {
+      "artifact_path": "data/source-subjects.v1.json",
+      "collection_id": "source_subjects",
+      "content_sha256": "79466976335becd8d7d07b6eab9149e7b73c9ec1424ca3ce5927e388ff92ed6f",
+      "count": 531,
+      "file_sha256": "4c7ec1b7681e87137180a4dacdc49b9e24db42dd029ea75c47c5a891be2a6991"
+    },
+    {
+      "artifact_path": "data/density.v1.json",
+      "collection_id": "density",
+      "content_sha256": "6ff04468750d3f99c366825b552973c3ac292c68b5108e738c2d87939dcfc49b",
+      "count": 17,
+      "file_sha256": "2426c222019ed781d94c35a6cc761b5d71b496fee932dbffaccec966a57b1f35"
+    }
+  ],
+  "comparison_identity": {
+    "audit_mode": "full",
+    "benchmark_access": {
+      "effective_benchmark_semantic_sha256": "178087ede3951c91aa91c5cda2496c7a881f8864a0d6da60cd2216943e9092c8",
+      "frozen_at": "2026-09-17T16:12:00+00:00",
+      "overlay_file_sha256": "1ce6844a2abd0a052a8621100c86dc8c8bd3cf164b79e98cbaf4e9ea516bf1f9",
+      "overlay_sha256": "21b03615360c698467312f46f56d92f4cbbb1182852d2c7014178a2cc53da08d",
+      "review_file_sha256": "bb50c3b36f5c38c38999fa5759df7a620570db398b00e0669c9758acfd9b129a"
+    },
+    "benchmark_semantic_sha256": "178087ede3951c91aa91c5cda2496c7a881f8864a0d6da60cd2216943e9092c8",
+    "calculation_profile": "subject-index-dimension-calculation-v9",
+    "candidate_access_review": {
+      "receipt_file_sha256": "e89f5f1846210648ac65283211e758c55d32dc0a079d430ca5e545b84ef66523",
+      "requirement_count": 2732,
+      "status": "sufficient"
+    },
+    "density_basis": {
+      "basis_id": "ohfr-2002-uniform-body-caption-v1",
+      "chunks": [
+        {
+          "chunk_id": "CHUNK-001",
+          "indexable_source_words": 19635,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-002",
+          "indexable_source_words": 9922,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-003",
+          "indexable_source_words": 9055,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-004",
+          "indexable_source_words": 11861,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-005",
+          "indexable_source_words": 10208,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-006",
+          "indexable_source_words": 10478,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-007",
+          "indexable_source_words": 6543,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-008",
+          "indexable_source_words": 10803,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-009",
+          "indexable_source_words": 10457,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-010",
+          "indexable_source_words": 12080,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-011",
+          "indexable_source_words": 11612,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-012",
+          "indexable_source_words": 11557,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-013",
+          "indexable_source_words": 9710,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-014",
+          "indexable_source_words": 10719,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-015",
+          "indexable_source_words": 12419,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-016",
+          "indexable_source_words": 10257,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        },
+        {
+          "chunk_id": "CHUNK-017",
+          "indexable_source_words": 15802,
+          "source_artifact": {
+            "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+          }
+        }
+      ],
+      "measurement_sha256": "30c047883bbccb41f1096b1e38a4425fc01471f9a7d0669d53a390779aa56ba1"
+    },
+    "density_measurements_sha256": "0489559ce7d0890f959024c702c7903df123f8b69d0928511b12bdc99e261f4d",
+    "execution_contract": {
+      "compatibility_sha256": "2e593499cac528264324eb2ea9605749b0da4d3c7f26b5f2fa27b41c340c170c",
+      "contract_constituents": {
+        "subject-index-evaluation-v10-decision-v3": "779fb8ffb21bc17fe87a23ee9160a124e013a094c08280b7bdb26fef40d2da50",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v1": "e0f0e91a23274a94e292409b17df53d1b403bd0a52b26e6e7ae84809430c5f76",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v2": "fea2a5b87f9e063d28135895fdb7d3637dfe4d2edd294fb7a50fd3aff7009277",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v3": "4031abef00cb37508f30c8c89ec5e12592ce89369f144c1473ebc43bf9503a7d",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v4": "b5d51033cb03093ca242841f8d9a5aac510915cfedad800614078e5199220a64"
+      },
+      "execution_contract_id": "subject-index-v10-semantic-execution-v3",
+      "runtime_payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856",
+      "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94",
+      "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d"
+    },
+    "identity_sha256": "c697a2ea0a2d272835d1b58bf9814d1dd13d117dddf585ead4e95845a50ea5e1",
+    "policy_profile": "subject-index-standard-policy-v10",
+    "policy_semantic_sha256": "6f0291ba3611cbdd94daed6d358ef27ee4605d824d8517216662fffab229fe5d",
+    "release": {
+      "benchmark_file_sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+      "benchmark_id": "ohfr-2002-study-source-successor-v1",
+      "benchmark_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+      "lineage": {
+        "draft_file_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+        "kind": "current_source_freeze",
+        "review_file_sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+        "source_only_state_sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb"
+      },
+      "release_id": "ohfr-2002-successor-v10-2026-09-17-r2",
+      "version": 4
+    },
+    "rubric_version": "subject-index-rubric-v10",
+    "source_methodology": {
+      "calculation_profile": "subject-index-dimension-calculation-v7",
+      "policy_profile": "subject-index-standard-policy-v8.2",
+      "rubric_version": "subject-index-rubric-v8.2",
+      "source_policy_file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+      "source_policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae"
+    },
+    "source_scope": {
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "document_page_span": [
+        1,
+        425
+      ],
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+    }
+  },
+  "correction_outcomes": {
+    "affected_headings": 0,
+    "applicable": false,
+    "character_replacements": 0,
+    "overlay_included": false,
+    "reason": "No confirmed registered correction overlay applies."
+  },
+  "density_denominator": {
+    "indexable_source_words": 193118,
+    "unit": "words"
+  },
+  "evaluation_id": "ohfr-2002-indexpdf-v8",
+  "evaluation_validity": {
+    "blockers": [],
+    "status": "valid",
+    "used_as_publication_gate": false
+  },
+  "gate_assessment": {
+    "blockers": [],
+    "status": "sufficient"
+  },
+  "human_release_decision": {
+    "status": "not_recorded"
+  },
+  "item_summaries": {
+    "observed": {
+      "cross_references": {
+        "bands": {
+          "excellent": 122,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 135,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 257,
+        "not_measured": 0,
+        "total": 257
+      },
+      "heading_nodes": {
+        "bands": {
+          "excellent": 2292,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 0,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 2292,
+        "not_measured": 0,
+        "total": 2292
+      },
+      "locator_utility_tiers": {
+        "diagnostic_credit": {
+          "0": 2,
+          "0.25": 3,
+          "0.7": 778,
+          "1": 3490
+        },
+        "fit": {
+          "exact_fit": 4264,
+          "material_partial_fit": 7,
+          "no_fit": 2
+        },
+        "rating_credit": {
+          "0": 12,
+          "1": 4261
+        },
+        "treatment": {
+          "absent": 1,
+          "mixed": 778,
+          "substantive": 3490,
+          "weak_presence": 4
+        }
+      },
+      "locators": {
+        "bands": {
+          "excellent": 3490,
+          "mixed": 778,
+          "not_measured": 0,
+          "poor": 5,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 4273,
+        "not_measured": 0,
+        "total": 4273
+      },
+      "paths": {
+        "bands": {
+          "excellent": 0,
+          "mixed": 0,
+          "not_measured": 2548,
+          "poor": 0,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 0,
+        "not_measured": 2548,
+        "total": 2548
+      },
+      "source_subjects": {
+        "bands": {
+          "excellent": 493,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 38,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 531,
+        "not_measured": 0,
+        "total": 531
+      }
+    }
+  },
+  "limitations": [
+    "The evaluation covers the supplied 425-page main-text span; unavailable front matter, endnotes, and later matter are outside the source and are not inferred.",
+    "Structure review uses the frozen delivered Markdown and registered layout extraction; it does not independently rejudge physical typography beyond that fidelity record.",
+    "The193118-word density denominator is the frozen common body-and-caption measurement; extraction, hyphenation and tokenization retain bounded estimate uncertainty by chunk.",
+    "Aggregate scores come from the authoritative V10 calculation; item scores are diagnostics.",
+    "Exact percentage and point-contribution strings are authoritative.",
+    "Source excerpts and private layout evidence are excluded."
+  ],
+  "method_readiness": {
+    "assessment_blockers": [],
+    "status": "not_ready",
+    "triggered_gate_ids": [
+      "GATE-WRONG-LOCATOR"
+    ]
+  },
+  "methodology": {
+    "benchmark": {
+      "benchmark_id": "ohfr-2002-study-source-successor-v1",
+      "benchmark_semantic_sha256": "178087ede3951c91aa91c5cda2496c7a881f8864a0d6da60cd2216943e9092c8",
+      "benchmark_sha256": "9b2d39adb5c7151cd956b6b9444977f9177790e0b9890db12186296f9e272292",
+      "release": {
+        "benchmark_file_sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+        "benchmark_id": "ohfr-2002-study-source-successor-v1",
+        "benchmark_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+        "lineage": {
+          "draft_file_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+          "kind": "current_source_freeze",
+          "review_file_sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+          "source_only_state_sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb"
+        },
+        "release_id": "ohfr-2002-successor-v10-2026-09-17-r2",
+        "version": 4
+      },
+      "version": 4
+    },
+    "calculation_profile": "subject-index-dimension-calculation-v9",
+    "rubric_version": "subject-index-rubric-v10"
+  },
+  "projection_id": "OHFR-V10-WEB-E0D50762F26B",
+  "projection_role": "deterministic_public_safe_display_projection",
+  "projection_sha256": "0d1e2bde436d7b34efdf6c74dc840dc60eec0b28126e09ef168b47e733352c1b",
+  "provenance": {
+    "benchmark_sha256": "9b2d39adb5c7151cd956b6b9444977f9177790e0b9890db12186296f9e272292",
+    "calculation_sha256": "43c67444e8f1ab8e2b9742c1a17e7a1713910d5df141f0f7d9a87433c001463b",
+    "correction_overlay_sha256": null,
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v9",
+    "judgment_policy_sha256": "789ec1c051efaea9ae1336cfdef78cddd38bdab0ccc8645d78c01794dea2d872",
+    "missing_access_audit_set_sha256": "f74fd4ff3a5b78d40727d2f7659889410d120efb475537ebd36a04b52b16fd73",
+    "projection_metadata_sha256": "6cbba1a7adc532bd3b3c855234637e96f5c7e9aa7dc4ed2c1a40b6be4d14a307",
+    "rubric_version": "subject-index-rubric-v10",
+    "source_artifacts": [
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/candidate-index.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "candidate-index-v2",
+        "sha256": "18fecb7858643520e58a4e639f074cc701707e49b52cc3061461750b68054177"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/item-inventory.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-item-inventory-v2",
+        "sha256": "9b58826d28730253a64d64b6cbbd303907e9949a5682143ea90f8960981ac737"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "8b4b8d420dea5de5049fd07e295d2c4988f2c8f2d9934b2c0bc70905a19183fc"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "4b3f82acb6d13d4fcc9675fe4493952c289a8066a27cdc0fb8440ffe1e6480fe"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "692f7f2ec88e3a6ea1f1fb8a872faa718044576de3cfd4cd663516a619688032"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "f2c52a8a638e0fb3672be2c3bc5e91e597d9b0c830a7809f390ecae0a067262e"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "1abeffd63ce2fa475933c201e74ef0e6643f6a620d073ecb498e83ea3092cb51"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "fdb3114ee7a1360bfd0f58d676a326088b31358c696ea03ae9e9852b3e3c02a2"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "61ba9ac2b26860d7020632e5dd8a4640393181677effe85eb0afb9f16bb8f402"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "9e27973c72d04c257b687f35143811e63117637589d3a64894109b14c4ddec6d"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "ad35fd57d3166f89cb736d7130f24e571c2257b3a940f3c0bbd2805ccb733b00"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "7ab7d51b11a574b86781cc8990dc5904c6bf43736f138b7c419337d9ee0a5869"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "8392af04e4fb996b1cc9ca87128e27071a1986f27133761c5e94f8f9cf31d5f6"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "fecf7153b88bd9270c8974c08010c72281085b3007c44425e49b33108de47149"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "5fddcce535f90f966f87a264e181cbb2195715ea4d905bfd35e89ba839b8c4ee"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "190356892a8d445518ec9d8f03fec850b29fd5f6217d16f4dd1639637c9535dc"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "db6694ef0e8cb8176b358492493855d858c738a796e97cc3af5d9a6fa2497fcf"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "4de9d4dc44c09dc1b0514acb41d8a2a3470f60e27fb816eeed94449b0498f2f2"
+      },
+      {
+        "artifact_path": "candidate/preparation/current/candidates/ohfr-2002-indexpdf/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "d5871d85ea5bcafbbceffeb0d1ee19387cab70acab9d4e344b3e632d760d91da"
+      },
+      {
+        "artifact_path": "evaluation/migration/v10.2-four-family-pr71/selected-benchmark.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "source-subject-benchmark-v2",
+        "sha256": "cff6f176ba48c66a1f42263cac9c6dfecebd815fa1bee45f0e1af83016c350f5"
+      },
+      {
+        "artifact_path": "scoring-v10.2-pr71-canonical/dimension-calculations.v9.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-dimension-calculations-v9",
+        "sha256": "01eb6424f33747aab4c502ca542ab7fd94d1f66daf98018ff840589912a2eacd"
+      },
+      {
+        "artifact_path": "scoring-v10.2-pr71-canonical/evaluation-result.v15.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-evaluation-result-v15",
+        "sha256": "511b74102704e403acf7ad0d4c35d1c1ee5070e36ab4f1d5badf738feab514f1"
+      },
+      {
+        "artifact_path": "scoring-v10.2-pr71-canonical/item-assessments.v10.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-item-assessments-v10",
+        "sha256": "6eaac4a3b2cdeaac6f40c08380e7676c64843b9033d2432df1808f76522a38b9"
+      },
+      {
+        "artifact_path": "scoring-v10.2-pr71-canonical/web-report.v13.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-web-report-v13",
+        "sha256": "aacb6157381e1549c7c0339f83e0edb75340aa7cddc854cbb9c792f6603d74dc"
+      },
+      {
+        "artifact_path": "source/chunk-manifest.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "chunk-manifest-v1",
+        "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+      },
+      {
+        "artifact_path": "staging/v10/structure-audit.v6.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "structure-audit-v6",
+        "sha256": "28c4b5e3cbae17fac7937708db5d94c108ee16ba963bda8cb41c604e39e93a97"
+      }
+    ],
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  },
+  "public_safety": {
+    "absolute_paths_included": false,
+    "private_layout_evidence_included": false,
+    "restricted_files_included": false,
+    "source_excerpts_included": false,
+    "source_subject_summaries_are_synthesized_not_quoted": true
+  },
+  "review_signals": [
+    {
+      "affected_evidence_ids": [
+        "LOC-12D952420ABC",
+        "LOC-1E38D9E668B4",
+        "LOC-805F174738EB",
+        "LOC-C4A61C608A77",
+        "LOC-D641B69458DB",
+        "LOC-D92A08C94A10",
+        "LOC-E25B65970A6E"
+      ],
+      "color": "yellow",
+      "count": 7,
+      "individually_caps_or_gates": false,
+      "reason": "Partial fits retain ordinary diagnostic and rating consequences; no cap or gate.",
+      "signal_id": "REVIEW-PARTIAL-FIT"
+    },
+    {
+      "affected_evidence_ids": [
+        "SUBJ-SUCC-0F8A724D947A",
+        "SUBJ-SUCC-2DA10285B986",
+        "SUBJ-SUCC-3A7F282F3591",
+        "SUBJ-SUCC-4006B19862D2",
+        "SUBJ-SUCC-43CA55F5B4B5",
+        "SUBJ-SUCC-4FF0A62E6420",
+        "SUBJ-SUCC-5BEA7C529D09",
+        "SUBJ-SUCC-5CA7BB7C9F57",
+        "SUBJ-SUCC-81ED036EECC7",
+        "SUBJ-SUCC-8304ACAD99F6",
+        "SUBJ-SUCC-833CB6DEB96A",
+        "SUBJ-SUCC-ADDF1D28A12D",
+        "SUBJ-SUCC-E1FC8E3CE663",
+        "SUBJ-SUCC-E5CD9F2A376A",
+        "SUBJ-SUCC-EAEA22BCE482",
+        "SUBJ-SUCC-F20A9ACB7D3D",
+        "SUBJ-SUCC-F27497F512D7",
+        "TASK-SUCC-688C615B9475"
+      ],
+      "color": "yellow",
+      "count": 18,
+      "individually_caps_or_gates": false,
+      "reason": "Supplemental route omissions remain scored; no individual cap or gate.",
+      "signal_id": "REVIEW-MISSING-SUPPLEMENTAL-ROUTE"
+    }
+  ],
+  "schema_version": "ohfr-v10-canonical-web-projection-v2",
+  "score_views": {
+    "canonical_source_adjustment_status": "none",
+    "projection_adjustment_status": "not_applicable",
+    "total_delta": 0,
+    "views": [
+      {
+        "critical_gates": [
+          {
+            "affected_evidence_ids": [
+              "LOC-5CEE64F02874",
+              "LOC-B9B6F4DBC156"
+            ],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+            "direct_destination_evidence": [
+              {
+                "complete_heading_path": [
+                  "foreign trade, France",
+                  "competition with Great Britain"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 423,
+                "evidence_ids": [
+                  "EVID-V10-PREP-5CEE64F02874"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-5CEE64F02874",
+                "path_id": "PATH-B864BBDFBB7F",
+                "source_page_label": "423",
+                "source_scope_status": "indexable",
+                "treatment_class": "passing_mention"
+              },
+              {
+                "complete_heading_path": [
+                  "church lands",
+                  "confiscation and sale under French rule"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 365,
+                "evidence_ids": [
+                  "EVID-V10-PREP-B9B6F4DBC156"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-B9B6F4DBC156",
+                "path_id": "PATH-FF29EFF550F0",
+                "source_page_label": "365",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              }
+            ],
+            "gate_id": "GATE-WRONG-LOCATOR",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+            "threshold_reason": "Qualifying structured V10 evidence under the recorded predicate and ownership order.",
+            "triggered": true
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-BROKEN-REFERENCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-SCOPE-LOCATOR",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-CENTRAL-OMISSION",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Critical central omission or major omission demonstrably destroying high-priority access",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-STANCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-COMPOUND",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-SEE-SUBSTITUTION",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-CROSS-REFERENCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-CLUTTER",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-GROUNDING",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-STRUCTURE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+            "threshold_reason": "No independently qualifying evidence crosses this threshold.",
+            "triggered": false
+          }
+        ],
+        "dimension_denominators": [
+          {
+            "components": [
+              {
+                "applicable": 480,
+                "component_id": "priority_weighted_subject_access",
+                "defined_zero_rule": null,
+                "excluded": 51,
+                "exclusion_reasons": {
+                  "optional_not_frozen_as_scored_and_no_material_failure": 51
+                },
+                "genuinely_inapplicable": false,
+                "measured": 480,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 531,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "meaningful_coverage"
+          },
+          {
+            "components": [
+              {
+                "applicable": 4272,
+                "component_id": "substantive_selectivity",
+                "defined_zero_rule": null,
+                "excluded": 1,
+                "exclusion_reasons": {
+                  "absent_owned_by_reliability": 1
+                },
+                "genuinely_inapplicable": false,
+                "measured": 4272,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 4273,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 1,
+                "component_id": "density_fit",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "editorial_selectivity"
+          },
+          {
+            "components": [
+              {
+                "applicable": 2292,
+                "component_id": "conceptual_stance_nodes",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 2292,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 2292,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "conceptual_stance_fidelity"
+          },
+          {
+            "components": [
+              {
+                "applicable": 4273,
+                "component_id": "keep_precision",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 4273,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 4273,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 2385,
+                "component_id": "expected_treatment_recall",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 2385,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 2385,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "page_reference_reliability"
+          },
+          {
+            "components": [
+              {
+                "applicable": 614,
+                "component_id": "coverage_conditioned_reader_tasks",
+                "defined_zero_rule": null,
+                "excluded": 3,
+                "exclusion_reasons": {
+                  "excluded_due_to_missing_access": 3
+                },
+                "genuinely_inapplicable": false,
+                "measured": 614,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 617,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 2292,
+                "component_id": "heading_access_architecture",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 2292,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 2292,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 257,
+                "component_id": "cross_reference_validity",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 257,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 257,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "findability_navigation"
+          },
+          {
+            "components": [
+              {
+                "applicable": 2292,
+                "component_id": "mechanics_nodes",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 2292,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 2292,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "mechanics_consistency"
+          }
+        ],
+        "label": "Canonical as delivered",
+        "maximum": 100,
+        "provenance_artifacts": [
+          {
+            "artifact_path": "scoring-v10.2-pr71-canonical/evaluation-result.v15.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-evaluation-result-v15",
+            "sha256": "511b74102704e403acf7ad0d4c35d1c1ee5070e36ab4f1d5badf738feab514f1"
+          },
+          {
+            "artifact_path": "scoring-v10.2-pr71-canonical/web-report.v13.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-web-report-v13",
+            "sha256": "aacb6157381e1549c7c0339f83e0edb75340aa7cddc854cbb9c792f6603d74dc"
+          },
+          {
+            "artifact_path": "scoring-v10.2-pr71-canonical/dimension-calculations.v9.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-dimension-calculations-v9",
+            "sha256": "01eb6424f33747aab4c502ca542ab7fd94d1f66daf98018ff840589912a2eacd"
+          }
+        ],
+        "readiness": {
+          "assessment_blockers": [],
+          "status": "not_ready",
+          "triggered_gate_ids": [
+            "GATE-WRONG-LOCATOR"
+          ]
+        },
+        "role": "authoritative_primary_observation",
+        "score": 97.52,
+        "scorecard": [
+          {
+            "awarded_points": "19.50361010830324909747292419",
+            "dimension_id": "meaningful_coverage",
+            "dimension_percentage": "97.51805054151624548736462094",
+            "formula_id": "subject-index-dimension-calculation-v9:meaningful_coverage",
+            "maximum_points": "20",
+            "weight": 20,
+            "weighted_contribution": "19.50361010830324909747292419"
+          },
+          {
+            "awarded_points": "13.91916750031505450879365716",
+            "density_fit_percentage": "96.78222641079547219834505328",
+            "density_points_out_of_5": "4.839111320539773609917252664",
+            "dimension_id": "editorial_selectivity",
+            "dimension_percentage": "92.7944500021003633919577144",
+            "formula_id": "subject-index-dimension-calculation-v9:editorial_selectivity",
+            "maximum_points": "15",
+            "substantive_points_out_of_10": "9.080056179775280898876404494",
+            "substantive_selectivity_percentage": "90.80056179775280898876404494",
+            "weight": 15,
+            "weighted_contribution": "13.91916750031505450879365716"
+          },
+          {
+            "awarded_points": "15",
+            "dimension_id": "conceptual_stance_fidelity",
+            "dimension_percentage": "100",
+            "formula_id": "subject-index-dimension-calculation-v9:conceptual_stance_fidelity",
+            "maximum_points": "15",
+            "weight": 15,
+            "weighted_contribution": "15"
+          },
+          {
+            "awarded_points": "24.84933303665070319311590998",
+            "dimension_id": "page_reference_reliability",
+            "dimension_percentage": "99.39733214660281277246363993",
+            "formula_id": "subject-index-dimension-calculation-v9:page_reference_reliability",
+            "maximum_points": "25",
+            "weight": 25,
+            "weighted_contribution": "24.84933303665070319311590998"
+          },
+          {
+            "awarded_points": "19.25265639502395169010894636",
+            "dimension_id": "findability_navigation",
+            "dimension_percentage": "96.26328197511975845054473182",
+            "formula_id": "subject-index-dimension-calculation-v9:findability_navigation",
+            "maximum_points": "20",
+            "weight": 20,
+            "weighted_contribution": "19.25265639502395169010894636"
+          },
+          {
+            "awarded_points": "5",
+            "dimension_id": "mechanics_consistency",
+            "dimension_percentage": "100",
+            "formula_id": "subject-index-dimension-calculation-v9:mechanics_consistency",
+            "maximum_points": "5",
+            "weight": 5,
+            "weighted_contribution": "5"
+          }
+        ],
+        "view_id": "canonical_as_delivered",
+        "view_kind": "observed"
+      }
+    ]
+  },
+  "view_selection": {
+    "authoritative_view_id": "canonical_as_delivered",
+    "default_display_view_id": "canonical_as_delivered",
+    "display_view_rationale": "The canonical as-delivered result is authoritative.",
+    "primary_view_id": "canonical_as_delivered"
+  }
+}

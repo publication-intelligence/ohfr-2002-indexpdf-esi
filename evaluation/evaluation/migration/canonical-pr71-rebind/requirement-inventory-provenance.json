@@ -1,0 +1,19 @@
+{
+  "canonical_requirement_count": 2732,
+  "source_requirement_occurrence_count": 2733,
+  "inventory_sha256": "065e51997b2f85782a6fc98b8c9d2e7e6908217b3d9821832697656fffc5c5b0",
+  "duplicate_occurrences": [
+    {
+      "parent_kind": "subject",
+      "parent_id": "SUBJ-SUCC-2056A5304D29",
+      "requirement_kind": "retained_distinction",
+      "requirement_id": "C005-S004",
+      "requirement_sha256": "e215033a789fbafa5ad2d3c31c6f0449d991780c7a79707aab3a162178f1b330",
+      "multiplicity": 2,
+      "source_occurrence_indices": [
+        0,
+        9
+      ]
+    }
+  ]
+}
