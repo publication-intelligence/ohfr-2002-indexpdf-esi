@@ -1,0 +1,16 @@
+{
+  "schema_version": "subject-index-retrospective-benchmark-approval-v1",
+  "approval_id": "indexpdf-ohfr-authorized-v10.2-four-family-pr66-2026-09-17",
+  "authorized_by": "John (user)",
+  "authorization_reference": "Standing user authorization to perform the migration, followed by the authorized study coordinator's PR66 execution dispatch from task 01a0aba8-d3df-7150-aecb-74df5ee61c09 on 2026-09-17. This binds the decision-v3 four-family study lock and no-ceilings runtime while preserving the reviewed source release and candidate-visible migration provenance.",
+  "approved_at": "2026-09-17T18:57:37Z",
+  "candidate_seen": true,
+  "previous_state_sha256": "577f66ae217afa3486398620ddab17f28db6036cfed3cef643147c9b2844e8f8",
+  "previous_benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
+  "study_lock_sha256": "f8cf1b0c5619f455749a7ac4b0947bf241a72e5d856dd75dd83c9fed10a5a74b",
+  "target_benchmark_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+  "audit_transfer_authorized": false,
+  "previous_policy_sha256": "84b44cf3167e61202640aa2982fe83eee9281ee6785b18b7ecbae374b40b2da9",
+  "target_policy_semantic_sha256": "6f0291ba3611cbdd94daed6d358ef27ee4605d824d8517216662fffab229fe5d",
+  "study_policy_template_sha256": "74f6280975cd32e1622c57e91cf1241ec385b04461fbf3976d9ce8013b944975"
+}

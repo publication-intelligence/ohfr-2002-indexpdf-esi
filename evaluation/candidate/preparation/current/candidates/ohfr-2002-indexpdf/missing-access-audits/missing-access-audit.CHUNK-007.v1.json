@@ -1,0 +1,3804 @@
+{
+  "schema_version": "missing-access-audit-v1",
+  "evaluation_id": "ohfr-2002-indexpdf-v8",
+  "benchmark_sha256": "9b2d39adb5c7151cd956b6b9444977f9177790e0b9890db12186296f9e272292",
+  "candidate_sha256": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
+  "chunk_id": "CHUNK-007",
+  "expected_subject_ids": [
+    "SUBJ-SUCC-2B71B80300BF",
+    "SUBJ-SUCC-2D772631E96A",
+    "SUBJ-SUCC-2DA10285B986",
+    "SUBJ-SUCC-2FF0879B4083",
+    "SUBJ-SUCC-3A7F282F3591",
+    "SUBJ-SUCC-41C1A762D0B5",
+    "SUBJ-SUCC-429A6AF013A7",
+    "SUBJ-SUCC-47FEF473DEB5",
+    "SUBJ-SUCC-547228C69DA0",
+    "SUBJ-SUCC-6847B08053FB",
+    "SUBJ-SUCC-6A2BFDEA57F6",
+    "SUBJ-SUCC-7922496FA528",
+    "SUBJ-SUCC-870D1F0BA7C8",
+    "SUBJ-SUCC-8B2B68A9D7BF",
+    "SUBJ-SUCC-943186368241",
+    "SUBJ-SUCC-9601697A1247",
+    "SUBJ-SUCC-A7A6CD1D7787",
+    "SUBJ-SUCC-A9B1A32FA733",
+    "SUBJ-SUCC-B5130832E828",
+    "SUBJ-SUCC-BB9639326872",
+    "SUBJ-SUCC-BE926DEFD2FF",
+    "SUBJ-SUCC-CB0C8FAE5B09",
+    "SUBJ-SUCC-D93987F3BB44",
+    "SUBJ-SUCC-DB78F0834F84",
+    "SUBJ-SUCC-DEFD34B1AF1D",
+    "SUBJ-SUCC-EC754A2F9F6B",
+    "SUBJ-SUCC-EE60D7547263"
+  ],
+  "expected_reader_task_ids": [
+    "TASK-SUCC-1B78ABC2930F",
+    "TASK-SUCC-26EEC4FEB06D",
+    "TASK-SUCC-2B35B78D8C85",
+    "TASK-SUCC-35FCABD4D3B4",
+    "TASK-SUCC-37B729CD3DBA",
+    "TASK-SUCC-52D7F9CA7D03",
+    "TASK-SUCC-53BA47A35C91",
+    "TASK-SUCC-6FC57A4331D4",
+    "TASK-SUCC-A4CABA6ABC86",
+    "TASK-SUCC-A7F8FD662096",
+    "TASK-SUCC-AF5D756F3753",
+    "TASK-SUCC-BA5C4B99F1F4"
+  ],
+  "expected_treatment_ids": [
+    "TREAT-06AC0F44198F",
+    "TREAT-06C932641A52",
+    "TREAT-07566CDFAE70",
+    "TREAT-0765BC23685C",
+    "TREAT-0CED245F7C05",
+    "TREAT-1094F7540ADA",
+    "TREAT-137D0252225E",
+    "TREAT-15457880A4E7",
+    "TREAT-170E2BBF596B",
+    "TREAT-1E2A86DF53CA",
+    "TREAT-21E5C066114A",
+    "TREAT-24016D244468",
+    "TREAT-28F728DDF589",
+    "TREAT-29C0135D1BCB",
+    "TREAT-34E5231A7CB4",
+    "TREAT-3AB2BF94A71B",
+    "TREAT-3D9606CB1F38",
+    "TREAT-43545BD9271A",
+    "TREAT-4C63FF47AC5C",
+    "TREAT-4EAC45EF53A2",
+    "TREAT-5E88730E5A9C",
+    "TREAT-5F106BDA1153",
+    "TREAT-620022CCCB60",
+    "TREAT-68611A427ED3",
+    "TREAT-68FA211100FA",
+    "TREAT-6A4900A41A9E",
+    "TREAT-6CF0EC90B7F2",
+    "TREAT-7495066AF873",
+    "TREAT-77D9C716B54A",
+    "TREAT-7EFE61EB1080",
+    "TREAT-81A6EE7E1472",
+    "TREAT-83B1B7F55A91",
+    "TREAT-849CB68AD90E",
+    "TREAT-8859AAF8AE7D",
+    "TREAT-8CB992DA7452",
+    "TREAT-8D448C3B3714",
+    "TREAT-8F50ADD3EFD7",
+    "TREAT-9226396C5A87",
+    "TREAT-95343EC23A14",
+    "TREAT-96554EE10417",
+    "TREAT-981111190943",
+    "TREAT-9C2678941F99",
+    "TREAT-A077180EAE6C",
+    "TREAT-A1E00DADCEB3",
+    "TREAT-A41D34E997C7",
+    "TREAT-A46D43A4D234",
+    "TREAT-B11FDA1B58D8",
+    "TREAT-B184EA6CB3A6",
+    "TREAT-B20E6285E622",
+    "TREAT-C620D056B047",
+    "TREAT-C9A94FEFED31",
+    "TREAT-CEE78632A74A",
+    "TREAT-D08DB4CFF221",
+    "TREAT-D174E5614189",
+    "TREAT-D48EC0C7FB92",
+    "TREAT-D65CAD395180",
+    "TREAT-D7A9036CD504",
+    "TREAT-DF8F1E271F3E",
+    "TREAT-E36EDE45E68E",
+    "TREAT-E9A9161B9414",
+    "TREAT-F29F65C99D94",
+    "TREAT-F36D4461B355",
+    "TREAT-FFE63FFC1426"
+  ],
+  "subject_judgments": [
+    {
+      "subject_id": "SUBJ-SUCC-2B71B80300BF",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-E142CB281C25",
+        "PATH-A37130422ECE",
+        "PATH-4BF1CD7B84A5",
+        "PATH-E392D3557267",
+        "PATH-CCE6EE4D8524"
+      ],
+      "expected_document_pages": [
+        165,
+        166
+      ],
+      "found_document_pages": [
+        165,
+        166
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            165,
+            166
+          ],
+          "found_document_pages": [
+            165,
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-4FF544A1B9C3",
+        "EVID-6DBDCB89044F",
+        "EVID-8A59512849D8",
+        "EVID-90A6E712C892",
+        "EVID-B93600FF4887",
+        "EVID-SUCC-4103A7E53847",
+        "EVID-SUCC-FB2D4CC3C6FE"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "The Poland subdivisions distinguish Golden Liberty from Patriot reform and name the dated constitution. The165/166 registered evidence retrieves weak elective kingship, noble monopoly and its proposed hereditary/majority alternative; the separate superficial-parallels heading preserves the distinction from France rather than labelling Poland simply Jacobin. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2D772631E96A",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-00F46822B107",
+        "PATH-930C610AA52A",
+        "PATH-F8715F630B09",
+        "PATH-344D63AC11ED",
+        "PATH-259BAD03860E"
+      ],
+      "expected_document_pages": [
+        163,
+        164
+      ],
+      "found_document_pages": [
+        163,
+        164
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            163
+          ],
+          "found_document_pages": [
+            163
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3A084AB0D1C5",
+        "EVID-8F92B4D194A8",
+        "EVID-A7DAC233C219",
+        "EVID-C2EA4481DF1F",
+        "EVID-SUCC-5D8A4A55F391",
+        "EVID-SUCC-A7FB864858CD",
+        "EVID-V10-PREP-12D952420ABC"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Reichenbach164 explicitly retrieves Austrian–Prussian accommodation enabling Belgian reconquest. Leopold's attitude163 supplies the expected cooperative background; Brabant conciliation164 locates his failed offers. The partial Brabant163 locator is not upgraded or used as evidence that the Belgian offer already occurred there. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2DA10285B986",
+      "priority": "optional",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-6A2E8C919C9C"
+      ],
+      "expected_document_pages": [
+        168
+      ],
+      "found_document_pages": [
+        168
+      ],
+      "missed_document_pages": [],
+      "severity": "minor",
+      "confidence": "high",
+      "realistic_first_lookup_success": "partly",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            168
+          ],
+          "found_document_pages": [
+            168
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-2D7E4431E142",
+            "EVID-SUCC-12AD5D305313"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-2D7E4431E142",
+        "EVID-SUCC-12AD5D305313"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Burke's conspiracy explanation168 retrieves the Illuminati precedent as his explanatory borrowing, preserving attribution. However the delivered inventory has no Illuminati/Bavarian entry or equivalence reference; a reader starting with this specifically required organization must already know to search Burke's conspiracy subdivision. Useful source treatment is found, but first lookup is indirect and slower.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2FF0879B4083",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-1C5058A3178F",
+        "PATH-E121412E8103",
+        "PATH-DF873C5A76C5"
+      ],
+      "expected_document_pages": [
+        171,
+        173
+      ],
+      "found_document_pages": [
+        171,
+        173
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            173
+          ],
+          "found_document_pages": [
+            173
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-10360C163222",
+            "EVID-3EE589BDEF87",
+            "EVID-8D99C2B8B643",
+            "EVID-SUCC-C5C9A33FDC1D",
+            "EVID-SUCC-FD720EE13262"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-10360C163222",
+        "EVID-3EE589BDEF87",
+        "EVID-8D99C2B8B643",
+        "EVID-SUCC-C5C9A33FDC1D",
+        "EVID-SUCC-FD720EE13262"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "German rulers' grievances and émigré bases171 directly pair the Westphalian-rights grievance with Rhineland preparation. The émigré subdivisions separately retrieve actual bases171 and officer departures173, preserving the distinction between armed émigré ambition and an operative general monarchical coalition.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3A7F282F3591",
+      "priority": "optional",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-260CB72784BA",
+        "PATH-8E3AC80EBCB8"
+      ],
+      "expected_document_pages": [
+        171,
+        197
+      ],
+      "found_document_pages": [
+        171,
+        197
+      ],
+      "missed_document_pages": [],
+      "severity": "minor",
+      "confidence": "high",
+      "realistic_first_lookup_success": "partly",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171,
+            197
+          ],
+          "found_document_pages": [
+            171,
+            197
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-CHUNK009-9CA53BF33223",
+            "EVID-F5866E5F3706",
+            "EVID-IR007012-PROP-GUSTAVUS197",
+            "EVID-SUCC-954B8A6A9B38"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK009-9CA53BF33223",
+        "EVID-F5866E5F3706",
+        "EVID-IR007012-PROP-GUSTAVUS197",
+        "EVID-SUCC-954B8A6A9B38"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Pillnitz171 explicitly supplies Gustavus's exceptional eagerness for war; Jacobinism197 explicitly supplies the assassination and blame-shifting by king and killers. These are real narrower treatment matches, not a declaration that the conspiracy was true. The full inventory has no Gustavus/Sweden heading or reference, so assembling the two named-person phases requires knowledge of Pillnitz and international-conspiracy headings in advance. Both destinations are present but direct first lookup for Gustavus is impeded.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-41C1A762D0B5",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-6966AD7707A8",
+        "PATH-70360C175A7C",
+        "PATH-5EB81A27091D"
+      ],
+      "expected_document_pages": [
+        169,
+        170
+      ],
+      "found_document_pages": [
+        169,
+        170
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            169
+          ],
+          "found_document_pages": [
+            169
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-04DF4ACDC0C2",
+            "EVID-54686010C1C9",
+            "EVID-79769F69AE5E",
+            "EVID-977072B68074",
+            "EVID-SUCC-94C3BC8A1CCE",
+            "EVID-SUCC-AA59FBB87A1A"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-04DF4ACDC0C2",
+        "EVID-54686010C1C9",
+        "EVID-79769F69AE5E",
+        "EVID-977072B68074",
+        "EVID-SUCC-94C3BC8A1CCE",
+        "EVID-SUCC-AA59FBB87A1A"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Paine's reply/universal-rights and reform-programme subdivisions169 give conceptual access to Rights of Man; circulation/impact169–170 separately retrieves its wide readership and practical corresponding-society effect. The organization distinguishes argument from mobilization, rather than treating the author name alone as sufficient.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-429A6AF013A7",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-614474675652",
+        "PATH-D48DE3B2A6E5",
+        "PATH-5AD5689B4737"
+      ],
+      "expected_document_pages": [
+        164,
+        165
+      ],
+      "found_document_pages": [
+        164,
+        165
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            165
+          ],
+          "found_document_pages": [
+            165
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-EA6029BFAF0C",
+        "EVID-SUCC-08DDD7F8F34C",
+        "EVID-SUCC-2CCB4A085DC0",
+        "EVID-V10-PREP-C4A61C608A77"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "The single named-crisis range is a clear route to both Spanish invocation164 and Assembly refusal165. The164 atomic locator remains partial because its delivered compound also promises rejection, yet its evidence expressly supports the narrower benchmark invocation treatment. Counting that treatment found does not change the partial keep decision;165 supplies the rejection. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-47FEF473DEB5",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-7A6CDC24FF19",
+        "PATH-C02D42292B2B"
+      ],
+      "expected_document_pages": [
+        171,
+        172
+      ],
+      "found_document_pages": [
+        171,
+        172
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171,
+            172
+          ],
+          "found_document_pages": [
+            171,
+            172
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-23E96B3A4F90",
+            "EVID-7FD9B45862D8",
+            "EVID-8FDCD5D417F5",
+            "EVID-B0D6659C1AA0",
+            "EVID-SUCC-39F3FB24F185",
+            "EVID-SUCC-9CFDA7DAA0C6"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-23E96B3A4F90",
+        "EVID-7FD9B45862D8",
+        "EVID-8FDCD5D417F5",
+        "EVID-B0D6659C1AA0",
+        "EVID-SUCC-39F3FB24F185",
+        "EVID-SUCC-9CFDA7DAA0C6"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Censorship/repression171–172 retrieves the comparative Spanish, Swedish and Russian measures. The Spain subdivision separately exposes unusually effective insulation rather than implying equal success everywhere;172 evidence records border policing, registration and villages' ignorance.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-547228C69DA0",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-D5E127F83E6A"
+      ],
+      "expected_document_pages": [
+        161
+      ],
+      "found_document_pages": [
+        161
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            161
+          ],
+          "found_document_pages": [
+            161
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-1A9370DBD4C5",
+            "EVID-SUCC-6317553FFC32"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1A9370DBD4C5",
+        "EVID-SUCC-6317553FFC32"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "The British initial-welcome/constitutional-confidence subdivision161 expressly retrieves benevolent1688-framed approval. Its wording does not substitute Price's later stronger claim that France surpassed Britain.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6847B08053FB",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-AE1E001B4959",
+        "PATH-655216295E8B",
+        "PATH-C68C2ACC23CA",
+        "PATH-1C5058A3178F",
+        "PATH-2D1534F16255"
+      ],
+      "expected_document_pages": [
+        170,
+        171
+      ],
+      "found_document_pages": [
+        170,
+        171
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-10360C163222",
+        "EVID-232B43948498",
+        "EVID-3378BBEC5CDD",
+        "EVID-EE7C32721FDC",
+        "EVID-F308544D80F0",
+        "EVID-SUCC-0D92C4052292",
+        "EVID-SUCC-E96BFDE42BEC"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Burke's reception170 and German intellectual/public response170 give a specific route to the contrast with Paine. Continental disillusionment171 and German rulers' grievances171 retrieve the supporting shift from intellectual reception to concrete political grievance, without claiming a uniform German opinion. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6A2BFDEA57F6",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-6BEC3145E2D4"
+      ],
+      "expected_document_pages": [
+        172
+      ],
+      "found_document_pages": [
+        172
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            172
+          ],
+          "found_document_pages": [
+            172
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-3E0C403E99C1",
+            "EVID-SUCC-2BC336654FED"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3E0C403E99C1",
+        "EVID-SUCC-2BC336654FED"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "The recognizable delivered Radischev personal heading172 reaches the prosecution, commuted sentence, serfdom critique and ensuing censorship. Registered source evidence supports the individual case; the literal spelling is preserved, and the heading does not assert that the author was in fact a revolutionary conspirator.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7922496FA528",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-48807B36B670"
+      ],
+      "expected_document_pages": [
+        162,
+        164
+      ],
+      "found_document_pages": [
+        162,
+        164
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            162
+          ],
+          "found_document_pages": [
+            162
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-6EEC2AF48EE0",
+            "EVID-A095D8EC8DCD",
+            "EVID-SUCC-F4CAFDB08A28",
+            "EVID-SUCC-FF7F9C224E85"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-6EEC2AF48EE0",
+        "EVID-A095D8EC8DCD",
+        "EVID-SUCC-F4CAFDB08A28",
+        "EVID-SUCC-FF7F9C224E85"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "The distinct Liège Revolution entry reaches seizure162 and restoration164, retaining the prince-bishop episode separately from the Belgian constitutional program. The two-page point list is sufficiently short and explicit for the sequence.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-870D1F0BA7C8",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-C9427A1A1D92",
+        "PATH-614474675652",
+        "PATH-D48DE3B2A6E5"
+      ],
+      "expected_document_pages": [
+        164,
+        165
+      ],
+      "found_document_pages": [
+        164,
+        165
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            164,
+            165
+          ],
+          "found_document_pages": [
+            164,
+            165
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-23A2FC9D77E9",
+        "EVID-80C2E6BB3D3A",
+        "EVID-EA6029BFAF0C",
+        "EVID-SUCC-A58AD1815064",
+        "EVID-SUCC-AD76E5BC128E",
+        "EVID-V10-PREP-C4A61C608A77"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "French foreign policy's renunciation subdivision164–165 retrieves the policy declaration and practical Spanish refusal, while the Nootka route identifies the dynastic-alliance test. The narrower164 invocation under a partial compound is not mistaken for rejection; the actual refusal is165. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8B2B68A9D7BF",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-4A34BAA226D0",
+        "PATH-E36F4693C82A",
+        "PATH-C64285E83824"
+      ],
+      "expected_document_pages": [
+        166,
+        167
+      ],
+      "found_document_pages": [
+        166,
+        167
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            167
+          ],
+          "found_document_pages": [
+            167
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            166
+          ],
+          "found_document_pages": [
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-1C914DBF99E2",
+            "EVID-87A3F2E55B21",
+            "EVID-BOUNDARY-ADJ-D04432EFADD0",
+            "EVID-DCA753CCF264",
+            "EVID-F2C5C530A441",
+            "EVID-SUCC-1A1389CA39AF",
+            "EVID-SUCC-EAA4C28F0313"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1C914DBF99E2",
+        "EVID-87A3F2E55B21",
+        "EVID-BOUNDARY-ADJ-D04432EFADD0",
+        "EVID-DCA753CCF264",
+        "EVID-F2C5C530A441",
+        "EVID-SUCC-1A1389CA39AF",
+        "EVID-SUCC-EAA4C28F0313"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Price166–167 and the specific parliamentary-reform origins166 retrieve the dissenting context and sermon. Burke's Price-sermon origins route makes the provoking relationship discoverable rather than merely co-locating two names. The registered166 boundary adjudication is preserved.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-943186368241",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-ABE36BEFA3C8",
+        "PATH-F37286D99416"
+      ],
+      "expected_document_pages": [
+        166,
+        171
+      ],
+      "found_document_pages": [
+        166,
+        171
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            166,
+            171
+          ],
+          "found_document_pages": [
+            166,
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-D67037AEC679",
+        "EVID-F81260779E70",
+        "EVID-SUCC-3F8B9A99B302",
+        "EVID-SUCC-D825234D9B38"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Poland's Catherine/Jacobin-interpretation subdivision deliberately attributes the label to Catherine and couples it with response. Its166 and171 evidence distinguishes superficial French echoes and actual Russian Polish priorities from an agreed French crusade. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9601697A1247",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-19DE21FB414E",
+        "PATH-DE14FE0D53AF",
+        "PATH-E1CAEC8468DA"
+      ],
+      "expected_document_pages": [
+        159,
+        161,
+        162
+      ],
+      "found_document_pages": [
+        159,
+        161,
+        162
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            161
+          ],
+          "found_document_pages": [
+            161
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            159,
+            161,
+            162
+          ],
+          "found_document_pages": [
+            159,
+            161,
+            162
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-0A6AD6EFBD3A",
+            "EVID-2094CFD0DF53",
+            "EVID-3EC4EBD7E1B0",
+            "EVID-60025F674BEE",
+            "EVID-65F0C95996B0",
+            "EVID-ISR-001-LSE-035-162",
+            "EVID-SUCC-0B3F3C6F8A3E",
+            "EVID-SUCC-1325F3E255FF",
+            "EVID-SUCC-1DFC8385BA24"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-0A6AD6EFBD3A",
+        "EVID-2094CFD0DF53",
+        "EVID-3EC4EBD7E1B0",
+        "EVID-60025F674BEE",
+        "EVID-65F0C95996B0",
+        "EVID-ISR-001-LSE-035-162",
+        "EVID-SUCC-0B3F3C6F8A3E",
+        "EVID-SUCC-1325F3E255FF",
+        "EVID-SUCC-1DFC8385BA24"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "The Dutch movement's abandoned support/suppression route159/161 and geographically differentiated exile subdivisions161–162 retrieve defeat, subsidies, clubs and nearby refuge. Austrian-Netherlands162 explicitly preserves different Dutch and Belgian institutional aims; French sympathy is not presented as effective military rescue.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-C64285E83824",
+        "PATH-1DDF00C2DEC0",
+        "PATH-6A2E8C919C9C",
+        "PATH-2D1534F16255"
+      ],
+      "expected_document_pages": [
+        166,
+        167,
+        168
+      ],
+      "found_document_pages": [
+        166,
+        167,
+        168
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            167,
+            168
+          ],
+          "found_document_pages": [
+            167,
+            168
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            166
+          ],
+          "found_document_pages": [
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-2D7E4431E142",
+        "EVID-6A3746B46938",
+        "EVID-B591F67BB34D",
+        "EVID-BOUNDARY-ADJ-D04432EFADD0",
+        "EVID-F2C5C530A441",
+        "EVID-SUCC-4204BB1A9567",
+        "EVID-SUCC-68929A46A2F3",
+        "EVID-SUCC-B017F5C77998",
+        "EVID-SUCC-E73FA68E697F"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Burke's three specific subdivisions expose origins166, inherited-order/property/religion critique167–168 and conspiracy/predictions168. Their attribution to Burke prevents adoption of his allegations as authorial fact; the conspiracy component has its own entry rather than being swallowed by a broad book title. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-CEBC4A9C1AC2",
+        "PATH-DAC6D8D88812",
+        "PATH-4A0B997A9540",
+        "PATH-F5A43F2D96A3"
+      ],
+      "expected_document_pages": [
+        162,
+        163
+      ],
+      "found_document_pages": [
+        162,
+        163
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            162
+          ],
+          "found_document_pages": [
+            162
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            163
+          ],
+          "found_document_pages": [
+            163
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-680AFC63E111",
+        "EVID-9069856788CE",
+        "EVID-A35778E7E93E",
+        "EVID-CA16E0A72A84",
+        "EVID-SUCC-40AAF6322AD3",
+        "EVID-SUCC-68FA42C86F06"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Brabant's explicit parallels/divergence162–163 subdivision answers the comparative requirement; Joseph/traditional liberties162 and insurrection/federation163 expose organization and result. This is a relational architecture preserving defense of inherited privileges versus French reconstruction, not a coincidental broad geography match. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B5130832E828",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-06822C8381B8"
+      ],
+      "expected_document_pages": [
+        159,
+        160,
+        164
+      ],
+      "found_document_pages": [
+        159,
+        160,
+        164
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            159,
+            160
+          ],
+          "found_document_pages": [
+            159,
+            160
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-3470AB509C12",
+            "EVID-41D8EF4746A8",
+            "EVID-C2213E51AE67",
+            "EVID-SUCC-C69EA1CC17BF",
+            "EVID-SUCC-E800B3339680",
+            "EVID-SUCC-F56E7A36AB94"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3470AB509C12",
+        "EVID-41D8EF4746A8",
+        "EVID-C2213E51AE67",
+        "EVID-SUCC-C69EA1CC17BF",
+        "EVID-SUCC-E800B3339680",
+        "EVID-SUCC-F56E7A36AB94"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "French foreign policy's loss-of-influence-after1787 subdivision directly unifies Dutch abandonment159, external neglect160 and exclusion from Reichenbach164. Its chronology starts before1789 and hence retains the benchmark's causal ordering.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BB9639326872",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-FB6A4642C23C",
+        "PATH-DAC6D8D88812"
+      ],
+      "expected_document_pages": [
+        159,
+        162
+      ],
+      "found_document_pages": [
+        159,
+        162
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            162
+          ],
+          "found_document_pages": [
+            162
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            159
+          ],
+          "found_document_pages": [
+            159
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-A35778E7E93E",
+            "EVID-BB8BACA61675",
+            "EVID-C9547FDC9C15",
+            "EVID-SUCC-370E17EBABEC",
+            "EVID-SUCC-3A16BFA931DE"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A35778E7E93E",
+        "EVID-BB8BACA61675",
+        "EVID-C9547FDC9C15",
+        "EVID-SUCC-370E17EBABEC",
+        "EVID-SUCC-3A16BFA931DE"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Joseph's reforming-despotism/resistance route159/162 and Brabant's traditional-liberties entry162 name the actual imperial reform pressure and local response. They preserve Joseph as initiator of disruptive change, rather than conflating this with France's revolt against inherited privilege.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BE926DEFD2FF",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-4A0B997A9540",
+        "PATH-3AD3C63376B2",
+        "PATH-930C610AA52A",
+        "PATH-DE70863AB7B6"
+      ],
+      "expected_document_pages": [
+        163,
+        164
+      ],
+      "found_document_pages": [
+        163,
+        164
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            163
+          ],
+          "found_document_pages": [
+            163
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-2F1019E12483",
+        "EVID-8F92B4D194A8",
+        "EVID-CA16E0A72A84",
+        "EVID-F7D9282E5F18",
+        "EVID-SUCC-0E1AD82ED6A0",
+        "EVID-SUCC-B8306D9D278C",
+        "EVID-V10-PREP-12D952420ABC"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Insurrection/federation163 establishes the state, Statists/Vonckists163–164 isolates its internal constitutional division, and Leopold's actual conciliation164 retrieves failed bargaining before reconquest. The limited Vonckist initial program and later exile radicalization are reachable through the contrast heading. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CB0C8FAE5B09",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-2118AFEC7B9C",
+        "PATH-70360C175A7C",
+        "PATH-7A6CDC24FF19"
+      ],
+      "expected_document_pages": [
+        170
+      ],
+      "found_document_pages": [
+        170
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-54686010C1C9",
+            "EVID-6FFA2D6B877F",
+            "EVID-EBAA6E8B3D62",
+            "EVID-SUCC-38A726101137"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-54686010C1C9",
+        "EVID-6FFA2D6B877F",
+        "EVID-EBAA6E8B3D62",
+        "EVID-SUCC-38A726101137"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Birmingham riots170 directly retrieves loyalist violence; Paine's political impact170 and censorship/repression170 retrieve the distinct official prosecution. The tested labels keep popular attack and state response separate, retaining the qualification against uniform British radicalization.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-D93987F3BB44",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-7E5A5DD997ED",
+        "PATH-69129F5B75AB",
+        "PATH-AD6A1FC7E024"
+      ],
+      "expected_document_pages": [
+        160,
+        161,
+        172,
+        173
+      ],
+      "found_document_pages": [
+        160,
+        172,
+        173
+      ],
+      "missed_document_pages": [
+        161
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            161,
+            172
+          ],
+          "found_document_pages": [
+            172
+          ],
+          "missed_document_pages": [
+            161
+          ],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            160
+          ],
+          "found_document_pages": [
+            160
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            173
+          ],
+          "found_document_pages": [
+            173
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 3,
+        "missed": 1,
+        "rate": 0.75
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-15313F27BB7E",
+            "EVID-2105F8CB9B8A",
+            "EVID-66D63DB8B48F",
+            "EVID-E447985B78E0",
+            "EVID-SUCC-2C511DC5E98A",
+            "EVID-SUCC-2D6EA937EB27",
+            "EVID-SUCC-9A0FAA7E454D",
+            "EVID-SUCC-AD18CDE3FF82",
+            "EVID-V10-PREP-96530DBE28A5"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 161,
+          "locator_class": "principal",
+          "reason_code": "no_semantically_adequate_delivered_route",
+          "evidence_ids": [
+            "EVID-SUCC-2D6EA937EB27"
+          ]
+        }
+      ],
+      "error_codes": [
+        "COV"
+      ],
+      "evidence_ids": [
+        "EVID-15313F27BB7E",
+        "EVID-2105F8CB9B8A",
+        "EVID-66D63DB8B48F",
+        "EVID-E447985B78E0",
+        "EVID-SUCC-2C511DC5E98A",
+        "EVID-SUCC-2D6EA937EB27",
+        "EVID-SUCC-9A0FAA7E454D",
+        "EVID-SUCC-AD18CDE3FF82",
+        "EVID-V10-PREP-96530DBE28A5"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Clootz160/172, universal principles/armed liberation172 and foreign-exile assistance172–173 retrieve the delegation, real refugees and their increasingly military appeals. The specific Genevan-refugee principal treatment161 is not accessible through these paths: the Dutch-only161 headings cannot count for Genevans and no Genevan heading/reference was found in the full inventory. Mark that treatment missed while retaining the substantial remaining access.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-DB78F0834F84",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-70360C175A7C",
+        "PATH-A202643266F1",
+        "PATH-1E0DAB2866D7",
+        "PATH-BDCADFEC9227",
+        "PATH-DE3E5C4F68D7"
+      ],
+      "expected_document_pages": [
+        169,
+        170
+      ],
+      "found_document_pages": [
+        169,
+        170
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            169
+          ],
+          "found_document_pages": [
+            169
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-53049561BDA6",
+        "EVID-54686010C1C9",
+        "EVID-977072B68074",
+        "EVID-SUCC-544DEBAF6DEE",
+        "EVID-SUCC-8EB42E7B63CD"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Paine circulation/impact169–170 gives the writings-to-clubs link, and corresponding societies' democratic demands170 identifies manhood suffrage/annual parliaments separately. Together the paths retrieve practical artisan organization rather than only literary controversy. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-DEFD34B1AF1D",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-1358DE0B13DE",
+        "PATH-F49A2AEF5856",
+        "PATH-C68C2ACC23CA",
+        "PATH-0E8BFB3F48AF",
+        "PATH-7A6CDC24FF19"
+      ],
+      "expected_document_pages": [
+        159,
+        160,
+        161,
+        166,
+        170,
+        172
+      ],
+      "found_document_pages": [
+        159,
+        160,
+        161,
+        166,
+        170,
+        172
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            159,
+            160,
+            166
+          ],
+          "found_document_pages": [
+            159,
+            160,
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            161,
+            166,
+            170
+          ],
+          "found_document_pages": [
+            161,
+            166,
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            172
+          ],
+          "found_document_pages": [
+            172
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-23E96B3A4F90",
+            "EVID-25C9D8B091F1",
+            "EVID-3378BBEC5CDD",
+            "EVID-5121DB19EE11",
+            "EVID-675D24C47BAD",
+            "EVID-6FFA2D6B877F",
+            "EVID-A20D39D3680E",
+            "EVID-C6DAE66DA4CD",
+            "EVID-E3DAE81C0B30",
+            "EVID-SUCC-0239AC889E61",
+            "EVID-SUCC-18F16F9A50CD",
+            "EVID-SUCC-2189E1713CE1",
+            "EVID-SUCC-22852B786935",
+            "EVID-SUCC-28C465AC352B",
+            "EVID-SUCC-4E0179916915",
+            "EVID-SUCC-56DA0B46C3CD",
+            "EVID-SUCC-6D9947A29CAB",
+            "EVID-SUCC-76C8458E7EFB"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-23E96B3A4F90",
+        "EVID-25C9D8B091F1",
+        "EVID-3378BBEC5CDD",
+        "EVID-5121DB19EE11",
+        "EVID-675D24C47BAD",
+        "EVID-6FFA2D6B877F",
+        "EVID-A20D39D3680E",
+        "EVID-C6DAE66DA4CD",
+        "EVID-E3DAE81C0B30",
+        "EVID-SUCC-0239AC889E61",
+        "EVID-SUCC-18F16F9A50CD",
+        "EVID-SUCC-2189E1713CE1",
+        "EVID-SUCC-22852B786935",
+        "EVID-SUCC-28C465AC352B",
+        "EVID-SUCC-4E0179916915",
+        "EVID-SUCC-56DA0B46C3CD",
+        "EVID-SUCC-6D9947A29CAB",
+        "EVID-SUCC-76C8458E7EFB"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "The European-reception hierarchy distinguishes surprise159–160, initial news enthusiasm160–161 and later disillusionment166/170. Varennes's European-attitudes172 and censorship172 reach the concluding fear/control phase. These phase-specific paths preserve uneven change across audiences rather than asserting an instantaneous universal reversal.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-B1892AD33D77",
+        "PATH-0089C0C1A00E",
+        "PATH-69129F5B75AB"
+      ],
+      "expected_document_pages": [
+        165,
+        172,
+        173
+      ],
+      "found_document_pages": [
+        165,
+        172,
+        173
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            165,
+            172
+          ],
+          "found_document_pages": [
+            165,
+            172
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            173
+          ],
+          "found_document_pages": [
+            173
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_additional_reference_required_or_specific_warranted_reference_defect_established",
+          "evidence_ids": [
+            "EVID-15313F27BB7E",
+            "EVID-66ABFAC89019",
+            "EVID-8AD90351D053",
+            "EVID-C49202BEB88D",
+            "EVID-SUCC-0A09D6930CF0",
+            "EVID-SUCC-534066BB0ED1",
+            "EVID-SUCC-D85D740F0695",
+            "EVID-V10-PREP-96530DBE28A5"
+          ],
+          "explanation": "No actual delivered reference used for this judgment; direct path adequacy and any named-entry friction were evaluated separately. This absence is not a missing-warranted-reference finding."
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-15313F27BB7E",
+        "EVID-66ABFAC89019",
+        "EVID-8AD90351D053",
+        "EVID-C49202BEB88D",
+        "EVID-SUCC-0A09D6930CF0",
+        "EVID-SUCC-534066BB0ED1",
+        "EVID-SUCC-D85D740F0695",
+        "EVID-V10-PREP-96530DBE28A5"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Unfounded foreign-plot fears165 and foreign policy's turn to revolutionary intervention172–173 give specific routes to the early mistaken alarm and subsequent externalization. The final173 treatment encompasses the cheap Avignon gesture in that argumentative context; the label does not misstate it as already successful armed intervention.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-EE60D7547263",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-AE1E001B4959",
+        "PATH-70360C175A7C",
+        "PATH-87CC69568B79",
+        "PATH-2118AFEC7B9C",
+        "PATH-2D1534F16255"
+      ],
+      "expected_document_pages": [
+        168,
+        169,
+        170
+      ],
+      "found_document_pages": [
+        168,
+        169,
+        170
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            169
+          ],
+          "found_document_pages": [
+            169
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            168,
+            170
+          ],
+          "found_document_pages": [
+            168,
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-23EF3CF513D6",
+        "EVID-41113B761076",
+        "EVID-54686010C1C9",
+        "EVID-5E61BBD1BC81",
+        "EVID-977072B68074",
+        "EVID-EBAA6E8B3D62",
+        "EVID-F308544D80F0",
+        "EVID-SUCC-66C9369EA925",
+        "EVID-SUCC-8D2139E6F56B",
+        "EVID-SUCC-AD2EF22AF5E1"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "private_review_rationale": "Burke reception168–169 and Paine impact169–170 retrieve reciprocal polemic, while parliamentary reform's explicit Burke–Paine controversy170 gives the organizational consequence. Birmingham170 supplies the opposing loyalist reaction, retaining polarization rather than equating wider debate with uniform radicalism. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route.",
+      "review_provenance": {
+        "method": "Fresh benchmark-dependent semantic review of complete parent/facets/scope/distinctions using registered locator evidence; no source PDF inspection or historical ID transfer claimed.",
+        "workset_sha256": "9ed5673089abcc1f8169cd857fff6263b343bde5dbc7be9db06b32c308f07b08"
+      }
+    }
+  ],
+  "reader_task_results": [
+    {
+      "task_id": "TASK-SUCC-1B78ABC2930F",
+      "subject_ids": [
+        "SUBJ-SUCC-DEFD34B1AF1D",
+        "SUBJ-SUCC-B5130832E828"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-1358DE0B13DE",
+        "PATH-F49A2AEF5856",
+        "PATH-C68C2ACC23CA",
+        "PATH-06822C8381B8",
+        "PATH-0E8BFB3F48AF"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-232B43948498",
+        "EVID-25C9D8B091F1",
+        "EVID-3378BBEC5CDD",
+        "EVID-3470AB509C12",
+        "EVID-41D8EF4746A8",
+        "EVID-5121DB19EE11",
+        "EVID-595F0B09DAD2",
+        "EVID-675D24C47BAD",
+        "EVID-A20D39D3680E",
+        "EVID-C2213E51AE67",
+        "EVID-C6DAE66DA4CD",
+        "EVID-E3DAE81C0B30",
+        "EVID-E8D6F3452389",
+        "EVID-SUCC-0239AC889E61",
+        "EVID-SUCC-18F16F9A50CD",
+        "EVID-SUCC-2189E1713CE1",
+        "EVID-SUCC-22852B786935",
+        "EVID-SUCC-28C465AC352B",
+        "EVID-SUCC-4E0179916915",
+        "EVID-SUCC-56DA0B46C3CD",
+        "EVID-SUCC-6D9947A29CAB",
+        "EVID-SUCC-76C8458E7EFB",
+        "EVID-SUCC-C69EA1CC17BF",
+        "EVID-SUCC-E800B3339680",
+        "EVID-SUCC-F56E7A36AB94"
+      ],
+      "private_review_rationale": "European reception separates surprise, early enthusiasm and continental disillusionment; French foreign policy separately names prior decline. These are question-specific phase and causal routes159–172, not a presumption that Europe was static or that all constituencies changed together."
+    },
+    {
+      "task_id": "TASK-SUCC-26EEC4FEB06D",
+      "subject_ids": [
+        "SUBJ-SUCC-47FEF473DEB5",
+        "SUBJ-SUCC-6A2BFDEA57F6"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-7A6CDC24FF19",
+        "PATH-C02D42292B2B",
+        "PATH-6BEC3145E2D4"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-23E96B3A4F90",
+        "EVID-3E0C403E99C1",
+        "EVID-6FFA2D6B877F",
+        "EVID-7FD9B45862D8",
+        "EVID-8FDCD5D417F5",
+        "EVID-B0D6659C1AA0",
+        "EVID-SUCC-2BC336654FED",
+        "EVID-SUCC-39F3FB24F185",
+        "EVID-SUCC-9CFDA7DAA0C6"
+      ],
+      "private_review_rationale": "The comparative censorship heading171–172 expressly contains Spain, Sweden and Russia; the separate Spain-insulation and Radischev entries expose contrasting enforcement and the individual Russian case. The routes answer the country comparison without requiring identical effectiveness."
+    },
+    {
+      "task_id": "TASK-SUCC-2B35B78D8C85",
+      "subject_ids": [
+        "SUBJ-SUCC-DEFD34B1AF1D",
+        "SUBJ-SUCC-6847B08053FB",
+        "SUBJ-SUCC-2FF0879B4083"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-AE1E001B4959",
+        "PATH-655216295E8B",
+        "PATH-C68C2ACC23CA",
+        "PATH-1C5058A3178F"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-10360C163222",
+        "EVID-232B43948498",
+        "EVID-23EF3CF513D6",
+        "EVID-3378BBEC5CDD",
+        "EVID-5E61BBD1BC81",
+        "EVID-791ABB33D385",
+        "EVID-A20D39D3680E",
+        "EVID-EE7C32721FDC",
+        "EVID-F308544D80F0",
+        "EVID-SUCC-0239AC889E61",
+        "EVID-SUCC-0D92C4052292",
+        "EVID-SUCC-18F16F9A50CD",
+        "EVID-SUCC-2189E1713CE1",
+        "EVID-SUCC-22852B786935",
+        "EVID-SUCC-28C465AC352B",
+        "EVID-SUCC-4E0179916915",
+        "EVID-SUCC-56DA0B46C3CD",
+        "EVID-SUCC-6D9947A29CAB",
+        "EVID-SUCC-76C8458E7EFB",
+        "EVID-SUCC-C5C9A33FDC1D",
+        "EVID-SUCC-E96BFDE42BEC",
+        "EVID-SUCC-FD720EE13262"
+      ],
+      "private_review_rationale": "Burke reception and German intellectual response170 provide the Burke/Paine contrast, while continental disillusionment and rulers’ grievances171 disclose different intellectual and material reasons. The headings do not claim unanimous German hostility."
+    },
+    {
+      "task_id": "TASK-SUCC-35FCABD4D3B4",
+      "subject_ids": [
+        "SUBJ-SUCC-2B71B80300BF",
+        "SUBJ-SUCC-943186368241"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-E142CB281C25",
+        "PATH-A37130422ECE",
+        "PATH-ABE36BEFA3C8",
+        "PATH-4BF1CD7B84A5"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-4FF544A1B9C3",
+        "EVID-6DBDCB89044F",
+        "EVID-8A59512849D8",
+        "EVID-90A6E712C892",
+        "EVID-B93600FF4887",
+        "EVID-D67037AEC679",
+        "EVID-F81260779E70",
+        "EVID-SUCC-3F8B9A99B302",
+        "EVID-SUCC-4103A7E53847",
+        "EVID-SUCC-D825234D9B38",
+        "EVID-SUCC-FB2D4CC3C6FE"
+      ],
+      "private_review_rationale": "Poland’s Golden Liberty/reform, dated constitution, superficial French parallels and Catherine’s Jacobin interpretation subdivisions together preserve the actual hereditary/majority programme versus its hostile label and strategic exploitation."
+    },
+    {
+      "task_id": "TASK-SUCC-37B729CD3DBA",
+      "subject_ids": [
+        "SUBJ-SUCC-41C1A762D0B5",
+        "SUBJ-SUCC-EE60D7547263",
+        "SUBJ-SUCC-DB78F0834F84",
+        "SUBJ-SUCC-CB0C8FAE5B09",
+        "SUBJ-SUCC-8B2B68A9D7BF"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-4A34BAA226D0",
+        "PATH-C64285E83824",
+        "PATH-AE1E001B4959",
+        "PATH-6966AD7707A8",
+        "PATH-A202643266F1",
+        "PATH-2118AFEC7B9C",
+        "PATH-7A6CDC24FF19"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-23E96B3A4F90",
+        "EVID-23EF3CF513D6",
+        "EVID-53049561BDA6",
+        "EVID-5E61BBD1BC81",
+        "EVID-6FFA2D6B877F",
+        "EVID-79769F69AE5E",
+        "EVID-87A3F2E55B21",
+        "EVID-B0D6659C1AA0",
+        "EVID-BOUNDARY-ADJ-D04432EFADD0",
+        "EVID-DCA753CCF264",
+        "EVID-EBAA6E8B3D62",
+        "EVID-F2C5C530A441",
+        "EVID-F308544D80F0",
+        "EVID-SUCC-1A1389CA39AF",
+        "EVID-SUCC-38A726101137",
+        "EVID-SUCC-544DEBAF6DEE",
+        "EVID-SUCC-66C9369EA925",
+        "EVID-SUCC-8D2139E6F56B",
+        "EVID-SUCC-8EB42E7B63CD",
+        "EVID-SUCC-94C3BC8A1CCE",
+        "EVID-SUCC-AA59FBB87A1A",
+        "EVID-SUCC-AD2EF22AF5E1",
+        "EVID-SUCC-EAA4C28F0313"
+      ],
+      "private_review_rationale": "Price and Burke-origins166–167 lead into polemic168–169; Paine’s reply and corresponding-society demands169–170 lead into organization. Birmingham and repression170 supply loyalist/state counteraction. The coherent sequence preserves all five required subjects and avoids assigning every club to Paine."
+    },
+    {
+      "task_id": "TASK-SUCC-52D7F9CA7D03",
+      "subject_ids": [
+        "SUBJ-SUCC-A7A6CD1D7787"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-1DDF00C2DEC0",
+        "PATH-6A2E8C919C9C",
+        "PATH-C64285E83824"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-2D7E4431E142",
+        "EVID-6A3746B46938",
+        "EVID-B591F67BB34D",
+        "EVID-BOUNDARY-ADJ-D04432EFADD0",
+        "EVID-F2C5C530A441",
+        "EVID-SUCC-4204BB1A9567",
+        "EVID-SUCC-68929A46A2F3",
+        "EVID-SUCC-B017F5C77998",
+        "EVID-SUCC-E73FA68E697F"
+      ],
+      "private_review_rationale": "Burke’s explicit inherited-institutions/critique and conspiracy/predictions entries167–168 cover tradition, property, religion and forecasts as his attributed arguments; the origins route identifies the work. No route asserts that the alleged conspiracy or predictions are established authorial truth."
+    },
+    {
+      "task_id": "TASK-SUCC-53BA47A35C91",
+      "subject_ids": [
+        "SUBJ-SUCC-DEFD34B1AF1D",
+        "SUBJ-SUCC-547228C69DA0",
+        "SUBJ-SUCC-6216510D2EE3"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-F49A2AEF5856",
+        "PATH-C68C2ACC23CA",
+        "PATH-D5E127F83E6A",
+        "PATH-0E8BFB3F48AF"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-1A9370DBD4C5",
+        "EVID-232B43948498",
+        "EVID-25C9D8B091F1",
+        "EVID-3378BBEC5CDD",
+        "EVID-595F0B09DAD2",
+        "EVID-A20D39D3680E",
+        "EVID-C6DAE66DA4CD",
+        "EVID-E3DAE81C0B30",
+        "EVID-ISR-VARENNES-153-EMERGENCY",
+        "EVID-SUCC-0239AC889E61",
+        "EVID-SUCC-18F16F9A50CD",
+        "EVID-SUCC-2189E1713CE1",
+        "EVID-SUCC-22852B786935",
+        "EVID-SUCC-28C465AC352B",
+        "EVID-SUCC-429881BF79DA",
+        "EVID-SUCC-45969B56B067",
+        "EVID-SUCC-4948D5F5E6B0",
+        "EVID-SUCC-4E0179916915",
+        "EVID-SUCC-56DA0B46C3CD",
+        "EVID-SUCC-5EB7BB2AC0DD",
+        "EVID-SUCC-6317553FFC32",
+        "EVID-SUCC-6712E09D1DB6",
+        "EVID-SUCC-6D9947A29CAB",
+        "EVID-SUCC-76C8458E7EFB",
+        "EVID-SUCC-809C79A79E6D",
+        "EVID-SUCC-87BA01EFDA5F",
+        "EVID-SUCC-89DFA0D0C6FA",
+        "EVID-SUCC-BBEC2E82E2A8",
+        "EVID-SUCC-C07B0A25195F",
+        "EVID-SUCC-CCD0268D95EC",
+        "EVID-SUCC-D59126825A02",
+        "EVID-SUCC-E8E163BA5286",
+        "EVID-SUCC-ECE86BE3C88F",
+        "EVID-SUCC-FD4965DF82F0"
+      ],
+      "private_review_rationale": "Phase-specific European-reception and British initial-welcome headings distinguish early reactions from later continental disillusionment and Varennes fear. The Varennes European-attitudes entry172 directly supplies the required turning point; the task does not require every other Varennes treatment to answer this comparison."
+    },
+    {
+      "task_id": "TASK-SUCC-6FC57A4331D4",
+      "subject_ids": [
+        "SUBJ-SUCC-A9B1A32FA733",
+        "SUBJ-SUCC-7922496FA528",
+        "SUBJ-SUCC-BE926DEFD2FF",
+        "SUBJ-SUCC-BB9639326872"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-CEBC4A9C1AC2",
+        "PATH-DAC6D8D88812",
+        "PATH-FB6A4642C23C",
+        "PATH-3AD3C63376B2",
+        "PATH-48807B36B670"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-2F1019E12483",
+        "EVID-680AFC63E111",
+        "EVID-6EEC2AF48EE0",
+        "EVID-9069856788CE",
+        "EVID-A095D8EC8DCD",
+        "EVID-A35778E7E93E",
+        "EVID-A791B1E34900",
+        "EVID-BB8BACA61675",
+        "EVID-C9547FDC9C15",
+        "EVID-F7D9282E5F18",
+        "EVID-SUCC-0E1AD82ED6A0",
+        "EVID-SUCC-370E17EBABEC",
+        "EVID-SUCC-3A16BFA931DE",
+        "EVID-SUCC-40AAF6322AD3",
+        "EVID-SUCC-68FA42C86F06",
+        "EVID-SUCC-B8306D9D278C",
+        "EVID-SUCC-F4CAFDB08A28",
+        "EVID-SUCC-FF7F9C224E85"
+      ],
+      "private_review_rationale": "Brabant’s explicit parallels/divergence and Joseph/traditional-liberty subdivisions give the crucial contrast; Liège has its own seizure/restoration entry. Statists/Vonckists prevents the Belgian movement from being treated as homogeneous. The paths answer comparative aims rather than simply naming both places."
+    },
+    {
+      "task_id": "TASK-SUCC-A4CABA6ABC86",
+      "subject_ids": [
+        "SUBJ-SUCC-2DA10285B986",
+        "SUBJ-SUCC-2E5B26D8A9D6"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-6A2E8C919C9C",
+        "PATH-7FC6E6B0D2AE",
+        "PATH-9A4512344E2D",
+        "PATH-78CB9062FFAC"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-2D7E4431E142",
+        "EVID-CHUNK009-18B43E389192",
+        "EVID-CHUNK009-2F123C5C77D8",
+        "EVID-CHUNK009-3E647583F462",
+        "EVID-CHUNK009-8576CAFF38F5",
+        "EVID-CHUNK009-A8C97995760F",
+        "EVID-SUCC-12AD5D305313",
+        "EVID-SUCC-C80AC2D53455",
+        "EVID-SUCC-DD319F9C644F"
+      ],
+      "private_review_rationale": "Burke’s attributed conspiracy168 and freemasonry’s alleged conspiracy218–219 provide the real-Bavarian-precedent versus unsupported-French-organization comparison. The alleged qualifier and Barruel authorship preserve attribution;219 explicitly rejects the membership-to-coordination inference. This comparative conspiracy question supplies a thematic starting route even though Illuminati-only first lookup is weak."
+    },
+    {
+      "task_id": "TASK-SUCC-A7F8FD662096",
+      "subject_ids": [
+        "SUBJ-SUCC-BE926DEFD2FF",
+        "SUBJ-SUCC-2D772631E96A"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-3AD3C63376B2",
+        "PATH-930C610AA52A",
+        "PATH-00F46822B107",
+        "PATH-344D63AC11ED"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-277FB7E7EC07",
+        "EVID-2F1019E12483",
+        "EVID-3A084AB0D1C5",
+        "EVID-8F92B4D194A8",
+        "EVID-C22C976ABF93",
+        "EVID-C2EA4481DF1F",
+        "EVID-F7D9282E5F18",
+        "EVID-SUCC-0E1AD82ED6A0",
+        "EVID-SUCC-5D8A4A55F391",
+        "EVID-SUCC-A7FB864858CD",
+        "EVID-SUCC-B8306D9D278C",
+        "EVID-V10-PREP-12D952420ABC"
+      ],
+      "private_review_rationale": "The Statists/Vonckists subdivision163–164 directly states internal division and exile radicalization; actual Leopold offers164 and Reichenbach/reconquest164 separate external diplomacy and force from internal weakness. Thus the causal answer is discoverable without claiming division alone caused collapse."
+    },
+    {
+      "task_id": "TASK-SUCC-AF5D756F3753",
+      "subject_ids": [
+        "SUBJ-SUCC-2FF0879B4083",
+        "SUBJ-SUCC-3A7F282F3591",
+        "SUBJ-SUCC-943186368241",
+        "SUBJ-SUCC-04E7153E268C",
+        "SUBJ-SUCC-EC754A2F9F6B"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-E121412E8103",
+        "PATH-1C5058A3178F",
+        "PATH-DF873C5A76C5",
+        "PATH-260CB72784BA",
+        "PATH-ABE36BEFA3C8",
+        "PATH-0089C0C1A00E"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-10360C163222",
+        "EVID-3EE589BDEF87",
+        "EVID-66ABFAC89019",
+        "EVID-790D2490308A",
+        "EVID-8AD90351D053",
+        "EVID-8D99C2B8B643",
+        "EVID-96F1410053F7",
+        "EVID-C3CE4ACA67C8",
+        "EVID-D67037AEC679",
+        "EVID-F5866E5F3706",
+        "EVID-F81260779E70",
+        "EVID-IR007012-PROP-GUSTAVUS197",
+        "EVID-SUCC-0A09D6930CF0",
+        "EVID-SUCC-24F2CE93495A",
+        "EVID-SUCC-312C76422FBE",
+        "EVID-SUCC-3F8B9A99B302",
+        "EVID-SUCC-4441FFF4D519",
+        "EVID-SUCC-534066BB0ED1",
+        "EVID-SUCC-58CAE9CE216F",
+        "EVID-SUCC-61E2F248694B",
+        "EVID-SUCC-6907937DF61A",
+        "EVID-SUCC-80B8A1F322A1",
+        "EVID-SUCC-954B8A6A9B38",
+        "EVID-SUCC-9630CFD84A45",
+        "EVID-SUCC-A59156ADDA91",
+        "EVID-SUCC-B79A4DAB10F9",
+        "EVID-SUCC-BBD90A46B030",
+        "EVID-SUCC-C1EC55099AFC",
+        "EVID-SUCC-C5C9A33FDC1D",
+        "EVID-SUCC-D825234D9B38",
+        "EVID-SUCC-D85D740F0695",
+        "EVID-SUCC-FD720EE13262",
+        "EVID-SUCC-FF1DD9D31325"
+      ],
+      "private_review_rationale": "Émigré bases171 and officer departures173 reveal organization and weakness; Pillnitz171 explicitly contrasts Gustavus’s exceptional eagerness with Leopold’s restraint, and Catherine/Poland171 provides Russian priorities. For this intervention question the named thematic routes are sufficient despite absent Gustavus personal access. No automatic coalition is inferred."
+    },
+    {
+      "task_id": "TASK-SUCC-BA5C4B99F1F4",
+      "subject_ids": [
+        "SUBJ-SUCC-B5130832E828",
+        "SUBJ-SUCC-870D1F0BA7C8",
+        "SUBJ-SUCC-429A6AF013A7"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-06822C8381B8",
+        "PATH-C9427A1A1D92",
+        "PATH-614474675652"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-23A2FC9D77E9",
+        "EVID-3470AB509C12",
+        "EVID-41D8EF4746A8",
+        "EVID-80C2E6BB3D3A",
+        "EVID-C2213E51AE67",
+        "EVID-E8D6F3452389",
+        "EVID-EA6029BFAF0C",
+        "EVID-SUCC-08DDD7F8F34C",
+        "EVID-SUCC-2CCB4A085DC0",
+        "EVID-SUCC-A58AD1815064",
+        "EVID-SUCC-AD76E5BC128E",
+        "EVID-SUCC-C69EA1CC17BF",
+        "EVID-SUCC-E800B3339680",
+        "EVID-SUCC-F56E7A36AB94",
+        "EVID-V10-PREP-C4A61C608A77"
+      ],
+      "private_review_rationale": "Loss of influence after1787 gives material decline159–165, pacifist policy164–165 distinguishes ideological restraint, and the Nootka named-crisis range tests the alliance failure. Invocation164 is supported as a narrower benchmark treatment although its delivered compound remains partial; refusal165 is directly supported."
+    }
+  ],
+  "treatment_judgments": [
+    {
+      "treatment_id": "TREAT-06AC0F44198F",
+      "subject_id": "SUBJ-SUCC-2FF0879B4083",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-C5C9A33FDC1D",
+        "EVID-10360C163222",
+        "EVID-3EE589BDEF87"
+      ],
+      "private_review_rationale": "German rulers' grievances and émigré bases171 directly pair the Westphalian-rights grievance with Rhineland preparation. The émigré subdivisions separately retrieve actual bases171 and officer departures173, preserving the distinction between armed émigré ambition and an operative general monarchical coalition."
+    },
+    {
+      "treatment_id": "TREAT-06C932641A52",
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "document_page": 163,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-40AAF6322AD3",
+        "EVID-680AFC63E111",
+        "EVID-CA16E0A72A84"
+      ],
+      "private_review_rationale": "Brabant's explicit parallels/divergence162–163 subdivision answers the comparative requirement; Joseph/traditional liberties162 and insurrection/federation163 expose organization and result. This is a relational architecture preserving defense of inherited privileges versus French reconstruction, not a coincidental broad geography match. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-07566CDFAE70",
+      "subject_id": "SUBJ-SUCC-D93987F3BB44",
+      "document_page": 160,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-2C511DC5E98A",
+        "EVID-66D63DB8B48F"
+      ],
+      "private_review_rationale": "Clootz160/172, universal principles/armed liberation172 and foreign-exile assistance172–173 retrieve the delegation, real refugees and their increasingly military appeals. The specific Genevan-refugee principal treatment161 is not accessible through these paths: the Dutch-only161 headings cannot count for Genevans and no Genevan heading/reference was found in the full inventory. Mark that treatment missed while retaining the substantial remaining access."
+    },
+    {
+      "treatment_id": "TREAT-0765BC23685C",
+      "subject_id": "SUBJ-SUCC-3A7F282F3591",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-954B8A6A9B38",
+        "EVID-F5866E5F3706"
+      ],
+      "private_review_rationale": "Pillnitz171 explicitly supplies Gustavus's exceptional eagerness for war; Jacobinism197 explicitly supplies the assassination and blame-shifting by king and killers. These are real narrower treatment matches, not a declaration that the conspiracy was true. The full inventory has no Gustavus/Sweden heading or reference, so assembling the two named-person phases requires knowledge of Pillnitz and international-conspiracy headings in advance. Both destinations are present but direct first lookup for Gustavus is impeded."
+    },
+    {
+      "treatment_id": "TREAT-0CED245F7C05",
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "document_page": 162,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-68FA42C86F06",
+        "EVID-9069856788CE",
+        "EVID-A35778E7E93E"
+      ],
+      "private_review_rationale": "Brabant's explicit parallels/divergence162–163 subdivision answers the comparative requirement; Joseph/traditional liberties162 and insurrection/federation163 expose organization and result. This is a relational architecture preserving defense of inherited privileges versus French reconstruction, not a coincidental broad geography match. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-1094F7540ADA",
+      "subject_id": "SUBJ-SUCC-9601697A1247",
+      "document_page": 159,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-1325F3E255FF",
+        "EVID-0A6AD6EFBD3A"
+      ],
+      "private_review_rationale": "The Dutch movement's abandoned support/suppression route159/161 and geographically differentiated exile subdivisions161–162 retrieve defeat, subsidies, clubs and nearby refuge. Austrian-Netherlands162 explicitly preserves different Dutch and Belgian institutional aims; French sympathy is not presented as effective military rescue."
+    },
+    {
+      "treatment_id": "TREAT-137D0252225E",
+      "subject_id": "SUBJ-SUCC-47FEF473DEB5",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-9CFDA7DAA0C6",
+        "EVID-7FD9B45862D8",
+        "EVID-B0D6659C1AA0"
+      ],
+      "private_review_rationale": "Censorship/repression171–172 retrieves the comparative Spanish, Swedish and Russian measures. The Spain subdivision separately exposes unusually effective insulation rather than implying equal success everywhere;172 evidence records border policing, registration and villages' ignorance."
+    },
+    {
+      "treatment_id": "TREAT-15457880A4E7",
+      "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+      "document_page": 165,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-D85D740F0695",
+        "EVID-C49202BEB88D"
+      ],
+      "private_review_rationale": "Unfounded foreign-plot fears165 and foreign policy's turn to revolutionary intervention172–173 give specific routes to the early mistaken alarm and subsequent externalization. The final173 treatment encompasses the cheap Avignon gesture in that argumentative context; the label does not misstate it as already successful armed intervention."
+    },
+    {
+      "treatment_id": "TREAT-170E2BBF596B",
+      "subject_id": "SUBJ-SUCC-D93987F3BB44",
+      "document_page": 173,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-AD18CDE3FF82",
+        "EVID-V10-PREP-96530DBE28A5"
+      ],
+      "private_review_rationale": "Clootz160/172, universal principles/armed liberation172 and foreign-exile assistance172–173 retrieve the delegation, real refugees and their increasingly military appeals. The specific Genevan-refugee principal treatment161 is not accessible through these paths: the Dutch-only161 headings cannot count for Genevans and no Genevan heading/reference was found in the full inventory. Mark that treatment missed while retaining the substantial remaining access."
+    },
+    {
+      "treatment_id": "TREAT-1E2A86DF53CA",
+      "subject_id": "SUBJ-SUCC-BB9639326872",
+      "document_page": 162,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-3A16BFA931DE",
+        "EVID-A35778E7E93E",
+        "EVID-C9547FDC9C15"
+      ],
+      "private_review_rationale": "Joseph's reforming-despotism/resistance route159/162 and Brabant's traditional-liberties entry162 name the actual imperial reform pressure and local response. They preserve Joseph as initiator of disruptive change, rather than conflating this with France's revolt against inherited privilege."
+    },
+    {
+      "treatment_id": "TREAT-21E5C066114A",
+      "subject_id": "SUBJ-SUCC-DEFD34B1AF1D",
+      "document_page": 166,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-22852B786935",
+        "EVID-SUCC-4E0179916915",
+        "EVID-A20D39D3680E"
+      ],
+      "private_review_rationale": "The European-reception hierarchy distinguishes surprise159–160, initial news enthusiasm160–161 and later disillusionment166/170. Varennes's European-attitudes172 and censorship172 reach the concluding fear/control phase. These phase-specific paths preserve uneven change across audiences rather than asserting an instantaneous universal reversal."
+    },
+    {
+      "treatment_id": "TREAT-24016D244468",
+      "subject_id": "SUBJ-SUCC-DB78F0834F84",
+      "document_page": 170,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-8EB42E7B63CD",
+        "EVID-53049561BDA6",
+        "EVID-54686010C1C9"
+      ],
+      "private_review_rationale": "Paine circulation/impact169–170 gives the writings-to-clubs link, and corresponding societies' democratic demands170 identifies manhood suffrage/annual parliaments separately. Together the paths retrieve practical artisan organization rather than only literary controversy. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-28F728DDF589",
+      "subject_id": "SUBJ-SUCC-EE60D7547263",
+      "document_page": 170,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-AD2EF22AF5E1",
+        "EVID-41113B761076",
+        "EVID-54686010C1C9",
+        "EVID-EBAA6E8B3D62",
+        "EVID-F308544D80F0"
+      ],
+      "private_review_rationale": "Burke reception168–169 and Paine impact169–170 retrieve reciprocal polemic, while parliamentary reform's explicit Burke–Paine controversy170 gives the organizational consequence. Birmingham170 supplies the opposing loyalist reaction, retaining polarization rather than equating wider debate with uniform radicalism. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-29C0135D1BCB",
+      "subject_id": "SUBJ-SUCC-BB9639326872",
+      "document_page": 159,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-370E17EBABEC",
+        "EVID-BB8BACA61675"
+      ],
+      "private_review_rationale": "Joseph's reforming-despotism/resistance route159/162 and Brabant's traditional-liberties entry162 name the actual imperial reform pressure and local response. They preserve Joseph as initiator of disruptive change, rather than conflating this with France's revolt against inherited privilege."
+    },
+    {
+      "treatment_id": "TREAT-34E5231A7CB4",
+      "subject_id": "SUBJ-SUCC-EE60D7547263",
+      "document_page": 168,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-8D2139E6F56B",
+        "EVID-23EF3CF513D6"
+      ],
+      "private_review_rationale": "Burke reception168–169 and Paine impact169–170 retrieve reciprocal polemic, while parliamentary reform's explicit Burke–Paine controversy170 gives the organizational consequence. Birmingham170 supplies the opposing loyalist reaction, retaining polarization rather than equating wider debate with uniform radicalism. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-3AB2BF94A71B",
+      "subject_id": "SUBJ-SUCC-2DA10285B986",
+      "document_page": 168,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-12AD5D305313",
+        "EVID-2D7E4431E142"
+      ],
+      "private_review_rationale": "Burke's conspiracy explanation168 retrieves the Illuminati precedent as his explanatory borrowing, preserving attribution. However the delivered inventory has no Illuminati/Bavarian entry or equivalence reference; a reader starting with this specifically required organization must already know to search Burke's conspiracy subdivision. Useful source treatment is found, but first lookup is indirect and slower."
+    },
+    {
+      "treatment_id": "TREAT-3D9606CB1F38",
+      "subject_id": "SUBJ-SUCC-2D772631E96A",
+      "document_page": 163,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-5D8A4A55F391",
+        "EVID-A7DAC233C219",
+        "EVID-V10-PREP-12D952420ABC"
+      ],
+      "private_review_rationale": "Reichenbach164 explicitly retrieves Austrian–Prussian accommodation enabling Belgian reconquest. Leopold's attitude163 supplies the expected cooperative background; Brabant conciliation164 locates his failed offers. The partial Brabant163 locator is not upgraded or used as evidence that the Belgian offer already occurred there. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-43545BD9271A",
+      "subject_id": "SUBJ-SUCC-2D772631E96A",
+      "document_page": 164,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-A7FB864858CD",
+        "EVID-3A084AB0D1C5",
+        "EVID-8F92B4D194A8",
+        "EVID-C2EA4481DF1F"
+      ],
+      "private_review_rationale": "Reichenbach164 explicitly retrieves Austrian–Prussian accommodation enabling Belgian reconquest. Leopold's attitude163 supplies the expected cooperative background; Brabant conciliation164 locates his failed offers. The partial Brabant163 locator is not upgraded or used as evidence that the Belgian offer already occurred there. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-4C63FF47AC5C",
+      "subject_id": "SUBJ-SUCC-870D1F0BA7C8",
+      "document_page": 164,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-AD76E5BC128E",
+        "EVID-80C2E6BB3D3A",
+        "EVID-V10-PREP-C4A61C608A77"
+      ],
+      "private_review_rationale": "French foreign policy's renunciation subdivision164–165 retrieves the policy declaration and practical Spanish refusal, while the Nootka route identifies the dynastic-alliance test. The narrower164 invocation under a partial compound is not mistaken for rejection; the actual refusal is165. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-4EAC45EF53A2",
+      "subject_id": "SUBJ-SUCC-6847B08053FB",
+      "document_page": 171,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-E96BFDE42BEC",
+        "EVID-10360C163222",
+        "EVID-232B43948498"
+      ],
+      "private_review_rationale": "Burke's reception170 and German intellectual/public response170 give a specific route to the contrast with Paine. Continental disillusionment171 and German rulers' grievances171 retrieve the supporting shift from intellectual reception to concrete political grievance, without claiming a uniform German opinion. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-5E88730E5A9C",
+      "subject_id": "SUBJ-SUCC-DEFD34B1AF1D",
+      "document_page": 161,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-28C465AC352B",
+        "EVID-E3DAE81C0B30"
+      ],
+      "private_review_rationale": "The European-reception hierarchy distinguishes surprise159–160, initial news enthusiasm160–161 and later disillusionment166/170. Varennes's European-attitudes172 and censorship172 reach the concluding fear/control phase. These phase-specific paths preserve uneven change across audiences rather than asserting an instantaneous universal reversal."
+    },
+    {
+      "treatment_id": "TREAT-5F106BDA1153",
+      "subject_id": "SUBJ-SUCC-B5130832E828",
+      "document_page": 164,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-C69EA1CC17BF",
+        "EVID-C2213E51AE67"
+      ],
+      "private_review_rationale": "French foreign policy's loss-of-influence-after1787 subdivision directly unifies Dutch abandonment159, external neglect160 and exclusion from Reichenbach164. Its chronology starts before1789 and hence retains the benchmark's causal ordering."
+    },
+    {
+      "treatment_id": "TREAT-620022CCCB60",
+      "subject_id": "SUBJ-SUCC-41C1A762D0B5",
+      "document_page": 169,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-94C3BC8A1CCE",
+        "EVID-04DF4ACDC0C2",
+        "EVID-79769F69AE5E",
+        "EVID-977072B68074"
+      ],
+      "private_review_rationale": "Paine's reply/universal-rights and reform-programme subdivisions169 give conceptual access to Rights of Man; circulation/impact169–170 separately retrieves its wide readership and practical corresponding-society effect. The organization distinguishes argument from mobilization, rather than treating the author name alone as sufficient."
+    },
+    {
+      "treatment_id": "TREAT-68611A427ED3",
+      "subject_id": "SUBJ-SUCC-2B71B80300BF",
+      "document_page": 166,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-4103A7E53847",
+        "EVID-4FF544A1B9C3",
+        "EVID-6DBDCB89044F",
+        "EVID-90A6E712C892"
+      ],
+      "private_review_rationale": "The Poland subdivisions distinguish Golden Liberty from Patriot reform and name the dated constitution. The165/166 registered evidence retrieves weak elective kingship, noble monopoly and its proposed hereditary/majority alternative; the separate superficial-parallels heading preserves the distinction from France rather than labelling Poland simply Jacobin. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-68FA211100FA",
+      "subject_id": "SUBJ-SUCC-943186368241",
+      "document_page": 166,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-3F8B9A99B302",
+        "EVID-F81260779E70"
+      ],
+      "private_review_rationale": "Poland's Catherine/Jacobin-interpretation subdivision deliberately attributes the label to Catherine and couples it with response. Its166 and171 evidence distinguishes superficial French echoes and actual Russian Polish priorities from an agreed French crusade. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-6A4900A41A9E",
+      "subject_id": "SUBJ-SUCC-DB78F0834F84",
+      "document_page": 169,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-544DEBAF6DEE",
+        "EVID-977072B68074"
+      ],
+      "private_review_rationale": "Paine circulation/impact169–170 gives the writings-to-clubs link, and corresponding societies' democratic demands170 identifies manhood suffrage/annual parliaments separately. Together the paths retrieve practical artisan organization rather than only literary controversy. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-6CF0EC90B7F2",
+      "subject_id": "SUBJ-SUCC-6847B08053FB",
+      "document_page": 170,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-0D92C4052292",
+        "EVID-3378BBEC5CDD",
+        "EVID-EE7C32721FDC",
+        "EVID-F308544D80F0"
+      ],
+      "private_review_rationale": "Burke's reception170 and German intellectual/public response170 give a specific route to the contrast with Paine. Continental disillusionment171 and German rulers' grievances171 retrieve the supporting shift from intellectual reception to concrete political grievance, without claiming a uniform German opinion. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-7495066AF873",
+      "subject_id": "SUBJ-SUCC-943186368241",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-D825234D9B38",
+        "EVID-D67037AEC679"
+      ],
+      "private_review_rationale": "Poland's Catherine/Jacobin-interpretation subdivision deliberately attributes the label to Catherine and couples it with response. Its166 and171 evidence distinguishes superficial French echoes and actual Russian Polish priorities from an agreed French crusade. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-77D9C716B54A",
+      "subject_id": "SUBJ-SUCC-DEFD34B1AF1D",
+      "document_page": 166,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-56DA0B46C3CD",
+        "EVID-A20D39D3680E"
+      ],
+      "private_review_rationale": "The European-reception hierarchy distinguishes surprise159–160, initial news enthusiasm160–161 and later disillusionment166/170. Varennes's European-attitudes172 and censorship172 reach the concluding fear/control phase. These phase-specific paths preserve uneven change across audiences rather than asserting an instantaneous universal reversal."
+    },
+    {
+      "treatment_id": "TREAT-7EFE61EB1080",
+      "subject_id": "SUBJ-SUCC-DEFD34B1AF1D",
+      "document_page": 160,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-0239AC889E61",
+        "EVID-SUCC-6D9947A29CAB",
+        "EVID-675D24C47BAD",
+        "EVID-C6DAE66DA4CD"
+      ],
+      "private_review_rationale": "The European-reception hierarchy distinguishes surprise159–160, initial news enthusiasm160–161 and later disillusionment166/170. Varennes's European-attitudes172 and censorship172 reach the concluding fear/control phase. These phase-specific paths preserve uneven change across audiences rather than asserting an instantaneous universal reversal."
+    },
+    {
+      "treatment_id": "TREAT-81A6EE7E1472",
+      "subject_id": "SUBJ-SUCC-3A7F282F3591",
+      "document_page": 197,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-IR007012-PROP-GUSTAVUS197",
+        "EVID-CHUNK009-9CA53BF33223"
+      ],
+      "private_review_rationale": "Pillnitz171 explicitly supplies Gustavus's exceptional eagerness for war; Jacobinism197 explicitly supplies the assassination and blame-shifting by king and killers. These are real narrower treatment matches, not a declaration that the conspiracy was true. The full inventory has no Gustavus/Sweden heading or reference, so assembling the two named-person phases requires knowledge of Pillnitz and international-conspiracy headings in advance. Both destinations are present but direct first lookup for Gustavus is impeded."
+    },
+    {
+      "treatment_id": "TREAT-83B1B7F55A91",
+      "subject_id": "SUBJ-SUCC-547228C69DA0",
+      "document_page": 161,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-6317553FFC32",
+        "EVID-1A9370DBD4C5"
+      ],
+      "private_review_rationale": "The British initial-welcome/constitutional-confidence subdivision161 expressly retrieves benevolent1688-framed approval. Its wording does not substitute Price's later stronger claim that France surpassed Britain."
+    },
+    {
+      "treatment_id": "TREAT-849CB68AD90E",
+      "subject_id": "SUBJ-SUCC-B5130832E828",
+      "document_page": 160,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-F56E7A36AB94",
+        "EVID-41D8EF4746A8"
+      ],
+      "private_review_rationale": "French foreign policy's loss-of-influence-after1787 subdivision directly unifies Dutch abandonment159, external neglect160 and exclusion from Reichenbach164. Its chronology starts before1789 and hence retains the benchmark's causal ordering."
+    },
+    {
+      "treatment_id": "TREAT-8859AAF8AE7D",
+      "subject_id": "SUBJ-SUCC-2B71B80300BF",
+      "document_page": 165,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-FB2D4CC3C6FE",
+        "EVID-8A59512849D8",
+        "EVID-B93600FF4887"
+      ],
+      "private_review_rationale": "The Poland subdivisions distinguish Golden Liberty from Patriot reform and name the dated constitution. The165/166 registered evidence retrieves weak elective kingship, noble monopoly and its proposed hereditary/majority alternative; the separate superficial-parallels heading preserves the distinction from France rather than labelling Poland simply Jacobin. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-8CB992DA7452",
+      "subject_id": "SUBJ-SUCC-9601697A1247",
+      "document_page": 161,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-1DFC8385BA24",
+        "EVID-2094CFD0DF53",
+        "EVID-3EC4EBD7E1B0",
+        "EVID-65F0C95996B0"
+      ],
+      "private_review_rationale": "The Dutch movement's abandoned support/suppression route159/161 and geographically differentiated exile subdivisions161–162 retrieve defeat, subsidies, clubs and nearby refuge. Austrian-Netherlands162 explicitly preserves different Dutch and Belgian institutional aims; French sympathy is not presented as effective military rescue."
+    },
+    {
+      "treatment_id": "TREAT-8D448C3B3714",
+      "subject_id": "SUBJ-SUCC-8B2B68A9D7BF",
+      "document_page": 166,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-EAA4C28F0313",
+        "EVID-1C914DBF99E2",
+        "EVID-87A3F2E55B21",
+        "EVID-BOUNDARY-ADJ-D04432EFADD0"
+      ],
+      "private_review_rationale": "Price166–167 and the specific parliamentary-reform origins166 retrieve the dissenting context and sermon. Burke's Price-sermon origins route makes the provoking relationship discoverable rather than merely co-locating two names. The registered166 boundary adjudication is preserved."
+    },
+    {
+      "treatment_id": "TREAT-8F50ADD3EFD7",
+      "subject_id": "SUBJ-SUCC-9601697A1247",
+      "document_page": 162,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-ISR-001-LSE-035-162",
+        "EVID-60025F674BEE"
+      ],
+      "private_review_rationale": "The Dutch movement's abandoned support/suppression route159/161 and geographically differentiated exile subdivisions161–162 retrieve defeat, subsidies, clubs and nearby refuge. Austrian-Netherlands162 explicitly preserves different Dutch and Belgian institutional aims; French sympathy is not presented as effective military rescue."
+    },
+    {
+      "treatment_id": "TREAT-9226396C5A87",
+      "subject_id": "SUBJ-SUCC-D93987F3BB44",
+      "document_page": 172,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-9A0FAA7E454D",
+        "EVID-15313F27BB7E",
+        "EVID-2105F8CB9B8A",
+        "EVID-E447985B78E0"
+      ],
+      "private_review_rationale": "Clootz160/172, universal principles/armed liberation172 and foreign-exile assistance172–173 retrieve the delegation, real refugees and their increasingly military appeals. The specific Genevan-refugee principal treatment161 is not accessible through these paths: the Dutch-only161 headings cannot count for Genevans and no Genevan heading/reference was found in the full inventory. Mark that treatment missed while retaining the substantial remaining access."
+    },
+    {
+      "treatment_id": "TREAT-95343EC23A14",
+      "subject_id": "SUBJ-SUCC-7922496FA528",
+      "document_page": 162,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-F4CAFDB08A28",
+        "EVID-A095D8EC8DCD"
+      ],
+      "private_review_rationale": "The distinct Liège Revolution entry reaches seizure162 and restoration164, retaining the prince-bishop episode separately from the Belgian constitutional program. The two-page point list is sufficiently short and explicit for the sequence."
+    },
+    {
+      "treatment_id": "TREAT-96554EE10417",
+      "subject_id": "SUBJ-SUCC-2FF0879B4083",
+      "document_page": 173,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-FD720EE13262",
+        "EVID-8D99C2B8B643"
+      ],
+      "private_review_rationale": "German rulers' grievances and émigré bases171 directly pair the Westphalian-rights grievance with Rhineland preparation. The émigré subdivisions separately retrieve actual bases171 and officer departures173, preserving the distinction between armed émigré ambition and an operative general monarchical coalition."
+    },
+    {
+      "treatment_id": "TREAT-981111190943",
+      "subject_id": "SUBJ-SUCC-DEFD34B1AF1D",
+      "document_page": 170,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-76C8458E7EFB",
+        "EVID-3378BBEC5CDD",
+        "EVID-6FFA2D6B877F"
+      ],
+      "private_review_rationale": "The European-reception hierarchy distinguishes surprise159–160, initial news enthusiasm160–161 and later disillusionment166/170. Varennes's European-attitudes172 and censorship172 reach the concluding fear/control phase. These phase-specific paths preserve uneven change across audiences rather than asserting an instantaneous universal reversal."
+    },
+    {
+      "treatment_id": "TREAT-9C2678941F99",
+      "subject_id": "SUBJ-SUCC-EE60D7547263",
+      "document_page": 169,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-66C9369EA925",
+        "EVID-5E61BBD1BC81",
+        "EVID-977072B68074"
+      ],
+      "private_review_rationale": "Burke reception168–169 and Paine impact169–170 retrieve reciprocal polemic, while parliamentary reform's explicit Burke–Paine controversy170 gives the organizational consequence. Birmingham170 supplies the opposing loyalist reaction, retaining polarization rather than equating wider debate with uniform radicalism. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-A077180EAE6C",
+      "subject_id": "SUBJ-SUCC-429A6AF013A7",
+      "document_page": 164,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-08DDD7F8F34C",
+        "EVID-V10-PREP-C4A61C608A77"
+      ],
+      "private_review_rationale": "The single named-crisis range is a clear route to both Spanish invocation164 and Assembly refusal165. The164 atomic locator remains partial because its delivered compound also promises rejection, yet its evidence expressly supports the narrower benchmark invocation treatment. Counting that treatment found does not change the partial keep decision;165 supplies the rejection. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-A1E00DADCEB3",
+      "subject_id": "SUBJ-SUCC-41C1A762D0B5",
+      "document_page": 170,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-AA59FBB87A1A",
+        "EVID-54686010C1C9"
+      ],
+      "private_review_rationale": "Paine's reply/universal-rights and reform-programme subdivisions169 give conceptual access to Rights of Man; circulation/impact169–170 separately retrieves its wide readership and practical corresponding-society effect. The organization distinguishes argument from mobilization, rather than treating the author name alone as sufficient."
+    },
+    {
+      "treatment_id": "TREAT-A41D34E997C7",
+      "subject_id": "SUBJ-SUCC-429A6AF013A7",
+      "document_page": 165,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-2CCB4A085DC0",
+        "EVID-EA6029BFAF0C"
+      ],
+      "private_review_rationale": "The single named-crisis range is a clear route to both Spanish invocation164 and Assembly refusal165. The164 atomic locator remains partial because its delivered compound also promises rejection, yet its evidence expressly supports the narrower benchmark invocation treatment. Counting that treatment found does not change the partial keep decision;165 supplies the rejection. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-A46D43A4D234",
+      "subject_id": "SUBJ-SUCC-B5130832E828",
+      "document_page": 159,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-E800B3339680",
+        "EVID-3470AB509C12"
+      ],
+      "private_review_rationale": "French foreign policy's loss-of-influence-after1787 subdivision directly unifies Dutch abandonment159, external neglect160 and exclusion from Reichenbach164. Its chronology starts before1789 and hence retains the benchmark's causal ordering."
+    },
+    {
+      "treatment_id": "TREAT-B11FDA1B58D8",
+      "subject_id": "SUBJ-SUCC-870D1F0BA7C8",
+      "document_page": 165,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-A58AD1815064",
+        "EVID-23A2FC9D77E9",
+        "EVID-EA6029BFAF0C"
+      ],
+      "private_review_rationale": "French foreign policy's renunciation subdivision164–165 retrieves the policy declaration and practical Spanish refusal, while the Nootka route identifies the dynastic-alliance test. The narrower164 invocation under a partial compound is not mistaken for rejection; the actual refusal is165. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-B184EA6CB3A6",
+      "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "document_page": 168,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-4204BB1A9567",
+        "EVID-SUCC-E73FA68E697F",
+        "EVID-2D7E4431E142",
+        "EVID-B591F67BB34D"
+      ],
+      "private_review_rationale": "Burke's three specific subdivisions expose origins166, inherited-order/property/religion critique167–168 and conspiracy/predictions168. Their attribution to Burke prevents adoption of his allegations as authorial fact; the conspiracy component has its own entry rather than being swallowed by a broad book title. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-B20E6285E622",
+      "subject_id": "SUBJ-SUCC-D93987F3BB44",
+      "document_page": 161,
+      "locator_class": "principal",
+      "status": "missed",
+      "evidence_ids": [
+        "EVID-SUCC-2D6EA937EB27"
+      ],
+      "private_review_rationale": "Clootz160/172, universal principles/armed liberation172 and foreign-exile assistance172–173 retrieve the delegation, real refugees and their increasingly military appeals. The specific Genevan-refugee principal treatment161 is not accessible through these paths: the Dutch-only161 headings cannot count for Genevans and no Genevan heading/reference was found in the full inventory. Mark that treatment missed while retaining the substantial remaining access."
+    },
+    {
+      "treatment_id": "TREAT-C620D056B047",
+      "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+      "document_page": 172,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-0A09D6930CF0",
+        "EVID-15313F27BB7E",
+        "EVID-66ABFAC89019"
+      ],
+      "private_review_rationale": "Unfounded foreign-plot fears165 and foreign policy's turn to revolutionary intervention172–173 give specific routes to the early mistaken alarm and subsequent externalization. The final173 treatment encompasses the cheap Avignon gesture in that argumentative context; the label does not misstate it as already successful armed intervention."
+    },
+    {
+      "treatment_id": "TREAT-C9A94FEFED31",
+      "subject_id": "SUBJ-SUCC-9601697A1247",
+      "document_page": 161,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-0B3F3C6F8A3E",
+        "EVID-2094CFD0DF53",
+        "EVID-3EC4EBD7E1B0",
+        "EVID-65F0C95996B0"
+      ],
+      "private_review_rationale": "The Dutch movement's abandoned support/suppression route159/161 and geographically differentiated exile subdivisions161–162 retrieve defeat, subsidies, clubs and nearby refuge. Austrian-Netherlands162 explicitly preserves different Dutch and Belgian institutional aims; French sympathy is not presented as effective military rescue."
+    },
+    {
+      "treatment_id": "TREAT-CEE78632A74A",
+      "subject_id": "SUBJ-SUCC-DEFD34B1AF1D",
+      "document_page": 159,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-18F16F9A50CD",
+        "EVID-5121DB19EE11"
+      ],
+      "private_review_rationale": "The European-reception hierarchy distinguishes surprise159–160, initial news enthusiasm160–161 and later disillusionment166/170. Varennes's European-attitudes172 and censorship172 reach the concluding fear/control phase. These phase-specific paths preserve uneven change across audiences rather than asserting an instantaneous universal reversal."
+    },
+    {
+      "treatment_id": "TREAT-D08DB4CFF221",
+      "subject_id": "SUBJ-SUCC-6A2BFDEA57F6",
+      "document_page": 172,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-2BC336654FED",
+        "EVID-3E0C403E99C1"
+      ],
+      "private_review_rationale": "The recognizable delivered Radischev personal heading172 reaches the prosecution, commuted sentence, serfdom critique and ensuing censorship. Registered source evidence supports the individual case; the literal spelling is preserved, and the heading does not assert that the author was in fact a revolutionary conspirator."
+    },
+    {
+      "treatment_id": "TREAT-D174E5614189",
+      "subject_id": "SUBJ-SUCC-47FEF473DEB5",
+      "document_page": 172,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-39F3FB24F185",
+        "EVID-23E96B3A4F90",
+        "EVID-8FDCD5D417F5"
+      ],
+      "private_review_rationale": "Censorship/repression171–172 retrieves the comparative Spanish, Swedish and Russian measures. The Spain subdivision separately exposes unusually effective insulation rather than implying equal success everywhere;172 evidence records border policing, registration and villages' ignorance."
+    },
+    {
+      "treatment_id": "TREAT-D48EC0C7FB92",
+      "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+      "document_page": 173,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-534066BB0ED1",
+        "EVID-8AD90351D053",
+        "EVID-V10-PREP-96530DBE28A5"
+      ],
+      "private_review_rationale": "Unfounded foreign-plot fears165 and foreign policy's turn to revolutionary intervention172–173 give specific routes to the early mistaken alarm and subsequent externalization. The final173 treatment encompasses the cheap Avignon gesture in that argumentative context; the label does not misstate it as already successful armed intervention."
+    },
+    {
+      "treatment_id": "TREAT-D65CAD395180",
+      "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "document_page": 167,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-68929A46A2F3",
+        "EVID-6A3746B46938",
+        "EVID-F2C5C530A441"
+      ],
+      "private_review_rationale": "Burke's three specific subdivisions expose origins166, inherited-order/property/religion critique167–168 and conspiracy/predictions168. Their attribution to Burke prevents adoption of his allegations as authorial fact; the conspiracy component has its own entry rather than being swallowed by a broad book title. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-D7A9036CD504",
+      "subject_id": "SUBJ-SUCC-DEFD34B1AF1D",
+      "document_page": 172,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-2189E1713CE1",
+        "EVID-23E96B3A4F90",
+        "EVID-25C9D8B091F1"
+      ],
+      "private_review_rationale": "The European-reception hierarchy distinguishes surprise159–160, initial news enthusiasm160–161 and later disillusionment166/170. Varennes's European-attitudes172 and censorship172 reach the concluding fear/control phase. These phase-specific paths preserve uneven change across audiences rather than asserting an instantaneous universal reversal."
+    },
+    {
+      "treatment_id": "TREAT-DF8F1E271F3E",
+      "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "document_page": 166,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-B017F5C77998",
+        "EVID-BOUNDARY-ADJ-D04432EFADD0"
+      ],
+      "private_review_rationale": "Burke's three specific subdivisions expose origins166, inherited-order/property/religion critique167–168 and conspiracy/predictions168. Their attribution to Burke prevents adoption of his allegations as authorial fact; the conspiracy component has its own entry rather than being swallowed by a broad book title. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-E36EDE45E68E",
+      "subject_id": "SUBJ-SUCC-7922496FA528",
+      "document_page": 164,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-FF7F9C224E85",
+        "EVID-6EEC2AF48EE0"
+      ],
+      "private_review_rationale": "The distinct Liège Revolution entry reaches seizure162 and restoration164, retaining the prince-bishop episode separately from the Belgian constitutional program. The two-page point list is sufficiently short and explicit for the sequence."
+    },
+    {
+      "treatment_id": "TREAT-E9A9161B9414",
+      "subject_id": "SUBJ-SUCC-8B2B68A9D7BF",
+      "document_page": 167,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-1A1389CA39AF",
+        "EVID-DCA753CCF264",
+        "EVID-F2C5C530A441"
+      ],
+      "private_review_rationale": "Price166–167 and the specific parliamentary-reform origins166 retrieve the dissenting context and sermon. Burke's Price-sermon origins route makes the provoking relationship discoverable rather than merely co-locating two names. The registered166 boundary adjudication is preserved."
+    },
+    {
+      "treatment_id": "TREAT-F29F65C99D94",
+      "subject_id": "SUBJ-SUCC-BE926DEFD2FF",
+      "document_page": 164,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-B8306D9D278C",
+        "EVID-2F1019E12483",
+        "EVID-8F92B4D194A8"
+      ],
+      "private_review_rationale": "Insurrection/federation163 establishes the state, Statists/Vonckists163–164 isolates its internal constitutional division, and Leopold's actual conciliation164 retrieves failed bargaining before reconquest. The limited Vonckist initial program and later exile radicalization are reachable through the contrast heading. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    },
+    {
+      "treatment_id": "TREAT-F36D4461B355",
+      "subject_id": "SUBJ-SUCC-CB0C8FAE5B09",
+      "document_page": 170,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-38A726101137",
+        "EVID-54686010C1C9",
+        "EVID-6FFA2D6B877F",
+        "EVID-EBAA6E8B3D62"
+      ],
+      "private_review_rationale": "Birmingham riots170 directly retrieves loyalist violence; Paine's political impact170 and censorship/repression170 retrieve the distinct official prosecution. The tested labels keep popular attack and state response separate, retaining the qualification against uniform British radicalization."
+    },
+    {
+      "treatment_id": "TREAT-FFE63FFC1426",
+      "subject_id": "SUBJ-SUCC-BE926DEFD2FF",
+      "document_page": 163,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-SUCC-0E1AD82ED6A0",
+        "EVID-CA16E0A72A84",
+        "EVID-F7D9282E5F18",
+        "EVID-V10-PREP-12D952420ABC"
+      ],
+      "private_review_rationale": "Insurrection/federation163 establishes the state, Statists/Vonckists163–164 isolates its internal constitutional division, and Leopold's actual conciliation164 retrieves failed bargaining before reconquest. The limited Vonckist initial program and later exile radicalization are reachable through the contrast heading. Delivered reference target text was also checked against the matching existing destination heading; it supplies an actual supplemental entry route."
+    }
+  ],
+  "review_method": "Full explicit candidate review against the frozen benchmark and delivered hierarchy. R2 targeted source corrections and exact values were rechecked; all unaffected factual judgments were preserved without hash relabeling.",
+  "completion": {
+    "expected": 27,
+    "judged": 27,
+    "complete": true,
+    "subjects_unique": true,
+    "reader_tasks_expected": 12,
+    "reader_tasks_judged": 12,
+    "reader_tasks_unique": true,
+    "concept_coverage_counts": {
+      "complete": 26,
+      "partial": 1
+    },
+    "locator_recall": {
+      "expected": 61,
+      "found": 60,
+      "missed": 1,
+      "rate": 0.9836065573770492
+    }
+  },
+  "reader_task_completion": {
+    "expected": 12,
+    "judged": 12,
+    "unique": true,
+    "complete": true
+  },
+  "treatment_completion": {
+    "expected": 63,
+    "judged": 63,
+    "unique": true,
+    "complete": true
+  }
+}

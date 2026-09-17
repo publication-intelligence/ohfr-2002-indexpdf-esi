@@ -1,0 +1,3949 @@
+{
+  "schema_version": "missing-access-audit-v1",
+  "evaluation_id": "ohfr-2002-indexpdf-v8",
+  "benchmark_sha256": "9b2d39adb5c7151cd956b6b9444977f9177790e0b9890db12186296f9e272292",
+  "candidate_sha256": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
+  "chunk_id": "CHUNK-013",
+  "expected_subject_ids": [
+    "SUBJ-SUCC-069F55F49949",
+    "SUBJ-SUCC-2CAD9C10478B",
+    "SUBJ-SUCC-30479645D764",
+    "SUBJ-SUCC-33CF41F89E1A",
+    "SUBJ-SUCC-3CA7ED910B5B",
+    "SUBJ-SUCC-43E04025ED88",
+    "SUBJ-SUCC-4F5D0E057A07",
+    "SUBJ-SUCC-4FF0A62E6420",
+    "SUBJ-SUCC-5398BE225AEB",
+    "SUBJ-SUCC-67735238DEAA",
+    "SUBJ-SUCC-6EA96E2317D1",
+    "SUBJ-SUCC-6EF8FB353919",
+    "SUBJ-SUCC-84FD75C62515",
+    "SUBJ-SUCC-86892633B9F0",
+    "SUBJ-SUCC-8EBFEFD6F582",
+    "SUBJ-SUCC-9EDD5BE1F09D",
+    "SUBJ-SUCC-AB9E2AC4F876",
+    "SUBJ-SUCC-B64ADAA022A3",
+    "SUBJ-SUCC-C47971AD0857",
+    "SUBJ-SUCC-C4FAB0F8965D",
+    "SUBJ-SUCC-DE8ADB718815"
+  ],
+  "expected_reader_task_ids": [
+    "TASK-SUCC-255417EDB913",
+    "TASK-SUCC-305DEBA7DED5",
+    "TASK-SUCC-7570FD1DEF57",
+    "TASK-SUCC-8A119E531DFB",
+    "TASK-SUCC-C31723AEA155",
+    "TASK-SUCC-CC6530FD8901",
+    "TASK-SUCC-EC3B2170206D",
+    "TASK-SUCC-F986A07060C6",
+    "TASK-SUCC-FADFB2488154"
+  ],
+  "expected_treatment_ids": [
+    "TREAT-009B951ADDBB",
+    "TREAT-020A1D65B681",
+    "TREAT-033C0513700A",
+    "TREAT-09404250D973",
+    "TREAT-09FFAB7EA35F",
+    "TREAT-0C25B79DB29F",
+    "TREAT-0C62511565C5",
+    "TREAT-0EE007C59754",
+    "TREAT-10E02A6A3D24",
+    "TREAT-11F90485BCC1",
+    "TREAT-12AAF8BB369F",
+    "TREAT-1905EDE5C1EE",
+    "TREAT-1969215F9D0F",
+    "TREAT-1D08B11564B5",
+    "TREAT-1DDB5A097B47",
+    "TREAT-218856119315",
+    "TREAT-30E2023850AD",
+    "TREAT-369F76430F3B",
+    "TREAT-37F216D77C0D",
+    "TREAT-388382E468C5",
+    "TREAT-3D68FD981CE3",
+    "TREAT-41EE00531B52",
+    "TREAT-42E2C0755AEF",
+    "TREAT-447B1C2A448F",
+    "TREAT-451B1D651C36",
+    "TREAT-4743A50689CF",
+    "TREAT-48D9F0E8E99F",
+    "TREAT-4AB91AC57D1D",
+    "TREAT-50293EFB1B6F",
+    "TREAT-54F7C49D7EF8",
+    "TREAT-58274A0E6C9D",
+    "TREAT-5888B5353F56",
+    "TREAT-5F42EB2CEB33",
+    "TREAT-606E32D8CFF8",
+    "TREAT-64044872AFCE",
+    "TREAT-64ECEA245B80",
+    "TREAT-6D9137D2B2B5",
+    "TREAT-704E305166DC",
+    "TREAT-766534F2AF16",
+    "TREAT-76DF758A320F",
+    "TREAT-77AFB35F2242",
+    "TREAT-79D27E68D2FC",
+    "TREAT-7BA769B5BD45",
+    "TREAT-7FB9A0FA2F16",
+    "TREAT-84EA8E2F4F9C",
+    "TREAT-8886DCCE166F",
+    "TREAT-8A107B51440A",
+    "TREAT-8C48BAE48443",
+    "TREAT-8D3E86EAA0EB",
+    "TREAT-8FFFB4AF06E7",
+    "TREAT-97C3B54E08FE",
+    "TREAT-982E44CAFB7F",
+    "TREAT-9977E729F586",
+    "TREAT-9999DF958823",
+    "TREAT-9DE8DA39DD0E",
+    "TREAT-A09D659A4158",
+    "TREAT-A64305EF8ED6",
+    "TREAT-B185B9EC6CEF",
+    "TREAT-B2E47BCE0FC1",
+    "TREAT-B3894D49FEDF",
+    "TREAT-B3B4357C5DA8",
+    "TREAT-B4114139350E",
+    "TREAT-B76864A75BEF",
+    "TREAT-B9FE80572E40",
+    "TREAT-BAD1323F6E99",
+    "TREAT-BBF602D6BF3F",
+    "TREAT-BE086C36A2B4",
+    "TREAT-BF8170C02577",
+    "TREAT-C0DF50C02167",
+    "TREAT-C22F4A7622B7",
+    "TREAT-C28F494C9377",
+    "TREAT-C5BBA77C2863",
+    "TREAT-C5EBA1C924D3",
+    "TREAT-C64BF3E039C3",
+    "TREAT-C8273184B50F",
+    "TREAT-C902D347622A",
+    "TREAT-CB333E694C2E",
+    "TREAT-CCC53C7D44F0",
+    "TREAT-D03B1A3DCCF6",
+    "TREAT-D1501AA4E372",
+    "TREAT-D17BA7B44861",
+    "TREAT-D3405FABA3DD",
+    "TREAT-D3E95F3765C9",
+    "TREAT-D538D9995851",
+    "TREAT-D5F44C8C3724",
+    "TREAT-D8C4388C9017",
+    "TREAT-DBE54D68AC4C",
+    "TREAT-E4548E5A306F",
+    "TREAT-E926C4C9FBA5",
+    "TREAT-E97B4702A9DB",
+    "TREAT-EB04C38E5CA9",
+    "TREAT-EB3415BD7883",
+    "TREAT-EDAB15C9E3A2",
+    "TREAT-F6A57BDB4326",
+    "TREAT-F6E6E26ACBCB",
+    "TREAT-FA15993A98A3"
+  ],
+  "subject_judgments": [
+    {
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-50794C329754",
+        "PATH-F50546C1DB86"
+      ],
+      "expected_document_pages": [
+        306,
+        307,
+        313,
+        314,
+        315,
+        316,
+        317
+      ],
+      "found_document_pages": [
+        306,
+        307,
+        313,
+        314,
+        315,
+        316,
+        317
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            313,
+            315
+          ],
+          "found_document_pages": [
+            313,
+            315
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            306,
+            307,
+            314
+          ],
+          "found_document_pages": [
+            306,
+            307,
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            316,
+            317
+          ],
+          "found_document_pages": [
+            316,
+            317
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 7,
+        "found": 7,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-67FD9D5DF662",
+            "EVID-SUCC-6EC305656EBB",
+            "EVID-SUCC-1F6D028D350A",
+            "EVID-SUCC-4596E0ED9FBA",
+            "EVID-SUCC-7C9BD4E435FB",
+            "EVID-SUCC-51483AC7B075",
+            "EVID-SUCC-7DFB77F417E2"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-67FD9D5DF662",
+        "EVID-SUCC-6EC305656EBB",
+        "EVID-SUCC-1F6D028D350A",
+        "EVID-SUCC-4596E0ED9FBA",
+        "EVID-SUCC-7C9BD4E435FB",
+        "EVID-SUCC-51483AC7B075",
+        "EVID-SUCC-7DFB77F417E2"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The explicit defeat/overall-assessment subdivision retrieves Valmy, Quiberon, pacification, foreign dependence and the concluding localism/superior-army explanation. Louis XVI’s execution/collapse-of-émigré-hopes route supplies the 307 hardened-programme and failed-recognition step. These are relevant phases of failure, not a blanket equation of local rebellion with restorationism."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2CAD9C10478B",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-7EE35EFF6107"
+      ],
+      "expected_document_pages": [
+        305
+      ],
+      "found_document_pages": [
+        305
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            305
+          ],
+          "found_document_pages": [
+            305
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-C6EADF2D2AD2"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-C6EADF2D2AD2"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The named La Rouërie > Breton association route directly retrieves 305 contacts, arms, refractory-clergy support and lack of operational plan. It does not imply a unified effective army or identify an individual authorizer beyond the frozen parent’s wording."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-30479645D764",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-99B76AD96CE8"
+      ],
+      "expected_document_pages": [
+        300,
+        308,
+        315
+      ],
+      "found_document_pages": [
+        300,
+        308,
+        315
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            300
+          ],
+          "found_document_pages": [
+            300
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            308,
+            315
+          ],
+          "found_document_pages": [
+            308,
+            315
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-AD462F60306E",
+            "EVID-SUCC-871131B1ABF1",
+            "EVID-SUCC-7895F58869A0"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-AD462F60306E",
+        "EVID-SUCC-871131B1ABF1",
+        "EVID-SUCC-7895F58869A0"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Lyons > royalism, 1790–96 supplies all three distinct episodes: aborted 1790 plot, limited royalist involvement in the 1793 defense, and the later Condé/Pichegru project. The dated subdivision preserves their distinction and does not label the whole Federalist movement royalist."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-D94DE7CF4A0C",
+        "PATH-D54399BAB1FE",
+        "PATH-4CD301B33C2A",
+        "PATH-66203A5C40FE"
+      ],
+      "expected_document_pages": [
+        302,
+        303,
+        307,
+        309,
+        310,
+        314,
+        317
+      ],
+      "found_document_pages": [
+        302,
+        303,
+        307,
+        309,
+        310,
+        314,
+        317
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            302,
+            303,
+            307,
+            310,
+            314
+          ],
+          "found_document_pages": [
+            302,
+            303,
+            307,
+            310,
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            309
+          ],
+          "found_document_pages": [
+            309
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            317
+          ],
+          "found_document_pages": [
+            317
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 7,
+        "found": 7,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-247C206C9F3E",
+            "EVID-SUCC-B440BDE6BB73",
+            "EVID-SUCC-54A23C3572AA",
+            "EVID-SUCC-54F502DA23F1",
+            "EVID-SUCC-DFE8723575FF",
+            "EVID-SUCC-C0B7A8DB569F",
+            "EVID-SUCC-4F349120DA6D"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-247C206C9F3E",
+        "EVID-SUCC-B440BDE6BB73",
+        "EVID-SUCC-54A23C3572AA",
+        "EVID-SUCC-54F502DA23F1",
+        "EVID-SUCC-DFE8723575FF",
+        "EVID-SUCC-C0B7A8DB569F",
+        "EVID-SUCC-4F349120DA6D"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Restoration programmes and their limited appeal are distinguished from the 1791 constitutional model and electoral prospects. The selected specific routes retrieve the princes’ declarations, Verona’s rejection of compromise, Toulon’s qualified monarchy and the surviving limited-monarchy alternative without conflating the programmes."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3CA7ED910B5B",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-C28CE978CAAF",
+        "PATH-804B64A59ADA",
+        "PATH-D0837D1550CD"
+      ],
+      "expected_document_pages": [
+        308,
+        309,
+        311,
+        312,
+        314
+      ],
+      "found_document_pages": [
+        309,
+        311,
+        312,
+        314
+      ],
+      "missed_document_pages": [
+        308
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            311
+          ],
+          "found_document_pages": [
+            311
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            308,
+            309,
+            312
+          ],
+          "found_document_pages": [
+            309,
+            312
+          ],
+          "missed_document_pages": [
+            308
+          ],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            314
+          ],
+          "found_document_pages": [
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 4,
+        "missed": 1
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-CA3701ED83C4",
+            "EVID-SUCC-295946408928",
+            "EVID-SUCC-4774210F0696",
+            "EVID-SUCC-F08BFB2E00B7",
+            "EVID-SUCC-C9B2A5C77675",
+            "EVID-SUCC-65ED0158FB12"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 308,
+          "locator_class": "supporting",
+          "reason_code": "no_semantically_adequate_delivered_route",
+          "evidence_ids": [
+            "EVID-SUCC-C9B2A5C77675"
+          ]
+        }
+      ],
+      "error_codes": [
+        "COV",
+        "LOC_NEG"
+      ],
+      "evidence_ids": [
+        "EVID-SUCC-CA3701ED83C4",
+        "EVID-SUCC-295946408928",
+        "EVID-SUCC-4774210F0696",
+        "EVID-SUCC-F08BFB2E00B7",
+        "EVID-SUCC-C9B2A5C77675",
+        "EVID-SUCC-65ED0158FB12"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Puisaye’s named subdivisions retrieve British persuasion/exaggerated manpower, appointment and subsequent loss of authority. The earlier 308 Caen/Federalist appearance has no equivalent delivered Puisaye or specific event route; generic Federalist royalism is not evidence of that individual episode. The supporting omission is localized; the principal argument remains accessible."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-43E04025ED88",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-6628120E70B0",
+        "PATH-D7685818A71E"
+      ],
+      "expected_document_pages": [
+        309,
+        310
+      ],
+      "found_document_pages": [
+        309,
+        310
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            309
+          ],
+          "found_document_pages": [
+            309
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            310
+          ],
+          "found_document_pages": [
+            310
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-F16534AD5A92",
+            "EVID-SUCC-186662ECEFE4"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-F16534AD5A92",
+        "EVID-SUCC-186662ECEFE4"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Great Britain’s western-expedition route retrieves the failed Moira/Granville linkage on 309; its political-aims subdivision supplies the continuing uncertainty about French partners on 310. These are the expressly relevant British-aid routes allowed by the parent, so the lack of a separate Moira heading is not itself an omission."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-4F5D0E057A07",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-2DF134C617B0",
+        "PATH-DBB26BAD855C",
+        "PATH-6B61C97B102F"
+      ],
+      "expected_document_pages": [
+        306,
+        315
+      ],
+      "found_document_pages": [
+        306,
+        315
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            306,
+            315
+          ],
+          "found_document_pages": [
+            306,
+            315
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            315
+          ],
+          "found_document_pages": [
+            315
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-53E0B80986A9",
+            "EVID-SUCC-2F9E8B6C54C9",
+            "EVID-SUCC-ED7431B259FE",
+            "EVID-SUCC-AE3E322A5BCC"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-53E0B80986A9",
+        "EVID-SUCC-2F9E8B6C54C9",
+        "EVID-SUCC-ED7431B259FE",
+        "EVID-SUCC-AE3E322A5BCC"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Condé’s émigré army and Pichegru’s royalist approaches expose survival in imperial service and the unexecuted 1795–96 scheme. The d’Antraigues arrest/revelations route covers disclosed contacts at 315. None asserts that negotiation became an accomplished offensive."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-4FF0A62E6420",
+      "priority": "optional",
+      "coverage": "partial",
+      "direct_access": false,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-6A2A03601F1E"
+      ],
+      "expected_document_pages": [
+        314
+      ],
+      "found_document_pages": [
+        314
+      ],
+      "missed_document_pages": [],
+      "severity": "minor",
+      "confidence": "medium",
+      "realistic_first_lookup_success": "partly",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            314
+          ],
+          "found_document_pages": [
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            314
+          ],
+          "found_document_pages": [
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "direct",
+          "reason_code": "no_direct_person_lookup_route",
+          "evidence_ids": [
+            "EVID-SUCC-08FE00CE067B",
+            "EVID-SUCC-29946D1F36BD"
+          ]
+        },
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-08FE00CE067B",
+            "EVID-SUCC-29946D1F36BD"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-SUCC-08FE00CE067B",
+        "EVID-SUCC-29946D1F36BD"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The 314 chouannerie > British backing and Quiberon route explicitly reaches Cadoudal’s emergence after Puisaye’s discredit. The delivered index contains no Cadoudal name or redirect, and the subdivision describes British backing rather than the surviving leadership, so person-first retrieval has localized friction even though the treatment is present. The author’s conditional leadership claim is retained; no unified army is asserted."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5398BE225AEB",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-41F8E2EC2BFB"
+      ],
+      "expected_document_pages": [
+        310,
+        311,
+        317
+      ],
+      "found_document_pages": [
+        310,
+        311,
+        317
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            310
+          ],
+          "found_document_pages": [
+            310
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            311
+          ],
+          "found_document_pages": [
+            311
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            317
+          ],
+          "found_document_pages": [
+            317
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-0D48A285D221",
+            "EVID-SUCC-13FF066D80F1",
+            "EVID-SUCC-36AA0EACB9D2"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-0D48A285D221",
+        "EVID-SUCC-13FF066D80F1",
+        "EVID-SUCC-36AA0EACB9D2"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Mallet du Pan > political analysis reaches all three pages: guarantees for revolutionary gains, competing intelligence and the final warning against restored authority. This accurately distinguishes pragmatic constitutional royalism from restorationist certainty."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-67735238DEAA",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-E7E7D417E53C",
+        "PATH-DF95BC1EB72B"
+      ],
+      "expected_document_pages": [
+        298,
+        303,
+        310,
+        314,
+        316
+      ],
+      "found_document_pages": [
+        298,
+        303,
+        310,
+        314,
+        316
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            298,
+            310
+          ],
+          "found_document_pages": [
+            298,
+            310
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            303,
+            314
+          ],
+          "found_document_pages": [
+            303,
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            316
+          ],
+          "found_document_pages": [
+            316
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-36588CEAC31E",
+            "EVID-SUCC-8E8BA93A9CCC",
+            "EVID-SUCC-76565A7D617E",
+            "EVID-SUCC-330AE08D40C6",
+            "EVID-SUCC-500A6B9A081A"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-36588CEAC31E",
+        "EVID-SUCC-8E8BA93A9CCC",
+        "EVID-SUCC-76565A7D617E",
+        "EVID-SUCC-330AE08D40C6",
+        "EVID-SUCC-500A6B9A081A"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Counter-revolution > factionalism directly reaches the initial lack of unity, exile rivalries, opposing constitutional programmes, Quiberon scapegoating and the concluding causal assessment. The émigré camp subdivision provides the explicit 310/314 distinction. No credit is claimed from its partial 305 or the separate partial factionalism locator at313."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6EA96E2317D1",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-E97BA80D9A16"
+      ],
+      "expected_document_pages": [
+        299
+      ],
+      "found_document_pages": [
+        299
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            299
+          ],
+          "found_document_pages": [
+            299
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-D413E3BF3A19"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-D413E3BF3A19"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The named Favras conspiracy route reaches the entire single-page episode, including arrest/execution and uncertain royal-family connections. Access does not turn the source’s ambiguity into a settled conspiracy claim."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6EF8FB353919",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-5CA89D7556D5",
+        "PATH-E45F3E5E5965",
+        "PATH-E88CDEF1F69B"
+      ],
+      "expected_document_pages": [
+        312,
+        313,
+        314,
+        315,
+        317
+      ],
+      "found_document_pages": [
+        312,
+        313,
+        314,
+        315,
+        317
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            312,
+            313
+          ],
+          "found_document_pages": [
+            312,
+            313
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            317
+          ],
+          "found_document_pages": [
+            317
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            314,
+            315
+          ],
+          "found_document_pages": [
+            314,
+            315
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-19E2200768AF",
+            "EVID-SUCC-1C747B75A224",
+            "EVID-SUCC-2FC52E08D0D2",
+            "EVID-SUCC-FB1BA978381F",
+            "EVID-SUCC-IR-E3819A7BFE85"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-19E2200768AF",
+        "EVID-SUCC-1C747B75A224",
+        "EVID-SUCC-2FC52E08D0D2",
+        "EVID-SUCC-FB1BA978381F",
+        "EVID-SUCC-IR-E3819A7BFE85"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Hoche’s explicitly scoped western counter-insurgency/pacification route covers tactics, Quiberon, force and toleration through315. Religious-toleration and counterproductive-repression routes preserve the complementary explanation, including317’s qualified claim that earlier brutality prolonged resistance. The architecture supports force plus accommodation rather than repression alone."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-84FD75C62515",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-0AC13B94094A",
+        "PATH-6B61C97B102F"
+      ],
+      "expected_document_pages": [
+        301,
+        310,
+        311,
+        315,
+        316
+      ],
+      "found_document_pages": [
+        301,
+        310,
+        311,
+        315,
+        316
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            310,
+            311
+          ],
+          "found_document_pages": [
+            310,
+            311
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            301,
+            316
+          ],
+          "found_document_pages": [
+            301,
+            316
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            315
+          ],
+          "found_document_pages": [
+            315
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-803245E3A675",
+            "EVID-SUCC-7DAF4DA42A3A",
+            "EVID-SUCC-B9BEBB5B5450",
+            "EVID-SUCC-6AD36EE06008",
+            "EVID-SUCC-IR-2BB336C8CA3E"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-803245E3A675",
+        "EVID-SUCC-7DAF4DA42A3A",
+        "EVID-SUCC-B9BEBB5B5450",
+        "EVID-SUCC-6AD36EE06008",
+        "EVID-SUCC-IR-2BB336C8CA3E"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The actual d’Antraigues arrest/revelations/loss-of-credibility route at315 ends Subsequently he was allowed to escape, but;316 immediately completes the same sentence with the murky episode ruining his credit with LouisXVIII and fellow émigrés. The frozen316 supporting treatment is retrieved. Treatment ID, frozen page, class and evidence identities stay fixed. Locator precision and complete-path fit are unchanged; no locator is invented on the treatment page.",
+      "boundary_retrieval_proof": {
+        "actual_path_id": "PATH-6B61C97B102F",
+        "actual_locator_id": "LOC-EA05E84563A8",
+        "actual_locator_document_page": 315,
+        "frozen_treatment_id": "TREAT-C8273184B50F",
+        "frozen_treatment_document_page": 316,
+        "source_text_paths": [
+          "evaluation/staging/v10/boundary-recall-review/source-pages/root-315.txt",
+          "evaluation/staging/v10/boundary-recall-review/source-pages/root-316.txt"
+        ],
+        "rationale": "The actual d’Antraigues arrest/revelations/loss-of-credibility route at315 ends Subsequently he was allowed to escape, but;316 immediately completes the same sentence with the murky episode ruining his credit with LouisXVIII and fellow émigrés. The frozen316 supporting treatment is retrieved. Treatment ID, frozen page, class and evidence identities stay fixed. Locator precision and complete-path fit are unchanged; no locator is invented on the treatment page."
+      }
+    },
+    {
+      "subject_id": "SUBJ-SUCC-86892633B9F0",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-CE8A8C1785A8",
+        "PATH-16770B40255D",
+        "PATH-B4CF63E4ADA9"
+      ],
+      "expected_document_pages": [
+        312,
+        313,
+        314
+      ],
+      "found_document_pages": [
+        312,
+        313,
+        314
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            312,
+            313
+          ],
+          "found_document_pages": [
+            312,
+            313
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            314
+          ],
+          "found_document_pages": [
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-A9EC544A50B1",
+            "EVID-SUCC-503ECA7C9DF5",
+            "EVID-SUCC-E376494A4F2C"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-A9EC544A50B1",
+        "EVID-SUCC-503ECA7C9DF5",
+        "EVID-SUCC-E376494A4F2C"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Three named Charette subdivisions distinguish tactical peace, renewed revolt and execution at312–314. They preserve temporary calculation and failed coordination rather than presenting the treaty as settled reconciliation."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-3B0B28A1E90E",
+        "PATH-39C65EC583A0",
+        "PATH-E17778119BF9",
+        "PATH-3FB2A247EC32",
+        "PATH-C28CE978CAAF"
+      ],
+      "expected_document_pages": [
+        297,
+        298,
+        300,
+        302,
+        305,
+        307,
+        312,
+        313,
+        314
+      ],
+      "found_document_pages": [
+        297,
+        298,
+        300,
+        302,
+        305,
+        307,
+        312,
+        313,
+        314
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            298,
+            302,
+            313
+          ],
+          "found_document_pages": [
+            298,
+            302,
+            313
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            297,
+            300,
+            305,
+            307,
+            312,
+            314
+          ],
+          "found_document_pages": [
+            297,
+            300,
+            305,
+            307,
+            312,
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 9,
+        "found": 9,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-F8229A71113E",
+            "EVID-SUCC-1726C49ACAE3",
+            "EVID-SUCC-E0200688D426",
+            "EVID-SUCC-7B88585C4016",
+            "EVID-SUCC-4CE905765591",
+            "EVID-SUCC-06647CF037D1",
+            "EVID-SUCC-89246D51BD6C",
+            "EVID-SUCC-06E0F9F7EAA7",
+            "EVID-SUCC-4D7F2B730B7C"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-F8229A71113E",
+        "EVID-SUCC-1726C49ACAE3",
+        "EVID-SUCC-E0200688D426",
+        "EVID-SUCC-7B88585C4016",
+        "EVID-SUCC-4CE905765591",
+        "EVID-SUCC-06647CF037D1",
+        "EVID-SUCC-89246D51BD6C",
+        "EVID-SUCC-06E0F9F7EAA7",
+        "EVID-SUCC-4D7F2B730B7C"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9EDD5BE1F09D",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-7EC984B7712C",
+        "PATH-64E29AE26594",
+        "PATH-50794C329754",
+        "PATH-66203A5C40FE"
+      ],
+      "expected_document_pages": [
+        297,
+        298,
+        304,
+        305,
+        316,
+        317
+      ],
+      "found_document_pages": [
+        297,
+        298,
+        304,
+        305,
+        316,
+        317
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            297,
+            305
+          ],
+          "found_document_pages": [
+            297,
+            305
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            298,
+            304
+          ],
+          "found_document_pages": [
+            298,
+            304
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            316,
+            317
+          ],
+          "found_document_pages": [
+            316,
+            317
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-A08167947482",
+            "EVID-SUCC-61775DC494F6",
+            "EVID-SUCC-DB33333B935B",
+            "EVID-SUCC-949E7D603638",
+            "EVID-SUCC-2D0243118451",
+            "EVID-SUCC-0BF578AEEE9B"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-A08167947482",
+        "EVID-SUCC-61775DC494F6",
+        "EVID-SUCC-DB33333B935B",
+        "EVID-SUCC-949E7D603638",
+        "EVID-SUCC-2D0243118451",
+        "EVID-SUCC-0BF578AEEE9B"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The emergence-in-June subdivision, explicit anti-/counter-revolution distinction and overall-assessment route retrieve the definition, divided entry into the movement, local resistance and the surviving constitutional alternative. The index does not erase the distinction by treating all opposition as restorationism."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-AB9E2AC4F876",
+      "priority": "optional",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-C21CABE2D715"
+      ],
+      "expected_document_pages": [
+        298,
+        299,
+        302
+      ],
+      "found_document_pages": [
+        298,
+        302
+      ],
+      "missed_document_pages": [
+        299
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            298
+          ],
+          "found_document_pages": [
+            298
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            299,
+            302
+          ],
+          "found_document_pages": [
+            302
+          ],
+          "missed_document_pages": [
+            299
+          ],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 2,
+        "missed": 1
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-1B8E31CB7272",
+            "EVID-SUCC-322711E990F3",
+            "EVID-SUCC-F034D6876D2B"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 299,
+          "locator_class": "supporting",
+          "reason_code": "no_semantically_adequate_delivered_route",
+          "evidence_ids": [
+            "EVID-SUCC-F034D6876D2B"
+          ]
+        }
+      ],
+      "error_codes": [
+        "COV",
+        "LOC_NEG"
+      ],
+      "evidence_ids": [
+        "EVID-SUCC-1B8E31CB7272",
+        "EVID-SUCC-322711E990F3",
+        "EVID-SUCC-F034D6876D2B"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Calonne > service to émigré princes directly retrieves wealth/experience and London–Turin diplomacy at298 and Pillnitz at302. The supporting299Condé correspondence is absent from this name route and no specific alternative correspondence route is delivered. Core access survives; one supporting treatment is missed."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B64ADAA022A3",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-B3872232AE01"
+      ],
+      "expected_document_pages": [
+        313
+      ],
+      "found_document_pages": [
+        313
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            313
+          ],
+          "found_document_pages": [
+            313
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            313
+          ],
+          "found_document_pages": [
+            313
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-88160D4FE176",
+            "EVID-SUCC-7F3285562430"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-88160D4FE176",
+        "EVID-SUCC-7F3285562430"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The named Île d’Yeu expedition entry reaches313’s landing, blocked mainland contact and recall. Both principal narrative and concluding failure are accessible without borrowing the different Quiberon landing."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-B6B0A0020584",
+        "PATH-E3E5FF270B37",
+        "PATH-D7685818A71E",
+        "PATH-721C8A5F2D63",
+        "PATH-D1FB7E56E79A",
+        "PATH-50794C329754"
+      ],
+      "expected_document_pages": [
+        298,
+        299,
+        302,
+        304,
+        305,
+        306,
+        307,
+        309,
+        311,
+        315,
+        316,
+        317
+      ],
+      "found_document_pages": [
+        298,
+        302,
+        304,
+        305,
+        306,
+        307,
+        309,
+        311,
+        315,
+        316,
+        317
+      ],
+      "missed_document_pages": [
+        299
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            302,
+            304,
+            305
+          ],
+          "found_document_pages": [
+            302,
+            304,
+            305
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            298,
+            299,
+            305,
+            306,
+            307,
+            309,
+            311,
+            315
+          ],
+          "found_document_pages": [
+            298,
+            305,
+            306,
+            307,
+            309,
+            311,
+            315
+          ],
+          "missed_document_pages": [
+            299
+          ],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            306,
+            316,
+            317
+          ],
+          "found_document_pages": [
+            306,
+            316,
+            317
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 12,
+        "found": 11,
+        "missed": 1
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-72170A79CFDF",
+            "EVID-SUCC-A24208F0F583",
+            "EVID-SUCC-64CAAB271BDB",
+            "EVID-SUCC-21B7D429D29B",
+            "EVID-SUCC-A711794A47EB",
+            "EVID-SUCC-B58CB023749E",
+            "EVID-SUCC-6377C0A1D0C3",
+            "EVID-SUCC-EBE8EE54A0A4",
+            "EVID-SUCC-7A9A3CA309E6",
+            "EVID-SUCC-D6E3A7CD5A65",
+            "EVID-SUCC-8EF548D4BD1D",
+            "EVID-SUCC-B4324D92254B",
+            "EVID-SUCC-01027DA6AFBD",
+            "EVID-SUCC-IR-F6D641F9EB3A"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 299,
+          "locator_class": "supporting",
+          "reason_code": "no_semantically_adequate_delivered_route",
+          "evidence_ids": [
+            "EVID-SUCC-B58CB023749E"
+          ]
+        }
+      ],
+      "error_codes": [
+        "COV",
+        "LOC_NEG"
+      ],
+      "evidence_ids": [
+        "EVID-SUCC-72170A79CFDF",
+        "EVID-SUCC-A24208F0F583",
+        "EVID-SUCC-64CAAB271BDB",
+        "EVID-SUCC-21B7D429D29B",
+        "EVID-SUCC-A711794A47EB",
+        "EVID-SUCC-B58CB023749E",
+        "EVID-SUCC-6377C0A1D0C3",
+        "EVID-SUCC-EBE8EE54A0A4",
+        "EVID-SUCC-7A9A3CA309E6",
+        "EVID-SUCC-D6E3A7CD5A65",
+        "EVID-SUCC-8EF548D4BD1D",
+        "EVID-SUCC-B4324D92254B",
+        "EVID-SUCC-01027DA6AFBD",
+        "EVID-SUCC-IR-F6D641F9EB3A"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-D7685818A71E",
+        "PATH-6628120E70B0"
+      ],
+      "expected_document_pages": [
+        307,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        316
+      ],
+      "found_document_pages": [
+        307,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        316
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            307,
+            309,
+            310,
+            311,
+            312
+          ],
+          "found_document_pages": [
+            307,
+            309,
+            310,
+            311,
+            312
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            311,
+            313
+          ],
+          "found_document_pages": [
+            311,
+            313
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            314,
+            316
+          ],
+          "found_document_pages": [
+            314,
+            316
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 8,
+        "found": 8,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-48A1051FFB15",
+            "EVID-SUCC-D8BCAF6E7AE5",
+            "EVID-SUCC-855D6A6BEE42",
+            "EVID-SUCC-ED922330F5D5",
+            "EVID-SUCC-B67840B8B8AA",
+            "EVID-SUCC-DF76EE5C4885",
+            "EVID-SUCC-CD516DE2D660",
+            "EVID-SUCC-9887D4419908",
+            "EVID-SUCC-7D3B619FD90C"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-48A1051FFB15",
+        "EVID-SUCC-D8BCAF6E7AE5",
+        "EVID-SUCC-855D6A6BEE42",
+        "EVID-SUCC-ED922330F5D5",
+        "EVID-SUCC-B67840B8B8AA",
+        "EVID-SUCC-DF76EE5C4885",
+        "EVID-SUCC-CD516DE2D660",
+        "EVID-SUCC-9887D4419908",
+        "EVID-SUCC-7D3B619FD90C"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-DE8ADB718815",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-48967D1FD1E8"
+      ],
+      "expected_document_pages": [
+        301
+      ],
+      "found_document_pages": [
+        301
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            301
+          ],
+          "found_document_pages": [
+            301
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-C9BB3AA7172B"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-C9BB3AA7172B"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Counter-revolution > parliamentary obstruction at301 explicitly retrieves Cazalès and Maury’s tactic of voting for extremism to discredit the new regime. This precise conceptual route supplies the parent’s distinct shared strategy; separate person headings are not mandatory for this inquiry."
+    }
+  ],
+  "reader_task_results": [
+    {
+      "task_id": "TASK-SUCC-255417EDB913",
+      "subject_ids": [
+        "SUBJ-SUCC-9EDD5BE1F09D",
+        "SUBJ-SUCC-1DB77B316BEB",
+        "SUBJ-SUCC-BBD84DC00640",
+        "SUBJ-SUCC-DFDC18284F68"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-7EC984B7712C",
+        "PATH-64E29AE26594",
+        "PATH-3EAC84604C9F",
+        "PATH-869E8B209621",
+        "PATH-BD7CD19772A6"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-ISR-JURA-240-DEPARTMENTAL",
+        "EVID-SUCC-01A863D11C0A",
+        "EVID-SUCC-022F9BC876FC",
+        "EVID-SUCC-0BF578AEEE9B",
+        "EVID-SUCC-1138B1C4A199",
+        "EVID-SUCC-2C5E00D85B20",
+        "EVID-SUCC-2D0243118451",
+        "EVID-SUCC-2E61EE8595B4",
+        "EVID-SUCC-2E976820A232",
+        "EVID-SUCC-404D98AFD409",
+        "EVID-SUCC-43790062CEBD",
+        "EVID-SUCC-4C27ECE114D1",
+        "EVID-SUCC-4CD5DB6F5C0C",
+        "EVID-SUCC-532334EEFEF3",
+        "EVID-SUCC-59F275B29DB5",
+        "EVID-SUCC-5A42A08E2209",
+        "EVID-SUCC-61775DC494F6",
+        "EVID-SUCC-6659496FB170",
+        "EVID-SUCC-6C657C40E5EE",
+        "EVID-SUCC-712B1D581F74",
+        "EVID-SUCC-79C4DD59AC28",
+        "EVID-SUCC-8A2F5A03BF9D",
+        "EVID-SUCC-949E7D603638",
+        "EVID-SUCC-951979ED2157",
+        "EVID-SUCC-977F69772B86",
+        "EVID-SUCC-9DE44FCABAF5",
+        "EVID-SUCC-9EA574E08145",
+        "EVID-SUCC-A08167947482",
+        "EVID-SUCC-A5BB1452C893",
+        "EVID-SUCC-A72475BC99C1",
+        "EVID-SUCC-A8F51C7DCC5B",
+        "EVID-SUCC-B61BA80B64A5",
+        "EVID-SUCC-B6AA543C7E2E",
+        "EVID-SUCC-BA5E429CF622",
+        "EVID-SUCC-C46431E0DF66",
+        "EVID-SUCC-CF8B71B7CF32",
+        "EVID-SUCC-D8906483841A",
+        "EVID-SUCC-DB33333B935B",
+        "EVID-SUCC-DC19EDA0B3B4",
+        "EVID-SUCC-DDE358FD379E",
+        "EVID-SUCC-E3206C85AF89",
+        "EVID-SUCC-E5F1FB9C979F",
+        "EVID-SUCC-E9901ED983B4",
+        "EVID-SUCC-EA83E48A6C3B",
+        "EVID-SUCC-EACC18AA0655",
+        "EVID-SUCC-F0E26444E788",
+        "EVID-SUCC-F5923807D2C9"
+      ],
+      "review_rationale": "The emergence-in-June and explicit anti-/counter-revolution distinction answer when and why the term applies; Royal Session legacy anchors the sovereignty challenge. Federalist limited royalism and Toulon’s constitutional occupation route supply the exceptional later alignment without equating all provincial opposition with restorationism. Both retained task facets and all four parent bindings are addressed by these specific routes."
+    },
+    {
+      "task_id": "TASK-SUCC-305DEBA7DED5",
+      "subject_ids": [
+        "SUBJ-SUCC-4FF0A62E6420",
+        "SUBJ-SUCC-FB2D9394DA1C",
+        "SUBJ-SUCC-BEBD3DEC1E8D"
+      ],
+      "result": "partially_succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-6A2A03601F1E",
+        "PATH-85A16836FD79",
+        "PATH-CC75BC855562"
+      ],
+      "severity": "minor",
+      "confidence": "medium",
+      "evidence_ids": [
+        "EVID-SUCC-01013736EAAC",
+        "EVID-SUCC-070DAAAD2B91",
+        "EVID-SUCC-08FE00CE067B",
+        "EVID-SUCC-15C698C0F2E4",
+        "EVID-SUCC-29946D1F36BD",
+        "EVID-SUCC-441FB0841F89",
+        "EVID-SUCC-59513BB4126C",
+        "EVID-SUCC-7693E56D76DB",
+        "EVID-SUCC-97B6FB75645C",
+        "EVID-SUCC-B356F469622B",
+        "EVID-SUCC-EA75EEFA080D",
+        "EVID-SUCC-EF01DCDCBFC2"
+      ],
+      "review_rationale": "Chouannerie’s Quiberon route retrieves Cadoudal’s314relative prominence, and the chouannerie/Consulate routes at382–383 reach his continuing resistance amid peace. The relevant content and all three bindings exist, but no Cadoudal heading or redirect supports a person-first inquiry; the user must already infer the broader movement and scan different phases. This is localized retrieval friction, not an assertion of lost physical text or a unified chouan command."
+    },
+    {
+      "task_id": "TASK-SUCC-7570FD1DEF57",
+      "subject_ids": [
+        "SUBJ-SUCC-8EBFEFD6F582",
+        "SUBJ-SUCC-AB9E2AC4F876",
+        "SUBJ-SUCC-2CAD9C10478B",
+        "SUBJ-SUCC-DE8ADB718815",
+        "SUBJ-SUCC-67735238DEAA"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-E17778119BF9",
+        "PATH-3FB2A247EC32",
+        "PATH-C21CABE2D715",
+        "PATH-7EE35EFF6107",
+        "PATH-48967D1FD1E8",
+        "PATH-E7E7D417E53C"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-06647CF037D1",
+        "EVID-SUCC-06E0F9F7EAA7",
+        "EVID-SUCC-1726C49ACAE3",
+        "EVID-SUCC-1B8E31CB7272",
+        "EVID-SUCC-322711E990F3",
+        "EVID-SUCC-330AE08D40C6",
+        "EVID-SUCC-36588CEAC31E",
+        "EVID-SUCC-4CE905765591",
+        "EVID-SUCC-4D7F2B730B7C",
+        "EVID-SUCC-500A6B9A081A",
+        "EVID-SUCC-76565A7D617E",
+        "EVID-SUCC-7B88585C4016",
+        "EVID-SUCC-89246D51BD6C",
+        "EVID-SUCC-8E8BA93A9CCC",
+        "EVID-SUCC-C6EADF2D2AD2",
+        "EVID-SUCC-C9BB3AA7172B",
+        "EVID-SUCC-E0200688D426",
+        "EVID-SUCC-F034D6876D2B",
+        "EVID-SUCC-F8229A71113E"
+      ],
+      "review_rationale": "Artois/Calonne’s organized exile service, La Rouërie’s specific Breton association and parliamentary-obstruction routes expose the requested contrast between court diplomacy, local arms/networks and Assembly tactics; factionalism qualifies their coordination. The missing supporting Calonne letter299 does not prevent this comparative question, whose actual resources/tactics are retrieved at298,301,302,305. No disputed individual authorization at305 is asserted."
+    },
+    {
+      "task_id": "TASK-SUCC-8A119E531DFB",
+      "subject_ids": [
+        "SUBJ-SUCC-C4FAB0F8965D",
+        "SUBJ-SUCC-C47971AD0857"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-B6B0A0020584",
+        "PATH-E3E5FF270B37",
+        "PATH-D7685818A71E",
+        "PATH-6628120E70B0"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-01027DA6AFBD",
+        "EVID-SUCC-21B7D429D29B",
+        "EVID-SUCC-48A1051FFB15",
+        "EVID-SUCC-6377C0A1D0C3",
+        "EVID-SUCC-64CAAB271BDB",
+        "EVID-SUCC-72170A79CFDF",
+        "EVID-SUCC-7A9A3CA309E6",
+        "EVID-SUCC-7D3B619FD90C",
+        "EVID-SUCC-855D6A6BEE42",
+        "EVID-SUCC-8EF548D4BD1D",
+        "EVID-SUCC-9887D4419908",
+        "EVID-SUCC-A24208F0F583",
+        "EVID-SUCC-A711794A47EB",
+        "EVID-SUCC-B4324D92254B",
+        "EVID-SUCC-B58CB023749E",
+        "EVID-SUCC-B67840B8B8AA",
+        "EVID-SUCC-CD516DE2D660",
+        "EVID-SUCC-D6E3A7CD5A65",
+        "EVID-SUCC-D8BCAF6E7AE5",
+        "EVID-SUCC-DF76EE5C4885",
+        "EVID-SUCC-EBE8EE54A0A4",
+        "EVID-SUCC-ED922330F5D5",
+        "EVID-SUCC-IR-F6D641F9EB3A"
+      ],
+      "review_rationale": "Continental relations and explicit self-interest/conditional-monarchism routes explain foreign strategic limits; British political aims and western support separate practical aid from constitutional commitment. Both task bindings and its retained facet are answered, despite the separate supporting299foreign-treatment omission."
+    },
+    {
+      "task_id": "TASK-SUCC-C31723AEA155",
+      "subject_ids": [
+        "SUBJ-SUCC-6EA96E2317D1",
+        "SUBJ-SUCC-7593EEA0BB95"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-E97BA80D9A16",
+        "PATH-EEF9368979D7",
+        "PATH-5D15F493CC75",
+        "PATH-9C6911489FF5"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-029AC2E71673",
+        "EVID-SUCC-07C723072203",
+        "EVID-SUCC-0D32185A2D5B",
+        "EVID-SUCC-11130FBB7C0F",
+        "EVID-SUCC-14DD9F3D5A58",
+        "EVID-SUCC-2F077268CC45",
+        "EVID-SUCC-331233E55C1D",
+        "EVID-SUCC-53FA83E71F5E",
+        "EVID-SUCC-59E1CA64C0DD",
+        "EVID-SUCC-7121AD9E683D",
+        "EVID-SUCC-746F33F3DE23",
+        "EVID-SUCC-78E5A214A766",
+        "EVID-SUCC-894678FF2511",
+        "EVID-SUCC-8B5FD7C0B6EB",
+        "EVID-SUCC-9154C2CF93AB",
+        "EVID-SUCC-B176CE819D61",
+        "EVID-SUCC-B63A67948187",
+        "EVID-SUCC-BBAE904934C2",
+        "EVID-SUCC-BF73F59534EC",
+        "EVID-SUCC-C2228A70B4C1",
+        "EVID-SUCC-C4A28A006CE7",
+        "EVID-SUCC-CB57C3A206C9",
+        "EVID-SUCC-D413E3BF3A19",
+        "EVID-SUCC-F2D07941A9A2",
+        "EVID-SUCC-IR-890D342058AA"
+      ],
+      "review_rationale": "Favras’s direct299entry retrieves the plot, uncertainty, failure and royal response in one place. Turin committee/emigration and the king’s rescue-scheme stance provide contextual comparison without inventing Turin coordination. The named conspiracy gives a realistic first lookup for both requested bindings."
+    },
+    {
+      "task_id": "TASK-SUCC-CC6530FD8901",
+      "subject_ids": [
+        "SUBJ-SUCC-43E04025ED88",
+        "SUBJ-SUCC-612D98E91089",
+        "SUBJ-SUCC-B64ADAA022A3"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-6628120E70B0",
+        "PATH-B706AD12926D",
+        "PATH-B3872232AE01",
+        "PATH-D690CE764011"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-186662ECEFE4",
+        "EVID-SUCC-7C4ABCFC1959",
+        "EVID-SUCC-7DD8F9B2F1C5",
+        "EVID-SUCC-7F3285562430",
+        "EVID-SUCC-88160D4FE176",
+        "EVID-SUCC-8F0FB7B4CFDE",
+        "EVID-SUCC-A4343ACDC76A",
+        "EVID-SUCC-BDDC69E33A44",
+        "EVID-SUCC-D115D6722F3B",
+        "EVID-SUCC-F16534AD5A92"
+      ],
+      "review_rationale": "British western support supplies Moira’s intended rendezvous; named Quiberon and Île d’Yeu entries and the attempted-coordination subdivision expose why the later landings failed to unite foreign and local forces. The three distinct operations and all required subjects are retained rather than collapsed into one landing."
+    },
+    {
+      "task_id": "TASK-SUCC-EC3B2170206D",
+      "subject_ids": [
+        "SUBJ-SUCC-5398BE225AEB",
+        "SUBJ-SUCC-84FD75C62515"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-41F8E2EC2BFB",
+        "PATH-0AC13B94094A",
+        "PATH-721C8A5F2D63"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-0D48A285D221",
+        "EVID-SUCC-13FF066D80F1",
+        "EVID-SUCC-36AA0EACB9D2",
+        "EVID-SUCC-6AD36EE06008",
+        "EVID-SUCC-7DAF4DA42A3A",
+        "EVID-SUCC-803245E3A675",
+        "EVID-SUCC-B9BEBB5B5450",
+        "EVID-SUCC-IR-2BB336C8CA3E"
+      ],
+      "review_rationale": "Named Mallet political analysis and d’Antraigues intelligence-network routes at310–311 expose pragmatic guarantees versus politically filtered restorationist intelligence; the shared network route supports direct comparison. Both retained task facets ask this same bounded contrast. d’Antraigues’s separate missing316aftermath does not prevent it."
+    },
+    {
+      "task_id": "TASK-SUCC-F986A07060C6",
+      "subject_ids": [
+        "SUBJ-SUCC-67735238DEAA",
+        "SUBJ-SUCC-33CF41F89E1A",
+        "SUBJ-SUCC-1D98349B5A7B"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-E7E7D417E53C",
+        "PATH-DF95BC1EB72B",
+        "PATH-D94DE7CF4A0C",
+        "PATH-4CD301B33C2A",
+        "PATH-D98E61EE12C8",
+        "PATH-D54399BAB1FE"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-010C1C54793E",
+        "EVID-SUCC-0386DC869DB5",
+        "EVID-SUCC-1BF838A59F26",
+        "EVID-SUCC-1F97CAB8D4A1",
+        "EVID-SUCC-247C206C9F3E",
+        "EVID-SUCC-2F786138EA55",
+        "EVID-SUCC-330AE08D40C6",
+        "EVID-SUCC-36588CEAC31E",
+        "EVID-SUCC-3D4BDF988F34",
+        "EVID-SUCC-4F349120DA6D",
+        "EVID-SUCC-4F6B2A8D5D3D",
+        "EVID-SUCC-500A6B9A081A",
+        "EVID-SUCC-54A23C3572AA",
+        "EVID-SUCC-54F502DA23F1",
+        "EVID-SUCC-7157AE8EBC24",
+        "EVID-SUCC-76565A7D617E",
+        "EVID-SUCC-8E8BA93A9CCC",
+        "EVID-SUCC-AC0CE15123B4",
+        "EVID-SUCC-B1E597B429BD",
+        "EVID-SUCC-B440BDE6BB73",
+        "EVID-SUCC-B85D6B4713F8",
+        "EVID-SUCC-C0B7A8DB569F",
+        "EVID-SUCC-C67912C03BF7",
+        "EVID-SUCC-DFE8723575FF",
+        "EVID-SUCC-ED256AA9E069",
+        "EVID-SUCC-F263BB04A9C5",
+        "EVID-SUCC-F5B3CDC979D5"
+      ],
+      "review_rationale": "Factionalism, explicitly named purist/constitutionalist camps, restoration programmes, the moderate1791model and Verona/limited-appeal routes retrieve the programme conflict and explain why accommodation failed. Both retained facets and Louis XVIII’s programme binding are covered without presenting constitutionalists as revolutionaries or guessing a correction to the source’s June-session date."
+    },
+    {
+      "task_id": "TASK-SUCC-FADFB2488154",
+      "subject_ids": [
+        "SUBJ-SUCC-30479645D764",
+        "SUBJ-SUCC-4F5D0E057A07"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-99B76AD96CE8",
+        "PATH-2DF134C617B0",
+        "PATH-DBB26BAD855C"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-2F9E8B6C54C9",
+        "EVID-SUCC-53E0B80986A9",
+        "EVID-SUCC-7895F58869A0",
+        "EVID-SUCC-871131B1ABF1",
+        "EVID-SUCC-AD462F60306E",
+        "EVID-SUCC-AE3E322A5BCC",
+        "EVID-SUCC-ED7431B259FE"
+      ],
+      "review_rationale": "Lyons’s dated royalism route exposes the aborted early plot and later links; Condé’s émigré army and Pichegru’s royalist approaches retrieve the surviving military enterprise and delayed negotiations. Both parent bindings and the retained task facet are tested, preserving the difference between a planned offensive and one that actually occurred."
+    }
+  ],
+  "treatment_judgments": [
+    {
+      "treatment_id": "TREAT-009B951ADDBB",
+      "subject_id": "SUBJ-SUCC-9EDD5BE1F09D",
+      "document_page": 297,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A08167947482"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-7EC984B7712C"
+      ],
+      "review_rationale": "The emergence-in-June subdivision, explicit anti-/counter-revolution distinction and overall-assessment route retrieve the definition, divided entry into the movement, local resistance and the surviving constitutional alternative. The index does not erase the distinction by treating all opposition as restorationism."
+    },
+    {
+      "treatment_id": "TREAT-020A1D65B681",
+      "subject_id": "SUBJ-SUCC-6EF8FB353919",
+      "document_page": 314,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-2FC52E08D0D2"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-5CA89D7556D5",
+        "PATH-E88CDEF1F69B"
+      ],
+      "review_rationale": "Hoche’s explicitly scoped western counter-insurgency/pacification route covers tactics, Quiberon, force and toleration through315. Religious-toleration and counterproductive-repression routes preserve the complementary explanation, including317’s qualified claim that earlier brutality prolonged resistance. The architecture supports force plus accommodation rather than repression alone."
+    },
+    {
+      "treatment_id": "TREAT-033C0513700A",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 297,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-4CE905765591"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E17778119BF9"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-09404250D973",
+      "subject_id": "SUBJ-SUCC-9EDD5BE1F09D",
+      "document_page": 316,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-61775DC494F6"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-64E29AE26594",
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "The emergence-in-June subdivision, explicit anti-/counter-revolution distinction and overall-assessment route retrieve the definition, divided entry into the movement, local resistance and the surviving constitutional alternative. The index does not erase the distinction by treating all opposition as restorationism."
+    },
+    {
+      "treatment_id": "TREAT-09FFAB7EA35F",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "document_page": 307,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-7C9BD4E435FB"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-F50546C1DB86"
+      ],
+      "review_rationale": "The explicit defeat/overall-assessment subdivision retrieves Valmy, Quiberon, pacification, foreign dependence and the concluding localism/superior-army explanation. Louis XVI’s execution/collapse-of-émigré-hopes route supplies the 307 hardened-programme and failed-recognition step. These are relevant phases of failure, not a blanket equation of local rebellion with restorationism."
+    },
+    {
+      "treatment_id": "TREAT-0C25B79DB29F",
+      "subject_id": "SUBJ-SUCC-84FD75C62515",
+      "document_page": 310,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-803245E3A675"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-0AC13B94094A"
+      ],
+      "review_rationale": "The actual d’Antraigues arrest/revelations/loss-of-credibility route at315 ends Subsequently he was allowed to escape, but;316 immediately completes the same sentence with the murky episode ruining his credit with LouisXVIII and fellow émigrés. The frozen316 supporting treatment is retrieved. Treatment ID, frozen page, class and evidence identities stay fixed. Locator precision and complete-path fit are unchanged; no locator is invented on the treatment page."
+    },
+    {
+      "treatment_id": "TREAT-0C62511565C5",
+      "subject_id": "SUBJ-SUCC-5398BE225AEB",
+      "document_page": 310,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-0D48A285D221"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-41F8E2EC2BFB"
+      ],
+      "review_rationale": "Mallet du Pan > political analysis reaches all three pages: guarantees for revolutionary gains, competing intelligence and the final warning against restored authority. This accurately distinguishes pragmatic constitutional royalism from restorationist certainty."
+    },
+    {
+      "treatment_id": "TREAT-0EE007C59754",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 305,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-89246D51BD6C"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-3B0B28A1E90E"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-10E02A6A3D24",
+      "subject_id": "SUBJ-SUCC-30479645D764",
+      "document_page": 308,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-7895F58869A0"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-99B76AD96CE8"
+      ],
+      "review_rationale": "Lyons > royalism, 1790–96 supplies all three distinct episodes: aborted 1790 plot, limited royalist involvement in the 1793 defense, and the later Condé/Pichegru project. The dated subdivision preserves their distinction and does not label the whole Federalist movement royalist."
+    },
+    {
+      "treatment_id": "TREAT-11F90485BCC1",
+      "subject_id": "SUBJ-SUCC-DE8ADB718815",
+      "document_page": 301,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C9BB3AA7172B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-48967D1FD1E8"
+      ],
+      "review_rationale": "Counter-revolution > parliamentary obstruction at301 explicitly retrieves Cazalès and Maury’s tactic of voting for extremism to discredit the new regime. This precise conceptual route supplies the parent’s distinct shared strategy; separate person headings are not mandatory for this inquiry."
+    },
+    {
+      "treatment_id": "TREAT-12AAF8BB369F",
+      "subject_id": "SUBJ-SUCC-B64ADAA022A3",
+      "document_page": 313,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-88160D4FE176"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B3872232AE01"
+      ],
+      "review_rationale": "The named Île d’Yeu expedition entry reaches313’s landing, blocked mainland contact and recall. Both principal narrative and concluding failure are accessible without borrowing the different Quiberon landing."
+    },
+    {
+      "treatment_id": "TREAT-1905EDE5C1EE",
+      "subject_id": "SUBJ-SUCC-84FD75C62515",
+      "document_page": 301,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-6AD36EE06008"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-0AC13B94094A"
+      ],
+      "review_rationale": "The actual d’Antraigues arrest/revelations/loss-of-credibility route at315 ends Subsequently he was allowed to escape, but;316 immediately completes the same sentence with the murky episode ruining his credit with LouisXVIII and fellow émigrés. The frozen316 supporting treatment is retrieved. Treatment ID, frozen page, class and evidence identities stay fixed. Locator precision and complete-path fit are unchanged; no locator is invented on the treatment page."
+    },
+    {
+      "treatment_id": "TREAT-1969215F9D0F",
+      "subject_id": "SUBJ-SUCC-AB9E2AC4F876",
+      "document_page": 302,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-322711E990F3"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-C21CABE2D715"
+      ],
+      "review_rationale": "Calonne > service to émigré princes directly retrieves wealth/experience and London–Turin diplomacy at298 and Pillnitz at302. The supporting299Condé correspondence is absent from this name route and no specific alternative correspondence route is delivered. Core access survives; one supporting treatment is missed."
+    },
+    {
+      "treatment_id": "TREAT-1D08B11564B5",
+      "subject_id": "SUBJ-SUCC-67735238DEAA",
+      "document_page": 316,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-330AE08D40C6"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E7E7D417E53C"
+      ],
+      "review_rationale": "Counter-revolution > factionalism directly reaches the initial lack of unity, exile rivalries, opposing constitutional programmes, Quiberon scapegoating and the concluding causal assessment. The émigré camp subdivision provides the explicit 310/314 distinction. No credit is claimed from its partial 305 or the separate partial factionalism locator at313."
+    },
+    {
+      "treatment_id": "TREAT-1DDB5A097B47",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 306,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-B4324D92254B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B6B0A0020584",
+        "PATH-D1FB7E56E79A",
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-218856119315",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 309,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-D8BCAF6E7AE5"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D7685818A71E",
+        "PATH-6628120E70B0"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "treatment_id": "TREAT-30E2023850AD",
+      "subject_id": "SUBJ-SUCC-5398BE225AEB",
+      "document_page": 317,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-36AA0EACB9D2"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-41F8E2EC2BFB"
+      ],
+      "review_rationale": "Mallet du Pan > political analysis reaches all three pages: guarantees for revolutionary gains, competing intelligence and the final warning against restored authority. This accurately distinguishes pragmatic constitutional royalism from restorationist certainty."
+    },
+    {
+      "treatment_id": "TREAT-369F76430F3B",
+      "subject_id": "SUBJ-SUCC-86892633B9F0",
+      "document_page": 313,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-503ECA7C9DF5"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-16770B40255D"
+      ],
+      "review_rationale": "Three named Charette subdivisions distinguish tactical peace, renewed revolt and execution at312–314. They preserve temporary calculation and failed coordination rather than presenting the treaty as settled reconciliation."
+    },
+    {
+      "treatment_id": "TREAT-37F216D77C0D",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "document_page": 315,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-67FD9D5DF662"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "The explicit defeat/overall-assessment subdivision retrieves Valmy, Quiberon, pacification, foreign dependence and the concluding localism/superior-army explanation. Louis XVI’s execution/collapse-of-émigré-hopes route supplies the 307 hardened-programme and failed-recognition step. These are relevant phases of failure, not a blanket equation of local rebellion with restorationism."
+    },
+    {
+      "treatment_id": "TREAT-388382E468C5",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "document_page": 313,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-51483AC7B075"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "The explicit defeat/overall-assessment subdivision retrieves Valmy, Quiberon, pacification, foreign dependence and the concluding localism/superior-army explanation. Louis XVI’s execution/collapse-of-émigré-hopes route supplies the 307 hardened-programme and failed-recognition step. These are relevant phases of failure, not a blanket equation of local rebellion with restorationism."
+    },
+    {
+      "treatment_id": "TREAT-3D68FD981CE3",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 305,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-IR-F6D641F9EB3A"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B6B0A0020584",
+        "PATH-721C8A5F2D63",
+        "PATH-D1FB7E56E79A"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-41EE00531B52",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 307,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-64CAAB271BDB"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B6B0A0020584",
+        "PATH-D7685818A71E",
+        "PATH-D1FB7E56E79A"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-42E2C0755AEF",
+      "subject_id": "SUBJ-SUCC-3CA7ED910B5B",
+      "document_page": 314,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-4774210F0696"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D0837D1550CD"
+      ],
+      "review_rationale": "Puisaye’s named subdivisions retrieve British persuasion/exaggerated manpower, appointment and subsequent loss of authority. The earlier 308 Caen/Federalist appearance has no equivalent delivered Puisaye or specific event route; generic Federalist royalism is not evidence of that individual episode. The supporting omission is localized; the principal argument remains accessible."
+    },
+    {
+      "treatment_id": "TREAT-447B1C2A448F",
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "document_page": 309,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-4F349120DA6D"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D54399BAB1FE",
+        "PATH-4CD301B33C2A"
+      ],
+      "review_rationale": "Restoration programmes and their limited appeal are distinguished from the 1791 constitutional model and electoral prospects. The selected specific routes retrieve the princes’ declarations, Verona’s rejection of compromise, Toulon’s qualified monarchy and the surviving limited-monarchy alternative without conflating the programmes."
+    },
+    {
+      "treatment_id": "TREAT-451B1D651C36",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "document_page": 317,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-1F6D028D350A"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "The explicit defeat/overall-assessment subdivision retrieves Valmy, Quiberon, pacification, foreign dependence and the concluding localism/superior-army explanation. Louis XVI’s execution/collapse-of-émigré-hopes route supplies the 307 hardened-programme and failed-recognition step. These are relevant phases of failure, not a blanket equation of local rebellion with restorationism."
+    },
+    {
+      "treatment_id": "TREAT-4743A50689CF",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 298,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F8229A71113E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E17778119BF9"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-48D9F0E8E99F",
+      "subject_id": "SUBJ-SUCC-4FF0A62E6420",
+      "document_page": 314,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-29946D1F36BD"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6A2A03601F1E"
+      ],
+      "review_rationale": "The 314 chouannerie > British backing and Quiberon route explicitly reaches Cadoudal’s emergence after Puisaye’s discredit. The delivered index contains no Cadoudal name or redirect, and the subdivision describes British backing rather than the surviving leadership, so person-first retrieval has localized friction even though the treatment is present. The author’s conditional leadership claim is retained; no unified army is asserted."
+    },
+    {
+      "treatment_id": "TREAT-4AB91AC57D1D",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 310,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-855D6A6BEE42"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D7685818A71E"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "treatment_id": "TREAT-50293EFB1B6F",
+      "subject_id": "SUBJ-SUCC-3CA7ED910B5B",
+      "document_page": 311,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-CA3701ED83C4"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-804B64A59ADA"
+      ],
+      "review_rationale": "Puisaye’s named subdivisions retrieve British persuasion/exaggerated manpower, appointment and subsequent loss of authority. The earlier 308 Caen/Federalist appearance has no equivalent delivered Puisaye or specific event route; generic Federalist royalism is not evidence of that individual episode. The supporting omission is localized; the principal argument remains accessible."
+    },
+    {
+      "treatment_id": "TREAT-54F7C49D7EF8",
+      "subject_id": "SUBJ-SUCC-67735238DEAA",
+      "document_page": 303,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-500A6B9A081A"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E7E7D417E53C"
+      ],
+      "review_rationale": "Counter-revolution > factionalism directly reaches the initial lack of unity, exile rivalries, opposing constitutional programmes, Quiberon scapegoating and the concluding causal assessment. The émigré camp subdivision provides the explicit 310/314 distinction. No credit is claimed from its partial 305 or the separate partial factionalism locator at313."
+    },
+    {
+      "treatment_id": "TREAT-58274A0E6C9D",
+      "subject_id": "SUBJ-SUCC-2CAD9C10478B",
+      "document_page": 305,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C6EADF2D2AD2"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-7EE35EFF6107"
+      ],
+      "review_rationale": "The named La Rouërie > Breton association route directly retrieves 305 contacts, arms, refractory-clergy support and lack of operational plan. It does not imply a unified effective army or identify an individual authorizer beyond the frozen parent’s wording."
+    },
+    {
+      "treatment_id": "TREAT-5888B5353F56",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "document_page": 316,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-6EC305656EBB"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "The explicit defeat/overall-assessment subdivision retrieves Valmy, Quiberon, pacification, foreign dependence and the concluding localism/superior-army explanation. Louis XVI’s execution/collapse-of-émigré-hopes route supplies the 307 hardened-programme and failed-recognition step. These are relevant phases of failure, not a blanket equation of local rebellion with restorationism."
+    },
+    {
+      "treatment_id": "TREAT-5F42EB2CEB33",
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "document_page": 303,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B440BDE6BB73"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D94DE7CF4A0C"
+      ],
+      "review_rationale": "Restoration programmes and their limited appeal are distinguished from the 1791 constitutional model and electoral prospects. The selected specific routes retrieve the princes’ declarations, Verona’s rejection of compromise, Toulon’s qualified monarchy and the surviving limited-monarchy alternative without conflating the programmes."
+    },
+    {
+      "treatment_id": "TREAT-606E32D8CFF8",
+      "subject_id": "SUBJ-SUCC-6EF8FB353919",
+      "document_page": 312,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-19E2200768AF"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-5CA89D7556D5",
+        "PATH-E88CDEF1F69B"
+      ],
+      "review_rationale": "Hoche’s explicitly scoped western counter-insurgency/pacification route covers tactics, Quiberon, force and toleration through315. Religious-toleration and counterproductive-repression routes preserve the complementary explanation, including317’s qualified claim that earlier brutality prolonged resistance. The architecture supports force plus accommodation rather than repression alone."
+    },
+    {
+      "treatment_id": "TREAT-64044872AFCE",
+      "subject_id": "SUBJ-SUCC-43E04025ED88",
+      "document_page": 309,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F16534AD5A92"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6628120E70B0",
+        "PATH-D7685818A71E"
+      ],
+      "review_rationale": "Great Britain’s western-expedition route retrieves the failed Moira/Granville linkage on 309; its political-aims subdivision supplies the continuing uncertainty about French partners on 310. These are the expressly relevant British-aid routes allowed by the parent, so the lack of a separate Moira heading is not itself an omission."
+    },
+    {
+      "treatment_id": "TREAT-64ECEA245B80",
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "document_page": 302,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-247C206C9F3E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D94DE7CF4A0C"
+      ],
+      "review_rationale": "Restoration programmes and their limited appeal are distinguished from the 1791 constitutional model and electoral prospects. The selected specific routes retrieve the princes’ declarations, Verona’s rejection of compromise, Toulon’s qualified monarchy and the surviving limited-monarchy alternative without conflating the programmes."
+    },
+    {
+      "treatment_id": "TREAT-6D9137D2B2B5",
+      "subject_id": "SUBJ-SUCC-B64ADAA022A3",
+      "document_page": 313,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-7F3285562430"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B3872232AE01"
+      ],
+      "review_rationale": "The named Île d’Yeu expedition entry reaches313’s landing, blocked mainland contact and recall. Both principal narrative and concluding failure are accessible without borrowing the different Quiberon landing."
+    },
+    {
+      "treatment_id": "TREAT-704E305166DC",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 311,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-7A9A3CA309E6"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-721C8A5F2D63"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-766534F2AF16",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 313,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-7B88585C4016"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-39C65EC583A0"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-76DF758A320F",
+      "subject_id": "SUBJ-SUCC-6EF8FB353919",
+      "document_page": 315,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-FB1BA978381F"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-5CA89D7556D5",
+        "PATH-E88CDEF1F69B"
+      ],
+      "review_rationale": "Hoche’s explicitly scoped western counter-insurgency/pacification route covers tactics, Quiberon, force and toleration through315. Religious-toleration and counterproductive-repression routes preserve the complementary explanation, including317’s qualified claim that earlier brutality prolonged resistance. The architecture supports force plus accommodation rather than repression alone."
+    },
+    {
+      "treatment_id": "TREAT-77AFB35F2242",
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "document_page": 310,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-54F502DA23F1"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D94DE7CF4A0C",
+        "PATH-D54399BAB1FE",
+        "PATH-4CD301B33C2A"
+      ],
+      "review_rationale": "Restoration programmes and their limited appeal are distinguished from the 1791 constitutional model and electoral prospects. The selected specific routes retrieve the princes’ declarations, Verona’s rejection of compromise, Toulon’s qualified monarchy and the surviving limited-monarchy alternative without conflating the programmes."
+    },
+    {
+      "treatment_id": "TREAT-79D27E68D2FC",
+      "subject_id": "SUBJ-SUCC-AB9E2AC4F876",
+      "document_page": 299,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-F034D6876D2B"
+      ],
+      "status": "missed",
+      "tested_path_ids": [],
+      "review_rationale": "Calonne > service to émigré princes directly retrieves wealth/experience and London–Turin diplomacy at298 and Pillnitz at302. The supporting299Condé correspondence is absent from this name route and no specific alternative correspondence route is delivered. Core access survives; one supporting treatment is missed."
+    },
+    {
+      "treatment_id": "TREAT-7BA769B5BD45",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 312,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-DF76EE5C4885"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6628120E70B0"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "treatment_id": "TREAT-7FB9A0FA2F16",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 309,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-EBE8EE54A0A4"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D7685818A71E"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-84EA8E2F4F9C",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 311,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-7D3B619FD90C"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6628120E70B0"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "treatment_id": "TREAT-8886DCCE166F",
+      "subject_id": "SUBJ-SUCC-67735238DEAA",
+      "document_page": 310,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-8E8BA93A9CCC"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E7E7D417E53C",
+        "PATH-DF95BC1EB72B"
+      ],
+      "review_rationale": "Counter-revolution > factionalism directly reaches the initial lack of unity, exile rivalries, opposing constitutional programmes, Quiberon scapegoating and the concluding causal assessment. The émigré camp subdivision provides the explicit 310/314 distinction. No credit is claimed from its partial 305 or the separate partial factionalism locator at313."
+    },
+    {
+      "treatment_id": "TREAT-8A107B51440A",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 307,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-E0200688D426"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-3FB2A247EC32"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-8C48BAE48443",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 313,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-CD516DE2D660"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6628120E70B0"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "treatment_id": "TREAT-8D3E86EAA0EB",
+      "subject_id": "SUBJ-SUCC-6EF8FB353919",
+      "document_page": 317,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-IR-E3819A7BFE85"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E45F3E5E5965"
+      ],
+      "review_rationale": "Hoche’s explicitly scoped western counter-insurgency/pacification route covers tactics, Quiberon, force and toleration through315. Religious-toleration and counterproductive-repression routes preserve the complementary explanation, including317’s qualified claim that earlier brutality prolonged resistance. The architecture supports force plus accommodation rather than repression alone."
+    },
+    {
+      "treatment_id": "TREAT-8FFFB4AF06E7",
+      "subject_id": "SUBJ-SUCC-5398BE225AEB",
+      "document_page": 311,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-13FF066D80F1"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-41F8E2EC2BFB"
+      ],
+      "review_rationale": "Mallet du Pan > political analysis reaches all three pages: guarantees for revolutionary gains, competing intelligence and the final warning against restored authority. This accurately distinguishes pragmatic constitutional royalism from restorationist certainty."
+    },
+    {
+      "treatment_id": "TREAT-97C3B54E08FE",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 304,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A24208F0F583"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B6B0A0020584"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-982E44CAFB7F",
+      "subject_id": "SUBJ-SUCC-4FF0A62E6420",
+      "document_page": 314,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-08FE00CE067B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6A2A03601F1E"
+      ],
+      "review_rationale": "The 314 chouannerie > British backing and Quiberon route explicitly reaches Cadoudal’s emergence after Puisaye’s discredit. The delivered index contains no Cadoudal name or redirect, and the subdivision describes British backing rather than the surviving leadership, so person-first retrieval has localized friction even though the treatment is present. The author’s conditional leadership claim is retained; no unified army is asserted."
+    },
+    {
+      "treatment_id": "TREAT-9977E729F586",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 302,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-1726C49ACAE3"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-3FB2A247EC32"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-9999DF958823",
+      "subject_id": "SUBJ-SUCC-6EA96E2317D1",
+      "document_page": 299,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-D413E3BF3A19"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E97BA80D9A16"
+      ],
+      "review_rationale": "The named Favras conspiracy route reaches the entire single-page episode, including arrest/execution and uncertain royal-family connections. Access does not turn the source’s ambiguity into a settled conspiracy claim."
+    },
+    {
+      "treatment_id": "TREAT-9DE8DA39DD0E",
+      "subject_id": "SUBJ-SUCC-84FD75C62515",
+      "document_page": 311,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-7DAF4DA42A3A"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-0AC13B94094A"
+      ],
+      "review_rationale": "The actual d’Antraigues arrest/revelations/loss-of-credibility route at315 ends Subsequently he was allowed to escape, but;316 immediately completes the same sentence with the murky episode ruining his credit with LouisXVIII and fellow émigrés. The frozen316 supporting treatment is retrieved. Treatment ID, frozen page, class and evidence identities stay fixed. Locator precision and complete-path fit are unchanged; no locator is invented on the treatment page."
+    },
+    {
+      "treatment_id": "TREAT-A09D659A4158",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "document_page": 306,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-4596E0ED9FBA"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50794C329754",
+        "PATH-F50546C1DB86"
+      ],
+      "review_rationale": "The explicit defeat/overall-assessment subdivision retrieves Valmy, Quiberon, pacification, foreign dependence and the concluding localism/superior-army explanation. Louis XVI’s execution/collapse-of-émigré-hopes route supplies the 307 hardened-programme and failed-recognition step. These are relevant phases of failure, not a blanket equation of local rebellion with restorationism."
+    },
+    {
+      "treatment_id": "TREAT-A64305EF8ED6",
+      "subject_id": "SUBJ-SUCC-67735238DEAA",
+      "document_page": 314,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-76565A7D617E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E7E7D417E53C",
+        "PATH-DF95BC1EB72B"
+      ],
+      "review_rationale": "Counter-revolution > factionalism directly reaches the initial lack of unity, exile rivalries, opposing constitutional programmes, Quiberon scapegoating and the concluding causal assessment. The émigré camp subdivision provides the explicit 310/314 distinction. No credit is claimed from its partial 305 or the separate partial factionalism locator at313."
+    },
+    {
+      "treatment_id": "TREAT-B185B9EC6CEF",
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "document_page": 314,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-DFE8723575FF"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D94DE7CF4A0C"
+      ],
+      "review_rationale": "Restoration programmes and their limited appeal are distinguished from the 1791 constitutional model and electoral prospects. The selected specific routes retrieve the princes’ declarations, Verona’s rejection of compromise, Toulon’s qualified monarchy and the surviving limited-monarchy alternative without conflating the programmes."
+    },
+    {
+      "treatment_id": "TREAT-B2E47BCE0FC1",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 315,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-D6E3A7CD5A65"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E3E5FF270B37",
+        "PATH-721C8A5F2D63",
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-B3894D49FEDF",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 307,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-48A1051FFB15"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D7685818A71E"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "treatment_id": "TREAT-B3B4357C5DA8",
+      "subject_id": "SUBJ-SUCC-30479645D764",
+      "document_page": 315,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-871131B1ABF1"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-99B76AD96CE8"
+      ],
+      "review_rationale": "Lyons > royalism, 1790–96 supplies all three distinct episodes: aborted 1790 plot, limited royalist involvement in the 1793 defense, and the later Condé/Pichegru project. The dated subdivision preserves their distinction and does not label the whole Federalist movement royalist."
+    },
+    {
+      "treatment_id": "TREAT-B4114139350E",
+      "subject_id": "SUBJ-SUCC-AB9E2AC4F876",
+      "document_page": 298,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-1B8E31CB7272"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-C21CABE2D715"
+      ],
+      "review_rationale": "Calonne > service to émigré princes directly retrieves wealth/experience and London–Turin diplomacy at298 and Pillnitz at302. The supporting299Condé correspondence is absent from this name route and no specific alternative correspondence route is delivered. Core access survives; one supporting treatment is missed."
+    },
+    {
+      "treatment_id": "TREAT-B76864A75BEF",
+      "subject_id": "SUBJ-SUCC-4F5D0E057A07",
+      "document_page": 306,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-53E0B80986A9"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-2DF134C617B0"
+      ],
+      "review_rationale": "Condé’s émigré army and Pichegru’s royalist approaches expose survival in imperial service and the unexecuted 1795–96 scheme. The d’Antraigues arrest/revelations route covers disclosed contacts at 315. None asserts that negotiation became an accomplished offensive."
+    },
+    {
+      "treatment_id": "TREAT-B9FE80572E40",
+      "subject_id": "SUBJ-SUCC-4F5D0E057A07",
+      "document_page": 315,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-AE3E322A5BCC",
+        "EVID-SUCC-ED7431B259FE"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-2DF134C617B0",
+        "PATH-DBB26BAD855C",
+        "PATH-6B61C97B102F"
+      ],
+      "review_rationale": "Condé’s émigré army and Pichegru’s royalist approaches expose survival in imperial service and the unexecuted 1795–96 scheme. The d’Antraigues arrest/revelations route covers disclosed contacts at 315. None asserts that negotiation became an accomplished offensive."
+    },
+    {
+      "treatment_id": "TREAT-BAD1323F6E99",
+      "subject_id": "SUBJ-SUCC-86892633B9F0",
+      "document_page": 312,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A9EC544A50B1"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-CE8A8C1785A8"
+      ],
+      "review_rationale": "Three named Charette subdivisions distinguish tactical peace, renewed revolt and execution at312–314. They preserve temporary calculation and failed coordination rather than presenting the treaty as settled reconciliation."
+    },
+    {
+      "treatment_id": "TREAT-BBF602D6BF3F",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 302,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-72170A79CFDF"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B6B0A0020584"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-BE086C36A2B4",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 314,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-4D7F2B730B7C"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-39C65EC583A0"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-BF8170C02577",
+      "subject_id": "SUBJ-SUCC-30479645D764",
+      "document_page": 300,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-AD462F60306E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-99B76AD96CE8"
+      ],
+      "review_rationale": "Lyons > royalism, 1790–96 supplies all three distinct episodes: aborted 1790 plot, limited royalist involvement in the 1793 defense, and the later Condé/Pichegru project. The dated subdivision preserves their distinction and does not label the whole Federalist movement royalist."
+    },
+    {
+      "treatment_id": "TREAT-C0DF50C02167",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "document_page": 314,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-7DFB77F417E2"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "The explicit defeat/overall-assessment subdivision retrieves Valmy, Quiberon, pacification, foreign dependence and the concluding localism/superior-army explanation. Louis XVI’s execution/collapse-of-émigré-hopes route supplies the 307 hardened-programme and failed-recognition step. These are relevant phases of failure, not a blanket equation of local rebellion with restorationism."
+    },
+    {
+      "treatment_id": "TREAT-C22F4A7622B7",
+      "subject_id": "SUBJ-SUCC-9EDD5BE1F09D",
+      "document_page": 317,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-DB33333B935B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50794C329754",
+        "PATH-66203A5C40FE"
+      ],
+      "review_rationale": "The emergence-in-June subdivision, explicit anti-/counter-revolution distinction and overall-assessment route retrieve the definition, divided entry into the movement, local resistance and the surviving constitutional alternative. The index does not erase the distinction by treating all opposition as restorationism."
+    },
+    {
+      "treatment_id": "TREAT-C28F494C9377",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 312,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-06E0F9F7EAA7"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-C28CE978CAAF"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-C5BBA77C2863",
+      "subject_id": "SUBJ-SUCC-86892633B9F0",
+      "document_page": 314,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-E376494A4F2C"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B4CF63E4ADA9"
+      ],
+      "review_rationale": "Three named Charette subdivisions distinguish tactical peace, renewed revolt and execution at312–314. They preserve temporary calculation and failed coordination rather than presenting the treaty as settled reconciliation."
+    },
+    {
+      "treatment_id": "TREAT-C5EBA1C924D3",
+      "subject_id": "SUBJ-SUCC-84FD75C62515",
+      "document_page": 315,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-B9BEBB5B5450"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6B61C97B102F"
+      ],
+      "review_rationale": "The actual d’Antraigues arrest/revelations/loss-of-credibility route at315 ends Subsequently he was allowed to escape, but;316 immediately completes the same sentence with the murky episode ruining his credit with LouisXVIII and fellow émigrés. The frozen316 supporting treatment is retrieved. Treatment ID, frozen page, class and evidence identities stay fixed. Locator precision and complete-path fit are unchanged; no locator is invented on the treatment page."
+    },
+    {
+      "treatment_id": "TREAT-C64BF3E039C3",
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "document_page": 317,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-C0B7A8DB569F"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D54399BAB1FE",
+        "PATH-66203A5C40FE"
+      ],
+      "review_rationale": "Restoration programmes and their limited appeal are distinguished from the 1791 constitutional model and electoral prospects. The selected specific routes retrieve the princes’ declarations, Verona’s rejection of compromise, Toulon’s qualified monarchy and the surviving limited-monarchy alternative without conflating the programmes."
+    },
+    {
+      "treatment_id": "TREAT-C8273184B50F",
+      "subject_id": "SUBJ-SUCC-84FD75C62515",
+      "document_page": 316,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-IR-2BB336C8CA3E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6B61C97B102F"
+      ],
+      "review_rationale": "The actual d’Antraigues arrest/revelations/loss-of-credibility route at315 ends Subsequently he was allowed to escape, but;316 immediately completes the same sentence with the murky episode ruining his credit with LouisXVIII and fellow émigrés. The frozen316 supporting treatment is retrieved. Treatment ID, frozen page, class and evidence identities stay fixed. Locator precision and complete-path fit are unchanged; no locator is invented on the treatment page.",
+      "boundary_retrieval_proof": {
+        "actual_path_id": "PATH-6B61C97B102F",
+        "actual_locator_id": "LOC-EA05E84563A8",
+        "actual_locator_document_page": 315,
+        "frozen_treatment_id": "TREAT-C8273184B50F",
+        "frozen_treatment_document_page": 316,
+        "source_text_paths": [
+          "evaluation/staging/v10/boundary-recall-review/source-pages/root-315.txt",
+          "evaluation/staging/v10/boundary-recall-review/source-pages/root-316.txt"
+        ],
+        "rationale": "The actual d’Antraigues arrest/revelations/loss-of-credibility route at315 ends Subsequently he was allowed to escape, but;316 immediately completes the same sentence with the murky episode ruining his credit with LouisXVIII and fellow émigrés. The frozen316 supporting treatment is retrieved. Treatment ID, frozen page, class and evidence identities stay fixed. Locator precision and complete-path fit are unchanged; no locator is invented on the treatment page."
+      }
+    },
+    {
+      "treatment_id": "TREAT-C902D347622A",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 306,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-6377C0A1D0C3"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B6B0A0020584",
+        "PATH-D1FB7E56E79A",
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-CB333E694C2E",
+      "subject_id": "SUBJ-SUCC-9EDD5BE1F09D",
+      "document_page": 305,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-0BF578AEEE9B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-64E29AE26594"
+      ],
+      "review_rationale": "The emergence-in-June subdivision, explicit anti-/counter-revolution distinction and overall-assessment route retrieve the definition, divided entry into the movement, local resistance and the surviving constitutional alternative. The index does not erase the distinction by treating all opposition as restorationism."
+    },
+    {
+      "treatment_id": "TREAT-CCC53C7D44F0",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "document_page": 300,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-06647CF037D1"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E17778119BF9"
+      ],
+      "review_rationale": "Artois’s early activity, émigré leadership and British-backed expeditions form a clear chronological architecture across the required pages. Puisaye’s312named route explicitly records Artois’s endorsement/appointment, a concrete counterpart route to that action. Page305 is credited only as princely-network context; the inconsistent relationship assertion of individual authorization is separately referred to the coordinator, not inferred from these candidate paths."
+    },
+    {
+      "treatment_id": "TREAT-D03B1A3DCCF6",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 311,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B67840B8B8AA"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6628120E70B0"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "treatment_id": "TREAT-D1501AA4E372",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 305,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-8EF548D4BD1D"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B6B0A0020584",
+        "PATH-721C8A5F2D63",
+        "PATH-D1FB7E56E79A"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-D17BA7B44861",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 298,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-A711794A47EB"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B6B0A0020584"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-D3405FABA3DD",
+      "subject_id": "SUBJ-SUCC-3CA7ED910B5B",
+      "document_page": 308,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-C9B2A5C77675"
+      ],
+      "status": "missed",
+      "tested_path_ids": [],
+      "review_rationale": "Puisaye’s named subdivisions retrieve British persuasion/exaggerated manpower, appointment and subsequent loss of authority. The earlier 308 Caen/Federalist appearance has no equivalent delivered Puisaye or specific event route; generic Federalist royalism is not evidence of that individual episode. The supporting omission is localized; the principal argument remains accessible."
+    },
+    {
+      "treatment_id": "TREAT-D3E95F3765C9",
+      "subject_id": "SUBJ-SUCC-6EF8FB353919",
+      "document_page": 313,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-1C747B75A224"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-5CA89D7556D5",
+        "PATH-E45F3E5E5965"
+      ],
+      "review_rationale": "Hoche’s explicitly scoped western counter-insurgency/pacification route covers tactics, Quiberon, force and toleration through315. Religious-toleration and counterproductive-repression routes preserve the complementary explanation, including317’s qualified claim that earlier brutality prolonged resistance. The architecture supports force plus accommodation rather than repression alone."
+    },
+    {
+      "treatment_id": "TREAT-D538D9995851",
+      "subject_id": "SUBJ-SUCC-9EDD5BE1F09D",
+      "document_page": 304,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-2D0243118451"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-64E29AE26594"
+      ],
+      "review_rationale": "The emergence-in-June subdivision, explicit anti-/counter-revolution distinction and overall-assessment route retrieve the definition, divided entry into the movement, local resistance and the surviving constitutional alternative. The index does not erase the distinction by treating all opposition as restorationism."
+    },
+    {
+      "treatment_id": "TREAT-D5F44C8C3724",
+      "subject_id": "SUBJ-SUCC-43E04025ED88",
+      "document_page": 310,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-186662ECEFE4"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D7685818A71E"
+      ],
+      "review_rationale": "Great Britain’s western-expedition route retrieves the failed Moira/Granville linkage on 309; its political-aims subdivision supplies the continuing uncertainty about French partners on 310. These are the expressly relevant British-aid routes allowed by the parent, so the lack of a separate Moira heading is not itself an omission."
+    },
+    {
+      "treatment_id": "TREAT-D8C4388C9017",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 316,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-21B7D429D29B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E3E5FF270B37",
+        "PATH-D7685818A71E",
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-DBE54D68AC4C",
+      "subject_id": "SUBJ-SUCC-67735238DEAA",
+      "document_page": 298,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-36588CEAC31E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E7E7D417E53C"
+      ],
+      "review_rationale": "Counter-revolution > factionalism directly reaches the initial lack of unity, exile rivalries, opposing constitutional programmes, Quiberon scapegoating and the concluding causal assessment. The émigré camp subdivision provides the explicit 310/314 distinction. No credit is claimed from its partial 305 or the separate partial factionalism locator at313."
+    },
+    {
+      "treatment_id": "TREAT-E4548E5A306F",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 317,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-01027DA6AFBD"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50794C329754"
+      ],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-E926C4C9FBA5",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "document_page": 299,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-B58CB023749E"
+      ],
+      "status": "missed",
+      "tested_path_ids": [],
+      "review_rationale": "Continental-power relations/self-interest, British political aims, competing intelligence and the war’s émigré consequences provide specific routes to the foreign-dependence argument and317overall assessment. The Spanish minister’s299demand that Louis act has no delivered foreign-policy or comparable specific route; Louis’s299rescue-schemes locator describes Mirabeau rather than establishing that diplomatic demand. Retain that supporting omission without manufacturing a sovereign agency claim."
+    },
+    {
+      "treatment_id": "TREAT-E97B4702A9DB",
+      "subject_id": "SUBJ-SUCC-9EDD5BE1F09D",
+      "document_page": 298,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-949E7D603638"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-7EC984B7712C"
+      ],
+      "review_rationale": "The emergence-in-June subdivision, explicit anti-/counter-revolution distinction and overall-assessment route retrieve the definition, divided entry into the movement, local resistance and the surviving constitutional alternative. The index does not erase the distinction by treating all opposition as restorationism."
+    },
+    {
+      "treatment_id": "TREAT-EB04C38E5CA9",
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "document_page": 307,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-54A23C3572AA"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D94DE7CF4A0C"
+      ],
+      "review_rationale": "Restoration programmes and their limited appeal are distinguished from the 1791 constitutional model and electoral prospects. The selected specific routes retrieve the princes’ declarations, Verona’s rejection of compromise, Toulon’s qualified monarchy and the surviving limited-monarchy alternative without conflating the programmes."
+    },
+    {
+      "treatment_id": "TREAT-EB3415BD7883",
+      "subject_id": "SUBJ-SUCC-4F5D0E057A07",
+      "document_page": 315,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-2F9E8B6C54C9"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-2DF134C617B0",
+        "PATH-DBB26BAD855C",
+        "PATH-6B61C97B102F"
+      ],
+      "review_rationale": "Condé’s émigré army and Pichegru’s royalist approaches expose survival in imperial service and the unexecuted 1795–96 scheme. The d’Antraigues arrest/revelations route covers disclosed contacts at 315. None asserts that negotiation became an accomplished offensive."
+    },
+    {
+      "treatment_id": "TREAT-EDAB15C9E3A2",
+      "subject_id": "SUBJ-SUCC-3CA7ED910B5B",
+      "document_page": 309,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-65ED0158FB12",
+        "EVID-SUCC-F08BFB2E00B7"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-804B64A59ADA"
+      ],
+      "review_rationale": "Puisaye’s named subdivisions retrieve British persuasion/exaggerated manpower, appointment and subsequent loss of authority. The earlier 308 Caen/Federalist appearance has no equivalent delivered Puisaye or specific event route; generic Federalist royalism is not evidence of that individual episode. The supporting omission is localized; the principal argument remains accessible."
+    },
+    {
+      "treatment_id": "TREAT-F6A57BDB4326",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 314,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-ED922330F5D5"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D7685818A71E",
+        "PATH-6628120E70B0"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    },
+    {
+      "treatment_id": "TREAT-F6E6E26ACBCB",
+      "subject_id": "SUBJ-SUCC-3CA7ED910B5B",
+      "document_page": 312,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-295946408928"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-C28CE978CAAF"
+      ],
+      "review_rationale": "Puisaye’s named subdivisions retrieve British persuasion/exaggerated manpower, appointment and subsequent loss of authority. The earlier 308 Caen/Federalist appearance has no equivalent delivered Puisaye or specific event route; generic Federalist royalism is not evidence of that individual episode. The supporting omission is localized; the principal argument remains accessible."
+    },
+    {
+      "treatment_id": "TREAT-FA15993A98A3",
+      "subject_id": "SUBJ-SUCC-C4FAB0F8965D",
+      "document_page": 316,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-9887D4419908"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D7685818A71E"
+      ],
+      "review_rationale": "The paired British subdivisions separate strategic/constitutional conditions from concrete support for western insurgents, covering every required principal, supporting and concluding treatment. Sustained assistance is not mislabeled unconditional Bourbon restoration."
+    }
+  ],
+  "review_method": "Fresh explicit parent, treatment, task, facet, scope and relationship review against the effective frozen successor and current registered locator evidence. No previous missing-access rows transferred. R2 targeted source corrections and exact values were rechecked; all unaffected factual judgments were preserved without hash relabeling.",
+  "completion": {
+    "expected": 21,
+    "judged": 21,
+    "complete": true,
+    "subjects_unique": true,
+    "reader_tasks_expected": 9,
+    "reader_tasks_judged": 9,
+    "reader_tasks_unique": true,
+    "concept_coverage_counts": {
+      "complete": 18,
+      "partial": 3
+    },
+    "locator_recall": {
+      "expected": 90,
+      "found": 87,
+      "missed": 3,
+      "rate": 0.9666666666666667
+    }
+  },
+  "reader_task_completion": {
+    "expected": 9,
+    "judged": 9,
+    "unique": true,
+    "complete": true
+  },
+  "treatment_completion": {
+    "expected": 96,
+    "judged": 96,
+    "unique": true,
+    "complete": true
+  }
+}

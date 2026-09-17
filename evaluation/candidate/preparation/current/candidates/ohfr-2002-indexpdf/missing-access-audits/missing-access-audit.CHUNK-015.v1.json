@@ -1,0 +1,4972 @@
+{
+  "schema_version": "missing-access-audit-v1",
+  "evaluation_id": "ohfr-2002-indexpdf-v8",
+  "benchmark_sha256": "9b2d39adb5c7151cd956b6b9444977f9177790e0b9890db12186296f9e272292",
+  "candidate_sha256": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
+  "chunk_id": "CHUNK-015",
+  "expected_subject_ids": [
+    "SUBJ-SUCC-02AF5D334E8F",
+    "SUBJ-SUCC-0E9117EAD92A",
+    "SUBJ-SUCC-1C3515CE1B7F",
+    "SUBJ-SUCC-3256F9538F44",
+    "SUBJ-SUCC-38E8081905D0",
+    "SUBJ-SUCC-3B1FDDD99EF6",
+    "SUBJ-SUCC-431D9939D11B",
+    "SUBJ-SUCC-44A8A4E36810",
+    "SUBJ-SUCC-50777206BE7A",
+    "SUBJ-SUCC-56FAED657225",
+    "SUBJ-SUCC-63FC319A198D",
+    "SUBJ-SUCC-65EB9D04AEF8",
+    "SUBJ-SUCC-6A33E492BFCC",
+    "SUBJ-SUCC-7C338D256927",
+    "SUBJ-SUCC-80B9CA82989A",
+    "SUBJ-SUCC-84B2C8434BA6",
+    "SUBJ-SUCC-8760C754C67B",
+    "SUBJ-SUCC-8EB370248C8E",
+    "SUBJ-SUCC-9C234417CEB0",
+    "SUBJ-SUCC-A196529B349B",
+    "SUBJ-SUCC-A6EB838468C1",
+    "SUBJ-SUCC-A91A3B09441B",
+    "SUBJ-SUCC-C6F2BF879546",
+    "SUBJ-SUCC-C8BC4BB76AF8",
+    "SUBJ-SUCC-C9C4454491D0",
+    "SUBJ-SUCC-D33E439E4979",
+    "SUBJ-SUCC-E57561515D9B",
+    "SUBJ-SUCC-EB2C28D684C6",
+    "SUBJ-SUCC-F0BD6A05AAAD",
+    "SUBJ-SUCC-F15AB2809FA2",
+    "SUBJ-SUCC-F58A108E4435",
+    "SUBJ-SUCC-F8A938B3B147"
+  ],
+  "expected_reader_task_ids": [
+    "TASK-SUCC-020B95F67B8A",
+    "TASK-SUCC-0B7EB66185E6",
+    "TASK-SUCC-2C646441C390",
+    "TASK-SUCC-392398A8EC5B",
+    "TASK-SUCC-3E389A82CD8E",
+    "TASK-SUCC-4023DF544FEE",
+    "TASK-SUCC-46BC20C9AA18",
+    "TASK-SUCC-4A6551565346",
+    "TASK-SUCC-5C4661071C9D",
+    "TASK-SUCC-982A60537FFC",
+    "TASK-SUCC-9A9BBCB8C6E8",
+    "TASK-SUCC-B445EC8059DB",
+    "TASK-SUCC-B8E68FF8EF19",
+    "TASK-SUCC-EF3D358DA16E",
+    "TASK-SUCC-EFF63D1CF8B3",
+    "TASK-SUCC-IRDEP-007",
+    "TASK-SUCC-IRDEP-008"
+  ],
+  "expected_treatment_ids": [
+    "TREAT-1025A6B383C6",
+    "TREAT-115919D9936F",
+    "TREAT-15AAA45D0811",
+    "TREAT-18D3F00E200C",
+    "TREAT-1AB3EE27ACB8",
+    "TREAT-1B3DDEF55174",
+    "TREAT-1D669D26C4C3",
+    "TREAT-1D9478ACE467",
+    "TREAT-1EDBF79E7995",
+    "TREAT-203BC5CB26C8",
+    "TREAT-20C37D8B167A",
+    "TREAT-28ACE817601B",
+    "TREAT-2CC095A73284",
+    "TREAT-343F7B5BA170",
+    "TREAT-382B411B0814",
+    "TREAT-3875B9CCE671",
+    "TREAT-3917ECB5DAD1",
+    "TREAT-3D4539EF2250",
+    "TREAT-3FA730CA1B55",
+    "TREAT-4137910049D4",
+    "TREAT-41FCC58F1236",
+    "TREAT-4332930C9C73",
+    "TREAT-46B7358EAAD5",
+    "TREAT-4CEF22E995EB",
+    "TREAT-4E1A4099FAF3",
+    "TREAT-4E57899F1535",
+    "TREAT-50A1083D73AC",
+    "TREAT-56A2C0382AC1",
+    "TREAT-56BB8147455F",
+    "TREAT-5A893812DA48",
+    "TREAT-5D01A38E439A",
+    "TREAT-5DB7A27000CC",
+    "TREAT-5FEBE8DE5855",
+    "TREAT-62943E54EE55",
+    "TREAT-64711458E0B7",
+    "TREAT-673B36FFE8ED",
+    "TREAT-67BF508BA3BB",
+    "TREAT-6A86EC66B18C",
+    "TREAT-6BE4098121B2",
+    "TREAT-71A292D4770B",
+    "TREAT-724381DEBBCD",
+    "TREAT-7261F0976834",
+    "TREAT-748E0D79614D",
+    "TREAT-752AC1A9CF6B",
+    "TREAT-761A5FA4513B",
+    "TREAT-77A5B4023B98",
+    "TREAT-7B0BAE50B3B9",
+    "TREAT-7C675596A4FC",
+    "TREAT-7CA53C52543C",
+    "TREAT-7D6E7AF14A6A",
+    "TREAT-7EE22000A6B5",
+    "TREAT-84D64A26DAAD",
+    "TREAT-864096A43BF9",
+    "TREAT-8661C2F75466",
+    "TREAT-8883B867F49F",
+    "TREAT-8B43456F6D3A",
+    "TREAT-8D2F93276E3F",
+    "TREAT-90339B7F69B0",
+    "TREAT-9083AAA9D61B",
+    "TREAT-9269866FCECD",
+    "TREAT-936AFB7A39C8",
+    "TREAT-95A29F0E0DE6",
+    "TREAT-9A887127F38E",
+    "TREAT-9D8D0A98B3BC",
+    "TREAT-A07EC392A2BF",
+    "TREAT-A6412B55A319",
+    "TREAT-A6A5913ED31E",
+    "TREAT-A82709C86319",
+    "TREAT-AC22B9BE60AA",
+    "TREAT-AC44F31703EA",
+    "TREAT-AF3B038B778A",
+    "TREAT-B33E3BB871B4",
+    "TREAT-B3ABC4A8CEF7",
+    "TREAT-B4164921184A",
+    "TREAT-B55282952651",
+    "TREAT-B906B371DDD2",
+    "TREAT-BABF1F3BE956",
+    "TREAT-BC0777DD033A",
+    "TREAT-C179A21DC131",
+    "TREAT-CE43D5721010",
+    "TREAT-D009005E0A32",
+    "TREAT-DCC909C5CFB0",
+    "TREAT-DDA22212D05C",
+    "TREAT-E2C2A8CBAE1B",
+    "TREAT-E2E39C81DB39",
+    "TREAT-E433B136D48D",
+    "TREAT-E823C0BC5CBB",
+    "TREAT-EFC9A704135E",
+    "TREAT-F0444B2FDD52",
+    "TREAT-F1D51A6278E8",
+    "TREAT-F359308CF97D",
+    "TREAT-F374045F3678",
+    "TREAT-F39C6426F3E9",
+    "TREAT-F93463182D61",
+    "TREAT-FCF13983AE5C",
+    "TREAT-FDF479EA6012",
+    "TREAT-FE0AE3B2A71C"
+  ],
+  "subject_judgments": [
+    {
+      "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-CA38C7A9AFC5",
+        "PATH-A341E5E64720",
+        "PATH-3FDF7E71486F",
+        "PATH-232F9F14CBF7",
+        "PATH-E84373AD3BA5"
+      ],
+      "expected_document_pages": [
+        356,
+        357,
+        358,
+        359,
+        361,
+        367
+      ],
+      "found_document_pages": [
+        356,
+        357,
+        358,
+        359,
+        361,
+        367
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            357,
+            358,
+            359
+          ],
+          "found_document_pages": [
+            357,
+            358,
+            359
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            356,
+            361
+          ],
+          "found_document_pages": [
+            356,
+            361
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            367
+          ],
+          "found_document_pages": [
+            367
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-C61B2B655FF8",
+            "EVID-SUCC-CE99E50F7A62",
+            "EVID-SUCC-44CD379362ED",
+            "EVID-SUCC-84AAA80F4DC7",
+            "EVID-SUCC-F72983EE9B5C",
+            "EVID-SUCC-181C7F7C4A48",
+            "EVID-SUCC-80BBFB2E4E69"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-C61B2B655FF8",
+        "EVID-SUCC-CE99E50F7A62",
+        "EVID-SUCC-44CD379362ED",
+        "EVID-SUCC-84AAA80F4DC7",
+        "EVID-SUCC-F72983EE9B5C",
+        "EVID-SUCC-181C7F7C4A48",
+        "EVID-SUCC-80BBFB2E4E69"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Italian Jacobins/patriots distinguishes limited support, suppression and anti-French plots; Italy initial strategy356 reaches rejected republican networks. Langhe367 preserves revolutionary images used against France, preventing the broad backlash from being treated as uniformly reactionary."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-BD897BB33446"
+      ],
+      "expected_document_pages": [
+        366,
+        367
+      ],
+      "found_document_pages": [
+        366,
+        367
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            366
+          ],
+          "found_document_pages": [
+            366
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            367
+          ],
+          "found_document_pages": [
+            367
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-AA106393B16D",
+            "EVID-SUCC-B6AAE6C61F53"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-AA106393B16D",
+        "EVID-SUCC-B6AAE6C61F53"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The exact Tuscany occupation/resistance subdivision reaches strategic extraction366 and Florence367 with older religious and subsistence grievances, not just rural reaction."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1C3515CE1B7F",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-F605B66293D5",
+        "PATH-03E73EAD432F",
+        "PATH-54DCB573BEF6",
+        "PATH-F2E7FE82C3FA"
+      ],
+      "expected_document_pages": [
+        368,
+        374
+      ],
+      "found_document_pages": [
+        368,
+        374
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            368,
+            374
+          ],
+          "found_document_pages": [
+            368,
+            374
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            374
+          ],
+          "found_document_pages": [
+            374
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-260DA72F340A",
+            "EVID-SUCC-75F76808CCAC",
+            "EVID-SUCC-69D143AAB9F9"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-260DA72F340A",
+        "EVID-SUCC-75F76808CCAC",
+        "EVID-SUCC-69D143AAB9F9"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Bonaparte departure/abandonment368 and return374 plus coup partnership374 preserve departure before the order arrived, later surrender as later, and tactical coalition before the actual coup."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3256F9538F44",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-7758583323D7",
+        "PATH-C5E9701902FF",
+        "PATH-B56AEA2C990F"
+      ],
+      "expected_document_pages": [
+        344,
+        346
+      ],
+      "found_document_pages": [
+        344,
+        346
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            344,
+            346
+          ],
+          "found_document_pages": [
+            344,
+            346
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-4D7150ACDC51",
+            "EVID-SUCC-9199E65CF4B0"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-4D7150ACDC51",
+        "EVID-SUCC-9199E65CF4B0"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Batavian French-backed coup344 and Daendels/elections346 distinguish the opposing interventions and return to elections; Fructidor repercussions344 provides the explicit French model."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-38E8081905D0",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-07398C160804",
+        "PATH-70EBD4A2FC08",
+        "PATH-D9BDA325A4BC",
+        "PATH-93A9ED5EF4AD"
+      ],
+      "expected_document_pages": [
+        349,
+        350
+      ],
+      "found_document_pages": [
+        349,
+        350
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            350
+          ],
+          "found_document_pages": [
+            350
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            349
+          ],
+          "found_document_pages": [
+            349
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-794B1FA65170",
+            "EVID-SUCC-82A36C534C8D"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-794B1FA65170",
+        "EVID-SUCC-82A36C534C8D"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Belgian incorporation/religious policy349 and separate revolt/urban-integration350 paths retain rural resistance versus pragmatic bourgeois accommodation. Economic benefit is not worded as adoption of French nationality."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3B1FDDD99EF6",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-451370E40F8B",
+        "PATH-0D6BF4B61060"
+      ],
+      "expected_document_pages": [
+        360,
+        361
+      ],
+      "found_document_pages": [
+        360,
+        361
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            360
+          ],
+          "found_document_pages": [
+            360
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            361
+          ],
+          "found_document_pages": [
+            361
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-BC89C3B53EBA",
+            "EVID-SUCC-01054BD20004"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-BC89C3B53EBA",
+        "EVID-SUCC-01054BD20004"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Venice partition and Bonaparte Venetian partition360–361 retrieve resistance/Verona as pretext and Austrian territorial gains; no liberation claim substitutes for the bargain."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-431D9939D11B",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-E3A1803BF2D4"
+      ],
+      "expected_document_pages": [
+        358,
+        359,
+        360,
+        362,
+        363,
+        367
+      ],
+      "found_document_pages": [
+        358,
+        359,
+        360,
+        362,
+        363,
+        367
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            359
+          ],
+          "found_document_pages": [
+            359
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            358,
+            360,
+            362
+          ],
+          "found_document_pages": [
+            358,
+            360,
+            362
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            363,
+            367
+          ],
+          "found_document_pages": [
+            363,
+            367
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-6996BBC051B8",
+            "EVID-SUCC-14F4EE4885AB",
+            "EVID-SUCC-71F13B3FECE0",
+            "EVID-SUCC-019A0894470E",
+            "EVID-SUCC-488EBDFDD4BA",
+            "EVID-SUCC-298088BDA748"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-6996BBC051B8",
+        "EVID-SUCC-14F4EE4885AB",
+        "EVID-SUCC-71F13B3FECE0",
+        "EVID-SUCC-019A0894470E",
+        "EVID-SUCC-488EBDFDD4BA",
+        "EVID-SUCC-298088BDA748"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Italian unification movement is a direct conceptual route across all six treatments, distinguishing patriot aspiration, French obstruction, symbols, regional consolidation and radical frustration."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-489A85B370E8",
+        "PATH-529F1C7DFBAA",
+        "PATH-D0EBA86FF0B0"
+      ],
+      "expected_document_pages": [
+        346,
+        347
+      ],
+      "found_document_pages": [
+        346,
+        347
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            347
+          ],
+          "found_document_pages": [
+            347
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            346
+          ],
+          "found_document_pages": [
+            346
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-28C63DACB433",
+            "EVID-SUCC-F0451D51357A"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-28C63DACB433",
+        "EVID-SUCC-F0451D51357A"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Batavian fiscal exploitation346–347, economic crisis347 and invasion/dependence346–347 expose different British blockade and French extraction costs plus the lack of a viable alternative. Relative internal autonomy remains a qualified explanation in the reached passage, not independence."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-50777206BE7A",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-D0EBA86FF0B0",
+        "PATH-05423585BB1A"
+      ],
+      "expected_document_pages": [
+        346,
+        347
+      ],
+      "found_document_pages": [
+        346,
+        347
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            346
+          ],
+          "found_document_pages": [
+            346
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            347
+          ],
+          "found_document_pages": [
+            347
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-52A49EF0CF9D",
+            "EVID-SUCC-980DB7E0C6DB"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-52A49EF0CF9D",
+        "EVID-SUCC-980DB7E0C6DB"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The named Anglo-Russian invasion/dependence subdivision spans346–347 and the Britain route supplements it. Defeat of invasion coexists with naval surrender, dependence and absent popular Orangist restoration."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-56FAED657225",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-B1D283BCB4D8",
+        "PATH-F2C8D2F9CBAD"
+      ],
+      "expected_document_pages": [
+        364,
+        365
+      ],
+      "found_document_pages": [
+        364,
+        365
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            364,
+            365
+          ],
+          "found_document_pages": [
+            364,
+            365
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-703744C6F7F1",
+            "EVID-SUCC-63B9D260A990"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-703744C6F7F1",
+        "EVID-SUCC-63B9D260A990"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Sanfedist movement and Ruffo364–365 reach organization, social/religious mobilization, feudal concessions, disorder and restraint. The wording does not equate autonomous local vendettas with the later court’s deliberate reprisals."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-89456F42FEE8",
+        "PATH-31F8B8A3DEA6",
+        "PATH-4CCC4EBFE02C"
+      ],
+      "expected_document_pages": [
+        351,
+        352
+      ],
+      "found_document_pages": [
+        351,
+        352
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            351
+          ],
+          "found_document_pages": [
+            351
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            352
+          ],
+          "found_document_pages": [
+            352
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            351
+          ],
+          "found_document_pages": [
+            351
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-76D157B8BBE7",
+            "EVID-SUCC-177ACCCD53F5",
+            "EVID-SUCC-136F6F8CDFE1",
+            "EVID-ISR-63FC-RHINELAND-352"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-76D157B8BBE7",
+        "EVID-SUCC-177ACCCD53F5",
+        "EVID-SUCC-136F6F8CDFE1",
+        "EVID-ISR-63FC-RHINELAND-352"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Rhineland incorporation351–352 and Cis-Rhenan proposal351 retrieve competing French calculations, Hoche’s alternative, practical departmentalization and weak local consent. They do not promise a popular national mandate or silently merge practical and final legal annexation."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-65EB9D04AEF8",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-5FEC5DB7A47A",
+        "PATH-9A242E961590",
+        "PATH-340AA50BC783",
+        "PATH-88B487D811FF"
+      ],
+      "expected_document_pages": [
+        349,
+        353,
+        356,
+        366,
+        367
+      ],
+      "found_document_pages": [
+        349,
+        353,
+        356,
+        366,
+        367
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            349,
+            353,
+            366
+          ],
+          "found_document_pages": [
+            349,
+            353,
+            366
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            356,
+            367
+          ],
+          "found_document_pages": [
+            356,
+            367
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-666BD1638131",
+            "EVID-SUCC-198419836D02",
+            "EVID-SUCC-C8BC810B7533",
+            "EVID-SUCC-E774392E3245",
+            "EVID-SUCC-8949F435116B"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-666BD1638131",
+        "EVID-SUCC-198419836D02",
+        "EVID-SUCC-C8BC810B7533",
+        "EVID-SUCC-E774392E3245",
+        "EVID-SUCC-8949F435116B"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Religion under French rule has distinct Belgian, Rhenish, Swiss and Italian subheads with all five pages. These expose confiscation, clerical restrictions and resistance without reducing the whole comparison to a generic anti-clerical heading."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6A33E492BFCC",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-D9BDA325A4BC",
+        "PATH-1F386C2EB7F4",
+        "PATH-160BD1CE2370"
+      ],
+      "expected_document_pages": [
+        349,
+        350
+      ],
+      "found_document_pages": [
+        349,
+        350
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            349,
+            350
+          ],
+          "found_document_pages": [
+            349,
+            350
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-11BD669785A2",
+            "EVID-SUCC-7CD556324143"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-11BD669785A2",
+        "EVID-SUCC-7CD556324143"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Belgian revolt/repression350 and conscription349–350 retrieve the onset, motives, defeat and continued evasion; the separate Luxembourg uprising350 retains the limited related case without importing the entire Belgian course."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7C338D256927",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-A87C2B580A83",
+        "PATH-01303D1CD2E2",
+        "PATH-E151D79B8879",
+        "PATH-E46727DCA5ED",
+        "PATH-DBF0AD113569"
+      ],
+      "expected_document_pages": [
+        341,
+        342,
+        343
+      ],
+      "found_document_pages": [
+        341,
+        342,
+        343
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            342
+          ],
+          "found_document_pages": [
+            342
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            341
+          ],
+          "found_document_pages": [
+            341
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            343
+          ],
+          "found_document_pages": [
+            343
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-EE9B14B8A048",
+            "EVID-SUCC-08B0B906AAE3",
+            "EVID-SUCC-90B92E18FB3D"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-EE9B14B8A048",
+        "EVID-SUCC-08B0B906AAE3",
+        "EVID-SUCC-90B92E18FB3D"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The Irish Rebellion hierarchy separates roots341, repression/defeat342, French aid342–343 and comparative significance343. Wexford342 gives the regional sectarian phase. Late French arrival and limited geography remain distinct from the initial defeated risings and the qualified scale comparison."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-80B9CA82989A",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-819100FDBF78",
+        "PATH-E46B1014114D",
+        "PATH-88B487D811FF"
+      ],
+      "expected_document_pages": [
+        358,
+        359
+      ],
+      "found_document_pages": [
+        358,
+        359
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            358,
+            359
+          ],
+          "found_document_pages": [
+            358,
+            359
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-D9C015A0AF93",
+            "EVID-SUCC-261476A8E0C7"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-D9C015A0AF93",
+        "EVID-SUCC-261476A8E0C7"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Lombardy exploitation/rural resistance358–359 and regionally scoped exploitation/religion retrieve tax/art extraction, Pavia and fragmented rural resistance, including hostility to soldiers of different sides."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-42DF9852877D",
+        "PATH-20D734B874AB",
+        "PATH-CA38C7A9AFC5",
+        "PATH-B86339D51E0E",
+        "PATH-1750543D3B92"
+      ],
+      "expected_document_pages": [
+        356,
+        357,
+        358,
+        359,
+        360,
+        361
+      ],
+      "found_document_pages": [
+        356,
+        357,
+        358,
+        359,
+        360,
+        361
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            357,
+            358,
+            359,
+            360,
+            361
+          ],
+          "found_document_pages": [
+            357,
+            358,
+            359,
+            360,
+            361
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            356
+          ],
+          "found_document_pages": [
+            356
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-AAE59F5B1F69",
+            "EVID-SUCC-51614596259E",
+            "EVID-SUCC-8005403591A8",
+            "EVID-SUCC-E9B28112309F",
+            "EVID-SUCC-6A3D6B83D8D8",
+            "EVID-SUCC-F2286F756229"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-AAE59F5B1F69",
+        "EVID-SUCC-51614596259E",
+        "EVID-SUCC-8005403591A8",
+        "EVID-SUCC-E9B28112309F",
+        "EVID-SUCC-6A3D6B83D8D8",
+        "EVID-SUCC-F2286F756229"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Bonaparte’s Italian occupation356–359 and Cispadane/Cisalpine360–361 routes provide the changing policies; Directory reluctance and Italy initial strategy preserve the bargaining-counter intention and rejected Alba project. Dictated-government361 shows the contingent control, not an asserted timeless national-liberation blueprint."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8760C754C67B",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-6D44E19C9CB8",
+        "PATH-C0ECB87317D6"
+      ],
+      "expected_document_pages": [
+        353
+      ],
+      "found_document_pages": [
+        353
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            353
+          ],
+          "found_document_pages": [
+            353
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-F23942D77EFE"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-F23942D77EFE"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Rhineland religious policy/priest-led opposition and passive resistance353 directly preserve real clerical leadership and lack of a general uprising, without treating the former as an imaginary conspiracy or latter as acceptance."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8EB370248C8E",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-DE6D49D0D54D",
+        "PATH-07398C160804",
+        "PATH-FEA5F21DC906",
+        "PATH-93A9ED5EF4AD"
+      ],
+      "expected_document_pages": [
+        348,
+        350
+      ],
+      "found_document_pages": [
+        348,
+        350
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            348
+          ],
+          "found_document_pages": [
+            348
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            348
+          ],
+          "found_document_pages": [
+            348
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            350
+          ],
+          "found_document_pages": [
+            350
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-970F5E89AFE1",
+            "EVID-SUCC-69C644CEE89E",
+            "EVID-SUCC-3E73C926B8BA"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-970F5E89AFE1",
+        "EVID-SUCC-69C644CEE89E",
+        "EVID-SUCC-3E73C926B8BA"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Belgian occupation/extraction and incorporation348 retrieve agency, reversal and annexation; exploitation350 and urban integration350 preserve later recovery after earlier devastation."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9C234417CEB0",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-B06BE011625B",
+        "PATH-E84373AD3BA5"
+      ],
+      "expected_document_pages": [
+        365,
+        366,
+        367
+      ],
+      "found_document_pages": [
+        366,
+        367
+      ],
+      "missed_document_pages": [
+        365
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            366
+          ],
+          "found_document_pages": [
+            366
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            365,
+            367
+          ],
+          "found_document_pages": [
+            367
+          ],
+          "missed_document_pages": [
+            365
+          ],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 2,
+        "missed": 1
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-C353476CF78C",
+            "EVID-SUCC-170469CAF78F",
+            "EVID-SUCC-25C8D61508D7"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 365,
+          "locator_class": "supporting",
+          "reason_code": "no_semantically_adequate_delivered_route",
+          "evidence_ids": [
+            "EVID-SUCC-C353476CF78C"
+          ]
+        }
+      ],
+      "error_codes": [
+        "COV",
+        "LOC_NEG"
+      ],
+      "evidence_ids": [
+        "EVID-SUCC-C353476CF78C",
+        "EVID-SUCC-170469CAF78F",
+        "EVID-SUCC-25C8D61508D7"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Piedmont occupation/annexation366 and Langhe367 retrieve the principal outcome and qualified symbolic resistance without imposing a corrected referendum date. No supported365 route reaches the earlier coerced alliance and garrison-rights treatment; the available365 paths concern Naples/Sanfedists and cannot supply it."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A196529B349B",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-FC6CB789ADCB",
+        "PATH-841F6EF156D9",
+        "PATH-B86339D51E0E"
+      ],
+      "expected_document_pages": [
+        364,
+        365
+      ],
+      "found_document_pages": [
+        364,
+        365
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            364
+          ],
+          "found_document_pages": [
+            364
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            364,
+            365
+          ],
+          "found_document_pages": [
+            364,
+            365
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-C842021F69FC",
+            "EVID-SUCC-AD9CBE093E37",
+            "EVID-SUCC-6C98E9F8413B"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-C842021F69FC",
+        "EVID-SUCC-AD9CBE093E37",
+        "EVID-SUCC-6C98E9F8413B"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Parthenopean Republic364–365 plus lazzaroni364 and Directory reluctance364 retrieve creation, urban anti-elite violence, dependence, withdrawal and deliberate restored-court reprisals. The lazzaroni route does not label the crowd disciplined Bourbon loyalists."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A6EB838468C1",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-17FC6785DAD1"
+      ],
+      "expected_document_pages": [
+        362,
+        363
+      ],
+      "found_document_pages": [
+        362,
+        363
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            362,
+            363
+          ],
+          "found_document_pages": [
+            362,
+            363
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-7DA653EC0029",
+            "EVID-SUCC-5BDD58FB4859"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-7DA653EC0029",
+        "EVID-SUCC-5BDD58FB4859"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The exact Ligurian Republic362–363 heading reaches local constitutional initiative/plebiscite and the French-forced financial coup as distinct phases."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A91A3B09441B",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-9E1EA86773AC",
+        "PATH-5E7066CCAF69",
+        "PATH-20D734B874AB"
+      ],
+      "expected_document_pages": [
+        359,
+        360,
+        361
+      ],
+      "found_document_pages": [
+        359,
+        360,
+        361
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            359,
+            360
+          ],
+          "found_document_pages": [
+            359,
+            360
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            360,
+            361
+          ],
+          "found_document_pages": [
+            360,
+            361
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-565603A2C0AE",
+            "EVID-SUCC-9A25117271E0",
+            "EVID-SUCC-36A85AA15FEE",
+            "EVID-SUCC-CBD814C9648B"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-565603A2C0AE",
+        "EVID-SUCC-9A25117271E0",
+        "EVID-SUCC-36A85AA15FEE",
+        "EVID-SUCC-CBD814C9648B"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Cispadane359–360 and Cisalpine creation/strategy360–361 retrieve local administrations, conservative elections and amalgamation under Bonaparte, without turning this into a settled Italian-national plan."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C6F2BF879546",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-BE24401BFE27",
+        "PATH-B1D283BCB4D8",
+        "PATH-88B487D811FF",
+        "PATH-9CC1820C0803"
+      ],
+      "expected_document_pages": [
+        365,
+        366,
+        367,
+        368
+      ],
+      "found_document_pages": [
+        365,
+        366,
+        367,
+        368
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            365,
+            366,
+            367
+          ],
+          "found_document_pages": [
+            365,
+            366,
+            367
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            368
+          ],
+          "found_document_pages": [
+            368
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-F4137DB482A4",
+            "EVID-SUCC-C56C34FDECEE",
+            "EVID-SUCC-2C82C6AF5379",
+            "EVID-SUCC-04DF2961C43F"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-F4137DB482A4",
+        "EVID-SUCC-C56C34FDECEE",
+        "EVID-SUCC-2C82C6AF5379",
+        "EVID-SUCC-04DF2961C43F"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Italian anti-French revolt365–368 supplies local grievances and coalition interaction; Sanfedists365 gives social mobilization and religion366–367 adds confessional/urban causes. The explicit Jews attacks367 entry satisfies the minority-specific access requirement, rather than relying only on a generic backlash route."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-50E6D31DBBD3",
+        "PATH-1A4CC0544931"
+      ],
+      "expected_document_pages": [
+        363,
+        368
+      ],
+      "found_document_pages": [
+        363,
+        368
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            368
+          ],
+          "found_document_pages": [
+            368
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            363
+          ],
+          "found_document_pages": [
+            363
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-E967D80207FC",
+            "EVID-SUCC-44B8B2998640"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-E967D80207FC",
+        "EVID-SUCC-44B8B2998640"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Second Coalition363/368 and sister-republic collapse368 retrieve renewed war and the German/Swiss/Italian defeats and retreat. The latter is explicitly Italian in its supporting evidence; no claim that all sister republics vanished is made."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C9C4454491D0",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-1750543D3B92",
+        "PATH-183E74F1CC67",
+        "PATH-691F5F2A8DEA",
+        "PATH-2F056F902421"
+      ],
+      "expected_document_pages": [
+        361,
+        362,
+        363
+      ],
+      "found_document_pages": [
+        361,
+        362,
+        363
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            361,
+            362,
+            363
+          ],
+          "found_document_pages": [
+            361,
+            362,
+            363
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            361
+          ],
+          "found_document_pages": [
+            361
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-774F2B76A0C8",
+            "EVID-SUCC-3DBE504C71E9",
+            "EVID-SUCC-C281E3558236",
+            "EVID-SUCC-5AFBEAC10940"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-774F2B76A0C8",
+        "EVID-SUCC-3DBE504C71E9",
+        "EVID-SUCC-C281E3558236",
+        "EVID-SUCC-5AFBEAC10940"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Cisalpine dictated government, alliance obligations, coups and constitutional remodelling cover361–363, retaining successive opposing clients and Brune’s disobedience instead of imagining uniform French agents."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-D33E439E4979",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-56BC10791ADD",
+        "PATH-88B487D811FF",
+        "PATH-986016086613"
+      ],
+      "expected_document_pages": [
+        362,
+        363
+      ],
+      "found_document_pages": [
+        362,
+        363
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            362,
+            363
+          ],
+          "found_document_pages": [
+            362,
+            363
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            362
+          ],
+          "found_document_pages": [
+            362
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            363
+          ],
+          "found_document_pages": [
+            363
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-3D4E27082CDB",
+            "EVID-SUCC-EB347EB27ECA",
+            "EVID-SUCC-28DD40A151EF",
+            "EVID-SUCC-D0D97EA5ABA2"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-3D4E27082CDB",
+        "EVID-SUCC-EB347EB27ECA",
+        "EVID-SUCC-28DD40A151EF",
+        "EVID-SUCC-D0D97EA5ABA2"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Roman Republic362–363 explicitly retrieves occupation/proclamation, commandant supremacy and economic/religious crisis; regional religion and poor relief363 expose the attacked local livelihood and charity base. Different local drafting in Liguria is not attributed to Rome."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E57561515D9B",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-54F754C33CCC",
+        "PATH-99A9A1EAB5A1",
+        "PATH-5267A3B0D04F"
+      ],
+      "expected_document_pages": [
+        355,
+        356
+      ],
+      "found_document_pages": [
+        355,
+        356
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            355,
+            356
+          ],
+          "found_document_pages": [
+            355,
+            356
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-9066DF3250C0",
+            "EVID-SUCC-A6EA58399C32"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-9066DF3250C0",
+        "EVID-SUCC-A6EA58399C32"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Helvetic exploitation/control355–356, reform/confessional resistance356 and war/recruitment355–356 give all required institutional, manpower and resistance claims. Reform benefits and inherited democratic liberties remain visible alongside coercion."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-EB2C28D684C6",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-70EBD4A2FC08",
+        "PATH-5FEC5DB7A47A"
+      ],
+      "expected_document_pages": [
+        349,
+        350
+      ],
+      "found_document_pages": [
+        349,
+        350
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            349
+          ],
+          "found_document_pages": [
+            349
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            350
+          ],
+          "found_document_pages": [
+            350
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-616F069C1A51",
+            "EVID-SUCC-3D8ACA671E47"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-616F069C1A51",
+        "EVID-SUCC-3D8ACA671E47"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Belgian religious policy349 and religion under French rule349–350 reach the escalation and limited enforcement of mass deportation. The Vendée analogy concerns policy mistakes and clerical authority, not identity of every local sequence."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-4C7715DDB438",
+        "PATH-7758583323D7",
+        "PATH-C5E9701902FF",
+        "PATH-BAC8D18EA1BD"
+      ],
+      "expected_document_pages": [
+        343,
+        344,
+        346
+      ],
+      "found_document_pages": [
+        343,
+        344,
+        346
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            343,
+            344
+          ],
+          "found_document_pages": [
+            343,
+            344
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            346
+          ],
+          "found_document_pages": [
+            346
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-877D2B07602C",
+            "EVID-SUCC-7552A25A4687",
+            "EVID-SUCC-CDEAA28824C3"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-877D2B07602C",
+        "EVID-SUCC-7552A25A4687",
+        "EVID-SUCC-CDEAA28824C3"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "The Batavian constitutional hierarchy distinguishes rejected draft343–344, coerced democratic constitution344 and Daendels/regular elections346. Church disestablishment344 supplements reforms. The headings state episodes and calendar years without correcting the source’s inconsistent elapsed interval or asserting independent diplomacy."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-F58ABDC181C0",
+        "PATH-CB86FB4DF5C5",
+        "PATH-2B7CC1A44AA0",
+        "PATH-7ADBB037B79F",
+        "PATH-54F754C33CCC",
+        "PATH-1F386C2EB7F4",
+        "PATH-4CCC4EBFE02C"
+      ],
+      "expected_document_pages": [
+        354,
+        355
+      ],
+      "found_document_pages": [
+        354,
+        355
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            354,
+            355
+          ],
+          "found_document_pages": [
+            354,
+            355
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            355
+          ],
+          "found_document_pages": [
+            355
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-EBBD37CFC492",
+            "EVID-SUCC-8304B419D86B",
+            "EVID-SUCC-B16836890975"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-EBBD37CFC492",
+        "EVID-SUCC-8304B419D86B",
+        "EVID-SUCC-B16836890975"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Helvetic strategic/imposed-constitution paths354–355, Ochs and La Harpe name routes, annexation354 and occupation/recruitment355 preserve distinct reformer motives, Berne/Vaud contexts, imposed unity, treasury seizures and rejected manpower demand."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F58A108E4435",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-D9BDA325A4BC",
+        "PATH-99A9A1EAB5A1",
+        "PATH-5267A3B0D04F",
+        "PATH-BE24401BFE27",
+        "PATH-8E084907420A",
+        "PATH-872B59B78D56",
+        "PATH-E46727DCA5ED"
+      ],
+      "expected_document_pages": [
+        350,
+        356,
+        366,
+        367,
+        368
+      ],
+      "found_document_pages": [
+        350,
+        356,
+        366,
+        367,
+        368
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            366
+          ],
+          "found_document_pages": [
+            366
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            350,
+            356
+          ],
+          "found_document_pages": [
+            350,
+            356
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            367,
+            368
+          ],
+          "found_document_pages": [
+            367,
+            368
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-DD05D2C74E31",
+            "EVID-SUCC-A7C0D6D1CD90",
+            "EVID-SUCC-E40FA3967E8A",
+            "EVID-SUCC-5D0BC5DBC4E5",
+            "EVID-SUCC-190EBFDDD79B"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-DD05D2C74E31",
+        "EVID-SUCC-A7C0D6D1CD90",
+        "EVID-SUCC-E40FA3967E8A",
+        "EVID-SUCC-5D0BC5DBC4E5",
+        "EVID-SUCC-190EBFDDD79B"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Regional rebellion paths retrieve Belgium350, Switzerland356 and Italy366–368, while resistance comparative pattern and declining foreign support367–368 retrieve the broad Year VII contrast and Irish exception. The Irish-specific route’s missing368 continuation matters to a different narrow Irish-expectations parent; these broad comparative routes are semantically appropriate to this comparative parent and do not replace the missing named route there."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F8A938B3B147",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-2D9794220DB7",
+        "PATH-8D5BE5E2BADB",
+        "PATH-2047543EBA5F"
+      ],
+      "expected_document_pages": [
+        352,
+        353
+      ],
+      "found_document_pages": [
+        352,
+        353
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            352
+          ],
+          "found_document_pages": [
+            352
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            353
+          ],
+          "found_document_pages": [
+            353
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_delivered_cross_reference_route_used_not_a_warrant_finding",
+          "evidence_ids": [
+            "EVID-SUCC-828BBF842D01",
+            "EVID-SUCC-F12F017097F2"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-828BBF842D01",
+        "EVID-SUCC-F12F017097F2"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "review_rationale": "Rhineland military exploitation, customs/trade and ecclesiastical economy subdivisions352–353 retrieve repeated extraction, frontier disruption and redirected feudal/tithe revenue. Systematic administration is not falsely labelled an end to exploitation."
+    }
+  ],
+  "reader_task_results": [
+    {
+      "task_id": "TASK-SUCC-020B95F67B8A",
+      "subject_ids": [
+        "SUBJ-SUCC-F0BD6A05AAAD",
+        "SUBJ-SUCC-3256F9538F44"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-4C7715DDB438",
+        "PATH-7758583323D7",
+        "PATH-C5E9701902FF",
+        "PATH-BAC8D18EA1BD",
+        "PATH-B56AEA2C990F"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-4D7150ACDC51",
+        "EVID-SUCC-7552A25A4687",
+        "EVID-SUCC-877D2B07602C",
+        "EVID-SUCC-9199E65CF4B0",
+        "EVID-SUCC-CDEAA28824C3"
+      ],
+      "review_rationale": "Batavian constitutional struggle343–344 and the two coups344/346 supply the changing balance between local constitutional initiative, democracy and French intervention. The later reversal qualifies the January settlement rather than being collapsed into it."
+    },
+    {
+      "task_id": "TASK-SUCC-0B7EB66185E6",
+      "subject_ids": [
+        "SUBJ-SUCC-44A8A4E36810",
+        "SUBJ-SUCC-50777206BE7A",
+        "SUBJ-SUCC-F0BD6A05AAAD"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-489A85B370E8",
+        "PATH-529F1C7DFBAA",
+        "PATH-D0EBA86FF0B0",
+        "PATH-05423585BB1A",
+        "PATH-4C7715DDB438",
+        "PATH-7758583323D7",
+        "PATH-C5E9701902FF",
+        "PATH-BAC8D18EA1BD"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-28C63DACB433",
+        "EVID-SUCC-52A49EF0CF9D",
+        "EVID-SUCC-7552A25A4687",
+        "EVID-SUCC-877D2B07602C",
+        "EVID-SUCC-980DB7E0C6DB",
+        "EVID-SUCC-CDEAA28824C3",
+        "EVID-SUCC-F0451D51357A"
+      ],
+      "review_rationale": "Dutch economic burdens346–347 and invasion346–347 retrieve trade, industry, poor relief and military dependency alongside the test of Orangist loyalty; neutrality and restoration are not equated."
+    },
+    {
+      "task_id": "TASK-SUCC-2C646441C390",
+      "subject_ids": [
+        "SUBJ-SUCC-8EB370248C8E",
+        "SUBJ-SUCC-EB2C28D684C6",
+        "SUBJ-SUCC-6A33E492BFCC",
+        "SUBJ-SUCC-38E8081905D0"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-DE6D49D0D54D",
+        "PATH-07398C160804",
+        "PATH-FEA5F21DC906",
+        "PATH-93A9ED5EF4AD",
+        "PATH-70EBD4A2FC08",
+        "PATH-5FEC5DB7A47A",
+        "PATH-D9BDA325A4BC",
+        "PATH-1F386C2EB7F4",
+        "PATH-160BD1CE2370"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-11BD669785A2",
+        "EVID-SUCC-3D8ACA671E47",
+        "EVID-SUCC-3E73C926B8BA",
+        "EVID-SUCC-616F069C1A51",
+        "EVID-SUCC-69C644CEE89E",
+        "EVID-SUCC-794B1FA65170",
+        "EVID-SUCC-7CD556324143",
+        "EVID-SUCC-82A36C534C8D",
+        "EVID-SUCC-970F5E89AFE1"
+      ],
+      "review_rationale": "Belgian annexation348, religious policy349, Peasants War349–350 and differing responses350 explicitly connect extraction, recruitment and parish religion while distinguishing rural insurgency from urban reactions."
+    },
+    {
+      "task_id": "TASK-SUCC-392398A8EC5B",
+      "subject_ids": [
+        "SUBJ-SUCC-80B9CA82989A",
+        "SUBJ-SUCC-C9C4454491D0",
+        "SUBJ-SUCC-C6F2BF879546",
+        "SUBJ-SUCC-D33E439E4979"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-819100FDBF78",
+        "PATH-E46B1014114D",
+        "PATH-88B487D811FF",
+        "PATH-1750543D3B92",
+        "PATH-183E74F1CC67",
+        "PATH-691F5F2A8DEA",
+        "PATH-2F056F902421",
+        "PATH-BE24401BFE27",
+        "PATH-B1D283BCB4D8",
+        "PATH-9CC1820C0803",
+        "PATH-56BC10791ADD",
+        "PATH-986016086613"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-04DF2961C43F",
+        "EVID-SUCC-261476A8E0C7",
+        "EVID-SUCC-28DD40A151EF",
+        "EVID-SUCC-2C82C6AF5379",
+        "EVID-SUCC-3D4E27082CDB",
+        "EVID-SUCC-3DBE504C71E9",
+        "EVID-SUCC-5AFBEAC10940",
+        "EVID-SUCC-774F2B76A0C8",
+        "EVID-SUCC-C281E3558236",
+        "EVID-SUCC-C56C34FDECEE",
+        "EVID-SUCC-D0D97EA5ABA2",
+        "EVID-SUCC-D9C015A0AF93",
+        "EVID-SUCC-EB347EB27ECA",
+        "EVID-SUCC-F4137DB482A4"
+      ],
+      "review_rationale": "Lombard extraction/Pavia358–359, Cisalpine361–363, Roman362–363 and resistance366–367 provide the requested comparison of religion, fiscal burdens and town-country conflict. Distinct local mechanisms remain visible."
+    },
+    {
+      "task_id": "TASK-SUCC-3E389A82CD8E",
+      "subject_ids": [
+        "SUBJ-SUCC-1C3515CE1B7F",
+        "SUBJ-SUCC-C8BC4BB76AF8",
+        "SUBJ-SUCC-F58A108E4435"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-F605B66293D5",
+        "PATH-03E73EAD432F",
+        "PATH-54DCB573BEF6",
+        "PATH-F2E7FE82C3FA",
+        "PATH-50E6D31DBBD3",
+        "PATH-1A4CC0544931",
+        "PATH-D9BDA325A4BC",
+        "PATH-99A9A1EAB5A1",
+        "PATH-5267A3B0D04F",
+        "PATH-BE24401BFE27",
+        "PATH-8E084907420A",
+        "PATH-872B59B78D56",
+        "PATH-E46727DCA5ED"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-190EBFDDD79B",
+        "EVID-SUCC-260DA72F340A",
+        "EVID-SUCC-44B8B2998640",
+        "EVID-SUCC-5D0BC5DBC4E5",
+        "EVID-SUCC-69D143AAB9F9",
+        "EVID-SUCC-75F76808CCAC",
+        "EVID-SUCC-A7C0D6D1CD90",
+        "EVID-SUCC-DD05D2C74E31",
+        "EVID-SUCC-E40FA3967E8A",
+        "EVID-SUCC-E967D80207FC"
+      ],
+      "review_rationale": "Coalition collapse and Bonaparte departure368 connect reverses, exhausted resources and local hostility with his decision to leave Egypt; return374 supplies the political opportunity without asserting an exclusively public motive."
+    },
+    {
+      "task_id": "TASK-SUCC-4023DF544FEE",
+      "subject_ids": [
+        "SUBJ-SUCC-02AF5D334E8F",
+        "SUBJ-SUCC-431D9939D11B",
+        "SUBJ-SUCC-84B2C8434BA6"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-CA38C7A9AFC5",
+        "PATH-A341E5E64720",
+        "PATH-3FDF7E71486F",
+        "PATH-232F9F14CBF7",
+        "PATH-E84373AD3BA5",
+        "PATH-E3A1803BF2D4",
+        "PATH-42DF9852877D",
+        "PATH-20D734B874AB",
+        "PATH-B86339D51E0E",
+        "PATH-1750543D3B92"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-019A0894470E",
+        "EVID-SUCC-14F4EE4885AB",
+        "EVID-SUCC-181C7F7C4A48",
+        "EVID-SUCC-298088BDA748",
+        "EVID-SUCC-44CD379362ED",
+        "EVID-SUCC-488EBDFDD4BA",
+        "EVID-SUCC-51614596259E",
+        "EVID-SUCC-6996BBC051B8",
+        "EVID-SUCC-6A3D6B83D8D8",
+        "EVID-SUCC-71F13B3FECE0",
+        "EVID-SUCC-8005403591A8",
+        "EVID-SUCC-80BBFB2E4E69",
+        "EVID-SUCC-84AAA80F4DC7",
+        "EVID-SUCC-AAE59F5B1F69",
+        "EVID-SUCC-C61B2B655FF8",
+        "EVID-SUCC-CE99E50F7A62",
+        "EVID-SUCC-E9B28112309F",
+        "EVID-SUCC-F2286F756229",
+        "EVID-SUCC-F72983EE9B5C"
+      ],
+      "review_rationale": "Italian Jacobins357–359 and unity359/362–363/367 distinguish radical national ambition, moderate territorial reform and narrow social bases; Bonaparte policy356–361 makes instrumental French patronage and its limits retrievable."
+    },
+    {
+      "task_id": "TASK-SUCC-46BC20C9AA18",
+      "subject_ids": [
+        "SUBJ-SUCC-C6F2BF879546",
+        "SUBJ-SUCC-9C234417CEB0",
+        "SUBJ-SUCC-0E9117EAD92A",
+        "SUBJ-SUCC-02AF5D334E8F",
+        "SUBJ-SUCC-431D9939D11B"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-BE24401BFE27",
+        "PATH-B1D283BCB4D8",
+        "PATH-88B487D811FF",
+        "PATH-9CC1820C0803",
+        "PATH-B06BE011625B",
+        "PATH-E84373AD3BA5",
+        "PATH-BD897BB33446",
+        "PATH-CA38C7A9AFC5",
+        "PATH-A341E5E64720",
+        "PATH-3FDF7E71486F",
+        "PATH-232F9F14CBF7",
+        "PATH-E3A1803BF2D4"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-019A0894470E",
+        "EVID-SUCC-04DF2961C43F",
+        "EVID-SUCC-14F4EE4885AB",
+        "EVID-SUCC-170469CAF78F",
+        "EVID-SUCC-181C7F7C4A48",
+        "EVID-SUCC-25C8D61508D7",
+        "EVID-SUCC-298088BDA748",
+        "EVID-SUCC-2C82C6AF5379",
+        "EVID-SUCC-44CD379362ED",
+        "EVID-SUCC-488EBDFDD4BA",
+        "EVID-SUCC-6996BBC051B8",
+        "EVID-SUCC-71F13B3FECE0",
+        "EVID-SUCC-80BBFB2E4E69",
+        "EVID-SUCC-84AAA80F4DC7",
+        "EVID-SUCC-AA106393B16D",
+        "EVID-SUCC-B6AAE6C61F53",
+        "EVID-SUCC-C353476CF78C",
+        "EVID-SUCC-C56C34FDECEE",
+        "EVID-SUCC-C61B2B655FF8",
+        "EVID-SUCC-CE99E50F7A62",
+        "EVID-SUCC-F4137DB482A4",
+        "EVID-SUCC-F72983EE9B5C"
+      ],
+      "review_rationale": "Named Piedmont/Langhe366–367, Tuscany366–367, Jews367 and Jacobin divisions retrieve the actual comparison: inconsistent popular loyalties, Jacobin local involvement and anti-Jewish attacks complicate a uniform royalist reading. The Piedmont parent lacks supporting365 coercive-alliance treatment, but that is not required to answer this specific367 comparison."
+    },
+    {
+      "task_id": "TASK-SUCC-4A6551565346",
+      "subject_ids": [
+        "SUBJ-SUCC-A91A3B09441B",
+        "SUBJ-SUCC-C9C4454491D0",
+        "SUBJ-SUCC-84B2C8434BA6",
+        "SUBJ-SUCC-02AF5D334E8F"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-9E1EA86773AC",
+        "PATH-5E7066CCAF69",
+        "PATH-20D734B874AB",
+        "PATH-1750543D3B92",
+        "PATH-183E74F1CC67",
+        "PATH-691F5F2A8DEA",
+        "PATH-2F056F902421",
+        "PATH-42DF9852877D",
+        "PATH-CA38C7A9AFC5",
+        "PATH-B86339D51E0E",
+        "PATH-A341E5E64720",
+        "PATH-3FDF7E71486F",
+        "PATH-232F9F14CBF7",
+        "PATH-E84373AD3BA5"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-181C7F7C4A48",
+        "EVID-SUCC-36A85AA15FEE",
+        "EVID-SUCC-3DBE504C71E9",
+        "EVID-SUCC-44CD379362ED",
+        "EVID-SUCC-51614596259E",
+        "EVID-SUCC-565603A2C0AE",
+        "EVID-SUCC-5AFBEAC10940",
+        "EVID-SUCC-6A3D6B83D8D8",
+        "EVID-SUCC-774F2B76A0C8",
+        "EVID-SUCC-8005403591A8",
+        "EVID-SUCC-80BBFB2E4E69",
+        "EVID-SUCC-84AAA80F4DC7",
+        "EVID-SUCC-9A25117271E0",
+        "EVID-SUCC-AAE59F5B1F69",
+        "EVID-SUCC-C281E3558236",
+        "EVID-SUCC-C61B2B655FF8",
+        "EVID-SUCC-CBD814C9648B",
+        "EVID-SUCC-CE99E50F7A62",
+        "EVID-SUCC-E9B28112309F",
+        "EVID-SUCC-F2286F756229",
+        "EVID-SUCC-F72983EE9B5C"
+      ],
+      "review_rationale": "Cispadane359–361, Cisalpine361–363 and Bonaparte/Patriot routes explicitly connect local organization and strategic bargaining to amalgamation, nominated power and continued dependence."
+    },
+    {
+      "task_id": "TASK-SUCC-5C4661071C9D",
+      "subject_ids": [
+        "SUBJ-SUCC-A196529B349B",
+        "SUBJ-SUCC-56FAED657225"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-FC6CB789ADCB",
+        "PATH-841F6EF156D9",
+        "PATH-B86339D51E0E",
+        "PATH-B1D283BCB4D8",
+        "PATH-F2C8D2F9CBAD"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-63B9D260A990",
+        "EVID-SUCC-6C98E9F8413B",
+        "EVID-SUCC-703744C6F7F1",
+        "EVID-SUCC-AD9CBE093E37",
+        "EVID-SUCC-C842021F69FC"
+      ],
+      "review_rationale": "Parthenopean Republic364–365 and Sanfedist/Ruffo routes distinguish withdrawal and reconquest from subsequent royal-court punishment supported by Britain. Ruffo reluctance is not lost by calling all reprisals his programme."
+    },
+    {
+      "task_id": "TASK-SUCC-982A60537FFC",
+      "subject_ids": [
+        "SUBJ-SUCC-A91A3B09441B",
+        "SUBJ-SUCC-C9C4454491D0",
+        "SUBJ-SUCC-A6EB838468C1",
+        "SUBJ-SUCC-D33E439E4979"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-9E1EA86773AC",
+        "PATH-5E7066CCAF69",
+        "PATH-20D734B874AB",
+        "PATH-1750543D3B92",
+        "PATH-183E74F1CC67",
+        "PATH-691F5F2A8DEA",
+        "PATH-2F056F902421",
+        "PATH-17FC6785DAD1",
+        "PATH-56BC10791ADD",
+        "PATH-88B487D811FF",
+        "PATH-986016086613"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-28DD40A151EF",
+        "EVID-SUCC-36A85AA15FEE",
+        "EVID-SUCC-3D4E27082CDB",
+        "EVID-SUCC-3DBE504C71E9",
+        "EVID-SUCC-565603A2C0AE",
+        "EVID-SUCC-5AFBEAC10940",
+        "EVID-SUCC-5BDD58FB4859",
+        "EVID-SUCC-774F2B76A0C8",
+        "EVID-SUCC-7DA653EC0029",
+        "EVID-SUCC-9A25117271E0",
+        "EVID-SUCC-C281E3558236",
+        "EVID-SUCC-CBD814C9648B",
+        "EVID-SUCC-D0D97EA5ABA2",
+        "EVID-SUCC-EB347EB27ECA"
+      ],
+      "review_rationale": "Separate Cispadane, Cisalpine, Ligurian and Roman entries359–363 retrieve different drafting, electoral and command arrangements; local authorship in Liguria is distinguished from French-imposed constitutional and military control elsewhere."
+    },
+    {
+      "task_id": "TASK-SUCC-9A9BBCB8C6E8",
+      "subject_ids": [
+        "SUBJ-SUCC-3B1FDDD99EF6",
+        "SUBJ-SUCC-C31553A0D1B9",
+        "SUBJ-SUCC-7EDE1C0062AD"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-451370E40F8B",
+        "PATH-0D6BF4B61060",
+        "PATH-D8055F222340",
+        "PATH-6318DECD243C"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-01054BD20004",
+        "EVID-SUCC-54AB5F7FC770",
+        "EVID-SUCC-69ED21AA9725",
+        "EVID-SUCC-7C84C418A6D4",
+        "EVID-SUCC-8111FBAB71A1",
+        "EVID-SUCC-AC7123B93914",
+        "EVID-SUCC-BC89C3B53EBA",
+        "EVID-SUCC-EB41AE30EFD5"
+      ],
+      "review_rationale": "Leoben214–215/217, Venice214–215/217/360–361 and Campo Formio217/361 let the reader follow bargaining and partition as a limit on liberation. Austrian disposal is accessible through the explicit treaty routes, not inferred from unrelated Italian locators."
+    },
+    {
+      "task_id": "TASK-SUCC-B445EC8059DB",
+      "subject_ids": [
+        "SUBJ-SUCC-7C338D256927",
+        "SUBJ-SUCC-E26867406B1D"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-A87C2B580A83",
+        "PATH-01303D1CD2E2",
+        "PATH-E151D79B8879",
+        "PATH-E46727DCA5ED",
+        "PATH-DBF0AD113569"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-08B0B906AAE3",
+        "EVID-SUCC-1DF4E6855822",
+        "EVID-SUCC-4A14DC6945D5",
+        "EVID-SUCC-6953797F3096",
+        "EVID-SUCC-872F7145F5C9",
+        "EVID-SUCC-90B92E18FB3D",
+        "EVID-SUCC-9C4A83CCB91E",
+        "EVID-SUCC-9D8BE1CE0DB4",
+        "EVID-SUCC-B3B5499A21E3",
+        "EVID-SUCC-E829F884D3C9",
+        "EVID-SUCC-EE9B14B8A048"
+      ],
+      "review_rationale": "United Irishmen341–342, rebellion341–343 and Wexford342 retrieve organization, disrupted leadership, divergent elite/peasant expectations and failed French intervention. The broader Irish subject misses a separate368 comparison, but this onset-and-failure demand is fully retrievable in341–343."
+    },
+    {
+      "task_id": "TASK-SUCC-B8E68FF8EF19",
+      "subject_ids": [
+        "SUBJ-SUCC-F58A108E4435",
+        "SUBJ-SUCC-C8BC4BB76AF8"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-D9BDA325A4BC",
+        "PATH-99A9A1EAB5A1",
+        "PATH-5267A3B0D04F",
+        "PATH-BE24401BFE27",
+        "PATH-8E084907420A",
+        "PATH-872B59B78D56",
+        "PATH-E46727DCA5ED",
+        "PATH-50E6D31DBBD3",
+        "PATH-1A4CC0544931"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-190EBFDDD79B",
+        "EVID-SUCC-44B8B2998640",
+        "EVID-SUCC-5D0BC5DBC4E5",
+        "EVID-SUCC-A7C0D6D1CD90",
+        "EVID-SUCC-DD05D2C74E31",
+        "EVID-SUCC-E40FA3967E8A",
+        "EVID-SUCC-E967D80207FC"
+      ],
+      "review_rationale": "Comparative resistance and foreign-support routes350/356/366–368 retrieve declining friends, heterogeneous local conflicts and military overstretch, followed by the Italian collapse368. No universal nationalist unity is implied."
+    },
+    {
+      "task_id": "TASK-SUCC-EF3D358DA16E",
+      "subject_ids": [
+        "SUBJ-SUCC-63FC319A198D",
+        "SUBJ-SUCC-F8A938B3B147",
+        "SUBJ-SUCC-8760C754C67B",
+        "SUBJ-SUCC-6A33E492BFCC"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-89456F42FEE8",
+        "PATH-31F8B8A3DEA6",
+        "PATH-4CCC4EBFE02C",
+        "PATH-2D9794220DB7",
+        "PATH-8D5BE5E2BADB",
+        "PATH-2047543EBA5F",
+        "PATH-6D44E19C9CB8",
+        "PATH-C0ECB87317D6",
+        "PATH-D9BDA325A4BC",
+        "PATH-1F386C2EB7F4",
+        "PATH-160BD1CE2370"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-ISR-63FC-RHINELAND-352",
+        "EVID-SUCC-11BD669785A2",
+        "EVID-SUCC-136F6F8CDFE1",
+        "EVID-SUCC-177ACCCD53F5",
+        "EVID-SUCC-76D157B8BBE7",
+        "EVID-SUCC-7CD556324143",
+        "EVID-SUCC-828BBF842D01",
+        "EVID-SUCC-F12F017097F2",
+        "EVID-SUCC-F23942D77EFE"
+      ],
+      "review_rationale": "Rhineland incorporation351–352, extraction352–353 and resistance353 can be compared with Belgian Peasants War349–350. The passages separate passive local resistance from armed insurrection despite related material and religious grievances."
+    },
+    {
+      "task_id": "TASK-SUCC-EFF63D1CF8B3",
+      "subject_ids": [
+        "SUBJ-SUCC-F15AB2809FA2",
+        "SUBJ-SUCC-E57561515D9B"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-F58ABDC181C0",
+        "PATH-CB86FB4DF5C5",
+        "PATH-2B7CC1A44AA0",
+        "PATH-7ADBB037B79F",
+        "PATH-54F754C33CCC",
+        "PATH-1F386C2EB7F4",
+        "PATH-4CCC4EBFE02C",
+        "PATH-99A9A1EAB5A1",
+        "PATH-5267A3B0D04F"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-8304B419D86B",
+        "EVID-SUCC-9066DF3250C0",
+        "EVID-SUCC-A6EA58399C32",
+        "EVID-SUCC-B16836890975",
+        "EVID-SUCC-EBBD37CFC492"
+      ],
+      "review_rationale": "Swiss initiative and strategic context354–355 plus Helvetic occupation355–356 retrieve reformist participation, imposed centralization, Alpine access and financial seizure. Local democratic and religious opposition is not treated as absence of every Swiss initiative."
+    },
+    {
+      "task_id": "TASK-SUCC-IRDEP-007",
+      "subject_ids": [
+        "SUBJ-SUCC-A196529B349B",
+        "SUBJ-SUCC-CEC665375751"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-FC6CB789ADCB",
+        "PATH-841F6EF156D9",
+        "PATH-B86339D51E0E",
+        "PATH-12E10AADFE4C",
+        "PATH-28634CAFF79C"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-15DC1CB6665C",
+        "EVID-SUCC-6C98E9F8413B",
+        "EVID-SUCC-8CDC911F698B",
+        "EVID-SUCC-8DC00704B191",
+        "EVID-SUCC-AD9CBE093E37",
+        "EVID-SUCC-C842021F69FC"
+      ],
+      "review_rationale": "Coalition and Neapolitan routes339/363–364 expose the failed attack on Rome, Championnet advance and republic formed against Directorial wishes, preserving the diplomatic damage and distinct local sequence."
+    },
+    {
+      "task_id": "TASK-SUCC-IRDEP-008",
+      "subject_ids": [
+        "SUBJ-SUCC-D33E439E4979",
+        "SUBJ-SUCC-F7E85272CDFE"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-56BC10791ADD",
+        "PATH-88B487D811FF",
+        "PATH-986016086613"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-28DD40A151EF",
+        "EVID-SUCC-37D1BFEF6EFA",
+        "EVID-SUCC-3D4E27082CDB",
+        "EVID-SUCC-8F7FAA3A801E",
+        "EVID-SUCC-944F35AE5E1D",
+        "EVID-SUCC-D0D97EA5ABA2",
+        "EVID-SUCC-EB347EB27ECA",
+        "EVID-SUCC-F3CC38D4F7DC",
+        "EVID-SUCC-FBA798BCCC80"
+      ],
+      "review_rationale": "Roman Republic338/362–363 retrieves imposed constitutional government, military supremacy and religious/fiscal conflict. Fresh direct inspection of source PDF page338 confirms the same Roman Republic passage explicitly narrates Pius VI imprisonment, eighteen months of captivity and death at Valence in August1799. This task therefore succeeds through the named Roman route despite the separate lack of captivity/death locators under the Pius VI personal heading; no unsupported385 page match is needed."
+    }
+  ],
+  "treatment_judgments": [
+    {
+      "treatment_id": "TREAT-1025A6B383C6",
+      "subject_id": "SUBJ-SUCC-F58A108E4435",
+      "document_page": 350,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-DD05D2C74E31"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D9BDA325A4BC",
+        "PATH-8E084907420A"
+      ],
+      "review_rationale": "Regional rebellion paths retrieve Belgium350, Switzerland356 and Italy366–368, while resistance comparative pattern and declining foreign support367–368 retrieve the broad Year VII contrast and Irish exception. The Irish-specific route’s missing368 continuation matters to a different narrow Irish-expectations parent; these broad comparative routes are semantically appropriate to this comparative parent and do not replace the missing named route there."
+    },
+    {
+      "treatment_id": "TREAT-115919D9936F",
+      "subject_id": "SUBJ-SUCC-A6EB838468C1",
+      "document_page": 362,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-7DA653EC0029"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-17FC6785DAD1"
+      ],
+      "review_rationale": "The exact Ligurian Republic362–363 heading reaches local constitutional initiative/plebiscite and the French-forced financial coup as distinct phases."
+    },
+    {
+      "treatment_id": "TREAT-15AAA45D0811",
+      "subject_id": "SUBJ-SUCC-6A33E492BFCC",
+      "document_page": 350,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-7CD556324143"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D9BDA325A4BC",
+        "PATH-1F386C2EB7F4",
+        "PATH-160BD1CE2370"
+      ],
+      "review_rationale": "Belgian revolt/repression350 and conscription349–350 retrieve the onset, motives, defeat and continued evasion; the separate Luxembourg uprising350 retains the limited related case without importing the entire Belgian course."
+    },
+    {
+      "treatment_id": "TREAT-18D3F00E200C",
+      "subject_id": "SUBJ-SUCC-50777206BE7A",
+      "document_page": 347,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-980DB7E0C6DB"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D0EBA86FF0B0",
+        "PATH-05423585BB1A"
+      ],
+      "review_rationale": "The named Anglo-Russian invasion/dependence subdivision spans346–347 and the Britain route supplements it. Defeat of invasion coexists with naval surrender, dependence and absent popular Orangist restoration."
+    },
+    {
+      "treatment_id": "TREAT-1AB3EE27ACB8",
+      "subject_id": "SUBJ-SUCC-65EB9D04AEF8",
+      "document_page": 367,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-8949F435116B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-88B487D811FF"
+      ],
+      "review_rationale": "Religion under French rule has distinct Belgian, Rhenish, Swiss and Italian subheads with all five pages. These expose confiscation, clerical restrictions and resistance without reducing the whole comparison to a generic anti-clerical heading."
+    },
+    {
+      "treatment_id": "TREAT-1B3DDEF55174",
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "document_page": 347,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F0451D51357A"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-489A85B370E8",
+        "PATH-529F1C7DFBAA",
+        "PATH-D0EBA86FF0B0"
+      ],
+      "review_rationale": "Batavian fiscal exploitation346–347, economic crisis347 and invasion/dependence346–347 expose different British blockade and French extraction costs plus the lack of a viable alternative. Relative internal autonomy remains a qualified explanation in the reached passage, not independence."
+    },
+    {
+      "treatment_id": "TREAT-1D669D26C4C3",
+      "subject_id": "SUBJ-SUCC-E57561515D9B",
+      "document_page": 355,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-9066DF3250C0"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-54F754C33CCC",
+        "PATH-5267A3B0D04F"
+      ],
+      "review_rationale": "Helvetic exploitation/control355–356, reform/confessional resistance356 and war/recruitment355–356 give all required institutional, manpower and resistance claims. Reform benefits and inherited democratic liberties remain visible alongside coercion."
+    },
+    {
+      "treatment_id": "TREAT-1D9478ACE467",
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "document_page": 361,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-E9B28112309F"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-20D734B874AB",
+        "PATH-1750543D3B92"
+      ],
+      "review_rationale": "Bonaparte’s Italian occupation356–359 and Cispadane/Cisalpine360–361 routes provide the changing policies; Directory reluctance and Italy initial strategy preserve the bargaining-counter intention and rejected Alba project. Dictated-government361 shows the contingent control, not an asserted timeless national-liberation blueprint."
+    },
+    {
+      "treatment_id": "TREAT-1EDBF79E7995",
+      "subject_id": "SUBJ-SUCC-C6F2BF879546",
+      "document_page": 368,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-04DF2961C43F"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BE24401BFE27"
+      ],
+      "review_rationale": "Italian anti-French revolt365–368 supplies local grievances and coalition interaction; Sanfedists365 gives social mobilization and religion366–367 adds confessional/urban causes. The explicit Jews attacks367 entry satisfies the minority-specific access requirement, rather than relying only on a generic backlash route."
+    },
+    {
+      "treatment_id": "TREAT-203BC5CB26C8",
+      "subject_id": "SUBJ-SUCC-A6EB838468C1",
+      "document_page": 363,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-5BDD58FB4859"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-17FC6785DAD1"
+      ],
+      "review_rationale": "The exact Ligurian Republic362–363 heading reaches local constitutional initiative/plebiscite and the French-forced financial coup as distinct phases."
+    },
+    {
+      "treatment_id": "TREAT-20C37D8B167A",
+      "subject_id": "SUBJ-SUCC-431D9939D11B",
+      "document_page": 362,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-71F13B3FECE0"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E3A1803BF2D4"
+      ],
+      "review_rationale": "Italian unification movement is a direct conceptual route across all six treatments, distinguishing patriot aspiration, French obstruction, symbols, regional consolidation and radical frustration."
+    },
+    {
+      "treatment_id": "TREAT-28ACE817601B",
+      "subject_id": "SUBJ-SUCC-3B1FDDD99EF6",
+      "document_page": 360,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-BC89C3B53EBA"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-451370E40F8B",
+        "PATH-0D6BF4B61060"
+      ],
+      "review_rationale": "Venice partition and Bonaparte Venetian partition360–361 retrieve resistance/Verona as pretext and Austrian territorial gains; no liberation claim substitutes for the bargain."
+    },
+    {
+      "treatment_id": "TREAT-2CC095A73284",
+      "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+      "document_page": 357,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-84AAA80F4DC7",
+        "EVID-SUCC-CE99E50F7A62"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-CA38C7A9AFC5",
+        "PATH-A341E5E64720"
+      ],
+      "review_rationale": "Italian Jacobins/patriots distinguishes limited support, suppression and anti-French plots; Italy initial strategy356 reaches rejected republican networks. Langhe367 preserves revolutionary images used against France, preventing the broad backlash from being treated as uniformly reactionary."
+    },
+    {
+      "treatment_id": "TREAT-343F7B5BA170",
+      "subject_id": "SUBJ-SUCC-D33E439E4979",
+      "document_page": 362,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-28DD40A151EF"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-56BC10791ADD",
+        "PATH-88B487D811FF"
+      ],
+      "review_rationale": "Roman Republic362–363 explicitly retrieves occupation/proclamation, commandant supremacy and economic/religious crisis; regional religion and poor relief363 expose the attacked local livelihood and charity base. Different local drafting in Liguria is not attributed to Rome."
+    },
+    {
+      "treatment_id": "TREAT-382B411B0814",
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "document_page": 351,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-76D157B8BBE7"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-89456F42FEE8",
+        "PATH-31F8B8A3DEA6",
+        "PATH-4CCC4EBFE02C"
+      ],
+      "review_rationale": "Rhineland incorporation351–352 and Cis-Rhenan proposal351 retrieve competing French calculations, Hoche’s alternative, practical departmentalization and weak local consent. They do not promise a popular national mandate or silently merge practical and final legal annexation."
+    },
+    {
+      "treatment_id": "TREAT-3875B9CCE671",
+      "subject_id": "SUBJ-SUCC-9C234417CEB0",
+      "document_page": 365,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-C353476CF78C"
+      ],
+      "status": "missed",
+      "tested_path_ids": [],
+      "review_rationale": "Piedmont occupation/annexation366 and Langhe367 retrieve the principal outcome and qualified symbolic resistance without imposing a corrected referendum date. No supported365 route reaches the earlier coerced alliance and garrison-rights treatment; the available365 paths concern Naples/Sanfedists and cannot supply it."
+    },
+    {
+      "treatment_id": "TREAT-3917ECB5DAD1",
+      "subject_id": "SUBJ-SUCC-50777206BE7A",
+      "document_page": 346,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-52A49EF0CF9D"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D0EBA86FF0B0",
+        "PATH-05423585BB1A"
+      ],
+      "review_rationale": "The named Anglo-Russian invasion/dependence subdivision spans346–347 and the Britain route supplements it. Defeat of invasion coexists with naval surrender, dependence and absent popular Orangist restoration."
+    },
+    {
+      "treatment_id": "TREAT-3D4539EF2250",
+      "subject_id": "SUBJ-SUCC-F58A108E4435",
+      "document_page": 368,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-190EBFDDD79B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BE24401BFE27",
+        "PATH-8E084907420A",
+        "PATH-872B59B78D56"
+      ],
+      "review_rationale": "Regional rebellion paths retrieve Belgium350, Switzerland356 and Italy366–368, while resistance comparative pattern and declining foreign support367–368 retrieve the broad Year VII contrast and Irish exception. The Irish-specific route’s missing368 continuation matters to a different narrow Irish-expectations parent; these broad comparative routes are semantically appropriate to this comparative parent and do not replace the missing named route there."
+    },
+    {
+      "treatment_id": "TREAT-3FA730CA1B55",
+      "subject_id": "SUBJ-SUCC-C6F2BF879546",
+      "document_page": 366,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F4137DB482A4"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BE24401BFE27",
+        "PATH-88B487D811FF"
+      ],
+      "review_rationale": "Italian anti-French revolt365–368 supplies local grievances and coalition interaction; Sanfedists365 gives social mobilization and religion366–367 adds confessional/urban causes. The explicit Jews attacks367 entry satisfies the minority-specific access requirement, rather than relying only on a generic backlash route."
+    },
+    {
+      "treatment_id": "TREAT-4137910049D4",
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "document_page": 358,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-AAE59F5B1F69"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-42DF9852877D",
+        "PATH-CA38C7A9AFC5"
+      ],
+      "review_rationale": "Bonaparte’s Italian occupation356–359 and Cispadane/Cisalpine360–361 routes provide the changing policies; Directory reluctance and Italy initial strategy preserve the bargaining-counter intention and rejected Alba project. Dictated-government361 shows the contingent control, not an asserted timeless national-liberation blueprint."
+    },
+    {
+      "treatment_id": "TREAT-41FCC58F1236",
+      "subject_id": "SUBJ-SUCC-C9C4454491D0",
+      "document_page": 361,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-5AFBEAC10940"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-1750543D3B92",
+        "PATH-183E74F1CC67"
+      ],
+      "review_rationale": "Cisalpine dictated government, alliance obligations, coups and constitutional remodelling cover361–363, retaining successive opposing clients and Brune’s disobedience instead of imagining uniform French agents."
+    },
+    {
+      "treatment_id": "TREAT-4332930C9C73",
+      "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+      "document_page": 361,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-80BBFB2E4E69"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-3FDF7E71486F"
+      ],
+      "review_rationale": "Italian Jacobins/patriots distinguishes limited support, suppression and anti-French plots; Italy initial strategy356 reaches rejected republican networks. Langhe367 preserves revolutionary images used against France, preventing the broad backlash from being treated as uniformly reactionary."
+    },
+    {
+      "treatment_id": "TREAT-46B7358EAAD5",
+      "subject_id": "SUBJ-SUCC-A196529B349B",
+      "document_page": 364,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C842021F69FC"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-FC6CB789ADCB",
+        "PATH-841F6EF156D9",
+        "PATH-B86339D51E0E"
+      ],
+      "review_rationale": "Parthenopean Republic364–365 plus lazzaroni364 and Directory reluctance364 retrieve creation, urban anti-elite violence, dependence, withdrawal and deliberate restored-court reprisals. The lazzaroni route does not label the crowd disciplined Bourbon loyalists."
+    },
+    {
+      "treatment_id": "TREAT-4CEF22E995EB",
+      "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+      "document_page": 363,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-E967D80207FC"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50E6D31DBBD3"
+      ],
+      "review_rationale": "Second Coalition363/368 and sister-republic collapse368 retrieve renewed war and the German/Swiss/Italian defeats and retreat. The latter is explicitly Italian in its supporting evidence; no claim that all sister republics vanished is made."
+    },
+    {
+      "treatment_id": "TREAT-4E1A4099FAF3",
+      "subject_id": "SUBJ-SUCC-A91A3B09441B",
+      "document_page": 359,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-565603A2C0AE"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-9E1EA86773AC"
+      ],
+      "review_rationale": "Cispadane359–360 and Cisalpine creation/strategy360–361 retrieve local administrations, conservative elections and amalgamation under Bonaparte, without turning this into a settled Italian-national plan."
+    },
+    {
+      "treatment_id": "TREAT-4E57899F1535",
+      "subject_id": "SUBJ-SUCC-A196529B349B",
+      "document_page": 364,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-6C98E9F8413B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-FC6CB789ADCB",
+        "PATH-841F6EF156D9",
+        "PATH-B86339D51E0E"
+      ],
+      "review_rationale": "Parthenopean Republic364–365 plus lazzaroni364 and Directory reluctance364 retrieve creation, urban anti-elite violence, dependence, withdrawal and deliberate restored-court reprisals. The lazzaroni route does not label the crowd disciplined Bourbon loyalists."
+    },
+    {
+      "treatment_id": "TREAT-50A1083D73AC",
+      "subject_id": "SUBJ-SUCC-1C3515CE1B7F",
+      "document_page": 374,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-75F76808CCAC"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-03E73EAD432F",
+        "PATH-54DCB573BEF6",
+        "PATH-F2E7FE82C3FA"
+      ],
+      "review_rationale": "Bonaparte departure/abandonment368 and return374 plus coup partnership374 preserve departure before the order arrived, later surrender as later, and tactical coalition before the actual coup."
+    },
+    {
+      "treatment_id": "TREAT-56A2C0382AC1",
+      "subject_id": "SUBJ-SUCC-3B1FDDD99EF6",
+      "document_page": 361,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-01054BD20004"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-451370E40F8B",
+        "PATH-0D6BF4B61060"
+      ],
+      "review_rationale": "Venice partition and Bonaparte Venetian partition360–361 retrieve resistance/Verona as pretext and Austrian territorial gains; no liberation claim substitutes for the bargain."
+    },
+    {
+      "treatment_id": "TREAT-56BB8147455F",
+      "subject_id": "SUBJ-SUCC-A196529B349B",
+      "document_page": 365,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-AD9CBE093E37"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-FC6CB789ADCB"
+      ],
+      "review_rationale": "Parthenopean Republic364–365 plus lazzaroni364 and Directory reluctance364 retrieve creation, urban anti-elite violence, dependence, withdrawal and deliberate restored-court reprisals. The lazzaroni route does not label the crowd disciplined Bourbon loyalists."
+    },
+    {
+      "treatment_id": "TREAT-5A893812DA48",
+      "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "document_page": 343,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-877D2B07602C"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-4C7715DDB438"
+      ],
+      "review_rationale": "The Batavian constitutional hierarchy distinguishes rejected draft343–344, coerced democratic constitution344 and Daendels/regular elections346. Church disestablishment344 supplements reforms. The headings state episodes and calendar years without correcting the source’s inconsistent elapsed interval or asserting independent diplomacy."
+    },
+    {
+      "treatment_id": "TREAT-5D01A38E439A",
+      "subject_id": "SUBJ-SUCC-7C338D256927",
+      "document_page": 341,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-EE9B14B8A048"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-A87C2B580A83",
+        "PATH-E151D79B8879"
+      ],
+      "review_rationale": "The Irish Rebellion hierarchy separates roots341, repression/defeat342, French aid342–343 and comparative significance343. Wexford342 gives the regional sectarian phase. Late French arrival and limited geography remain distinct from the initial defeated risings and the qualified scale comparison."
+    },
+    {
+      "treatment_id": "TREAT-5DB7A27000CC",
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "document_page": 360,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-8005403591A8"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-20D734B874AB"
+      ],
+      "review_rationale": "Bonaparte’s Italian occupation356–359 and Cispadane/Cisalpine360–361 routes provide the changing policies; Directory reluctance and Italy initial strategy preserve the bargaining-counter intention and rejected Alba project. Dictated-government361 shows the contingent control, not an asserted timeless national-liberation blueprint."
+    },
+    {
+      "treatment_id": "TREAT-5FEBE8DE5855",
+      "subject_id": "SUBJ-SUCC-D33E439E4979",
+      "document_page": 363,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-D0D97EA5ABA2"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-56BC10791ADD",
+        "PATH-88B487D811FF",
+        "PATH-986016086613"
+      ],
+      "review_rationale": "Roman Republic362–363 explicitly retrieves occupation/proclamation, commandant supremacy and economic/religious crisis; regional religion and poor relief363 expose the attacked local livelihood and charity base. Different local drafting in Liguria is not attributed to Rome."
+    },
+    {
+      "treatment_id": "TREAT-62943E54EE55",
+      "subject_id": "SUBJ-SUCC-C9C4454491D0",
+      "document_page": 362,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-3DBE504C71E9"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-183E74F1CC67",
+        "PATH-691F5F2A8DEA"
+      ],
+      "review_rationale": "Cisalpine dictated government, alliance obligations, coups and constitutional remodelling cover361–363, retaining successive opposing clients and Brune’s disobedience instead of imagining uniform French agents."
+    },
+    {
+      "treatment_id": "TREAT-64711458E0B7",
+      "subject_id": "SUBJ-SUCC-C9C4454491D0",
+      "document_page": 363,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C281E3558236"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-691F5F2A8DEA",
+        "PATH-2F056F902421"
+      ],
+      "review_rationale": "Cisalpine dictated government, alliance obligations, coups and constitutional remodelling cover361–363, retaining successive opposing clients and Brune’s disobedience instead of imagining uniform French agents."
+    },
+    {
+      "treatment_id": "TREAT-673B36FFE8ED",
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "document_page": 357,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F2286F756229"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-42DF9852877D",
+        "PATH-CA38C7A9AFC5",
+        "PATH-B86339D51E0E"
+      ],
+      "review_rationale": "Bonaparte’s Italian occupation356–359 and Cispadane/Cisalpine360–361 routes provide the changing policies; Directory reluctance and Italy initial strategy preserve the bargaining-counter intention and rejected Alba project. Dictated-government361 shows the contingent control, not an asserted timeless national-liberation blueprint."
+    },
+    {
+      "treatment_id": "TREAT-67BF508BA3BB",
+      "subject_id": "SUBJ-SUCC-431D9939D11B",
+      "document_page": 360,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-488EBDFDD4BA"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E3A1803BF2D4"
+      ],
+      "review_rationale": "Italian unification movement is a direct conceptual route across all six treatments, distinguishing patriot aspiration, French obstruction, symbols, regional consolidation and radical frustration."
+    },
+    {
+      "treatment_id": "TREAT-6A86EC66B18C",
+      "subject_id": "SUBJ-SUCC-9C234417CEB0",
+      "document_page": 366,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-170469CAF78F"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B06BE011625B"
+      ],
+      "review_rationale": "Piedmont occupation/annexation366 and Langhe367 retrieve the principal outcome and qualified symbolic resistance without imposing a corrected referendum date. No supported365 route reaches the earlier coerced alliance and garrison-rights treatment; the available365 paths concern Naples/Sanfedists and cannot supply it."
+    },
+    {
+      "treatment_id": "TREAT-6BE4098121B2",
+      "subject_id": "SUBJ-SUCC-3256F9538F44",
+      "document_page": 344,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-4D7150ACDC51"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-7758583323D7",
+        "PATH-B56AEA2C990F"
+      ],
+      "review_rationale": "Batavian French-backed coup344 and Daendels/elections346 distinguish the opposing interventions and return to elections; Fructidor repercussions344 provides the explicit French model."
+    },
+    {
+      "treatment_id": "TREAT-71A292D4770B",
+      "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+      "document_page": 366,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-AA106393B16D"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BD897BB33446"
+      ],
+      "review_rationale": "The exact Tuscany occupation/resistance subdivision reaches strategic extraction366 and Florence367 with older religious and subsistence grievances, not just rural reaction."
+    },
+    {
+      "treatment_id": "TREAT-724381DEBBCD",
+      "subject_id": "SUBJ-SUCC-F8A938B3B147",
+      "document_page": 353,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-F12F017097F2"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-2D9794220DB7",
+        "PATH-2047543EBA5F"
+      ],
+      "review_rationale": "Rhineland military exploitation, customs/trade and ecclesiastical economy subdivisions352–353 retrieve repeated extraction, frontier disruption and redirected feudal/tithe revenue. Systematic administration is not falsely labelled an end to exploitation."
+    },
+    {
+      "treatment_id": "TREAT-7261F0976834",
+      "subject_id": "SUBJ-SUCC-3256F9538F44",
+      "document_page": 346,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-9199E65CF4B0"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-C5E9701902FF"
+      ],
+      "review_rationale": "Batavian French-backed coup344 and Daendels/elections346 distinguish the opposing interventions and return to elections; Fructidor repercussions344 provides the explicit French model."
+    },
+    {
+      "treatment_id": "TREAT-748E0D79614D",
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "document_page": 346,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-28C63DACB433"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-489A85B370E8",
+        "PATH-D0EBA86FF0B0"
+      ],
+      "review_rationale": "Batavian fiscal exploitation346–347, economic crisis347 and invasion/dependence346–347 expose different British blockade and French extraction costs plus the lack of a viable alternative. Relative internal autonomy remains a qualified explanation in the reached passage, not independence."
+    },
+    {
+      "treatment_id": "TREAT-752AC1A9CF6B",
+      "subject_id": "SUBJ-SUCC-431D9939D11B",
+      "document_page": 358,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-6996BBC051B8"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E3A1803BF2D4"
+      ],
+      "review_rationale": "Italian unification movement is a direct conceptual route across all six treatments, distinguishing patriot aspiration, French obstruction, symbols, regional consolidation and radical frustration."
+    },
+    {
+      "treatment_id": "TREAT-761A5FA4513B",
+      "subject_id": "SUBJ-SUCC-F58A108E4435",
+      "document_page": 366,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-E40FA3967E8A"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BE24401BFE27"
+      ],
+      "review_rationale": "Regional rebellion paths retrieve Belgium350, Switzerland356 and Italy366–368, while resistance comparative pattern and declining foreign support367–368 retrieve the broad Year VII contrast and Irish exception. The Irish-specific route’s missing368 continuation matters to a different narrow Irish-expectations parent; these broad comparative routes are semantically appropriate to this comparative parent and do not replace the missing named route there."
+    },
+    {
+      "treatment_id": "TREAT-77A5B4023B98",
+      "subject_id": "SUBJ-SUCC-65EB9D04AEF8",
+      "document_page": 366,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-E774392E3245"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-88B487D811FF"
+      ],
+      "review_rationale": "Religion under French rule has distinct Belgian, Rhenish, Swiss and Italian subheads with all five pages. These expose confiscation, clerical restrictions and resistance without reducing the whole comparison to a generic anti-clerical heading."
+    },
+    {
+      "treatment_id": "TREAT-7B0BAE50B3B9",
+      "subject_id": "SUBJ-SUCC-431D9939D11B",
+      "document_page": 359,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-14F4EE4885AB"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E3A1803BF2D4"
+      ],
+      "review_rationale": "Italian unification movement is a direct conceptual route across all six treatments, distinguishing patriot aspiration, French obstruction, symbols, regional consolidation and radical frustration."
+    },
+    {
+      "treatment_id": "TREAT-7C675596A4FC",
+      "subject_id": "SUBJ-SUCC-D33E439E4979",
+      "document_page": 363,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-EB347EB27ECA"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-56BC10791ADD",
+        "PATH-88B487D811FF",
+        "PATH-986016086613"
+      ],
+      "review_rationale": "Roman Republic362–363 explicitly retrieves occupation/proclamation, commandant supremacy and economic/religious crisis; regional religion and poor relief363 expose the attacked local livelihood and charity base. Different local drafting in Liguria is not attributed to Rome."
+    },
+    {
+      "treatment_id": "TREAT-7CA53C52543C",
+      "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+      "document_page": 356,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-C61B2B655FF8"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-CA38C7A9AFC5"
+      ],
+      "review_rationale": "Italian Jacobins/patriots distinguishes limited support, suppression and anti-French plots; Italy initial strategy356 reaches rejected republican networks. Langhe367 preserves revolutionary images used against France, preventing the broad backlash from being treated as uniformly reactionary."
+    },
+    {
+      "treatment_id": "TREAT-7D6E7AF14A6A",
+      "subject_id": "SUBJ-SUCC-8EB370248C8E",
+      "document_page": 350,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-69C644CEE89E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-FEA5F21DC906",
+        "PATH-93A9ED5EF4AD"
+      ],
+      "review_rationale": "Belgian occupation/extraction and incorporation348 retrieve agency, reversal and annexation; exploitation350 and urban integration350 preserve later recovery after earlier devastation."
+    },
+    {
+      "treatment_id": "TREAT-7EE22000A6B5",
+      "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+      "document_page": 368,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-44B8B2998640"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-50E6D31DBBD3",
+        "PATH-1A4CC0544931"
+      ],
+      "review_rationale": "Second Coalition363/368 and sister-republic collapse368 retrieve renewed war and the German/Swiss/Italian defeats and retreat. The latter is explicitly Italian in its supporting evidence; no claim that all sister republics vanished is made."
+    },
+    {
+      "treatment_id": "TREAT-84D64A26DAAD",
+      "subject_id": "SUBJ-SUCC-E57561515D9B",
+      "document_page": 356,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A6EA58399C32"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-54F754C33CCC",
+        "PATH-99A9A1EAB5A1",
+        "PATH-5267A3B0D04F"
+      ],
+      "review_rationale": "Helvetic exploitation/control355–356, reform/confessional resistance356 and war/recruitment355–356 give all required institutional, manpower and resistance claims. Reform benefits and inherited democratic liberties remain visible alongside coercion."
+    },
+    {
+      "treatment_id": "TREAT-864096A43BF9",
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "document_page": 355,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-8304B419D86B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-F58ABDC181C0",
+        "PATH-CB86FB4DF5C5",
+        "PATH-2B7CC1A44AA0",
+        "PATH-7ADBB037B79F",
+        "PATH-54F754C33CCC",
+        "PATH-1F386C2EB7F4"
+      ],
+      "review_rationale": "Helvetic strategic/imposed-constitution paths354–355, Ochs and La Harpe name routes, annexation354 and occupation/recruitment355 preserve distinct reformer motives, Berne/Vaud contexts, imposed unity, treasury seizures and rejected manpower demand."
+    },
+    {
+      "treatment_id": "TREAT-8661C2F75466",
+      "subject_id": "SUBJ-SUCC-F58A108E4435",
+      "document_page": 367,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-5D0BC5DBC4E5"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BE24401BFE27",
+        "PATH-8E084907420A",
+        "PATH-872B59B78D56",
+        "PATH-E46727DCA5ED"
+      ],
+      "review_rationale": "Regional rebellion paths retrieve Belgium350, Switzerland356 and Italy366–368, while resistance comparative pattern and declining foreign support367–368 retrieve the broad Year VII contrast and Irish exception. The Irish-specific route’s missing368 continuation matters to a different narrow Irish-expectations parent; these broad comparative routes are semantically appropriate to this comparative parent and do not replace the missing named route there."
+    },
+    {
+      "treatment_id": "TREAT-8883B867F49F",
+      "subject_id": "SUBJ-SUCC-EB2C28D684C6",
+      "document_page": 350,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-3D8ACA671E47"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-5FEC5DB7A47A"
+      ],
+      "review_rationale": "Belgian religious policy349 and religion under French rule349–350 reach the escalation and limited enforcement of mass deportation. The Vendée analogy concerns policy mistakes and clerical authority, not identity of every local sequence."
+    },
+    {
+      "treatment_id": "TREAT-8B43456F6D3A",
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "document_page": 359,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-51614596259E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-42DF9852877D"
+      ],
+      "review_rationale": "Bonaparte’s Italian occupation356–359 and Cispadane/Cisalpine360–361 routes provide the changing policies; Directory reluctance and Italy initial strategy preserve the bargaining-counter intention and rejected Alba project. Dictated-government361 shows the contingent control, not an asserted timeless national-liberation blueprint."
+    },
+    {
+      "treatment_id": "TREAT-8D2F93276E3F",
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "document_page": 356,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-6A3D6B83D8D8"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-42DF9852877D",
+        "PATH-CA38C7A9AFC5",
+        "PATH-B86339D51E0E"
+      ],
+      "review_rationale": "Bonaparte’s Italian occupation356–359 and Cispadane/Cisalpine360–361 routes provide the changing policies; Directory reluctance and Italy initial strategy preserve the bargaining-counter intention and rejected Alba project. Dictated-government361 shows the contingent control, not an asserted timeless national-liberation blueprint."
+    },
+    {
+      "treatment_id": "TREAT-90339B7F69B0",
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "document_page": 351,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-177ACCCD53F5"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-89456F42FEE8",
+        "PATH-31F8B8A3DEA6",
+        "PATH-4CCC4EBFE02C"
+      ],
+      "review_rationale": "Rhineland incorporation351–352 and Cis-Rhenan proposal351 retrieve competing French calculations, Hoche’s alternative, practical departmentalization and weak local consent. They do not promise a popular national mandate or silently merge practical and final legal annexation."
+    },
+    {
+      "treatment_id": "TREAT-9083AAA9D61B",
+      "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "document_page": 346,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-CDEAA28824C3"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-C5E9701902FF"
+      ],
+      "review_rationale": "The Batavian constitutional hierarchy distinguishes rejected draft343–344, coerced democratic constitution344 and Daendels/regular elections346. Church disestablishment344 supplements reforms. The headings state episodes and calendar years without correcting the source’s inconsistent elapsed interval or asserting independent diplomacy."
+    },
+    {
+      "treatment_id": "TREAT-9269866FCECD",
+      "subject_id": "SUBJ-SUCC-80B9CA82989A",
+      "document_page": 358,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-D9C015A0AF93"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-819100FDBF78",
+        "PATH-E46B1014114D",
+        "PATH-88B487D811FF"
+      ],
+      "review_rationale": "Lombardy exploitation/rural resistance358–359 and regionally scoped exploitation/religion retrieve tax/art extraction, Pavia and fragmented rural resistance, including hostility to soldiers of different sides."
+    },
+    {
+      "treatment_id": "TREAT-936AFB7A39C8",
+      "subject_id": "SUBJ-SUCC-A91A3B09441B",
+      "document_page": 360,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-9A25117271E0"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-9E1EA86773AC",
+        "PATH-5E7066CCAF69",
+        "PATH-20D734B874AB"
+      ],
+      "review_rationale": "Cispadane359–360 and Cisalpine creation/strategy360–361 retrieve local administrations, conservative elections and amalgamation under Bonaparte, without turning this into a settled Italian-national plan."
+    },
+    {
+      "treatment_id": "TREAT-95A29F0E0DE6",
+      "subject_id": "SUBJ-SUCC-A91A3B09441B",
+      "document_page": 361,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-36A85AA15FEE"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-5E7066CCAF69",
+        "PATH-20D734B874AB"
+      ],
+      "review_rationale": "Cispadane359–360 and Cisalpine creation/strategy360–361 retrieve local administrations, conservative elections and amalgamation under Bonaparte, without turning this into a settled Italian-national plan."
+    },
+    {
+      "treatment_id": "TREAT-9A887127F38E",
+      "subject_id": "SUBJ-SUCC-EB2C28D684C6",
+      "document_page": 349,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-616F069C1A51"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-70EBD4A2FC08",
+        "PATH-5FEC5DB7A47A"
+      ],
+      "review_rationale": "Belgian religious policy349 and religion under French rule349–350 reach the escalation and limited enforcement of mass deportation. The Vendée analogy concerns policy mistakes and clerical authority, not identity of every local sequence."
+    },
+    {
+      "treatment_id": "TREAT-9D8D0A98B3BC",
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "document_page": 355,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-B16836890975"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-F58ABDC181C0",
+        "PATH-CB86FB4DF5C5",
+        "PATH-2B7CC1A44AA0",
+        "PATH-7ADBB037B79F",
+        "PATH-54F754C33CCC",
+        "PATH-1F386C2EB7F4"
+      ],
+      "review_rationale": "Helvetic strategic/imposed-constitution paths354–355, Ochs and La Harpe name routes, annexation354 and occupation/recruitment355 preserve distinct reformer motives, Berne/Vaud contexts, imposed unity, treasury seizures and rejected manpower demand."
+    },
+    {
+      "treatment_id": "TREAT-A07EC392A2BF",
+      "subject_id": "SUBJ-SUCC-8EB370248C8E",
+      "document_page": 348,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-970F5E89AFE1"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-DE6D49D0D54D",
+        "PATH-07398C160804",
+        "PATH-FEA5F21DC906"
+      ],
+      "review_rationale": "Belgian occupation/extraction and incorporation348 retrieve agency, reversal and annexation; exploitation350 and urban integration350 preserve later recovery after earlier devastation."
+    },
+    {
+      "treatment_id": "TREAT-A6412B55A319",
+      "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+      "document_page": 367,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-B6AAE6C61F53"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BD897BB33446"
+      ],
+      "review_rationale": "The exact Tuscany occupation/resistance subdivision reaches strategic extraction366 and Florence367 with older religious and subsistence grievances, not just rural reaction."
+    },
+    {
+      "treatment_id": "TREAT-A6A5913ED31E",
+      "subject_id": "SUBJ-SUCC-65EB9D04AEF8",
+      "document_page": 356,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-C8BC810B7533"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-340AA50BC783"
+      ],
+      "review_rationale": "Religion under French rule has distinct Belgian, Rhenish, Swiss and Italian subheads with all five pages. These expose confiscation, clerical restrictions and resistance without reducing the whole comparison to a generic anti-clerical heading."
+    },
+    {
+      "treatment_id": "TREAT-A82709C86319",
+      "subject_id": "SUBJ-SUCC-65EB9D04AEF8",
+      "document_page": 349,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-666BD1638131"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-5FEC5DB7A47A"
+      ],
+      "review_rationale": "Religion under French rule has distinct Belgian, Rhenish, Swiss and Italian subheads with all five pages. These expose confiscation, clerical restrictions and resistance without reducing the whole comparison to a generic anti-clerical heading."
+    },
+    {
+      "treatment_id": "TREAT-AC22B9BE60AA",
+      "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+      "document_page": 359,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-181C7F7C4A48"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-A341E5E64720",
+        "PATH-3FDF7E71486F"
+      ],
+      "review_rationale": "Italian Jacobins/patriots distinguishes limited support, suppression and anti-French plots; Italy initial strategy356 reaches rejected republican networks. Langhe367 preserves revolutionary images used against France, preventing the broad backlash from being treated as uniformly reactionary."
+    },
+    {
+      "treatment_id": "TREAT-AC44F31703EA",
+      "subject_id": "SUBJ-SUCC-F58A108E4435",
+      "document_page": 356,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-A7C0D6D1CD90"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-99A9A1EAB5A1",
+        "PATH-5267A3B0D04F"
+      ],
+      "review_rationale": "Regional rebellion paths retrieve Belgium350, Switzerland356 and Italy366–368, while resistance comparative pattern and declining foreign support367–368 retrieve the broad Year VII contrast and Irish exception. The Irish-specific route’s missing368 continuation matters to a different narrow Irish-expectations parent; these broad comparative routes are semantically appropriate to this comparative parent and do not replace the missing named route there."
+    },
+    {
+      "treatment_id": "TREAT-AF3B038B778A",
+      "subject_id": "SUBJ-SUCC-7C338D256927",
+      "document_page": 342,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-08B0B906AAE3"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-01303D1CD2E2",
+        "PATH-E151D79B8879",
+        "PATH-DBF0AD113569"
+      ],
+      "review_rationale": "The Irish Rebellion hierarchy separates roots341, repression/defeat342, French aid342–343 and comparative significance343. Wexford342 gives the regional sectarian phase. Late French arrival and limited geography remain distinct from the initial defeated risings and the qualified scale comparison."
+    },
+    {
+      "treatment_id": "TREAT-B33E3BB871B4",
+      "subject_id": "SUBJ-SUCC-431D9939D11B",
+      "document_page": 367,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-019A0894470E"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E3A1803BF2D4"
+      ],
+      "review_rationale": "Italian unification movement is a direct conceptual route across all six treatments, distinguishing patriot aspiration, French obstruction, symbols, regional consolidation and radical frustration."
+    },
+    {
+      "treatment_id": "TREAT-B3ABC4A8CEF7",
+      "subject_id": "SUBJ-SUCC-C6F2BF879546",
+      "document_page": 365,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-2C82C6AF5379"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BE24401BFE27",
+        "PATH-B1D283BCB4D8"
+      ],
+      "review_rationale": "Italian anti-French revolt365–368 supplies local grievances and coalition interaction; Sanfedists365 gives social mobilization and religion366–367 adds confessional/urban causes. The explicit Jews attacks367 entry satisfies the minority-specific access requirement, rather than relying only on a generic backlash route."
+    },
+    {
+      "treatment_id": "TREAT-B4164921184A",
+      "subject_id": "SUBJ-SUCC-F8A938B3B147",
+      "document_page": 352,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-828BBF842D01"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-2D9794220DB7",
+        "PATH-8D5BE5E2BADB",
+        "PATH-2047543EBA5F"
+      ],
+      "review_rationale": "Rhineland military exploitation, customs/trade and ecclesiastical economy subdivisions352–353 retrieve repeated extraction, frontier disruption and redirected feudal/tithe revenue. Systematic administration is not falsely labelled an end to exploitation."
+    },
+    {
+      "treatment_id": "TREAT-B55282952651",
+      "subject_id": "SUBJ-SUCC-56FAED657225",
+      "document_page": 365,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-63B9D260A990"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B1D283BCB4D8",
+        "PATH-F2C8D2F9CBAD"
+      ],
+      "review_rationale": "Sanfedist movement and Ruffo364–365 reach organization, social/religious mobilization, feudal concessions, disorder and restraint. The wording does not equate autonomous local vendettas with the later court’s deliberate reprisals."
+    },
+    {
+      "treatment_id": "TREAT-B906B371DDD2",
+      "subject_id": "SUBJ-SUCC-38E8081905D0",
+      "document_page": 349,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-82A36C534C8D"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-07398C160804",
+        "PATH-70EBD4A2FC08"
+      ],
+      "review_rationale": "Belgian incorporation/religious policy349 and separate revolt/urban-integration350 paths retain rural resistance versus pragmatic bourgeois accommodation. Economic benefit is not worded as adoption of French nationality."
+    },
+    {
+      "treatment_id": "TREAT-BABF1F3BE956",
+      "subject_id": "SUBJ-SUCC-6A33E492BFCC",
+      "document_page": 349,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-11BD669785A2"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-1F386C2EB7F4"
+      ],
+      "review_rationale": "Belgian revolt/repression350 and conscription349–350 retrieve the onset, motives, defeat and continued evasion; the separate Luxembourg uprising350 retains the limited related case without importing the entire Belgian course."
+    },
+    {
+      "treatment_id": "TREAT-BC0777DD033A",
+      "subject_id": "SUBJ-SUCC-8EB370248C8E",
+      "document_page": 348,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-3E73C926B8BA"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-DE6D49D0D54D",
+        "PATH-07398C160804",
+        "PATH-FEA5F21DC906"
+      ],
+      "review_rationale": "Belgian occupation/extraction and incorporation348 retrieve agency, reversal and annexation; exploitation350 and urban integration350 preserve later recovery after earlier devastation."
+    },
+    {
+      "treatment_id": "TREAT-C179A21DC131",
+      "subject_id": "SUBJ-SUCC-1C3515CE1B7F",
+      "document_page": 374,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-69D143AAB9F9"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-03E73EAD432F",
+        "PATH-54DCB573BEF6",
+        "PATH-F2E7FE82C3FA"
+      ],
+      "review_rationale": "Bonaparte departure/abandonment368 and return374 plus coup partnership374 preserve departure before the order arrived, later surrender as later, and tactical coalition before the actual coup."
+    },
+    {
+      "treatment_id": "TREAT-CE43D5721010",
+      "subject_id": "SUBJ-SUCC-D33E439E4979",
+      "document_page": 362,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-3D4E27082CDB"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-56BC10791ADD",
+        "PATH-88B487D811FF"
+      ],
+      "review_rationale": "Roman Republic362–363 explicitly retrieves occupation/proclamation, commandant supremacy and economic/religious crisis; regional religion and poor relief363 expose the attacked local livelihood and charity base. Different local drafting in Liguria is not attributed to Rome."
+    },
+    {
+      "treatment_id": "TREAT-D009005E0A32",
+      "subject_id": "SUBJ-SUCC-431D9939D11B",
+      "document_page": 363,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-298088BDA748"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E3A1803BF2D4"
+      ],
+      "review_rationale": "Italian unification movement is a direct conceptual route across all six treatments, distinguishing patriot aspiration, French obstruction, symbols, regional consolidation and radical frustration."
+    },
+    {
+      "treatment_id": "TREAT-DCC909C5CFB0",
+      "subject_id": "SUBJ-SUCC-56FAED657225",
+      "document_page": 364,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-703744C6F7F1"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-B1D283BCB4D8",
+        "PATH-F2C8D2F9CBAD"
+      ],
+      "review_rationale": "Sanfedist movement and Ruffo364–365 reach organization, social/religious mobilization, feudal concessions, disorder and restraint. The wording does not equate autonomous local vendettas with the later court’s deliberate reprisals."
+    },
+    {
+      "treatment_id": "TREAT-DDA22212D05C",
+      "subject_id": "SUBJ-SUCC-9C234417CEB0",
+      "document_page": 367,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-25C8D61508D7"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E84373AD3BA5"
+      ],
+      "review_rationale": "Piedmont occupation/annexation366 and Langhe367 retrieve the principal outcome and qualified symbolic resistance without imposing a corrected referendum date. No supported365 route reaches the earlier coerced alliance and garrison-rights treatment; the available365 paths concern Naples/Sanfedists and cannot supply it."
+    },
+    {
+      "treatment_id": "TREAT-E2C2A8CBAE1B",
+      "subject_id": "SUBJ-SUCC-1C3515CE1B7F",
+      "document_page": 368,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-260DA72F340A"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-F605B66293D5"
+      ],
+      "review_rationale": "Bonaparte departure/abandonment368 and return374 plus coup partnership374 preserve departure before the order arrived, later surrender as later, and tactical coalition before the actual coup."
+    },
+    {
+      "treatment_id": "TREAT-E2E39C81DB39",
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "document_page": 352,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-ISR-63FC-RHINELAND-352",
+        "EVID-SUCC-136F6F8CDFE1"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-89456F42FEE8",
+        "PATH-4CCC4EBFE02C"
+      ],
+      "review_rationale": "Rhineland incorporation351–352 and Cis-Rhenan proposal351 retrieve competing French calculations, Hoche’s alternative, practical departmentalization and weak local consent. They do not promise a popular national mandate or silently merge practical and final legal annexation."
+    },
+    {
+      "treatment_id": "TREAT-E433B136D48D",
+      "subject_id": "SUBJ-SUCC-65EB9D04AEF8",
+      "document_page": 353,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-198419836D02"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-9A242E961590"
+      ],
+      "review_rationale": "Religion under French rule has distinct Belgian, Rhenish, Swiss and Italian subheads with all five pages. These expose confiscation, clerical restrictions and resistance without reducing the whole comparison to a generic anti-clerical heading."
+    },
+    {
+      "treatment_id": "TREAT-E823C0BC5CBB",
+      "subject_id": "SUBJ-SUCC-A91A3B09441B",
+      "document_page": 360,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-CBD814C9648B"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-9E1EA86773AC",
+        "PATH-5E7066CCAF69",
+        "PATH-20D734B874AB"
+      ],
+      "review_rationale": "Cispadane359–360 and Cisalpine creation/strategy360–361 retrieve local administrations, conservative elections and amalgamation under Bonaparte, without turning this into a settled Italian-national plan."
+    },
+    {
+      "treatment_id": "TREAT-EFC9A704135E",
+      "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+      "document_page": 367,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-44CD379362ED"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-232F9F14CBF7",
+        "PATH-E84373AD3BA5"
+      ],
+      "review_rationale": "Italian Jacobins/patriots distinguishes limited support, suppression and anti-French plots; Italy initial strategy356 reaches rejected republican networks. Langhe367 preserves revolutionary images used against France, preventing the broad backlash from being treated as uniformly reactionary."
+    },
+    {
+      "treatment_id": "TREAT-F0444B2FDD52",
+      "subject_id": "SUBJ-SUCC-7C338D256927",
+      "document_page": 343,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-90B92E18FB3D"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-E151D79B8879",
+        "PATH-E46727DCA5ED"
+      ],
+      "review_rationale": "The Irish Rebellion hierarchy separates roots341, repression/defeat342, French aid342–343 and comparative significance343. Wexford342 gives the regional sectarian phase. Late French arrival and limited geography remain distinct from the initial defeated risings and the qualified scale comparison."
+    },
+    {
+      "treatment_id": "TREAT-F1D51A6278E8",
+      "subject_id": "SUBJ-SUCC-C9C4454491D0",
+      "document_page": 361,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-774F2B76A0C8"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-1750543D3B92",
+        "PATH-183E74F1CC67"
+      ],
+      "review_rationale": "Cisalpine dictated government, alliance obligations, coups and constitutional remodelling cover361–363, retaining successive opposing clients and Brune’s disobedience instead of imagining uniform French agents."
+    },
+    {
+      "treatment_id": "TREAT-F359308CF97D",
+      "subject_id": "SUBJ-SUCC-C6F2BF879546",
+      "document_page": 367,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C56C34FDECEE"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-BE24401BFE27",
+        "PATH-88B487D811FF",
+        "PATH-9CC1820C0803"
+      ],
+      "review_rationale": "Italian anti-French revolt365–368 supplies local grievances and coalition interaction; Sanfedists365 gives social mobilization and religion366–367 adds confessional/urban causes. The explicit Jews attacks367 entry satisfies the minority-specific access requirement, rather than relying only on a generic backlash route."
+    },
+    {
+      "treatment_id": "TREAT-F374045F3678",
+      "subject_id": "SUBJ-SUCC-8760C754C67B",
+      "document_page": 353,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F23942D77EFE"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-6D44E19C9CB8",
+        "PATH-C0ECB87317D6"
+      ],
+      "review_rationale": "Rhineland religious policy/priest-led opposition and passive resistance353 directly preserve real clerical leadership and lack of a general uprising, without treating the former as an imaginary conspiracy or latter as acceptance."
+    },
+    {
+      "treatment_id": "TREAT-F39C6426F3E9",
+      "subject_id": "SUBJ-SUCC-38E8081905D0",
+      "document_page": 350,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-794B1FA65170"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-D9BDA325A4BC",
+        "PATH-93A9ED5EF4AD"
+      ],
+      "review_rationale": "Belgian incorporation/religious policy349 and separate revolt/urban-integration350 paths retain rural resistance versus pragmatic bourgeois accommodation. Economic benefit is not worded as adoption of French nationality."
+    },
+    {
+      "treatment_id": "TREAT-F93463182D61",
+      "subject_id": "SUBJ-SUCC-80B9CA82989A",
+      "document_page": 359,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-261476A8E0C7"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-819100FDBF78",
+        "PATH-E46B1014114D",
+        "PATH-88B487D811FF"
+      ],
+      "review_rationale": "Lombardy exploitation/rural resistance358–359 and regionally scoped exploitation/religion retrieve tax/art extraction, Pavia and fragmented rural resistance, including hostility to soldiers of different sides."
+    },
+    {
+      "treatment_id": "TREAT-FCF13983AE5C",
+      "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+      "document_page": 358,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F72983EE9B5C"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-CA38C7A9AFC5",
+        "PATH-A341E5E64720"
+      ],
+      "review_rationale": "Italian Jacobins/patriots distinguishes limited support, suppression and anti-French plots; Italy initial strategy356 reaches rejected republican networks. Langhe367 preserves revolutionary images used against France, preventing the broad backlash from being treated as uniformly reactionary."
+    },
+    {
+      "treatment_id": "TREAT-FDF479EA6012",
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "document_page": 354,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-EBBD37CFC492"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-F58ABDC181C0",
+        "PATH-2B7CC1A44AA0",
+        "PATH-7ADBB037B79F",
+        "PATH-4CCC4EBFE02C"
+      ],
+      "review_rationale": "Helvetic strategic/imposed-constitution paths354–355, Ochs and La Harpe name routes, annexation354 and occupation/recruitment355 preserve distinct reformer motives, Berne/Vaud contexts, imposed unity, treasury seizures and rejected manpower demand."
+    },
+    {
+      "treatment_id": "TREAT-FE0AE3B2A71C",
+      "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "document_page": 344,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-7552A25A4687"
+      ],
+      "status": "found",
+      "tested_path_ids": [
+        "PATH-4C7715DDB438",
+        "PATH-7758583323D7",
+        "PATH-BAC8D18EA1BD"
+      ],
+      "review_rationale": "The Batavian constitutional hierarchy distinguishes rejected draft343–344, coerced democratic constitution344 and Daendels/regular elections346. Church disestablishment344 supplements reforms. The headings state episodes and calendar years without correcting the source’s inconsistent elapsed interval or asserting independent diplomacy."
+    }
+  ],
+  "review_method": "Fresh explicit parent, treatment, task, facet, scope and relationship review against the effective frozen successor and current registered locator evidence. No previous missing-access rows transferred. R2 targeted source corrections and exact values were rechecked; all unaffected factual judgments were preserved without hash relabeling.",
+  "completion": {
+    "expected": 32,
+    "judged": 32,
+    "complete": true,
+    "subjects_unique": true,
+    "reader_tasks_expected": 17,
+    "reader_tasks_judged": 17,
+    "reader_tasks_unique": true,
+    "concept_coverage_counts": {
+      "complete": 31,
+      "partial": 1
+    },
+    "locator_recall": {
+      "expected": 88,
+      "found": 87,
+      "missed": 1,
+      "rate": 0.9886363636363636
+    }
+  },
+  "reader_task_completion": {
+    "expected": 17,
+    "judged": 17,
+    "unique": true,
+    "complete": true
+  },
+  "treatment_completion": {
+    "expected": 97,
+    "judged": 97,
+    "unique": true,
+    "complete": true
+  }
+}
